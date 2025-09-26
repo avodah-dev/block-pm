@@ -1,0 +1,161 @@
+Epic,Feature,Story
+E01: Request Management,F01: Parts Search & Management,S001: Parts search with fuzzy matching and raw part normalization
+,,S002: Parts database with modality and compatibility tracking
+,,S003: Part creation form for new materials
+,,S004: Part details view with specs and images
+,F02: Request Creation & Config,S005: Multi-part request builder interface
+,,S006: Quantity and urgency specification
+,,S007: Special instructions and attachments
+,,S008: Request validation and submission
+,F03: Vendor Selection & Distribution,S009: Vendor capability matching algorithm
+,,S010: Vendor selection interface with filters
+,,S011: Automatic distribution to qualified vendors
+,,S012: Manual vendor add/remove capability
+E02: Quote Management,F04: Quote Submission Interface,S013: Quote entry form with condition support
+,,S014: Price and availability input fields
+,,S015: Quote variant management for conditions
+,,S016: Quote preview and submission confirmation
+,F05: Quote Collection & Organization,S017: Quote storage and retrieval system
+,,S018: Quote status tracking (draft/submitted/expired)
+,,S019: Quote revision and update capability
+,,S020: Quote withdrawal for vendors
+,F06: Quote Notification System,S021: New opportunity email notifications
+,,S022: Quote submission confirmations
+,,S023: Quote expiration reminders
+,,S024: Winner/loser notifications
+E03: Purchase Selection,F07: Quote Comparison Interface,S025: Quote comparison grid with sorting/filtering
+,,S026: Side-by-side quote comparison view
+,,S027: Price/delivery/condition comparison tools
+,,S028: Quote rating and notes capability
+,F08: Shopping Cart Functionality,S029: Multi-vendor cart management
+,,S030: Cart item addition and removal
+,,S031: Quantity adjustment in cart
+,,S032: Cart persistence and recovery
+,F09: Purchase Order Generation,S033: PO creation from cart items
+,,S034: PO document generation with terms
+,,S035: PO approval workflow for high-value
+,,S036: PO transmission to winning vendors
+E04: Order Fulfillment,F10: Order Confirmation Management,S037: Order acknowledgment interface for vendors
+,,S038: Confirmation with shipping timeline
+,,S039: Order cancellation capability
+,,S040: Partial fulfillment handling
+,F11: Shipping Info Capture,S041: Shipping details collection form
+,,S042: Tracking number entry and validation
+,,S043: Estimated delivery date management
+,,S044: Shipping document upload capability
+,F12: Order Status Tracking,S045: Order status dashboard for buyers
+,,S046: Real-time status updates from vendors
+,,S047: Shipment tracking integration
+,,S048: Delivery confirmation workflow
+E05: Messaging Platform (EMA),F13: Core Messaging Infrastructure,S049: Message threading and conversation mgmt
+,,S050: Context attachment to requisitions/quotes
+,,S051: File attachment support with limits
+,,S052: Message persistence and archival
+,F14: Message Routing & Notifications,S053: Buyer-vendor secure communication channels
+,,S054: Message notification with email alerts
+,,S055: Unread message indicators and counters
+,,S056: Message forwarding and escalation
+,F15: Message Search & Retrieval,S057: Global message search functionality
+,,S058: Conversation history viewing
+,,S059: Message filtering by context/participant
+,,S060: Message export capability
+E06: User Management,F16: User Authentication & Registration,S061: Secure login with password requirements
+,,S062: User registration with email verification
+,,S063: Password reset functionality
+,,S064: Multi-factor authentication support
+,F17: Role-Based Permissions,S065: Buyer/vendor/admin role definitions
+,,S066: Permission checking throughout app
+,,S067: Role assignment and management interface
+,,S068: Integrated vendor dual-role capability
+,F18: User Profile Management,S069: User profile editing interface
+,,S070: Company information management
+,,S071: Notification preferences configuration
+,,S072: User avatar and branding options
+E07: Vendor Capabilities,F19: Vendor Profile Configuration,S073: Vendor company profile setup
+,,S074: Business info and certifications
+,,S075: Vendor branding and logo management
+,,S076: Vendor contact info maintenance
+,F20: Capability Declaration,S077: Parts/modality capability selection
+,,S078: Geographic coverage definition
+,,S079: Lead time and capacity specification
+,,S080: Specialty and certification tracking
+,F21: Vendor Performance Tracking,S081: Quote response rate metrics
+,,S082: On-time delivery tracking
+,,S083: Quality and issue tracking
+,,S084: Vendor scorecard generation
+E08: Dashboard & Analytics,F22: Buyer Dashboard,S085: Active requests overview widget
+,,S086: Pending quotes summary
+,,S087: Open orders tracking panel
+,,S088: Recent activity feed
+,F23: Vendor Dashboard,S089: Available opportunities widget
+,,S090: Active quotes tracking
+,,S091: Won/lost quote analytics
+,,S092: Performance metrics display
+,F24: Reporting & Analytics,S093: Spend analysis reports
+,,S094: Vendor performance reports
+,,S095: Quote win rate analytics
+,,S096: Custom report builder
+E09: Integrated Vendor,F25: Vendor-Buyer Role Switching,S097: Context-aware interface switching
+,,S098: Dual-role permission management
+,,S099: Requisition creation as vendor-buyer
+,,S100: Network sourcing initiation
+,F26: Auto-Sourcing Engine,S101: Tiered vendor release configuration
+,,S102: Time-based vendor tier activation
+,,S103: Quote aggregation from network
+,,S104: Automatic quote filtering and selection
+,F27: Drop-Ship Orchestration,S105: Parent-child requisition linking
+,,S106: Address forwarding to third-party
+,,S107: Markup calculation and application
+,,S108: Transparent fulfillment tracking
+,F28: Network Relationship Mgmt,S109: Vendor network visibility controls
+,,S110: Trusted partner designation
+,,S111: Network exclusion rules for sourcing
+,,S112: Relationship mapping interface
+E10: System Integration,F29: API Gateway,S113: RESTful API endpoints for core ops
+,,S114: Webhook support for event notifications
+,,S115: API authentication and rate limiting
+,,S116: API documentation and testing tools
+,F30: Salesforce Integration,S117: Bi-directional data synchronization
+,,S118: Requisition push from Salesforce
+,,S119: Quote/order status updates to Salesforce
+,,S120: Conflict resolution for dual updates
+,F31: Third-Party Vendor Integrations,S121: All Parts inventory API connection
+,,S122: PartSource catalog integration
+,,S123: Vendor-specific API adapters
+,,S124: Integration monitoring dashboard
+E11: Administration,F32: System Configuration,S125: Business rules configuration interface
+,,S126: Approval threshold management
+,,S127: Notification template editor
+,,S128: System parameter administration
+,F33: Data Management,S129: Bulk data import/export tools
+,,S130: Data validation and cleanup utilities
+,,S131: Audit trail and change tracking
+,,S132: Data archival and retention policies
+,F34: User Administration,S133: User management interface for admins
+,,S134: Bulk user operations
+,,S135: User activity monitoring
+,,S136: User access audit reports
+E12: Mobile Experience,F35: Mobile-Responsive Interface,S137: Responsive design for buyer workflows
+,,S138: Mobile-optimized vendor quote submission
+,,S139: Touch-friendly navigation and controls
+,,S140: Offline capability with sync
+,F36: Field Service Engineer Support,S141: Parts basket to requisition conversion
+,,S142: Voice-to-text part number entry
+,,S143: Equipment-based parts lookup
+,,S144: Mobile photo upload for part ID
+,F37: Mobile Notifications,S145: Push notifications for new opportunities
+,,S146: Mobile alerts for quote status changes
+,,S147: Order update notifications
+,,S148: Configurable notification preferences
+E13: Search & Discovery,F38: Global Search Capability,S149: Universal search across all entities
+,,S150: Advanced search with multiple criteria
+,,S151: Saved search functionality
+,,S152: Search result filtering and sorting
+,F39: Smart Recommendations,S153: Alternative part suggestions
+,,S154: Vendor recommendation based on history
+,,S155: Price optimization suggestions
+,,S156: Compatibility-based part recommendations
+,F40: Browse & Discovery,S157: Parts catalog browsing by category
+,,S158: Vendor directory with capabilities
+,,S159: Recent and trending parts display
+,,S160: Personalized homepage based on history

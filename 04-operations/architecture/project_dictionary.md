@@ -243,10 +243,15 @@
 - **Context**: "Internally call modality"
 - **Usage**: Tags materials/parts by equipment type
 
-### **Compatibility**
+### **Part Compatibility**
 - **Definition**: Part interchangeability relationships
 - **Complexity**: "Doesn't always work in reverse"
 - **Example**: Part A replaces B, but B may not replace A
+  
+### **Vendor Compatibility**
+- **Definition**: A vendor is able to supply a specific part
+- **Context**: Block sets this up manually. Vendors are typically aligned to a part type, a modality, or a brand (GE, Phillips, etc.)
+- **Example**: AllParts is compatible to sell all kinds of parts, but some companies only sell Phillips brand
 
 ---
 

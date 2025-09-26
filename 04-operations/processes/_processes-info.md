@@ -12,9 +12,10 @@ distinguish operational tools from system design documents.
 **Purpose**: LLM/Agent instructions for specific analysis and generation tasks
 **Usage**: Reference when needing to regenerate or update project artifacts
 **Contents**:
-- `generate_epics_task.md`: Instructions for epic/feature/story generation
-- `llm_epic_generation_instructions.md`: Detailed prompts for LLM analysis
-- `workflow_analysis_summary.md`: Workflow summarization for analysis
+- `rebuild-efs-draft.md`: Rebuild entire epic/feature/story draft from workflows
+- `epic-detail-generation.md`: Generate detailed epic documentation with user stories
+- `csv-export-for-stickies.md`: Convert summaries to CSV for Excel/MIRO
+- `story-enrichment.md`: Add full attributes and traceability to stories
 
 ### /scripts/
 **Purpose**: Python scripts and utilities for data processing
@@ -38,23 +39,29 @@ Each task document includes:
 
 ### Current Agent Tasks
 
-#### generate_epics_task.md
-- **Last Used**: September 2025
-- **Purpose**: Generate epics/features/stories from workflows
-- **Output**: Draft development breakdown
-- **Reusable**: Yes, when workflows significantly change
+#### rebuild-efs-draft.md
+- **Last Used**: September 26, 2025
+- **Purpose**: Rebuild entire epic/feature/story structure from workflows
+- **Output**: Complete draft of all epics, features, and stories
+- **Reusable**: Yes, when workflows or requirements significantly change
 
-#### llm_epic_generation_instructions.md
-- **Last Used**: September 2025
-- **Purpose**: Detailed LLM prompts for analysis
-- **Output**: Structured epic/feature/story documents
-- **Reusable**: Yes, as template for similar analysis
+#### epic-detail-generation.md
+- **Last Used**: September 26, 2025
+- **Purpose**: Generate comprehensive epic detail documents with full user stories
+- **Output**: Detailed epic document with business context and stories in "As a..." format
+- **Reusable**: Yes, for each epic requiring detailed documentation
 
-#### workflow_analysis_summary.md
-- **Last Used**: September 2025
-- **Purpose**: Prepare workflows for LLM analysis
-- **Output**: Consolidated workflow summary
-- **Reusable**: Yes, when new workflows added
+#### csv-export-for-stickies.md
+- **Last Used**: September 26, 2025
+- **Purpose**: Convert epic/feature/story summaries to CSV format for tools
+- **Output**: Three-column CSV optimized for Excel review and MIRO sticky notes
+- **Reusable**: Yes, whenever updated summaries need export
+
+#### story-enrichment.md
+- **Last Used**: September 26, 2025
+- **Purpose**: Add full attributes, acceptance criteria, and traceability to stories
+- **Output**: Fully-specified stories with all development attributes
+- **Reusable**: Yes, for any epic needing complete story specifications
 
 ## Usage Patterns
 

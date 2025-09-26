@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "transcript_file": "09-08 - 3 - Discovery Day 1, External Buyers & Sellers, Part 1.srt",
+    "processed_date": "2025-09-26",
+    "duration": "00:59:57",
+    "test_run": true
+  },
+  "indexed_content": {
+    "E01": {
+      "epic_name": "Request Management",
+      "references": [
+        {
+          "timestamp_start": "00:58:47",
+          "timestamp_end": "00:59:57",
+          "feature": "F01",
+          "feature_name": "Parts Search & Management",
+          "confidence": "high",
+          "context": "Discussion about 'I need a part' as the first buyer action",
+          "key_quote": "I need a part. That is the first phrase somebody says in their brain",
+          "speakers": ["Speaker 1", "Buyers"]
+        }
+      ]
+    },
+    "E02": {
+      "epic_name": "Quote Management",
+      "references": [
+        {
+          "timestamp_start": "00:59:40",
+          "timestamp_end": "00:59:53",
+          "feature": "F04",
+          "feature_name": "Quote Submission Interface",
+          "confidence": "high",
+          "context": "Discussion about checking vendor responses and having options",
+          "key_quote": "I need to check on responses... I have a lot of options here",
+          "speakers": ["Speaker 1", "Speaker 3"]
+        }
+      ]
+    },
+    "E03": {
+      "epic_name": "Purchase Selection",
+      "references": [
+        {
+          "timestamp_start": "00:59:43",
+          "timestamp_end": "00:59:56",
+          "feature": "F07",
+          "feature_name": "Quote Comparison Interface",
+          "confidence": "high",
+          "context": "Choosing between vendor options",
+          "key_quote": "I need to choose which vendor... I need to choose a vendor",
+          "speakers": ["Speaker 1"]
+        }
+      ]
+    },
+    "E06": {
+      "epic_name": "User Management",
+      "references": [
+        {
+          "timestamp_start": "00:32:06",
+          "timestamp_end": "00:34:49",
+          "feature": "F17",
+          "feature_name": "Role-Based Permissions",
+          "confidence": "high",
+          "context": "Discussion about personas, external/internal buyers, admin vs user roles",
+          "key_quote": "External buyer... Internal buyer... We're talking about user groups",
+          "speakers": ["Jake Herwaldt", "Team"]
+        },
+        {
+          "timestamp_start": "00:37:21",
+          "timestamp_end": "00:38:43",
+          "feature": "F17",
+          "feature_name": "Role-Based Permissions",
+          "confidence": "medium",
+          "context": "Admin and user designators for all personas",
+          "key_quote": "admin and user being the two designators... That would be for all of them",
+          "speakers": ["Speaker 3", "Speaker 4"]
+        }
+      ]
+    },
+    "E07": {
+      "epic_name": "Vendor Capabilities",
+      "references": [
+        {
+          "timestamp_start": "00:46:05",
+          "timestamp_end": "00:47:28",
+          "feature": "F20",
+          "feature_name": "Capability Declaration",
+          "confidence": "medium",
+          "context": "Discussion about vendor capabilities and 'within my capabilities' decision",
+          "key_quote": "within my capabilities, what does that mean?",
+          "speakers": ["Steve Muniak"]
+        }
+      ]
+    },
+    "E10": {
+      "epic_name": "System Integration",
+      "references": [
+        {
+          "timestamp_start": "00:55:00",
+          "timestamp_end": "00:56:34",
+          "feature": "F30",
+          "feature_name": "Salesforce Integration",
+          "confidence": "high",
+          "context": "Internal buyers only working in Salesforce 360",
+          "key_quote": "Internal buyers, the only screen they're working out of is in Salesforce 360... That's all they do",
+          "speakers": ["Steve Muniak"]
+        },
+        {
+          "timestamp_start": "00:56:52",
+          "timestamp_end": "00:58:12",
+          "feature": "F30",
+          "feature_name": "Salesforce Integration",
+          "confidence": "high",
+          "context": "Discussion about web interface integration with Salesforce",
+          "key_quote": "He would not know... he's using a web interface",
+          "speakers": ["Speaker 3", "Steve Muniak"]
+        }
+      ]
+    },
+    "E12": {
+      "epic_name": "Mobile Experience",
+      "references": [
+        {
+          "timestamp_start": "00:39:04",
+          "timestamp_end": "00:40:46",
+          "feature": "F36",
+          "feature_name": "Field Service Engineer Support",
+          "confidence": "high",
+          "context": "FSE as different persona from buyer, completely different workflow",
+          "key_quote": "field service, different than for a buyer... FSE and then procurement",
+          "speakers": ["Speaker 3", "Team"]
+        },
+        {
+          "timestamp_start": "00:58:25",
+          "timestamp_end": "00:58:34",
+          "feature": "F36",
+          "feature_name": "Field Service Engineer Support",
+          "confidence": "medium",
+          "context": "FSE workflow complexity discussion",
+          "key_quote": "Especially on the FSE side",
+          "speakers": ["Speaker 4"]
+        }
+      ]
+    }
+  },
+  "uncategorized_insights": [
+    {
+      "timestamp": "00:41:13",
+      "insight": "Platform admin as separate persona",
+      "potential_epic": "E11 (Administration)",
+      "priority": "high",
+      "quote": "platform admin? Yeah. That's exactly right",
+      "context": "Discussion about overall system/portal management separate from buyer/vendor"
+    },
+    {
+      "timestamp": "00:41:44",
+      "insight": "Biomed as completely different profile type",
+      "potential_epic": "New Epic or E01 extension",
+      "priority": "medium",
+      "quote": "Would you park Biomed out differently... completely different profile type",
+      "context": "Biomed buyers need both DI and Biomed capabilities"
+    },
+    {
+      "timestamp": "00:56:06",
+      "insight": "Auto-sourcing functionality",
+      "potential_epic": "E09 (Integrated Vendor)",
+      "priority": "high",
+      "quote": "Everything's auto sourced",
+      "context": "Discussion about auto-sourcing flow currently in Salesforce"
+    },
+    {
+      "timestamp": "00:52:30",
+      "insight": "Current state vs future state mapping",
+      "potential_epic": "Process/Methodology",
+      "priority": "low",
+      "quote": "we want to focus on current state, but also focus on future",
+      "context": "Team struggling with documenting what exists vs what should exist"
+    }
+  ],
+  "potential_gaps": [
+    {
+      "description": "Biomed buyer workflows",
+      "mentioned_at": ["00:41:44"],
+      "frequency": "low",
+      "suggested_epic": "New Epic or significant E01 extension",
+      "business_impact": "Different user group with unique needs"
+    },
+    {
+      "description": "Platform administration separate from buyer/vendor admin",
+      "mentioned_at": ["00:41:13"],
+      "frequency": "medium",
+      "suggested_epic": "E11 enhancement",
+      "business_impact": "Critical for system governance"
+    }
+  ],
+  "key_themes": {
+    "personas_discussion": {
+      "timestamps": ["00:32:06-00:42:00"],
+      "summary": "Extensive discussion defining user personas: external/internal buyers, vendors, FSE, admin roles",
+      "epics_involved": ["E06", "E12"]
+    },
+    "buyer_workflow": {
+      "timestamps": ["00:58:47-00:59:57"],
+      "summary": "Core buyer journey: need part → check responses → choose vendor → submit order",
+      "epics_involved": ["E01", "E02", "E03"]
+    },
+    "system_architecture": {
+      "timestamps": ["00:55:00-00:58:34"],
+      "summary": "Integration between Salesforce 360 and new web interface",
+      "epics_involved": ["E10"]
+    }
+  },
+  "statistics": {
+    "total_segments_analyzed": 15,
+    "mapped_segments": 11,
+    "unmapped_segments": 4,
+    "epics_referenced": 7,
+    "features_referenced": 9,
+    "confidence_high": 7,
+    "confidence_medium": 4,
+    "confidence_low": 0
+  }
+}

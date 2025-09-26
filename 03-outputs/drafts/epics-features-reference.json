@@ -1,0 +1,400 @@
+{
+  "metadata": {
+    "generated": "2025-09-26",
+    "purpose": "Quick reference for transcript indexing",
+    "source": "epics-features-stories-summary.md"
+  },
+  "epics": [
+    {
+      "id": "E01",
+      "name": "Request Management",
+      "description": "Buyer parts request creation and management",
+      "features": [
+        {"id": "F01", "name": "Parts Search & Management"},
+        {"id": "F02", "name": "Request Creation & Config"},
+        {"id": "F03", "name": "Vendor Selection & Distribution"}
+      ]
+    },
+    {
+      "id": "E02",
+      "name": "Quote Management",
+      "description": "Vendor quote submission and tracking",
+      "features": [
+        {"id": "F04", "name": "Quote Submission Interface"},
+        {"id": "F05", "name": "Quote Collection & Organization"},
+        {"id": "F06", "name": "Quote Notification System"}
+      ]
+    },
+    {
+      "id": "E03",
+      "name": "Purchase Selection",
+      "description": "Quote review and vendor selection",
+      "features": [
+        {"id": "F07", "name": "Quote Comparison Interface"},
+        {"id": "F08", "name": "Shopping Cart Functionality"},
+        {"id": "F09", "name": "Purchase Order Generation"}
+      ]
+    },
+    {
+      "id": "E04",
+      "name": "Order Fulfillment",
+      "description": "Order processing and shipment tracking",
+      "features": [
+        {"id": "F10", "name": "Order Confirmation Management"},
+        {"id": "F11", "name": "Shipping Info Capture"},
+        {"id": "F12", "name": "Order Status Tracking"}
+      ]
+    },
+    {
+      "id": "E05",
+      "name": "Messaging Platform (EMA)",
+      "description": "Enhanced messaging application",
+      "features": [
+        {"id": "F13", "name": "Core Messaging Infrastructure"},
+        {"id": "F14", "name": "Message Routing & Notifications"},
+        {"id": "F15", "name": "Message Search & Retrieval"}
+      ]
+    },
+    {
+      "id": "E06",
+      "name": "User Management",
+      "description": "User accounts and access control",
+      "features": [
+        {"id": "F16", "name": "User Authentication & Registration"},
+        {"id": "F17", "name": "Role-Based Permissions"},
+        {"id": "F18", "name": "User Profile Management"}
+      ]
+    },
+    {
+      "id": "E07",
+      "name": "Vendor Capabilities",
+      "description": "Vendor profile and capability management",
+      "features": [
+        {"id": "F19", "name": "Vendor Profile Configuration"},
+        {"id": "F20", "name": "Capability Declaration"},
+        {"id": "F21", "name": "Vendor Performance Tracking"}
+      ]
+    },
+    {
+      "id": "E08",
+      "name": "Dashboard & Analytics",
+      "description": "Dashboards and reporting",
+      "features": [
+        {"id": "F22", "name": "Buyer Dashboard"},
+        {"id": "F23", "name": "Vendor Dashboard"},
+        {"id": "F24", "name": "Reporting & Analytics"}
+      ]
+    },
+    {
+      "id": "E09",
+      "name": "Integrated Vendor",
+      "description": "Advanced integrated vendor capabilities",
+      "features": [
+        {"id": "F25", "name": "Vendor-Buyer Role Switching"},
+        {"id": "F26", "name": "Auto-Sourcing Engine"},
+        {"id": "F27", "name": "Drop-Ship Orchestration"},
+        {"id": "F28", "name": "Network Relationship Mgmt"}
+      ]
+    },
+    {
+      "id": "E10",
+      "name": "System Integration",
+      "description": "External system connectivity",
+      "features": [
+        {"id": "F29", "name": "API Gateway"},
+        {"id": "F30", "name": "Salesforce Integration"},
+        {"id": "F31", "name": "Third-Party Vendor Integrations"}
+      ]
+    },
+    {
+      "id": "E11",
+      "name": "Administration",
+      "description": "System administration and configuration",
+      "features": [
+        {"id": "F32", "name": "System Configuration"},
+        {"id": "F33", "name": "Data Management"},
+        {"id": "F34", "name": "User Administration"}
+      ]
+    },
+    {
+      "id": "E12",
+      "name": "Mobile Experience",
+      "description": "Mobile and field service support",
+      "features": [
+        {"id": "F35", "name": "Mobile-Responsive Interface"},
+        {"id": "F36", "name": "Field Service Engineer Support"},
+        {"id": "F37", "name": "Mobile Notifications"}
+      ]
+    },
+    {
+      "id": "E13",
+      "name": "Search & Discovery",
+      "description": "Advanced search and discovery",
+      "features": [
+        {"id": "F38", "name": "Global Search Capability"},
+        {"id": "F39", "name": "Smart Recommendations"},
+        {"id": "F40", "name": "Browse & Discovery"}
+      ]
+    }
+  ],
+  "keywords": {
+    "parts_search": ["part number", "raw part", "fuzzy", "search", "material", "PN"],
+    "vendor": ["supplier", "vendor", "capability", "tier", "qualification"],
+    "quotes": ["quote", "RFQ", "pricing", "availability", "SRC", "sourcing"],
+    "orders": ["PO", "purchase order", "fulfillment", "shipping", "tracking"],
+    "messaging": ["EMA", "chat", "message", "communication", "notification"],
+    "dashboards": ["dashboard", "analytics", "reports", "metrics", "KPI"],
+    "mobile": ["mobile", "FSE", "field service", "tablet", "phone"],
+    "integration": ["API", "Salesforce", "integration", "sync", "webhook"]
+  },
+  "epic_details": {
+    "E01": {
+      "name": "Request Management",
+      "expanded_description": "Complete buyer workflow for creating parts requisitions, from searching the parts database through selecting vendors for RFQ distribution. Core entry point for all procurement activity.",
+      "key_problems_solved": [
+        "Search function sucks - need fuzzy matching for part numbers",
+        "Duplicate materials in database from poor search",
+        "Manual vendor selection takes too long",
+        "Part number formatting variations (hyphens vs no hyphens)"
+      ],
+      "common_user_phrases": [
+        "I need a part",
+        "Create a requisition",
+        "Search for material",
+        "Select vendors",
+        "Can't find the part number"
+      ],
+      "workflow_position": "Start of procurement process",
+      "primary_personas": ["Buyer", "Procurement"]
+    },
+    "E02": {
+      "name": "Quote Management",
+      "expanded_description": "Vendor-side capability to receive RFQs, submit quotes with multiple condition options, manage quote status, and receive notifications about opportunities.",
+      "key_problems_solved": [
+        "Vendors miss opportunities due to late notifications",
+        "Can't offer multiple conditions (new/refurbished/exchange)",
+        "Quote revision is difficult",
+        "No visibility into quote status"
+      ],
+      "common_user_phrases": [
+        "Submit a quote",
+        "Clone for another option",
+        "No stock available",
+        "Update my quote",
+        "Different conditions"
+      ],
+      "workflow_position": "Vendor response to buyer requests",
+      "primary_personas": ["Vendor", "Supplier"]
+    },
+    "E03": {
+      "name": "Purchase Selection",
+      "expanded_description": "Buyer's quote review and vendor selection process, including comparison tools, shopping cart management, and PO generation with proper terms.",
+      "key_problems_solved": [
+        "Can't see quotes side by side",
+        "Shopping cart doesn't persist",
+        "Manual PO creation",
+        "Terms and conditions not attached"
+      ],
+      "common_user_phrases": [
+        "Compare quotes",
+        "Add to cart",
+        "Select winning vendor",
+        "Generate PO",
+        "Best price"
+      ],
+      "workflow_position": "After quotes received, before order placement",
+      "primary_personas": ["Buyer"]
+    },
+    "E04": {
+      "name": "Order Fulfillment",
+      "expanded_description": "Post-purchase workflow managing order confirmation, shipping details capture, tracking information, and delivery confirmation for both buyers and vendors.",
+      "key_problems_solved": [
+        "No visibility into order status",
+        "Tracking numbers lost in email",
+        "Serial numbers not captured",
+        "Can't handle partial shipments"
+      ],
+      "common_user_phrases": [
+        "Where's my order",
+        "Enter tracking number",
+        "Confirm shipment",
+        "Order status",
+        "Serial number",
+        "RMA number"
+      ],
+      "workflow_position": "After PO issued through delivery",
+      "primary_personas": ["Buyer", "Vendor"]
+    },
+    "E05": {
+      "name": "Messaging Platform (EMA)",
+      "expanded_description": "Enhanced Messaging Application providing secure buyer-vendor communication attached to requisitions and quotes, replacing insecure Chatter system.",
+      "key_problems_solved": [
+        "Chatter security issues",
+        "Messages not attached to context",
+        "Can't upload documents",
+        "No conversation history"
+      ],
+      "common_user_phrases": [
+        "Send a message",
+        "Ask the vendor",
+        "Chat about this quote",
+        "Upload a document",
+        "EMA"
+      ],
+      "workflow_position": "Throughout procurement process",
+      "primary_personas": ["Buyer", "Vendor"]
+    },
+    "E06": {
+      "name": "User Management",
+      "expanded_description": "User account creation, authentication, role management, and profile configuration including the critical password reset fix for 'eternal loop of doom'.",
+      "key_problems_solved": [
+        "Eternal loop of doom in password reset",
+        "Multiple users under one account",
+        "No role-based permissions",
+        "Can't manage user profiles"
+      ],
+      "common_user_phrases": [
+        "Reset password",
+        "Add a user",
+        "Change permissions",
+        "Update profile",
+        "Login issues"
+      ],
+      "workflow_position": "System foundation",
+      "primary_personas": ["All users", "Admin"]
+    },
+    "E07": {
+      "name": "Vendor Capabilities",
+      "expanded_description": "Vendor profile setup, capability declaration by modality and geography, performance tracking, and the tiering system for vendor ranking.",
+      "key_problems_solved": [
+        "Don't know vendor capabilities",
+        "Manual vendor qualification",
+        "No performance tracking",
+        "Can't tier vendors"
+      ],
+      "common_user_phrases": [
+        "Vendor capabilities",
+        "What can they supply",
+        "Vendor tier",
+        "Performance metrics",
+        "Qualified for MRI parts"
+      ],
+      "workflow_position": "Vendor onboarding and management",
+      "primary_personas": ["Vendor", "Admin"]
+    },
+    "E08": {
+      "name": "Dashboard & Analytics",
+      "expanded_description": "Role-specific dashboards showing open requests, pending quotes, orders, and analytics including spend analysis and vendor performance reports.",
+      "key_problems_solved": [
+        "No visibility into metrics",
+        "Can't track spend",
+        "Missing KPIs",
+        "No vendor scorecards"
+      ],
+      "common_user_phrases": [
+        "Show my dashboard",
+        "Run a report",
+        "Spend analysis",
+        "Win rate",
+        "Performance metrics"
+      ],
+      "workflow_position": "Monitoring and analysis layer",
+      "primary_personas": ["Buyer", "Vendor", "Management"]
+    },
+    "E09": {
+      "name": "Integrated Vendor",
+      "expanded_description": "Advanced capabilities for vendors like Block who also act as buyers, including role switching, auto-sourcing with tiered release, and drop-ship orchestration.",
+      "key_problems_solved": [
+        "Can't act as both buyer and vendor",
+        "Manual sourcing to network",
+        "No drop-ship capability",
+        "Network relationships not managed"
+      ],
+      "common_user_phrases": [
+        "Switch to buyer mode",
+        "Source from my network",
+        "Drop ship to customer",
+        "Tiered release",
+        "Pass-through pricing"
+      ],
+      "workflow_position": "Advanced vendor workflows",
+      "primary_personas": ["Integrated Vendor (Block)"]
+    },
+    "E10": {
+      "name": "System Integration",
+      "expanded_description": "API gateway, Salesforce bi-directional sync, and third-party vendor integrations (All Parts, PartSource) to reduce the '30 tabs open' problem.",
+      "key_problems_solved": [
+        "30 tabs open problem",
+        "No Salesforce integration",
+        "Manual data entry",
+        "Can't connect to vendor systems"
+      ],
+      "common_user_phrases": [
+        "Sync with Salesforce",
+        "Too many systems",
+        "API integration",
+        "All Parts catalog",
+        "Automatic updates"
+      ],
+      "workflow_position": "System backbone",
+      "primary_personas": ["All users", "IT"]
+    },
+    "E11": {
+      "name": "Administration",
+      "expanded_description": "System configuration, business rules management, data import/export tools, and user administration capabilities for platform management.",
+      "key_problems_solved": [
+        "Can't configure business rules",
+        "No bulk data operations",
+        "Manual user management",
+        "No audit trail"
+      ],
+      "common_user_phrases": [
+        "System settings",
+        "Import data",
+        "Manage users",
+        "Configuration",
+        "Bulk upload"
+      ],
+      "workflow_position": "Platform administration",
+      "primary_personas": ["Admin", "IT"]
+    },
+    "E12": {
+      "name": "Mobile Experience",
+      "expanded_description": "Mobile-responsive design and specific FSE support including parts basket conversion, voice-to-text entry, and photo upload for part identification.",
+      "key_problems_solved": [
+        "FSEs don't do Salesforce",
+        "Can't use system on tablet",
+        "Hands busy under equipment",
+        "Need voice input"
+      ],
+      "common_user_phrases": [
+        "Use on my phone",
+        "FSE in the field",
+        "Voice to text",
+        "Take a photo",
+        "Parts basket"
+      ],
+      "workflow_position": "Field service workflows",
+      "primary_personas": ["FSE", "Mobile users"]
+    },
+    "E13": {
+      "name": "Search & Discovery",
+      "expanded_description": "Global search across all entities, smart recommendations for parts and vendors, and browse capabilities for discovering new suppliers and materials.",
+      "key_problems_solved": [
+        "Can't find anything",
+        "No alternative suggestions",
+        "Don't know about compatible parts",
+        "No vendor discovery"
+      ],
+      "common_user_phrases": [
+        "Search everything",
+        "Find alternatives",
+        "Similar parts",
+        "Browse catalog",
+        "Recommended vendors"
+      ],
+      "workflow_position": "Cross-cutting capability",
+      "primary_personas": ["All users"]
+    }
+  }
+}
