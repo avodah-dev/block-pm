@@ -5,13 +5,13 @@ Contains AI-generated analysis and draft development planning that bridges requi
 
 ## Current Structure
 
-### /draft/
-- **Purpose**: Contains AI-generated analysis and proposals
-- **Status**: Active - Contains completed first-pass analysis
+### Active Draft Files
+- **Purpose**: Contains work-in-progress analysis and proposals
+- **Status**: Active - Contains newly generated analysis (2025-09-26)
 - **Key Files**:
-  - `EPICS-FEATURES-STORIES-SUMMARY.md`: Comprehensive breakdown of all epics/features
-  - `REQUIREMENTS-TRACEABILITY-MATRIX.md`: Maps features to original requirements
-  - `REVIEW-GUIDE.md`: Instructions for reviewing and finalizing drafts
+  - `epics-features-stories-summary.md`: Complete breakdown of 13 epics, 40 features, 160 stories
+  - `rebuild-efs-draft.md`: Process documentation for regenerating EFS structure
+  - *(Note: requirement-traceability-matrix.md moved to `/02-analysis/requirements/`)*
 
 ## Related Final Folders
 
@@ -46,22 +46,30 @@ Epic (Business Value)
 └── Feature N...
 ```
 
-## Draft Analysis Results
+## Draft Analysis Results (Updated 2025-09-26)
 
-### Current Epics Identified
-1. **E01**: Buyer Parts Request Management
-2. **E02**: Vendor Quoting System
-3. **E03**: Quote Review & Selection
-4. **E04**: Order Processing & Fulfillment
-5. **E05**: Communication Platform
-6. **E06**: User Management & Permissions
-7. **E07**: Analytics & Reporting
+### Current Epics Identified (13 Total)
+1. **E01-REQUEST-MANAGEMENT**: Buyer parts request creation and management
+2. **E02-QUOTE-MANAGEMENT**: Vendor quote submission and tracking
+3. **E03-PURCHASE-SELECTION**: Quote review and vendor selection
+4. **E04-ORDER-FULFILLMENT**: Order processing and shipment tracking
+5. **E05-MESSAGING-PLATFORM**: Enhanced messaging application (EMA)
+6. **E06-USER-MANAGEMENT**: User accounts and access control
+7. **E07-VENDOR-CAPABILITIES**: Vendor profile and capability management
+8. **E08-DASHBOARD-ANALYTICS**: Dashboards and reporting
+9. **E09-INTEGRATED-VENDOR**: Advanced integrated vendor capabilities
+10. **E10-SYSTEM-INTEGRATION**: External system connectivity
+11. **E11-ADMINISTRATION**: System administration and configuration
+12. **E12-MOBILE-EXPERIENCE**: Mobile and field service support
+13. **E13-SEARCH-DISCOVERY**: Advanced search and discovery
 
-### Coverage Statistics (from draft)
-- **Total Features**: 35+ identified
-- **Requirements Mapped**: Comprehensive traceability
-- **Personas Covered**: Buyer, Vendor, Integrated Vendor
-- **Workflows Supported**: All 9 documented workflows
+### Coverage Statistics (from latest draft)
+- **Total Features**: 40 identified
+- **Total Stories**: 160 created
+- **Requirements Covered**: 87.3% (103 of 118)
+- **Discovery-Driven Stories**: 42 (26.3% from discovery sessions)
+- **Personas Covered**: P01-Buyer, P02-Vendor, P03-Integrated Vendor
+- **Workflows Supported**: All 9 documented workflows (W01-W09)
 
 ## Relationships to Other Folders
 

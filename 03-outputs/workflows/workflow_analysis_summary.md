@@ -190,10 +190,8 @@
 - System-wide capabilities: 8-13 points
 
 ### Priority Considerations
-1. **Phase 1 MVP**: Core workflows (W01-W03, W05)
-2. **Phase 2 Enhancement**: Integrated vendor basics (W06)
-3. **Phase 3 Advanced**: Auto-sourcing, full integration
-4. **Phase 4 Optimization**: Analytics, reporting, admin
+1. **Phase1**: Core workflows (W01-W03, W05), basic integrated vendor (W06)
+2. **Phase2**: Enhanced features, auto-sourcing (W08), full integration, analytics, reporting, admin
 
 ## Document Preparation Complete
 This summary consolidates 9 workflows, 3 personas, 99 requirements, and architectural decisions into a single context for LLM analysis. Ready for Epic/Feature/Story generation.

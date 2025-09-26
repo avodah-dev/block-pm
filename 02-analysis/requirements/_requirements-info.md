@@ -5,32 +5,21 @@ This folder contains the core analytical work that bridges source requirements w
 
 ## Core Files
 
+### requirement-traceability-matrix.md *(Current - 2025-09-26)*
+- **Purpose**: Comprehensive mapping of all requirements to user stories
+- **Current Status**: 87.3% of requirements covered (103 of 118)
+- **Contents**:
+  - Requirements grouped by category (SWP-M, SW-M, SWP-S, SW-S, SWP-C, SW-C)
+  - Story IDs mapped to each requirement
+  - Gaps identified (15 requirements without coverage)
+  - Discovery-driven stories (42 stories beyond requirements)
+- **Key Findings**: Strong core coverage (95%+ must-haves), warranty management gap identified
+
 ### analysis_methodology.md
 - **Purpose**: Documents the actual process used to generate epics/features/stories
 - **Contents**: Six-phase methodology from requirements to validation
 - **Created**: September 2025 to capture successful analysis approach
 - **Usage**: Reference for repeating or improving the analysis process
-
-### gap-analysis.md
-- **Purpose**: Executive summary of requirements coverage
-- **Current Status**: 100% coverage achieved in draft epics/features/stories
-- **Contents**: Coverage breakdown, implementation distribution, risk analysis
-- **Last Updated**: September 2025 (post-discovery analysis)
-- **Update Frequency**: After major requirement reviews or implementation changes
-
-### requirements-matrix.json
-- **Purpose**: Machine-readable requirement tracking for tooling integration
-- **Current State**: Empty placeholder - awaiting draft approval
-- **Will Contain**: All 118 requirements with epic/feature/story mappings
-- **Build Trigger**: After Block approves draft and before sprint planning
-- **Future Usage**: Sprint planning tools, JIRA/Linear import, automated reporting
-
-### requirements-traceability-matrix.json
-- **Purpose**: Detailed requirement-to-implementation mapping
-- **Current State**: Contains pre-discovery analysis (43.2% coverage) - outdated
-- **Will Contain**: Updated mapping showing 100% coverage with story IDs
-- **Build Trigger**: When moving from draft to implementation phase
-- **Future Usage**: Progress tracking, test coverage, compliance reporting
 
 ## Relationships to Other Folders
 
@@ -78,11 +67,12 @@ This folder contains the core analytical work that bridges source requirements w
 - Monitor coverage metrics
 - Generate compliance reports
 
-## Key Metrics (Current Draft Analysis)
+## Key Metrics (Current Analysis - 2025-09-26)
 - Total Requirements: 118 (61 buyer, 57 vendor)
-- Coverage in Draft: 118 (100%)
-- Deferred to Future: 3 (2.5%) - low priority items
-- Categories: Must Have (89), Should Have (14), Could Have (15)
+- Requirements Covered: 103 (87.3%)
+- Requirements Without Coverage: 15 (12.7%)
+- Discovery-Driven Stories: 42 (26.3% of 160 total stories)
+- Categories: Must Have (89), Should Have (13), Could Have (11), Not Doing (5)
 
 ## JSON File Generation Timeline
 

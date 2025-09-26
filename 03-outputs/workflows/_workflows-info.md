@@ -33,11 +33,11 @@ of business processes that satisfy requirements.
 - **Structure**: JSON array with workflow summaries
 - **Usage**: Navigation and workflow discovery
 
-### workflow-inputs.json
-- **Purpose**: Defines standard workflow structure
-- **Contents**: Required fields, data types, validation rules
-- **Format**: JSON schema for workflow documentation
-- **Usage**: Ensure consistency across workflows
+### workflow_analysis_summary.md
+- **Purpose**: Comprehensive analysis of all workflows
+- **Contents**: Workflow summaries, gaps, requirements coverage, epic suggestions
+- **Format**: Markdown document with structured sections
+- **Usage**: Context for generating epics, features, and stories
 
 ### TEMPLATE-workflow.md
 - **Purpose**: Standard template for new workflows
@@ -115,11 +115,12 @@ Each workflow contains:
 
 ## Workflow Insights
 
-### Coverage Statistics
+### Coverage Statistics (Updated 2025-09-26)
 - **Total Workflows**: 9 documented
 - **Personas Covered**: All 3 (Buyer, Vendor, Integrated Vendor)
-- **Requirements Mapped**: Partial (W01 fully mapped)
+- **Requirements Mapped**: 103 of 118 requirements (87.3% coverage)
 - **Discovery Validation**: All validated through sessions
+- **Stories Generated**: 160 stories covering all workflows
 
 ### Complexity Analysis
 - **Simplest**: W03 (Vendor submit quote) - 5 steps
@@ -162,8 +163,8 @@ Each workflow contains:
 - [ ] Integration points identified
 
 ## Next Steps
-1. Complete requirement mapping for all workflows
-2. Validate integrated vendor workflows with partners
-3. Create detailed API specifications per workflow
-4. Design workflow monitoring and metrics
-5. Build workflow testing scenarios
+1. Generate epics, features, and stories from workflows
+2. Build requirement traceability matrix
+3. Validate integrated vendor workflows with partners
+4. Create detailed API specifications per workflow
+5. Design workflow monitoring and metrics

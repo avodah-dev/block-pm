@@ -3,33 +3,32 @@
 ## Project Overview
 
 ### Client Context
-**Client**: Block (formerly Square)
+**Client**: Block Imaging
 **Project**: Sourcing Window - Modern B2B marketplace platform
 **Our Role**: Avodah is building a clean, modern replacement for SW 2.0
 
 ### Platform Evolution
-- **SW 1.0**: Block's internal tool, attempted to market externally
+- **SW 1.0**: Block's internal tool, built on Salesforce and then shared with other medical parts sales and procurement teams.
 - **SW 2.0**: Legendary's Salesforce 360 implementation (suboptimal)
-- **Current**: Modern platform with proper architectural separation
+- **SW 3.0**: The vision is for SW 3.0 to be a modern platform with proper architectural separation
 
 ### Key Architectural Principle
 Clear separation between:
-- **Product Layer**: Clean, vendor-agnostic marketplace (any company could use)
+- **Product Layer**: Clean, vendor and buyer agnostic marketplace (any company could use)
 - **Business Logic Layer**: Block's proprietary features and competitive advantages
+  - Other companies could build their own business logic layer and use the SW API to maximize the produts utility.
 
 This project organizes and tracks the relationship between Block's requirements, our RFP responses, and product development for the Sourcing Window platform. It maintains traceability from Block's original requests through our responses to actual implementation.
 
 ## Root Files
 - **CLAUDE.md** (this file): Project overview and navigation guide
-- **roadmap.md**: Development phases and project timeline
+- **roadmap.md**: Development phases for this project management project
 - **transition_prompt.md**: Session handoff document (see Session Handoff Procedure below)
 
 ## Root Directory Structure
 
 ### 📋 Core System Files (Root)
-- **CLAUDE.md**: Main project navigation and agent instructions
-- **roadmap.md**: Development phases and project timeline
-- **transition_prompt.md**: Active session handoff document
+- See Root Files
 
 ### 📁 Organized Project Structure
 
