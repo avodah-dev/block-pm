@@ -1,0 +1,50 @@
+{
+  "documents": [
+    {
+      "id": "CAD-001",
+      "title": "Sourcing Window Pro (Buyer) Requirements",
+      "description": "Core requirements for the buyer-side functionality of Sourcing Window Pro",
+      "file_formats": {
+        "markdown": "CAD-001-swp-buyer-requirements.md",
+        "json": "CAD-001-swp-buyer-requirements.json"
+      },
+      "source": "Sourcing Window 3.0 Requirements 202507.xlsx - BASIC SWP sheet",
+      "requirement_count": 61,
+      "categories": ["Buyer Portal", "Request Management", "Vendor Selection", "Reporting"],
+      "priority_breakdown": {
+        "must_have": 61,
+        "nice_to_have": 0,
+        "future": 0
+      },
+      "tags": ["buyer", "procurement", "swp", "phase-1"]
+    },
+    {
+      "id": "CAD-002",
+      "title": "Sourcing Window (Vendor) Requirements",
+      "description": "Core requirements for the vendor-side functionality of Sourcing Window",
+      "file_formats": {
+        "markdown": "CAD-002-sw-vendor-requirements.md",
+        "json": "CAD-002-sw-vendor-requirements.json"
+      },
+      "source": "Sourcing Window 3.0 Requirements 202507.xlsx - BASIC SW sheet",
+      "requirement_count": 57,
+      "categories": ["Vendor Portal", "Capability Management", "Request Response", "Integration"],
+      "priority_breakdown": {
+        "must_have": 57,
+        "nice_to_have": 0,
+        "future": 0
+      },
+      "tags": ["vendor", "seller", "sw", "phase-1"]
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-09-24",
+    "total_documents": 2,
+    "total_requirements": 118,
+    "document_types": {
+      "requirements_specifications": 2,
+      "rfp_documents": 0,
+      "technical_specs": 0
+    }
+  }
+}

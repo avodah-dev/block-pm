@@ -1,0 +1,408 @@
+{
+  "workflow_id": "W02",
+  "name": "Review and Select Vendor",
+  "persona": "P01-buyer",
+  "goal": "Review vendor quotes and purchase parts",
+  "trigger": "I need to review my quotes and buy a part",
+  "steps": [
+    {
+      "step_id": "W02-S01",
+      "name": "Access Dashboard",
+      "description": "Buyer navigates to their dashboard",
+      "actions": [
+        "Navigate to Dashboard"
+      ],
+      "ui_elements": [
+        "Dashboard"
+      ],
+      "next_steps": [
+        "W02-S02"
+      ],
+      "requirements_addressed": [
+        "SWP-M-3",
+        "SWP-M-4"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S02",
+      "name": "Select Request",
+      "description": "Buyer selects a request to review",
+      "actions": [
+        "Click on request",
+        "Select Request button"
+      ],
+      "ui_elements": [
+        "Request list",
+        "Select Request button"
+      ],
+      "next_steps": [
+        "W02-S03"
+      ],
+      "requirements_addressed": [
+        "SWP-M-20"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S03",
+      "name": "Access Vendor Response",
+      "description": "Buyer clicks link to vendor response email",
+      "actions": [
+        "Click Link from Vendor Response Email"
+      ],
+      "ui_elements": [
+        "Email link"
+      ],
+      "next_steps": [
+        "W02-S04"
+      ],
+      "requirements_addressed": [],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S04",
+      "name": "View Request Details",
+      "description": "System displays request overview with quote responses and part details",
+      "actions": [
+        "View Request Overview",
+        "View Quote Responses",
+        "View Part Details"
+      ],
+      "ui_elements": [
+        "Request Overview",
+        "Quote Responses section",
+        "Part Details (Qty, date, etc.)"
+      ],
+      "next_steps": [
+        "W02-S05",
+        "W02-S06"
+      ],
+      "requirements_addressed": [
+        "SWP-M-20",
+        "SWP-M-21"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S05",
+      "name": "Apply Filters",
+      "description": "Buyer applies filters to view specific quotes",
+      "actions": [
+        "Click 'Applies to Apples' view filter"
+      ],
+      "ui_elements": [
+        "Filter view"
+      ],
+      "optional": true,
+      "next_steps": [
+        "W02-S06"
+      ],
+      "requirements_addressed": [
+        "SWP-M-5"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S06",
+      "name": "Review Quote Details",
+      "description": "Buyer views detailed vendor quote information",
+      "actions": [
+        "Click View details",
+        "Review Supplier, Price, warranty, condition, qty"
+      ],
+      "ui_elements": [
+        "View details button",
+        "Vendor Quote Details panel",
+        "Vendor Part Quote section"
+      ],
+      "next_steps": [
+        "W02-S07",
+        "W02-S08"
+      ],
+      "requirements_addressed": [
+        "SWP-M-21"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S07",
+      "name": "Add to Cart and Select",
+      "description": "Buyer adds item to cart and selects condition",
+      "actions": [
+        "Click Add to cart",
+        "Select Condition",
+        "Display condition added to cart"
+      ],
+      "ui_elements": [
+        "Add to cart button",
+        "Select Condition dropdown",
+        "Cart display"
+      ],
+      "next_steps": [
+        "W02-S09"
+      ],
+      "requirements_addressed": [
+        "SWP-M-30",
+        "SWP-M-22",
+        "SWP-M-23"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S08",
+      "name": "Handle Unfulfilled Items",
+      "description": "Alternative path for unfulfilled quantities or parts on request",
+      "actions": [
+        "Go back to req for remaining balance from other vendors"
+      ],
+      "ui_elements": [
+        "Unfulfilled Qty indicator",
+        "Parts on Req indicator"
+      ],
+      "optional": true,
+      "next_steps": [
+        "W02-S06"
+      ],
+      "requirements_addressed": [
+        "SWP-M-31"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S09",
+      "name": "Proceed to Checkout",
+      "description": "Buyer proceeds to checkout with selected items",
+      "actions": [
+        "Click Checkout button",
+        "View list of parts and total",
+        "Upload PO Doc",
+        "Enter PO #",
+        "Optional shipping info"
+      ],
+      "ui_elements": [
+        "Checkout button",
+        "Parts list",
+        "Total display",
+        "PO upload field",
+        "PO # field",
+        "Shipping field"
+      ],
+      "next_steps": [
+        "W02-S10"
+      ],
+      "requirements_addressed": [
+        "SWP-M-32",
+        "SWP-M-33",
+        "SWP-M-34",
+        "SWP-M-35",
+        "SWP-M-36",
+        "SWP-M-37",
+        "SWP-M-38"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S10",
+      "name": "Submit Purchase Order",
+      "description": "Buyer submits the purchase order",
+      "actions": [
+        "Click Submit PO button"
+      ],
+      "ui_elements": [
+        "Submit PO button"
+      ],
+      "validations": [
+        "PO Doc uploaded OR PO # entered"
+      ],
+      "decision_point": true,
+      "branches": {
+        "more_quotes": "W02-S11",
+        "complete": "W02-S12"
+      },
+      "requirements_addressed": [
+        "SWP-M-41"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S11",
+      "name": "Purchase Additional Quotes",
+      "description": "Buyer chooses to purchase more quotes or wait",
+      "actions": [
+        "Select 'Purchase more or wait for more quotes'"
+      ],
+      "ui_elements": [
+        "Decision dialog"
+      ],
+      "optional": true,
+      "next_steps": [
+        "W02-S06"
+      ],
+      "requirements_addressed": [
+        "SWP-M-31"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S12",
+      "name": "Cancel Remaining Balance",
+      "description": "Buyer cancels balance if not needed",
+      "actions": [
+        "Click Cancel Balance"
+      ],
+      "ui_elements": [
+        "Cancel Balance button"
+      ],
+      "optional": true,
+      "next_steps": [
+        "W02-S13"
+      ],
+      "requirements_addressed": [],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S13",
+      "name": "Create Vendor Order",
+      "description": "System creates vendor order and notifies vendor",
+      "actions": [
+        "System creates Vendor Order record",
+        "System sends email to vendor"
+      ],
+      "system_process": true,
+      "next_steps": [
+        "W02-S14"
+      ],
+      "requirements_addressed": [
+        "SWP-M-41",
+        "SW-M-40"
+      ],
+      "resources": [
+        "Email system"
+      ]
+    },
+    {
+      "step_id": "W02-S14",
+      "name": "Await Confirmation",
+      "description": "System waits for vendor confirmation",
+      "actions": [
+        "Buyer WAITS status",
+        "Show Confirmation Page"
+      ],
+      "ui_elements": [
+        "Confirmation Page"
+      ],
+      "end_state": true,
+      "requirements_addressed": [
+        "SWP-M-42"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W02-S15",
+      "name": "Handle Messaging",
+      "description": "Optional messaging functionality throughout workflow",
+      "actions": [
+        "Access Messaging feature"
+      ],
+      "ui_elements": [
+        "Messaging interface"
+      ],
+      "parallel": true,
+      "optional": true,
+      "requirements_addressed": [
+        "SWP-M-24",
+        "SWP-M-25",
+        "SWP-M-26",
+        "SWP-M-27",
+        "SWP-M-28",
+        "SWP-M-29"
+      ],
+      "resources": []
+    }
+  ],
+  "resources": {
+    "databases": [
+      {
+        "name": "Request Database",
+        "usage": "Store and retrieve request information",
+        "steps_used": [
+          "W02-S02",
+          "W02-S04"
+        ]
+      },
+      {
+        "name": "Quote Database",
+        "usage": "Store vendor quotes and responses",
+        "steps_used": [
+          "W02-S04",
+          "W02-S06"
+        ]
+      },
+      {
+        "name": "Order Database",
+        "usage": "Store purchase orders and vendor orders",
+        "steps_used": [
+          "W02-S10",
+          "W02-S13"
+        ]
+      }
+    ],
+    "systems": [
+      {
+        "name": "Email System",
+        "usage": "Send vendor notifications",
+        "steps_used": [
+          "W02-S13"
+        ]
+      },
+      {
+        "name": "Messaging System",
+        "usage": "Enable buyer-vendor communication",
+        "steps_used": [
+          "W02-S15"
+        ]
+      }
+    ]
+  },
+  "requirements_coverage": {
+    "directly_addressed": [
+      "SWP-M-3",
+      "SWP-M-4",
+      "SWP-M-5",
+      "SWP-M-20",
+      "SWP-M-21",
+      "SWP-M-22",
+      "SWP-M-23",
+      "SWP-M-24",
+      "SWP-M-25",
+      "SWP-M-26",
+      "SWP-M-27",
+      "SWP-M-28",
+      "SWP-M-29",
+      "SWP-M-30",
+      "SWP-M-31",
+      "SWP-M-32",
+      "SWP-M-33",
+      "SWP-M-34",
+      "SWP-M-35",
+      "SWP-M-36",
+      "SWP-M-37",
+      "SWP-M-38",
+      "SWP-M-41",
+      "SWP-M-42",
+      "SW-M-40"
+    ],
+    "partially_addressed": [],
+    "gaps": [],
+    "notes": "Requirements mapped to actual CAD-001 and CAD-002 content after CSV data cleanup"
+  },
+  "metadata": {
+    "created_date": "2025-09-24",
+    "version": "1.0",
+    "status": "draft",
+    "complexity": "high",
+    "estimated_duration": "10-20 minutes",
+    "business_value": "Core procurement functionality enabling buyers to review quotes and create purchase orders"
+  }
+}

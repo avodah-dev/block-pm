@@ -1,0 +1,324 @@
+{
+  "document_id": "RRD-001",
+  "title": "Sourcing Window (Vendor) Requirements - Avodah RFP Response",
+  "source": "03_Sourcing Window Requirement Analysis.docx",
+  "extracted_date": "2025-09-24T12:17:32.575912",
+  "addresses": "CAD-002",
+  "requirements_responses": [
+    {
+      "id": "SW-1",
+      "title": "Manage Vendors based on Connections to Customers as well as all vendor capabilities",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "SW Admins"
+      ],
+      "description": "Migrates vendor management from Salesforce constraints into a purpose-built system where SW admins control vendor profiles, customer connections, and capability assignments. This foundational requirement enables the 4-tier vendor ranking system (where Tier 1 vendors get automatic sourcing privileges) and ensures vendors only see requests matching their capabilities, reducing noise and improving response times.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Build a comprehensive vendor management area featuring vendor profile creation with multi-location support, customer connection management with transparent visibility for all parties, capability assignment interface supporting the full Block Imaging parts taxonomy, tier assignment controls (1-4) with automatic sourcing rules, and bulk management tools for handling 79+ vendors efficiently. The system will sync bidirectionally with SF360 APIs while maintaining local control for rapid updates and real-time routing decisions."
+    },
+    {
+      "id": "SW-2",
+      "title": "Ability for vendors to manage parts requests from all customers transparently",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1, 2",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Transforms vendor request management from a fragmented, manual process into a centralized real-time dashboard. Vendors gain instant visibility of all incoming parts requests, can respond without page refreshes, and access requests from mobile devices in the field. This eliminates the hours of training currently required by providing an intuitive, Amazon-like interface that vendors can use immediately.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Build a modern request management dashboard featuring live updates via WebSockets or polling (eliminating manual refreshing), mobile-responsive design optimized for field engineers, smart prioritization algorithms showing urgent requests and expiring quotes first, one-click response actions (\"Available\", \"Need to Check\", \"Unavailable\"), bulk operations for efficient multi-request handling, and comprehensive filtering by customer, part type, or date range."
+    },
+    {
+      "id": "SW-3",
+      "title": "Ability for vendors to process their incoming orders in the tool, including prompts to ship",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Creates a guided fulfillment workflow that transforms the current \"data dumpy\" interface into context-aware screens that prompt vendors through each step. Vendors move seamlessly from PO acknowledgment (\"I got your order\") through shipping completion, with mandatory capture of tracking numbers, serial numbers, and RMA information before marking orders complete. This ensures customers always have the data needed for asset tracking and warranty claims.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Build an intelligent order processing workflow with distinct stages: PO acknowledgment with one-click confirmation, fulfillment workspace showing what to pick/pack/ship, and shipping completion form with three mandatory fields (tracking, serial, RMA) that prevents completion until filled. Include visual progress indicators showing where orders stand in the workflow, smart validation that explains why fields are required (e.g., \"Serial number needed for warranty tracking\"), and contextual prompts guiding vendors to the next action. The interface will adapt based on order type and customer requirements."
+    },
+    {
+      "id": "SW-4",
+      "title": "Ability for vendors to upload pictures, documents, etc in the chat and on the Purchase Record",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Vendors",
+        "Buyers"
+      ],
+      "description": "Preserves and enhances the existing file upload capabilities that vendors rely on daily. Currently, vendors successfully upload pictures to show part conditions, share manual pages to prove compatibility (\"Show me in the manual where you can confirm this is compatible\"), and maintain documented negotiations. This widely-used feature exists in both chat locations - on sourcing records (SRC) and purchase orders - creating permanent audit trails that both parties reference throughout deals.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Rebuild the current file upload functionality with modern improvements while maintaining the core workflow vendors already know. Continue supporting uploads in both SRC and purchase order chats, preserving the permanent attachment to records that users value. Enhance the experience with drag-and-drop functionality, inline image previews, and clearer file type indicators. Maintain the existing security model where only authorized parties (vendor, customer, Block admins) can view documents. If you'd like, we can add progress indicators for large files and batch upload capabilities to streamline multi-document sharing."
+    },
+    {
+      "id": "SW-5",
+      "title": "Ability for vendors to communicate (chat) directly with their customers",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Vendors",
+        "Buyers"
+      ],
+      "description": "Direct chat is the heart of Block's transparency promise - a feature so unique that \"nobody else has any direct chat on a record like this.\" This isn't just messaging; it's the foundation of trust between established vendor-customer relationships. Vendors and customers see each other's names, communicate directly about compatibility concerns (\"Show me in the manual where you can confirm this is compatible\"), negotiate pricing in real-time, and discuss part conditions with permanent record-keeping. Every message is tied to specific sourcing records (SRC) or purchase orders, creating audit trails that both parties reference throughout deals. This transparency differentiates Block from competitors who hide behind middleman communications.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Preserve and enhance the existing chat system that lives on every SRC and purchase order record. Maintain the current email notification workflow - when \"Rachel Green\" sends a message, vendors click the email link to respond directly in context. Build permanent message history that survives order completion, transparent visibility showing sender names and companies, and attachment support for the document sharing already happening (see SW-4). For Phase 1, ensure feature parity with today's functionality. Future phases could add message search across all conversations, chat presence indicators, and consolidated conversation views to reduce the current challenge of remembering which record contains specific discussions."
+    },
+    {
+      "id": "SW-6",
+      "title": "Ability for vendors to have multiple users sharing one account",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Vendors",
+        "SW Admins"
+      ],
+      "description": "Today, vendor organizations like All Parts already have multiple portal users under one account - team members who need to view quotes, submit responses, and manage their relationship with Block Imaging. This existing functionality is critical for vendor operations, enabling workload distribution, coverage during absences, and specialized roles within their teams. Block Imaging admins actively manage these users, monitoring activity and adjusting access as needed.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll preserve and enhance the current multi-user architecture that vendors depend on. This includes maintaining the ability for admins to create portal users at the contact level, monitor login activity, and deactivate inactive users. We'll improve the experience with better self-service tools for vendor admins to manage their own teams, and activity logging that helps both vendors and Block Imaging understand usage patterns. The familiar workflow stays intact while gaining modern capabilities like automated inactivity alerts and granular permission controls if desired."
+    },
+    {
+      "id": "SW-7",
+      "title": "Ability for vendors to quote or say unavailable (response time and fill rates are important KPIs)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Response time is Block's \"huge KPI\" that directly impacts vendor rankings - poor responders get fewer opportunities. Currently, vendors struggle with broken UI elements: a cancel button that does nothing, a save button that appears to save but actually requires six hidden fields, and no indication of which fields are missing when submissions fail. They can type in a price thinking they're done, only to discover the system won't accept their quote. These frustrations compound when vendors are racing to meet response time metrics that determine their future business volume.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Fix the fundamentals first - no non-functional buttons, clearly mark all required fields, and provide immediate validation feedback explaining exactly what's needed. Build a streamlined quoting interface with one-click \"unavailable\" for quick declinations and smart form validation that guides vendors through requirements. Display response time prominently so vendors understand their KPI impact in real-time. For mobile users responding from the field, we'll make sure the experience allows them to capture all the necessary data without any of the unnecessary visual fluff."
+    },
+    {
+      "id": "SW-8",
+      "title": "Ability for vendors to view their capabilities and request to edit",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Vendors",
+        "SW Admins"
+      ],
+      "description": "Gives vendors transparency into the capabilities that drive their quote flow, showing exactly which parts and equipment types the system routes to them. Currently, Block manually manages these capability assignments, which directly control whether vendors see lucrative requests for CT tubes, MRI coils, or other specialized parts. This feature enables vendors to identify gaps in their capability profile and request additions to capture more business opportunities.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Create a comprehensive capability viewer displaying the vendor's approved parts taxonomy in a searchable, hierarchical structure (e.g., Imaging > CT > Siemens > Tubes), with clear indicators of active vs. pending capabilities. Build a streamlined request system where vendors can browse the full Block Imaging parts catalog, select desired capabilities with business justification, and submit for SW admin approval. Include capability utilization metrics showing which capabilities generate the most quotes, approval workflow with SLA tracking, and change history log for compliance."
+    },
+    {
+      "id": "SW-9",
+      "title": "Vendors must have access to their historical information and ability to obtain reporting",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Today, vendors rely on Vikki spending hours every month manually creating \"beautiful emails with reports\" because there's no vendor dashboard. This isn't scalable as Block grows 20-25x with bio-med expansion. Vendors need self-service access to their historical data - quotes they've submitted, orders they've fulfilled, and the performance metrics that determine their vendor ranking. Without this visibility, vendors can't analyze their business relationship with Block or identify improvement opportunities.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Replace manual monthly emails with self-service reporting dashboards. Provide searchable tables for quote history (what they quoted, when, at what price) and order records (what shipped, to whom, when delivered). Display the KPIs that matter: response time averages, fill rates, and revenue trends. Include simple export to Excel for vendors who want deeper analysis. Keep it straightforward - vendors might not be tech-savvy and need clear, actionable data without complexity."
+    },
+    {
+      "id": "SW-10",
+      "title": "Vendors must have email notifications for all new requests, orders and messages",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1,2",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Today, vendors work entirely from their email. They don't log into portals to check for new messages usually, they click links in notification emails that take them directly to quotes, orders, and messages. This email-driven workflow is how vendors stay responsive to Block's critical KPIs. The requirement preserves this essential notification system while addressing gaps like engineers in the field who need text messages but only get emails, and the hours Vikki spends manually creating vendor report emails.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Preserve the current email-driven workflow vendors depend on, with every notification containing direct links to the specific record needing attention. Add notification preferences so vendors can control frequency and channels, including SMS for field engineers who specifically requested text alerts. We'll use a modern email service like Postmark for delivery tracking and troubleshooting. Keep the familiar pattern intact - vendors continue working from their inbox - while adding the flexibility and reliability they need. And if desired, we'd love to add the functionality that allows vendors to reply to emails and have that information routed to the correct chat conversation."
+    },
+    {
+      "id": "SW-11",
+      "title": "Sourcing Window will have deep API ties to SF360 infastructure at Block imaging, which is where Vendor Approval data will live",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "SW Admins"
+      ],
+      "description": "Version 2 was built entirely within Salesforce, creating both opportunities and limitations. As we build Version 3 as an independent platform, we need to determine which system should own which pieces of data going forward. Block Imaging's internal teams rely heavily on their Salesforce workflows - they generate significant volume through the current integration and need that to continue seamlessly. The critical decision: what data lives where, and how do we keep everything synchronized without creating conflicts or delays.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Through discovery sessions, we'll map out data ownership between Sourcing Window v3 and SF360. Our bias will be toward moving all sourcing-related data into the new platform while maintaining robust bi-directional communication through APIs, events, and webhooks. We'll design flexible integration patterns that support real-time updates for critical data (like vendor approvals) while respecting system boundaries. The architecture will evolve during discovery but will prioritize reliability, data consistency, and the ability for Block's teams to work without disruption. This foundation enables future growth while preserving existing workflows."
+    },
+    {
+      "id": "SW-12",
+      "title": "Vendors ability to view/manage the Returns Management Tab",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "2",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Today, returns and exchanges happen daily but entirely outside Sourcing Window - vendors and customers coordinate manually through phone calls and emails. This missing functionality forces inefficient workarounds for DOA parts, warranty replacements, and standard returns. Vendors need visibility into incoming returns, ability to approve or reject them, and tools to coordinate shipping logistics with customers.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Create a dedicated returns management tab where vendors see all return requests with clear workflow states (requested, approved, shipped, received, processed). Generate RMA numbers that link to original orders, automate return shipping labels using Block's existing FedEx API, and enable vendors to quickly approve refunds or replacements. Support the daily realities of DOA parts and warranty claims with specific workflows. Keep communication streamlined through the existing chat system so context stays with the return throughout its lifecycle."
+    },
+    {
+      "id": "SW-13",
+      "title": "Vendor should have access to live 'dashboards' showing KPI measurements",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "3",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "The same KPIs that determine vendor rankings and future business volume are currently invisible to vendors until Vikki's monthly email arrives. Vendors operate blind, not knowing if their response times are slipping or if they're about to lose tier status. Live dashboards transform this reactive model into proactive performance management - vendors can see their metrics update in real-time and course-correct before problems impact their business. This visibility is especially critical as Block scales 20-25x with bio-med expansion.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Build live performance dashboards that update as vendors work, showing the metrics that matter: current response time average (with visual warnings as they approach tier thresholds), fill rate trends, revenue by customer, and active request aging. Display their current tier status prominently with clear indicators of what's needed to maintain or improve it. Include visual charts that make trends obvious at a glance and comparison views against their own historical performance. Replace Vikki's manual monthly emails with automated insights while keeping the same valuable analysis vendors rely on today."
+    },
+    {
+      "id": "SW-14",
+      "title": "Vendor should have access to training information (Faq tab, AI personal assistant, etc)",
+      "priority": "Medium",
+      "required": "Yes",
+      "phase": "2",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Transforms the current manual, time-intensive vendor support model (where Block staff spend \"hours and hours\" on training) into a scalable self-service system. Vendors gain 24/7 access to instant help, reducing their dependency on email support and enabling Block to handle 20-25x growth without proportionally increasing support staff.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll collaborate with Block to design a phased approach that balances training effectiveness with budget realities. Options range from simple FAQ pages and searchable knowledge bases to more sophisticated solutions like AI-powered assistants and interactive onboarding wizards. We'll share our expertise on what works best in similar platforms while relying on Block's deep understanding of their vendor community to prioritize features. Each phase can build incrementally - starting with basic self-help resources and evolving based on vendor feedback and usage patterns. The goal remains constant: reduce manual training hours while empowering vendors to succeed independently."
+    },
+    {
+      "id": "SW-15",
+      "title": "Vendors should be able to manage their shipping cut offs / warehouse addresses in the portal",
+      "priority": "Medium",
+      "required": "Yes",
+      "phase": "2",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Currently, vendors operate multiple warehouses and shipping locations but customers can't see accurate cutoff times or know which facility will fulfill their order. This creates unnecessary anxiety - customers constantly ask \"did you ship it yet?\" because they don't know if they made the 2 PM cutoff for same-day shipping. Vendors manage these logistics details outside the portal through manual communication, leading to missed expectations and frustrated buyers. With hundreds of thousands of orders flowing through the system, standardizing how vendors communicate their shipping capabilities becomes critical for scaling.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build a vendor logistics configuration center where suppliers can set up multiple warehouse locations with full addresses and service areas, define daily shipping cutoff times by location (e.g., \"Orders by 2 PM EST ship same day from Detroit\"), and manage holiday schedules or temporary operational changes. These settings automatically display to buyers during ordering, showing real-time cutoff countdowns and expected ship dates. Vendors can update their logistics information instantly - no more calling Block to change addresses or adjust holiday schedules. This self-service approach eliminates the manual back-and-forth that currently frustrates both vendors and customers."
+    },
+    {
+      "id": "SW-16",
+      "title": "Ability for vendors to see all of a customers req items for that requisition (all parts requested for a single order)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "2",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Currently, the auto-sourcing system fragments customer requisitions - vendors only see the specific rec items that match their capabilities, blind to the complete order. When a customer needs multiple parts for a repair (often the case, though single-item orders are common too), each vendor works in isolation. This fragmentation prevents competitive bundle pricing, eliminates cross-selling opportunities, and creates operational inefficiencies that Sam notes cost thirty minutes per transaction when it should be automated. Vendors miss revenue opportunities and customers get disjointed service.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Build a complete requisition view showing all rec items in a customer's order - not just the parts auto-routed to that vendor. Clearly distinguish which items the vendor can quote (based on their capabilities) from those assigned elsewhere, but maintain full visibility. Enable vendors to request capability additions when they spot items they could fulfill, offer bundle pricing across multiple items, and suggest alternatives or additions. This transparency transforms isolated transactions into comprehensive solutions, reducing the manual coordination that currently wastes everyone's time while opening new revenue streams for proactive vendors."
+    },
+    {
+      "id": "SW-17",
+      "title": "Vendor should have the ability to see when a customer claims Dead on Arrival",
+      "priority": "Medium",
+      "required": "Yes",
+      "phase": "2",
+      "personas": [
+        "Vendors",
+        "Buyers"
+      ],
+      "description": "Creates transparency and accountability when parts fail on arrival, transforming a previously opaque process into a trackable workflow. Vendors gain immediate visibility when customers report defective parts, enabling rapid response to protect their quality ratings and customer relationships. This directly impacts vendor re-onboarding scores (reviewed every two years by Block's quality team) and empowers customers to transact warranty replacements directly in the tool rather than less-integrated processes like email and SMS.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Implement a DOA claim system where customers can report defects with photo evidence and serial numbers, triggering instant vendor notifications with all claim details. Build investigation workflows allowing vendors to accept, dispute, or request additional information within defined SLAs. Include warranty replacement ordering directly from the DOA claim, automated quality metrics tracking that feeds into vendor scorecards, root cause analysis tools to identify patterns (by part number, date codes, or shipping methods), and integration with the returns module for physical part handling. The system will maintain complete audit trails for Block's quality team reviews."
+    },
+    {
+      "id": "SW-18",
+      "title": "Vendor should see their KPI and Quality data by customer",
+      "priority": "Medium",
+      "required": "",
+      "phase": "3",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Vendors need to see their KPI metrics broken down by customer relationship rather than just aggregate totals. This helps them identify which accounts need attention and where performance varies across their customer base.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Extend the KPI dashboards from SW-13 with customer-level segmentation. Show response times, fill rates, and quality metrics for each customer account. Include simple filtering and export options for business reviews."
+    },
+    {
+      "id": "SW-19",
+      "title": "Vendors should have access to the free version of the tool (rebuild of existing platform)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Vendors",
+        "SW Admins"
+      ],
+      "description": "Establishes the foundational free tier of the new platform, providing vendors and buyers with an enhanced version of all current functionality at no cost. This maintains Block's strategic approach of building adoption through free access while creating the technical foundation for future premium features. The free tier includes all core capabilities vendors rely on today - automated quote routing, order management, and direct customer communication.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Rebuild the existing platform with improved user experience and modern architecture while maintaining feature parity with version 2. All current vendors continue accessing the platform for free, experiencing the same core workflows they know but through a more intuitive interface. This free tier serves as the base platform that premium features will build upon in later phases."
+    },
+    {
+      "id": "SW-20",
+      "title": "Vendors should have the ability to 'add on' packages for a fee that would allow for the features below:",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "3",
+      "personas": [
+        "Vendors",
+        "SW Admins"
+      ],
+      "description": "Block strategically keeps the platform free today while holding back premium features like FedEx integration until they can monetize properly. This requirement creates the framework for vendors to pay for competitive advantages through add-on packages, generating revenue while preserving the free tier.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Create a flexible pricing system supporting subscriptions, usage-based billing, or feature bundles. Enable self-service upgrade/downgrade with instant activation. Premium features detailed in subsequent requirements (SW-21, SW-22, etc.) will plug into this framework."
+    },
+    {
+      "id": "SW-21",
+      "title": "API / EDI integrations of their inventory to display to customers",
+      "priority": "Medium",
+      "required": "",
+      "phase": "3",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Today's manual process wastes \"significant significant time\" - vendors receive email notifications, check inventory, and type responses. This premium feature eliminates that bottleneck by letting vendors feed inventory data directly into the platform, whether through modern APIs, traditional EDI, CSV uploads, or even automated email parsing. Block sees real-time availability and can send POs automatically, transforming hours of waiting into instantaneous transactions.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Build flexible integration infrastructure that meets vendors where they are technically. Support REST APIs and webhooks for real-time updates, EDI for vendors using industry standards, CSV/Excel uploads for simpler operations, and email parsing for basic automation. The platform handles data mapping, validation, and synchronization regardless of input method. Include developer documentation, testing sandbox, and optional professional services for vendors needing implementation support."
+    },
+    {
+      "id": "SW-22",
+      "title": "Ability for vendors to post / manage their T&C's they want their customers to agree to",
+      "priority": "Medium",
+      "required": "",
+      "phase": "3",
+      "personas": [
+        "Vendors"
+      ],
+      "description": "Right now vendors likely handle terms and conditions outside the platform through emails, PDFs, and phone calls - creating confusion about what customers actually agreed to. This premium feature lets vendors upload their T&Cs directly into the platform where customers must acknowledge them before ordering, eliminating disputes and protecting both parties.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "Build a T&C management area where vendors upload their terms with version tracking and effective dates. Create customer acknowledgment workflows that capture digital consent before order completion, showing exactly which version was agreed to. Include exception handling for customers who need special terms, audit trails for compliance, and integration with order history so everyone knows which terms apply to each transaction."
+    }
+  ]
+}

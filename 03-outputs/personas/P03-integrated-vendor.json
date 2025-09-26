@@ -1,0 +1,46 @@
+{
+  "id": "P03-integrated-vendor",
+  "type": "persona",
+  "name": "Integrated Vendor",
+  "role": "Vendor with Buyer Capabilities",
+  "description": "A sophisticated vendor that can act as both supplier and buyer within the Sourcing Window ecosystem. When they don't have stock, they can source from other vendors in the network, essentially becoming a middleman/broker.",
+  "goals": [
+    "Fulfill customer orders even when lacking inventory",
+    "Leverage entire vendor network for sourcing",
+    "Maintain relationships with both buyers and other vendors",
+    "Provide competitive pricing through strategic markup",
+    "Streamline order fulfillment across multiple sources"
+  ],
+  "painPoints": [
+    "Managing dual roles (vendor and buyer) in the system",
+    "Tracking orders across multiple systems (Salesforce and Sourcing Window)",
+    "Coordinating drop-shipping from third-party vendors",
+    "Maintaining visibility of orders in different states",
+    "Managing team collaboration on shared opportunities"
+  ],
+  "characteristics": {
+    "systemAccess": "Both vendor and buyer interfaces",
+    "primarySystem": "Salesforce for core business operations",
+    "secondarySystem": "Sourcing Window for network sourcing",
+    "dualMode": "Can switch between vendor and buyer roles",
+    "visibility": "Sees all vendors in network when acting as buyer"
+  },
+  "workflows": [
+    "W06-integrated-vendor-sw-buyer-timeline",
+    "W07-integrated-vendor-non-sw-buyer-timeline"
+  ],
+  "businessContext": {
+    "currentState": "Using Salesforce as primary system of record",
+    "futureState": "Transitioning to Sourcing Window for network operations",
+    "integrationLayer": "Business logic layer bridges Salesforce and Sourcing Window"
+  },
+  "permissions": [
+    "Create quotes as vendor",
+    "Submit requests as buyer",
+    "View all network vendors when sourcing",
+    "Mark up pricing from third-party vendors",
+    "Upload POs for drop-shipping",
+    "Manage order fulfillment across sources"
+  ],
+  "notes": "This persona represents a key differentiator in the Sourcing Window ecosystem, enabling network effects and supply chain resilience through recursive marketplace dynamics."
+}

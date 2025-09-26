@@ -1,0 +1,1292 @@
+1
+00:00:00,110 --> 00:00:17,260
+Vikki Dipple: who this would be. People do get more sales from those customers if those customers are in sourcing window versus emailing them directly. We've been told that. That's feedback from both sides.
+
+2
+00:00:17,460 --> 00:00:20,420
+Andrew Bailey: It can improve their relationship with a current buyer.
+
+3
+00:00:21,360 --> 00:00:24,060
+Vikki Dipple: It's clear. It's simple. Everything is visible.
+
+4
+00:00:25,260 --> 00:00:49,800
+Andrew Bailey: But they built their business 20 years ago, 30 years ago on getting these relationships. And so they're kind of seeing it as if I can get more through here and deal with the. growing rates, then it would be nice if more of my revenue would be served. Keep in mind.
+
+5
+00:00:49,800 --> 00:01:22,542
+Steve Muniak: that within this industry, we all know each other. It's not like darkening. You're competing against five or six large... large fan and it's like that where there's no there's no real understanding each other's businesses yeah we really understand very rarely do we run across a vendor that we never heard of or an ISO or idea and so when when they're engaging with this in that they've got a very good awareness of.
+
+6
+00:01:22,542 --> 00:01:26,722
+Steve Muniak: what competitors are going to compete against within the window and with those.
+
+7
+00:01:29,882 --> 00:01:43,092
+Andrew Bailey: there Sam yeah everybody goes to like six different companies and he's.
+
+8
+00:01:43,681 --> 00:02:16,564
+Vikki Dipple: retired but blocks his favorite that's good to keep in mind though with with the rebuild for the vendor, because we really want to make this work their while, reward them, even if it's just like, hey, you have quoted this many, and you've won this many. Like, having that on their dashboard is going to really make them feel engaged.
+
+9
+00:02:16,564 --> 00:02:17,564
+Vikki Dipple: and feel seen.
+
+10
+00:02:17,964 --> 00:02:19,124
+Jake Herwaldt: We call that gamifying.
+
+11
+00:02:20,814 --> 00:02:51,233
+Speaker 5: When we were doing, like, the rebuilding sales for four or five years ago, we talked about gamifying it so that, like, for customers, like, the first purchase order you got, you got a $5 gift card or something like that. And then customer, what do you want your gift card to be? Like, Target, Amazon, just starting that. Your 100th purchase order, okay, now we're talking $50 gift card. And so we had a whole, and then we had, like, confetti dropping down the screen after the experience, and we had all sorts of things spelled out. That's actually probably really annoying after, you know,
+
+12
+00:02:51,254 --> 00:03:11,866
+Speaker 5: like at what point is gamifying not what these buyers want? And then we rebuilt it in legacy. And now, because humans, oh. As co-owner of Blocker, we can't offer that for customers because it's seen as shady. We could do that for vendors. So we could gamify for vendors in a way that's not super annoying. They don't want pop-ups.
+
+13
+00:03:12,906 --> 00:03:24,746
+Andrew Bailey: Well, there's a gamifying that's what you're talking about, confetti, but then there's just gamifying in a sense that what we're used to is, showing progress bars that allude to certain results.
+
+14
+00:03:24,986 --> 00:03:26,826
+Jake Herwaldt: Of like how close you are to the goal.
+
+15
+00:03:26,826 --> 00:03:38,016
+Andrew Bailey: Or is this happening, is this better, is this month better than last month? Because there's one thing to say, here's today, this month's performance. It's another thing to compare it to last month. It's another thing to compare it to your pace of last month.
+
+16
+00:03:38,016 --> 00:03:44,396
+Speaker 5: I love that, to gamify against themselves. So more of like you, your response time to that is 20%.
+
+17
+00:03:44,396 --> 00:04:06,770
+Steve Muniak: And that's landing on more of the most predominant method out there is speed to response time. Because giving them an understanding of that and then giving them, Folks who respond within five minutes typically win 80 times. That's a really actionable metric.
+
+18
+00:04:08,050 --> 00:04:17,050
+Jake Herwaldt: And that's where you gamify engagement instead of strong-arming them. And being like, well, people that don't hit this benchmark reply just get kicked off the platform.
+
+19
+00:04:17,269 --> 00:04:17,670
+Steve Muniak: Yeah.
+
+20
+00:04:18,050 --> 00:04:24,680
+Jake Herwaldt: It's like, oh, yeah. Instead it's, hey, look at your response time. The goal is this. It gets you.
+
+21
+00:04:29,650 --> 00:04:30,090
+Andrew Bailey: Okay.
+
+22
+00:04:31,170 --> 00:04:32,050
+Speaker 5: Yeah, we want to take this.
+
+23
+00:04:32,070 --> 00:05:05,272
+Andrew Bailey: So this would be in email. In email. Us abode buying an MRI and seeing if we could get on the system. No scripts allowed. You have to part it out. Yeah. You have to find a place to put it. Nate's got three little brothers. They're not in the living anymore. They're at 20. Yeah. They're mine. They're Jake's age, yeah. 21. So the first thing, the external vendor. I guess we're going to try and do this quite a bit more succinctly,
+
+24
+00:05:05,272 --> 00:05:07,952
+Andrew Bailey: just to get the full, and then we'll add to it. We're going to try a different strategy, though.
+
+25
+00:05:07,991 --> 00:05:40,402
+Speaker 5: Can I start by just challenging the very first line? Yeah, please challenge the first line. One thing I'd love to do, in fact, is the first thing we take out there, is for them to, right now, they click the link in the email, and they have to log in. This is them to respond. I hate that. I want them to respond from the email. They can click a button. I don't know if the right word, but I've used this in other people's platforms before, and it makes me so angry every time to know the difference. Where I can say no stop right from the email, now I'm not logging into anything. But even just offering a no-stop option would save an incredible amount of time for them.
+
+26
+00:05:40,861 --> 00:05:42,801
+Speaker 6: Is MVP Plus for Apple, I think. 
+
+27
+00:05:43,282 --> 00:05:49,001
+Jake Herwaldt: MVP Plus. Yes, absolutely. That's a new feature, for sure. But the idea is...
+
+28
+00:05:49,282 --> 00:05:52,602
+Speaker 5: It is a new feature, but it is like a learning through...
+
+29
+00:05:52,602 --> 00:05:55,652
+Steve Muniak: Thank you. Did I make an assumption. 
+
+30
+00:05:55,871 --> 00:05:56,251
+Speaker 5: Uh-huh.
+
+31
+00:05:56,272 --> 00:06:01,183
+Steve Muniak: You can validate. Improving the vendor experiences... It's more of a priority than...
+
+32
+00:06:08,523 --> 00:06:40,304
+Jake Herwaldt: Here's the hierarchy I see coming in, and tell me if I'm wrong. I think I have it. My hierarchy, I want you guys to weigh up, is the idea that vendors are number one, the highest, most important person. Then there's the internal admin, because if there's no vendors on the platform, the platform's useless. Therefore, you need to make your vendors happy. But then, the reason you guys want the vendors on the platform is for your own internal block being able to purchase.
+
+33
+00:06:41,373 --> 00:06:55,373
+Jake Herwaldt: Then, well, Biomed is in the future. Then the very last is actually the external buyer, because you actually only offer the external buyer to keep the vendors happy. The external buyers don't actually benefit block.
+
+34
+00:06:55,713 --> 00:06:57,973
+Speaker 5: I would swap Biomed and external buyers.
+
+35
+00:06:58,154 --> 00:07:13,445
+Jake Herwaldt: Okay, that's fine. External buyers to block are not helpful. They're actually competition to buy from vendors. But the reason they're there is they help vendors to get more sales, making the vendors happy, making the vendors stay.
+
+36
+00:07:15,885 --> 00:07:19,065
+Speaker 5: Yeah, they're not always competition. That part's not true.
+
+37
+00:07:19,225 --> 00:07:19,565
+Jake Herwaldt: Maybe not.
+
+38
+00:07:19,745 --> 00:07:24,565
+Speaker 5: But, yes. They're not always a win. They're not always a win for us because they're not competition.
+
+39
+00:07:24,565 --> 00:07:25,605
+Jake Herwaldt: You're not making money off of them.
+
+40
+00:07:25,626 --> 00:07:26,865
+Speaker 5: They're always an opportunity for us.
+
+41
+00:07:26,965 --> 00:07:27,345
+Jake Herwaldt: Yeah, yes.
+
+42
+00:07:27,626 --> 00:07:28,945
+Speaker 5: We're making money if we sell the product.
+
+43
+00:07:28,945 --> 00:07:34,805
+Jake Herwaldt: But what it gets is more people onto it. Then the marketplace then is busier. And, therefore, hopefully you get more. Absolutely.
+
+44
+00:07:35,115 --> 00:07:58,045
+Steve Muniak: To put it into measurable, vendor happiness allows us to drive down our cost, increasing our margins there, and increase our ability to, on the buy, on the sell side, for more hits, more opportunities to sell, basically more opportunities to sell. Whether we get it or not is going to depend on the vendor response.
+
+45
+00:07:59,999 --> 00:08:07,519
+Jake Herwaldt: Number one, we want to make the vendor the happy new update, and then block.
+
+46
+00:08:08,329 --> 00:08:29,780
+Steve Muniak: Think about it this way. We have over $100 million in contracts out there. If we can trim off 2% of parts cost and parts cost report, that's $30 million. That 10% of that is $3,200,000. You do that three times, it's not true.
+
+47
+00:08:34,709 --> 00:09:06,321
+Andrew Bailey: Okay, so here's how I decided to do this for the worst. This is going to be kind of the general workflow area. This is things that are specific from email, because there was a lot of things that got brought up, and I just want to place them. I kind of want to try a new way. I want you to try the block team to drive me through and say, place this thing up there. Let's try to do that as quickly as possible, and then we'll dive into making it. Hand out your sticky notes.
+
+48
+00:09:06,382 --> 00:09:17,982
+Andrew Bailey: Yeah, maybe make one and hand it to me, and I'll put it in. Are we, so we're... You can follow, yeah, redefining that, and let's kind of map it out here, and then we'll, and then just like...
+
+49
+00:09:18,521 --> 00:09:22,472
+Jake Herwaldt: So from email, do like a no stock button. That's like the first thing then.
+
+50
+00:09:22,732 --> 00:09:44,122
+Andrew Bailey: Yeah, but that's a future thing, but yes, yes. I'm going to add that. Yeah, so who's writing login? I'll do that. Oh, and this is, what is the login? I'm going to do the same. Control, what do you call it? Login. Authentication best practices.
+
+51
+00:09:44,482 --> 00:09:46,122
+Jake Herwaldt: No, don't do that. Just say login.
+
+52
+00:09:47,821 --> 00:10:11,184
+Andrew Bailey: We're going to, we're going to make sure that that's... So right now there's... They're either opening directly to a request or to a home page. Their home page right now is open.
+
+53
+00:10:24,544 --> 00:10:27,194
+Speaker 5: Actually, okay, you want first. Yep.
+
+54
+00:10:29,394 --> 00:10:33,993
+Jake Herwaldt: But if you want something, we can make a line off of it. We can talk about it later.
+
+55
+00:10:34,154 --> 00:10:40,084
+Andrew Bailey: What is an associate standpoint? Is an associate record a line item. 
+
+56
+00:10:41,824 --> 00:10:43,644
+Speaker 5: I would like for this to say item.
+
+57
+00:10:44,544 --> 00:10:50,654
+Steve Muniak: It's a line item. So if you have a requisition, then you should requisition. And you can have multiple SRCs. That's correct.
+
+58
+00:10:51,014 --> 00:10:59,964
+Andrew Bailey: Jake, do you want to be over here? Sure. I don't know if you're willing to also look at it.
+
+59
+00:11:00,096 --> 00:11:11,406
+Speaker 5: Sure, you want a vendor side now? Yeah. So that would be what we're proposing instead of drilling into SRC, which is current state. They're actually opening the references, which shows multiple SRCs that are open.
+
+60
+00:11:12,046 --> 00:11:17,226
+Jake Herwaldt: Oh, gotcha, gotcha. So that's instead of open, right. 
+
+61
+00:11:17,246 --> 00:11:32,486
+Speaker 5: Thank you. That's like clicking the link. Sorry, open or press is the home page. You're right. So that would say open references or whatever we would want to call it. And then instead of drilling into, yeah, you're right.
+
+62
+00:11:32,546 --> 00:12:01,320
+Andrew Bailey: We often say a home page is the space you go to give you the most important information. And so the most important, that is like can you get 50% or the most highest percentage of their use cases. And so you're saying if they're going to sign in and it isn't directly from a link to one of the references specifically, it should be the open ones. That is going to be the best thing for them. If it's not that, it makes sense to them to. because they're looking for the thing that they need.
+
+63
+00:12:05,120 --> 00:12:06,740
+Andrew Bailey: Would you say that that is of more value.
+
+64
+00:12:06,740 --> 00:12:07,580
+Jordan Clark: than order of fulfillment. 
+
+65
+00:12:09,140 --> 00:12:09,540
+Speaker 5: Yes.
+
+66
+00:12:10,810 --> 00:12:11,210
+Jordan Clark: Okay.
+
+67
+00:12:11,590 --> 00:12:18,680
+Speaker 5: If we're saying to them under your most, your key indicator, your KPI that we value the most is response time, it has to be easier to get to. 
+
+68
+00:12:19,220 --> 00:12:46,780
+Andrew Bailey: Sure. So here's, I don't want to get too into this, but I do, is that you are used to showing a data gap. We are not, we have the ability to look at this entity, to look at all of their information and the status of it. And we can show, here are the most important things based on how you guys help us understand the domain. So it could be both.
+
+69
+00:12:47,040 --> 00:12:49,840
+Speaker 5: And both would be accurate then? Yeah. Because to ship an order is.
+
+70
+00:12:50,770 --> 00:12:54,490
+Jordan Clark: I would rather have you fulfill an order you've committed to than give me another quote.
+
+71
+00:12:54,650 --> 00:13:28,802
+Andrew Bailey: Yeah. Okay, so it's. I would say is that this is actually, this is one of the, I would say, plus things is saying if you can define it well, and it can grow, it can mature, it's not locked in stone. Once you do it, it'll be that way forever. It's more like if you can define an entry state, then in the future, if you guys want, you guys can make every vendor choose what their thresholds are.
+
+72
+00:13:30,692 --> 00:13:33,432
+Vikki Dipple: Yeah, or have like two columns of information.
+
+73
+00:13:34,032 --> 00:13:46,342
+Andrew Bailey: It is, this is, the most common thing is how do you help them make the next best decision? That's what this page should be for, and the page beyond that should be how do I, if I want to see more, or if I want to do a specific, so.
+
+74
+00:13:46,622 --> 00:13:49,202
+Speaker 5: Is this current, is this what you're proposing for current state. 
+
+75
+00:13:49,752 --> 00:13:51,632
+Jake Herwaldt: This is what I'm assuming current state is.
+
+76
+00:13:51,732 --> 00:13:54,372
+Speaker 5: I mean, you have things on here I would love to have, but don't have current state.
+
+77
+00:13:54,652 --> 00:13:56,072
+Jake Herwaldt: Oh, that's good to call out.
+
+78
+00:13:56,072 --> 00:13:56,992
+Speaker 5: Do you want me to edit those. 
+
+79
+00:13:57,212 --> 00:13:59,672
+Jake Herwaldt: Or just star it or something so that we know. Okay.
+
+80
+00:14:01,064 --> 00:14:07,444
+Speaker 5: Like, we don't have shipping cut off, we don't have an FAP tab, we don't have, you know, all we can do.
+
+81
+00:14:07,724 --> 00:14:17,224
+Vikki Dipple: Uh, we don't know. It's in development. No way. We'll get started. Okay.
+
+82
+00:14:17,644 --> 00:14:27,934
+Speaker 5: None of that has happened. Um, you all rec items? What did you mean by that? I would say it doesn't matter. We don't have that. Okay.
+
+83
+00:14:29,734 --> 00:14:32,304
+Andrew Bailey: You never want them to be able to view.
+
+84
+00:14:32,814 --> 00:14:33,434
+Speaker 5: Like history. 
+
+85
+00:14:33,694 --> 00:14:33,954
+Andrew Bailey: Yeah.
+
+86
+00:14:34,254 --> 00:14:38,234
+Speaker 5: Uh, we, well, they have order history and they have request history already, so I don't know what's up.
+
+87
+00:14:38,234 --> 00:14:39,974
+Andrew Bailey: Oh, you all request it.
+
+88
+00:14:40,804 --> 00:14:45,824
+Speaker 5: Okay, so I accept that. Um, okay. I'm just using this as like a guide to go through.
+
+89
+00:14:45,824 --> 00:14:46,504
+Speaker 6: No, that's perfect.
+
+90
+00:14:46,684 --> 00:14:55,394
+Speaker 5: Okay, everything else is great. Okay, so we drilled into SRC, full SRC view. Okay, yep, which is fine.
+
+91
+00:14:56,254 --> 00:14:58,634
+Jake Herwaldt: So within my capabilities, that's fully automated.
+
+92
+00:14:59,094 --> 00:15:02,036
+Aly Boggs-Smitley: Correct. Right. They're not going to get it if it's not in their case.
+
+93
+00:15:03,506 --> 00:15:05,436
+Jake Herwaldt: Who knows that. 
+
+94
+00:15:06,136 --> 00:15:12,856
+Aly Boggs-Smitley: When we onboard a vendor, then we specifically put in specific making modalities that they'll only get those requests.
+
+95
+00:15:12,856 --> 00:15:15,636
+Jake Herwaldt: Yeah, but we have to build that. Right, but it's not.
+
+96
+00:15:15,956 --> 00:15:16,676
+Andrew Bailey: Yes, gotcha.
+
+97
+00:15:16,696 --> 00:15:21,956
+Jake Herwaldt: Because they wouldn't even receive the request because the vendor, or sorry, the buyer.
+
+98
+00:15:22,236 --> 00:15:23,016
+Andrew Bailey: We did that.
+
+99
+00:15:23,116 --> 00:15:27,256
+Jake Herwaldt: They wouldn't even show up.
+
+100
+00:15:27,456 --> 00:15:31,936
+Aly Boggs-Smitley: Yeah, so they wouldn't get it. So if it's a GE x-ray and they only do Siemens x-ray.
+
+101
+00:15:34,056 --> 00:15:35,336
+Jake Herwaldt: So that's just straight up cut off.
+
+102
+00:15:35,476 --> 00:15:55,686
+Speaker 5: Oh, and you do have response from email. Okay, so full SRC view. I asked about the feasibility thing. So yes, that means they have it. Check inventory status. Okay, so they check inventory status. If it's available, enter quote, response. If it's not available, okay, need time and response from email.
+
+103
+00:15:55,686 --> 00:16:02,180
+Jake Herwaldt: This is like potentially completely made up. Do you even have that right now? What happens if they're looking into it. 
+
+104
+00:16:02,300 --> 00:16:14,210
+Aly Boggs-Smitley: They would just chat in the EMA. So the EMA is not one thing? Yeah. They'd be like, or we would do that too, like, hey, you might have this, hey, we, yeah, in EMA, like, hey, we might have this on a system, give me 30 minutes.
+
+105
+00:16:14,310 --> 00:16:20,630
+Andrew Bailey: Is that useful for them to, that's important for your vendor wants to be able to say, I'm actually looking.
+
+106
+00:16:21,830 --> 00:16:45,940
+Aly Boggs-Smitley: Right, or, hey, can you send a picture of what it is, because I might have this, but I need to, or what connector type you have on your coil, can you send me a picture? That way they can communicate back and forth prior to quoting, or if it's a tube, they can be like, hey, I have new options, like, what are you looking for that I can actually. 
+
+107
+00:16:48,350 --> 00:16:55,620
+Andrew Bailey: so they, that's all in the EMA. The value of that is that in an hour, an hour has gone by.
+
+108
+00:16:55,920 --> 00:17:01,412
+Vikki Dipple: An hour has, like, the buyer's already bought it. For the most part, yeah. Oh.
+
+109
+00:17:01,472 --> 00:17:14,562
+Speaker 5: And it's like a lot of these buyers are. The vendor is still an opener car, and their response is still ticking. But speeding is their analytics. It took me an hour. Even though I said, can you wait? I think I haven't. You didn't quote them, so it's still.
+
+110
+00:17:15,042 --> 00:17:23,852
+Andrew Bailey: Oh. Emission. Yeah, yeah, yeah. So is that, some of these are your son, they've already bought it, and it's still, you don't.
+
+111
+00:17:24,152 --> 00:17:51,412
+Speaker 5: So this is a big debate internally on block benefits from the data that we get. If we say this car is already purchased, then they don't end up putting in their quote. And we didn't know that they had it available and what their price was. If we don't tell them the part is no longer viable opportunity, then we still get the data. That feels kind of sneaky. So we have played this out many ways. I think as we grow.
+
+112
+00:17:51,412 --> 00:17:58,372
+Vikki Dipple: We're literally doing nothing with the data at this point. So it's just sitting there. Yeah. But we have the potential to use it.
+
+113
+00:17:58,372 --> 00:17:59,672
+Speaker 5: Tell them that you lost the deal.
+
+114
+00:18:00,064 --> 00:18:04,544
+Vikki Dipple: Yeah, we have a lot more data than we're sharing because we don't have the ability to share it.
+
+115
+00:18:04,564 --> 00:18:08,424
+Speaker 5: Steve, do you struggle with that? Because I kind of think that's the game-time decision type of thing.
+
+116
+00:18:08,484 --> 00:18:09,504
+Steve Muniak: I think it's configurable.
+
+117
+00:18:09,744 --> 00:18:10,144
+Speaker 5: Okay.
+
+118
+00:18:10,344 --> 00:18:31,974
+Steve Muniak: I really do. Like let the vendor decide, I think? Well, it's configurable. Let's leave it at that. Whether it's going to be a strategic decision by block, but it should be pretty straightforward. If the purchase has been made, you close the opportunity and it's the checkbox, or you just let it ride until the last four or five years.
+
+119
+00:18:32,034 --> 00:18:47,564
+Andrew Bailey: If I'm a vendor, external to you guys, I think it's helpful for me to see over the course of the last month, my capabilities align with $50,000 worth of deals, and I didn't even respond in time.
+
+120
+00:18:50,454 --> 00:18:52,954
+Vikki Dipple: Yeah, and you wouldn't know that in time. Yeah.
+
+121
+00:18:53,274 --> 00:19:23,566
+Andrew Bailey: I'd want to know, and then I'd want to know, it'd be interesting, I'd want to know, well, what's the average response time? It's like, well, the average decision. On the request that I got, the average time between when that was the customer did it was 48. And I got to realize that I need to get my option on the table. And that would be an interesting piece of analytics. It's like, hey, if you got your information in within 30 minutes, you would have, yeah,
+
+122
+00:19:24,386 --> 00:19:31,096
+Andrew Bailey: you would increase the amount of, like, true opportunities to sell by 30%.
+
+123
+00:19:31,096 --> 00:19:32,876
+Speaker 5: I do think vendors look at that.
+
+124
+00:19:33,426 --> 00:19:34,086
+Andrew Bailey: I do.
+
+125
+00:19:35,246 --> 00:19:37,026
+Speaker 5: But it would cut our data down a little bit.
+
+126
+00:19:37,106 --> 00:20:03,910
+Steve Muniak: It would cut our data down. But on the back side of that, Sam, if we're sourcing, and we're sourcing via email and phone calls, and it's Andy, Andy sees something, he thinks it's a great price, he's just going to go ahead and buy, right, even though everybody else hasn't gotten back to it. So he's going to see that data come in. Even though he's made that decision, so I could see this. Why would potential go both ways. 
+
+127
+00:20:04,130 --> 00:20:04,250
+Andrew Bailey: Yeah.
+
+128
+00:20:04,450 --> 00:20:20,560
+Steve Muniak: So even, I mean, if you're, but overall, what is the overall behavior? It doesn't change, because you can still say, you can still say this would, you know, in order to get this deal, you would have had to, you would be interviewed.
+
+129
+00:20:22,390 --> 00:20:37,170
+Jordan Clark: I could also incentivize API links, too. That's exactly right, because API is a vehicle. And then if we're going to do data metrics on that, we may need to figure out how we're going to weed that out. I'm concerned that we would figure that out.
+
+130
+00:20:37,590 --> 00:20:43,370
+Andrew Bailey: Well, that's one of the things, if they incentivize them into the API side of things, well, then you guys would have access to it.
+
+131
+00:20:49,030 --> 00:20:49,310
+Speaker 5: Okay.
+
+132
+00:20:50,590 --> 00:21:08,432
+Jake Herwaldt: I got the, I said tracking, but there's not. So then if there is. Is there any nuance within that that we want to open up. 
+
+133
+00:21:09,831 --> 00:21:15,492
+Speaker 5: Multiple quote options. Oh yeah, multiple quote options. It's in Clonus variant. Yeah, Clonus variant.
+
+134
+00:21:22,512 --> 00:21:26,111
+Jordan Clark: What was the implication of optional fields. 
+
+135
+00:21:27,601 --> 00:21:34,972
+Jake Herwaldt: I removed the detail because it was in them. There are certain fields that are mandatory and certain that are not.
+
+136
+00:21:34,972 --> 00:21:37,412
+Speaker 5: Correct, so like DOM Jordan is an example of optional fields.
+
+137
+00:21:37,412 --> 00:21:38,072
+Jake Herwaldt: Okay, got it.
+
+138
+00:21:39,192 --> 00:21:40,512
+Speaker 5: And then there's fields on it.
+
+139
+00:21:43,532 --> 00:21:45,651
+Andrew Bailey: Is Clonus a future state. 
+
+140
+00:21:46,351 --> 00:21:57,772
+Vikki Dipple: It's a current state, but it needs to be reworked. How is that done? Is it quiet? No. I know. You left saying quiet. There was only two things on it.
+
+141
+00:22:00,714 --> 00:22:05,413
+Andrew Bailey: I don't know what to tell you. I'm sorry. Why did you say clone sources. 
+
+142
+00:22:07,333 --> 00:22:17,373
+Vikki Dipple: So let's say you asked for one part, but I have two options for that part, a refurbished and a disposition. So we could do like a tested or a new option.
+
+143
+00:22:17,494 --> 00:22:22,573
+Andrew Bailey: So all you're saying is you're just trying to make a little user things like, hey, I have three parts I can offer you.
+
+144
+00:22:23,593 --> 00:22:44,913
+Speaker 6: Yeah, I've created positions already in manufacturers. It seems like for me it would be easier to say I want this part, like yes, I don't care if it's easy to clone. This is the vendor side saying I don't have these. Sure, if anybody's asking for this, I'm just saying why would you, I mean it sounds different than what you're doing right now, but rather instead of having three separate ones as I'm creating it, say here's the three different dispositions.
+
+145
+00:22:45,333 --> 00:22:53,283
+Speaker 5: A lot of people, they want the side-by-side repair because if I see Allparts has it for $100 more but it's fully refurbished, that's a, yeah.
+
+146
+00:22:54,813 --> 00:22:59,734
+Speaker 6: I totally see that when you're comparing it. I'm more saying like when you're creating it. When you're adding it. Yeah, yeah, yeah. That's something we could do.
+
+147
+00:23:18,435 --> 00:23:36,595
+Vikki Dipple: Yeah, because sometimes the customers will ask for the same part three days in a row to the same vendors, and that's why the vendors are doing so much more work than the buyer because they're quoting the same thing day after day after day, and it's the exact same info.
+
+148
+00:23:37,235 --> 00:23:41,275
+Andrew Bailey: Do you guys have the win rate of all the vendors. 
+
+149
+00:23:43,485 --> 00:23:51,115
+Vikki Dipple: Yes. Can we get to it? Yeah. We can get to it. There's not a doubt. It's a manual report that we're like exporting.
+
+150
+00:23:51,635 --> 00:23:58,965
+Andrew Bailey: As a vendor, I know what the win rate is. It was 5%. Your win rate was 5%. Yeah. What's Block's win. 
+
+151
+00:23:59,999 --> 00:24:03,869
+Speaker 5: Their win rate, would that be customers or overall. 
+
+152
+00:24:05,069 --> 00:24:07,379
+Andrew Bailey: I guess Apple's, what's Apple's win rate. 
+
+153
+00:24:07,579 --> 00:24:16,199
+Speaker 5: So their only, vendors are, lots of rates are going to be a lot higher because of our procurement. They have to buy all the parts they buy.
+
+154
+00:24:16,399 --> 00:24:18,799
+Andrew Bailey: Oh, is there any way to separate that. 
+
+155
+00:24:18,899 --> 00:24:29,209
+Vikki Dipple: So, a lot of imaging receives the most POs from Sourcing Window Pro customers. So, I mean, we also get all of the requests. So out of 100%.
+
+156
+00:24:29,209 --> 00:24:30,569
+Speaker 5: There's one at Sands.
+
+157
+00:24:30,809 --> 00:24:51,069
+Andrew Bailey: Sure, okay. No, I'm just, I was just curious, like, I'm trying to put myself in the shoes of these people and say, well, what is the likelihood that I'm going to win? How do we make that easier? And that's what's driving this conversation. Recent. I'm just adding this to our.
+
+158
+00:24:53,509 --> 00:24:57,419
+Speaker 5: I'd like to call out from the back order, Tuckbox, that's the part of the state. It's there.
+
+159
+00:24:58,539 --> 00:24:59,839
+Jake Herwaldt: Which is. I think Alford should do it.
+
+160
+00:25:21,331 --> 00:25:27,711
+Andrew Bailey: So, but after you clone it, you're, let's just say, the general information is you build a thorough response.
+
+161
+00:25:28,051 --> 00:25:33,531
+Speaker 5: Yep, submit quote, basically, yeah. All right, that's what I read. And clone SOS on here. Okay, create more options.
+
+162
+00:25:34,111 --> 00:25:34,531
+Speaker 6: Okay.
+
+163
+00:25:36,121 --> 00:25:39,921
+Speaker 5: And then EMA chat available, which we just discussed, has to be there for creation of the effort.
+
+164
+00:25:41,221 --> 00:25:44,801
+Steve Muniak: And then I put parking lot, EMA threading broken.
+
+165
+00:25:45,521 --> 00:25:47,281
+Aly Boggs-Smitley: Yeah. Thank you.
+
+166
+00:25:47,501 --> 00:25:59,391
+Andrew Bailey: Oh, that's the thing where messages don't translate. Yes. All right, so you've got, how do you, this is a difficult scenario.
+
+167
+00:26:00,483 --> 00:26:18,783
+Jake Herwaldt: And I know you called it out in your video where it's the idea that a vendor can message on the order, which has five parts, and then if the person wants to go back and be like, when did they message me? Do I have to now look back on that part plus potentially go back to that order behind that part. 
+
+168
+00:26:19,123 --> 00:26:40,783
+Speaker 5: Yes, and or, if you're tech savvy or not, they can go to their emails and just search the SRC number and see every string of conversation and what brought me over. So as we train a buyer and they're like, I don't even know how to find it, I'm like, just put in the number that you have in front of you. Search your email for that and you'll see every, then you can click the link from the email and go direct to that record.
+
+169
+00:26:41,003 --> 00:26:46,833
+Andrew Bailey: Is having messaging exceptional? Yes. High value.
+
+170
+00:26:46,913 --> 00:26:49,993
+Speaker 5: It is our biggest feature in all parts of our team.
+
+171
+00:26:49,993 --> 00:26:53,953
+Andrew Bailey: So if you're, I was going to say, I actually love messaging.
+
+172
+00:26:54,273 --> 00:26:59,793
+Jake Herwaldt: Well, because you don't even have a messages page right now, right? Like, can you search all of your messages? Like, the only time you can.
+
+173
+00:27:00,135 --> 00:27:25,765
+Andrew Bailey: When I think of the home page, I actually think, besides open requests and then fulfillment, my next highest priority are open messages. And then the ability, when I'm in a message, I should always know if I'm at a request-level message or if I'm at a parts-level message, by the way, to say this is associated with this rec item or with this bulletin. That'd be great. The reason I park them out is because I don't want to go down this drive-up bulletin.
+
+174
+00:27:27,965 --> 00:27:28,365
+Steve Muniak: Yeah. Okay.
+
+175
+00:27:29,585 --> 00:27:40,245
+Jake Herwaldt: Waiting for the buyer to get her out of the home. Yeah, wait for the buyer to get her out of the home. So then if the buyer does not select, is not selected, and then it's just done, dead, there's no action.
+
+176
+00:27:40,265 --> 00:27:41,745
+Speaker 5: It sits in their, quote, history.
+
+177
+00:27:43,245 --> 00:27:45,865
+Vikki Dipple: Which is fine. I mean, like, we wouldn't want it to, like...
+
+178
+00:27:45,865 --> 00:27:46,285
+Jake Herwaldt: But it's dead.
+
+179
+00:27:46,585 --> 00:28:03,199
+Speaker 5: It's dead. Okay. But we don't know if the opportunity is lost. This is actually a key point, because vendors will say, I would like, in a world outside of your tool, in my system, I follow up with customers to see if my quote is still viable. In your... system. I have no idea what's viable or not. What should we be following up with. 
+
+180
+00:28:04,559 --> 00:28:16,389
+Andrew Bailey: It's just dormant. To them, it doesn't look close. We don't know your domain, so correct us if we're wrong. I don't see any reason why something's been fulfilled by your system. Or show a vendor.
+
+181
+00:28:17,149 --> 00:28:18,869
+Jake Herwaldt: Because they lost not one issue.
+
+182
+00:28:19,209 --> 00:28:24,029
+Speaker 5: And in their history view, which they have a status that says, lost.
+
+183
+00:28:27,429 --> 00:28:35,879
+Andrew Bailey: Our default would never be to show everything plus lost. It would just be to show this. If one loss is open, you want it to show. You don't want to show it.
+
+184
+00:28:36,159 --> 00:28:53,279
+Jake Herwaldt: You can say that. So if we lose it, it's going to fall away. You just misquote your actions. Would you expect to, when you log in, to see that you lost that. 
+
+185
+00:28:53,719 --> 00:28:59,969
+Speaker 5: I would like to be able to get to somewhere. It doesn't need to be the first thing. But if I'm a salesperson, I want to see it.
+
+186
+00:29:00,031 --> 00:29:07,101
+Vikki Dipple: all of my customers, I have what's still open and what can I still actively work on getting.
+
+187
+00:29:07,361 --> 00:29:11,641
+Jake Herwaldt: What we haven't touched on, which is fine, I don't want to fully go down this, but like...
+
+188
+00:29:13,361 --> 00:29:22,341
+Speaker 6: How often are people from the same vending company working side-by-side, potentially overlapping, or like, how do they make sure they're not the same thing? How do they...
+
+189
+00:29:22,341 --> 00:29:22,901
+Aly Boggs-Smitley: They don't.
+
+190
+00:29:23,161 --> 00:29:24,961
+Speaker 6: They might have the same company. 
+
+191
+00:29:25,321 --> 00:29:26,981
+Aly Boggs-Smitley: Same company. Same company. 
+
+192
+00:29:27,081 --> 00:29:31,701
+Speaker 6: If it's not one person, then it's several people. That's on them. Yeah, okay. So like, how do you block it. 
+
+193
+00:29:31,961 --> 00:29:33,261
+Speaker 5: Current state, that's on them.
+
+194
+00:29:33,361 --> 00:29:40,521
+Speaker 6: Is it shared password? Is it one account? They have to have an easy login. So, here's the thing. What is it really. 
+
+195
+00:29:40,621 --> 00:30:10,873
+Speaker 5: We got messy with this, because some vendors are like, we like block. We have a queue, and we want you to say parts at all parts. All requests go there. We have six people monitoring us, and so any one of these six people actually grab it. So it's not user-specific. Although, the good side is that we can convince them, you're not logging in as parts team at all. all parts, even though we have that as a new form of request management, you're actually looking at it as Lindsay Hall, and so when you respond, I actually do, that record was.
+
+196
+00:30:10,873 --> 00:30:17,533
+Speaker 5: updated by Lindsay Hall at this time, we can report on it, but to make that more clear wouldn't be a bad thing, but...
+
+197
+00:30:17,533 --> 00:30:27,873
+Speaker 6: My question is, if it's all quickly removed fast, how do you make sure that if something gets taken, if it's assassinated and updated, is everybody going to be notified, or are they still going to hold data and trying to...
+
+198
+00:30:28,743 --> 00:30:40,453
+Vikki Dipple: The good news is, if they have two people open it up on different and open up the request, the chat box is there, and as soon as a message is sent, it shows up.
+
+199
+00:30:40,593 --> 00:30:45,173
+Speaker 6: Okay, so there's some collaboration tools already. At that point, it is needed, but...
+
+200
+00:30:48,523 --> 00:30:50,143
+Andrew Bailey: You have to be part of the sample. Okay.
+
+201
+00:30:52,183 --> 00:31:22,565
+Speaker 5: All right, so next up would be, okay, we're waiting for the buyer decision, right? So then let's say they select. Okay, so buyer select... So that kicks back to the external buyer flow. Do you want to do that? Or do you want to stay online? No, I'll stay online. Okay. All right. So now they get an email that says, congratulations, you have sold this part to Sarah D. Yeah. Okay. And the email contains a link, and it says, click the link to view PO records. And it has the PO number.
+
+202
+00:31:22,845 --> 00:31:27,195
+Andrew Bailey: In the email, there's a, like, a new match.
+
+203
+00:31:27,195 --> 00:31:31,095
+Vikki Dipple: A notification of order. It's a PO confirmation. Thank you.
+
+204
+00:31:31,135 --> 00:31:33,515
+Andrew Bailey: No, but before, the first one is, there's a request. Yeah.
+
+205
+00:31:33,555 --> 00:31:34,075
+Vikki Dipple: There's an open request.
+
+206
+00:31:36,755 --> 00:31:37,115
+Andrew Bailey: Request.
+
+207
+00:31:39,015 --> 00:31:41,335
+Speaker 5: And then there's the message. And this is the, you've won.
+
+208
+00:31:41,795 --> 00:31:42,215
+Andrew Bailey: Yeah.
+
+209
+00:31:43,245 --> 00:31:43,925
+Speaker 5: PO notification.
+
+210
+00:31:51,935 --> 00:32:03,499
+Andrew Bailey: Then selected. This is where. Yeah. Sprinkle something. Good job. And then. You want a direct link to there, all that magic, of course.
+
+211
+00:32:04,549 --> 00:32:16,939
+Vikki Dipple: It would also be really helpful, something that they don't have right now, which has been an ask, is to have the PO copy in the e-mail confirmation. Yeah, it would be attachment.
+
+212
+00:32:17,719 --> 00:32:18,679
+Jake Herwaldt: Do we want them. 
+
+213
+00:32:19,469 --> 00:32:30,169
+Vikki Dipple: It's been an ask. It still adds on the process outside? Yes. They have to download. It depends on their process.
+
+214
+00:32:30,429 --> 00:32:30,689
+Steve Muniak: Lucky.
+
+215
+00:32:32,059 --> 00:33:01,441
+Speaker 5: So definitely challenge us as old. I have old school mentality. Old school mentality, in the beginning, driving people to the challenge, and so we forced, we were very intentional, our notifications did not have a lot of data. We need you to click the link to go to the portal so that you interact with your customer in the portal. If we make it easy for you to do that via e-mail, that's what you've been doing. We didn't change anything, and now we've lost all data. this via email with your customer.
+
+216
+00:33:02,281 --> 00:33:09,151
+Speaker 5: So we were forcing the hand into the portal. If we could find a way to make it more user-friendly, without losing in the portal.
+
+217
+00:33:10,181 --> 00:33:13,001
+Andrew Bailey: Yeah, what is it that you want them to use? What is the idea. 
+
+218
+00:33:13,001 --> 00:33:22,861
+Speaker 5: So if we sent them the PO, which is fine. That one I'm not totally opposed to. They would go in their system, process the order, pretend to just email their customer, and we've lost the entire post-sale process.
+
+219
+00:33:23,961 --> 00:33:26,141
+Andrew Bailey: Oh, so now we don't know their response time.
+
+220
+00:33:26,321 --> 00:33:29,601
+Vikki Dipple: They don't know their response time. They don't know the tracking number, CRM number.
+
+221
+00:33:29,881 --> 00:33:57,801
+Andrew Bailey: They didn't confirm the order in time. Yeah, I don't know. I can go both ways on that. I'm not against on a product that is part of the experience, you provide. It sounds like right now, if I'm thinking from a product perspective, you have a lot of data and don't show a lot of useful information. If you start showing them useful information, like response time, and that's useful for companies, to make decisions, then there's a high justification for you not giving them the PO.
+
+222
+00:33:58,601 --> 00:34:08,903
+Speaker 5: PO? Yeah, I've made double-doubles. with myself because the only thing I could say like would offset that is if we gave them the hard copy PO but also gave them the confirmed PO button in the email I would be that would be.
+
+223
+00:34:08,903 --> 00:34:27,753
+Steve Muniak: good that's what I was just going to confirm that that's that and then at that point it's up to, purchaser to be able to go back and say hey listen Phil I want my tracking and I want all my delivery notifications in the school for one place saying this way is great go back home yep so how's.
+
+224
+00:34:27,753 --> 00:34:45,583
+Andrew Bailey: that for two answers it's your product um I think that that's good I mean this is where teaching your customers how to best serve each other is is the journey of every product making it easy it's like hey when you click this button this immediately knows the time but they still.
+
+225
+00:34:45,583 --> 00:34:55,453
+Jake Herwaldt: need and yeah it's not done and that would be part of the home page because that would just be a not done order okay until they add tracking until they like do stuff so there's still that.
+
+226
+00:34:55,453 --> 00:35:12,455
+Speaker 5: intrinsic motivation to complete what I have yeah and I think if we did the timer would just, We could honor the vendor's feedback by saying, here's the PO, and then we'd have three buttons on that email that says, confirm purchase order, message your customer, enter shipping. And we could, so both.
+
+227
+00:35:12,815 --> 00:35:13,655
+Andrew Bailey: Yeah, absolutely.
+
+228
+00:35:13,895 --> 00:35:14,075
+Speaker 5: Yeah.
+
+229
+00:35:14,075 --> 00:35:46,135
+Andrew Bailey: And we could, I mean, it could be clear on them. The email can say, here's the confirm button, here's the direct link to update their information, and here's the physical PO for your records, or you can find it as well. Yeah, I like that. That coaches them on, in the beginning, some additional information, you know, help your customer keep everything up to date, right? Yeah, I like that. Okay. So, I'm going to just direct link.
+
+230
+00:35:46,335 --> 00:36:01,709
+Jake Herwaldt: So then from there, when they click into the link that is in, like, you know, yeah, what is, some of the things that I outlined towards the end of this, I wasn't sure how much of this is automated versus like. They have to go in and like...
+
+231
+00:36:02,429 --> 00:36:08,169
+Speaker 5: So the PO record shows, that's correct, they go to the confirmation, click order, yes, manual.
+
+232
+00:36:10,339 --> 00:36:14,469
+Andrew Bailey: That means that they're saying... They're like, yes, I've seen you, I've won.
+
+233
+00:36:15,589 --> 00:36:28,389
+Speaker 5: I've recognized that I've won. I have recognized the order, but I have not yet... Okay, so that, I think what you're saying there is the PO page that you're on, right. 
+
+234
+00:36:28,549 --> 00:36:34,589
+Jake Herwaldt: Right, it's like, what does that kind of look like? What is that asking for? What information is that tracking, or is that like...
+
+235
+00:36:34,589 --> 00:37:05,741
+Speaker 5: And this is a really icky looking page, but it does, that one page that they get when they click that link, it has everything kind of like regurgitated onto it, where the expectation... Click the PO confirm button first, and then go into your own ecosystem where you're processing the order, you're pulling the part physically, you're shipping it out, then go back to that. This is sometimes hours later, so this is not something they do all at once, which is... Then go back there and type in the tracking number and the RMA.
+
+236
+00:37:09,131 --> 00:37:27,331
+Andrew Bailey: What we're calling this is shipping confirmation. The goal is we need this to be easy, but it makes every part of our platform more mature. When people can do this, allow us to take care of this.
+
+237
+00:37:29,561 --> 00:37:59,121
+Speaker 5: That's current state? That's current state. One call-out that I would love to have automated is block image anything, the biggest spreader by far. We create all of our own shipping labels. When we send a PO to a vendor, we also send a shipping label. We already have the tracking, but the tool doesn't. A lot of times you already have the tracking somewhere in Salesforce, but the SWP portal does not have that. We're saying, hey vendor, open up that PDF we sent you and type in a 27-letter tracking.
+
+238
+00:38:00,063 --> 00:38:04,263
+Jake Herwaldt: Oh, that we've created. Because this is all happening through your system.
+
+239
+00:38:04,343 --> 00:38:05,063
+Speaker 5: Because it's our system.
+
+240
+00:38:05,163 --> 00:38:13,323
+Aly Boggs-Smitley: And vendors are so frustrated. They'll just put label provided, so then that's what our customer sees when they get their shipping notification is label provided.
+
+241
+00:38:13,563 --> 00:38:15,963
+Vikki Dipple: As their tracking number. But the customer didn't provide a label. 
+
+242
+00:38:16,043 --> 00:38:17,323
+Speaker 5: so they're like, what the heck. 
+
+243
+00:38:17,383 --> 00:38:20,863
+Jake Herwaldt: Is this ever not a scenario where? Yes.
+
+244
+00:38:20,903 --> 00:38:50,633
+Speaker 5: So in the other scenario, which is the majority of time for our customers, majority of time for SVP customers, not blocks, is they just send a PO. And they say, vendor, you ship this on your FedEx. You tell me you're tracking. But we're lumping all of this together for a vendor. You just tell us tracking every time. So that's a call-up for future state and current state. It would be great for the system to think you identify, we already have tracking. And we're going to pre-fill it out to the vendor.
+
+245
+00:38:50,913 --> 00:38:59,893
+Speaker 5: to save them that stuff. That would account probably 60% to 70%, maybe more, for all parts, a lot more, of their orders that already have tracking. Big time thing.
+
+246
+00:39:00,095 --> 00:39:14,255
+Steve Muniak: One more add on this is, on occasion, if the OVG generator is sent to a vendor, they are unable to fulfill because that part is no longer there. Right. So you need a bailout button. Yeah, yeah, yeah.
+
+247
+00:39:16,735 --> 00:39:27,315
+Jake Herwaldt: Cancel the deal. Just a cancel. Cancel the deal. So you get a shipping confirmation, you need the ability to do that. Oh, like the customer cancels it? No, no, no.
+
+248
+00:39:28,655 --> 00:39:58,575
+Speaker 5: The vendor. So here's the deal. We started the build out of this, and it was supposed to launch a couple weeks ago. We decided the customer should be the only one allowed to actually order. The vendor can tell the customer, I no longer can fulfill this part, but the customer has to be the executive decision maker to cancel it. Otherwise, because if a vendor cancels an order at 5.02 and the customer left, the customer has no idea that order got canceled, that means they can't go rebuy from somebody else. Versus the call is, vendor, you've got to get a hold of that customer so that they cancel.
+
+249
+00:39:59,999 --> 00:40:05,209
+Andrew Bailey: But in this case, this was vendor received cancellation, because this was going to cause them to go in.
+
+250
+00:40:05,329 --> 00:40:09,059
+Speaker 5: This is a separate. It would be another notification now that, like, the customer.
+
+251
+00:40:09,079 --> 00:40:16,579
+Andrew Bailey: And that would probably be a top priority on the whole. It is, yep. It's a top priority of my purple button.
+
+252
+00:40:17,469 --> 00:40:32,519
+Speaker 5: I've got to go right now. You can save some money for yourself from the driveway. The kids. Actually, the principal today. He's going to be sitting at the hair pickup line. Just hang out. Hang out.
+
+253
+00:40:32,719 --> 00:40:51,779
+Andrew Bailey: What's the deal with this room being one-third filled with retired people? What are you talking about? Actually, I could retire. Nate, Jake, and I always say this works out. We have three retired names. Okay.
+
+254
+00:40:51,939 --> 00:40:56,939
+Steve Muniak: Another call out. Sam's got a couple more Super Bowls in her belt. He's just right now taking them off.
+
+255
+00:40:58,269 --> 00:40:59,809
+Andrew Bailey: She's only becoming a consultant.
+
+256
+00:41:00,501 --> 00:41:44,932
+Jordan Clark: Okay, I had one for you. A call out on that confirmation page of tracking RMA into a return space that I'm coming over from. We see a lot of confusion and just missteps in the language around how we're documenting RMAs currently. We have just one generic field. Oftentimes if you have an exchange that's being sent back, there's an expectation that it's one RMA number, whereas if it's a restock or a quality claim, it's another RMA number. And out of the gate, it's pretty self-explanatory. A warranty claim comes in, which I know is downstream of this mandatory, but that one's a rentiate RMA type, just a place to document which RMAs are active or inactive.
+
+257
+00:41:45,471 --> 00:41:50,111
+Jake Herwaldt: Would it add to the creation of the order or more when they're calling in. 
+
+258
+00:41:50,511 --> 00:41:59,961
+Steve Muniak: That will trigger the child record that is an associated RMA for DOA or...
+
+259
+00:42:00,783 --> 00:42:01,504
+Vikki Dipple: Just a claim.
+
+260
+00:42:03,294 --> 00:42:32,754
+Jordan Clark: Out of the gate, I don't know that we need to have a differentiating factor there. I just know in our current system, we don't have a very great way of differentiating. There's no naming designation that differentiates what type of RMA we're looking at. So unless that RMA specifically has DOA in it or warranty WR, something that gives some type of a clear path, we sometimes end up sending parts back to vendors with the wrong RMA numbers, and then it just causes a slew of issues with crediting.
+
+261
+00:42:33,314 --> 00:42:45,834
+Vikki Dipple: On the customer side and on the internal side, there's no indication of any kind besides manual typing in letters that an order has been claimed for warranty.
+
+262
+00:42:46,274 --> 00:43:02,286
+Speaker 5: So that's a different conversation, though, because we are going to build out the returns module in the 2.0 premium version. Yeah. So it's worth calling that out here so that we can build a foundation for that well. We will have to build that out significantly.
+
+263
+00:43:03,446 --> 00:43:05,426
+Jake Herwaldt: Right now that's all outside of the department.
+
+264
+00:43:06,046 --> 00:43:37,956
+Steve Muniak: One thing to note also as we go into these conversations is that typically a vendor will then re-invoice you for that warranty. So you're going to, if it's a $10,000 tube, you're going to have invoice for the defective, invoice for the warranty replacement. If I don't get this part back, the defective part back and evaluate it, you owe this and you owe that. That's how we as vendors, they're not paying cash upfront.
+
+265
+00:43:39,526 --> 00:43:50,116
+Steve Muniak: If there's some real subtlety, RMA processing, make that a little bit, put this out of scope for MVP Plus.
+
+266
+00:43:50,316 --> 00:43:59,886
+Speaker 5: There's whole department vendor names, so to be able to have that, to offer this as a solution and then...
+
+267
+00:44:00,000 --> 00:44:09,280
+Steve Muniak: It took Jordan and I two to figure out how to manage it between our organizations, and we were probably one of your largest vendors.
+
+268
+00:44:13,580 --> 00:44:17,120
+Speaker 5: All right, thanks for being on today. I'll see you tomorrow morning. See you, Sam.
+
+269
+00:44:22,560 --> 00:44:26,260
+Jake Herwaldt: And then after all of that, the order moves, boom.
+
+270
+00:44:26,580 --> 00:44:33,720
+Vikki Dipple: Yes, the three fields, then it moves to order, history, everything is done in order.
+
+271
+00:44:37,820 --> 00:44:42,110
+Jake Herwaldt: And then, yeah, it gets to the point, which I don't know if it can go up to an hour.
+
+272
+00:44:43,010 --> 00:44:58,740
+Speaker 6: How often is a buyer, before they go and do a search, like I remember hearing in the videos, that's like common to see certain things from here, but is it pretty common to go there, look up the price was in the past, what you used in the past, what you used in the past? Um, historical price.
+
+273
+00:45:00,032 --> 00:45:22,592
+Vikki Dipple: like that kind of information I would say probably not too often if if they were more tech savvy and understood the power it could give them I would think a lot more people use it but as it is right now it's literally just a table of information they can search they can filter by the search term but that's.
+
+274
+00:45:22,592 --> 00:45:51,402
+Andrew Bailey: about it when I think of this I imagine Chris's team or Chris's team I imagine this one-page PDF that is a report they're accustomed you know just real data whatever does anybody else show you this like teach you how to make your.
+
+275
+00:45:51,402 --> 00:45:58,892
+Vikki Dipple: business better or help you see oh like a like a features update no I meant like.
+
+276
+00:45:58,892 --> 00:46:04,644
+Andrew Bailey: the, This was your response time, and this was your, you know, how many things came through.
+
+277
+00:46:04,804 --> 00:46:31,574
+Vikki Dipple: We offer that kind of information to one vendor on a monthly basis, because they've asked us this year for that information. That's something that we send out to them on a monthly basis per their request. We don't have a way to automate it, so it is extremely manual. It takes about two hours to gather that information and make it digestible.
+
+278
+00:46:32,394 --> 00:46:49,184
+Andrew Bailey: That's what I mean. That's what order of history is. Order of history isn't supposed to be boring. It's not supposed to be history. It's supposed to be like watching Gladiator. It's like, man, I love learning about history. Russell Crowe is amazing.
+
+279
+00:46:52,044 --> 00:47:12,436
+Steve Muniak: To answer your question, there is a desire for us to do a periodic visit to our vendors. because it's an opportunity to sell again, and to have those, to be able to leverage those things and be able to generate them very quickly and excel, that that's going to be...
+
+280
+00:47:14,286 --> 00:47:40,676
+Vikki Dipple: That's why we're really, really hoping for powerful dashboards and analytics that are easily understood, digestible, almost, you know, in a tutorial way, like, oh, hey, you quoted 46% last week, and this was your response time, and, oh, you just increased your response time.
+
+281
+00:47:40,676 --> 00:47:48,686
+Steve Muniak: I'll get them a part of what our partners are presenting to us, their business metrics, and it's full class.
+
+282
+00:47:49,476 --> 00:48:03,860
+Andrew Bailey: Yeah, I mean, yeah, have you ever gone to Costco so much that they recognize you, and they're like, you know, you really should be an executive for how many... And you know, they basically would...
+
+283
+00:48:03,860 --> 00:48:04,460
+Vikki Dipple: They're off-selling.
+
+284
+00:48:04,780 --> 00:48:36,130
+Andrew Bailey: Yeah, but it feels like there should be... The premium should be an obvious choice for people. And this document, a way to invite them into that premium version because it's showing them that there's useful data, there's useful, like, if you do the work and get the API, or do whatever it is, whatever you guys define in the premium version, it's going to make sense for you because...
+
+285
+00:48:37,880 --> 00:48:38,640
+Andrew Bailey: Anyway, that's...
+
+286
+00:48:39,410 --> 00:49:09,492
+Vikki Dipple: We would love to have that to be able to offer. And the returns management feature, whatever we want to call it, is going to be a big, big thing because it's an industry-wide headache. Everybody suffers from it. It's all terrible. So if we could figure it out or at least provide a way for them to easily manage it, gosh, that would make everybody's life, everybody would love this tool.
+
+287
+00:49:09,492 --> 00:49:13,912
+Vikki Dipple: if we could solve or give a great solution for this.
+
+288
+00:49:14,012 --> 00:49:25,202
+Speaker 6: Sounds like one of those things you want to bottle up and then make sure we can do that. Yeah. But I don't know, I just, like, if we're going to bookmark something in the recording device, something like that.
+
+289
+00:49:25,462 --> 00:49:37,022
+Andrew Bailey: The GCS Pro has a bookmarking device like that. Yeah, I'm sure you have. Jake, where, I feel, is this, did we go through. 
+
+290
+00:49:37,632 --> 00:49:52,662
+Jake Herwaldt: Yeah, I mean, as long as we all feel we hit it. Do you guys feel like there's anything else that you guys want to talk through on these? There's so much overlap between all of these workflows that part of the reason, I mean. 
+
+291
+00:49:52,702 --> 00:50:30,264
+Andrew Bailey: so just to give us a little context, right, we start from this RFP request for proposal. some amount of data points there was our best interpretation give Sam's videos. our our processes and team is to look through what's the best we understand and then we say well do they know what they don't know do they know how much not see because because that was our question was this is this everything is this 70% is it 90 and so right now it feels like Sam really did show us.
+
+292
+00:50:30,264 --> 00:50:50,834
+Andrew Bailey: everything well this is only two right I'm just saying based on how these went I have not oh yeah we haven't uncovered like oh wow I have not ever covered anything super scary or I mean anything different than what was already articulated that's good news yeah we're gonna bet we present through and you.
+
+293
+00:50:51,514 --> 00:51:24,736
+Vikki Dipple: know there's still to be honest it works really well in block imaging is not involved as soon as, imaging salesforce or gets into this I know it's all built on Salesforce but when we win a quote when we quote that's where we have lots of different caveats that happen and it's just not as seamless as an external vendor getting a quote no voting it and winning it so the external and we've just got the.
+
+294
+00:51:24,736 --> 00:51:31,136
+Andrew Bailey: demonstrate so when we go to the internal buyer and vendor that's where it's gonna be a little bit different this is where I struggle with them Steve.
+
+295
+00:51:31,136 --> 00:52:08,480
+Jake Herwaldt: I'm curious your first is the idea of an internal buyer an internal vendor the, idea of we are trying to rebuild what's currently there but outside of sales board where I struggle with is where's that line but yes everything can stay like you currently in Salesforce versus being like no you're gonna have to do it in its own system just thinking of like if we, Clock as an external vendor, then it's like how do we allow them to act like a unique vendor?
+
+296
+00:52:08,660 --> 00:52:39,830
+Jake Herwaldt: But also act like I'm trying to do everything auto-routed things or maybe an internal, Buyer is a better example of how they have all those like automated processing that within that well It's like that feels like that's on top of this system that they do special or is that like a part of? See it like the sourcing window and we have to pull that out and then now you can't do that I mean, do you get what I'm saying. 
+
+297
+00:52:40,670 --> 00:53:12,322
+Steve Muniak: Exactly. Okay here. Let me see. I can't answer that but that's that's really the big question That was like this sponsor is what type of pull out process 360 is. There's a couple components there. There's a workflow component of that that is so integrated that with the processing of materials, the prepositions, all that,
+
+298
+00:53:12,502 --> 00:53:35,842
+Steve Muniak: it doesn't even make sense because that, if it stays so, if the equipment's based on capabilities you guys are introducing, unless you guys are running Salesforce widgets or whatever, I'd like us to get together, the three of us, the four of us together, with Paul for a street conversation.
+
+299
+00:53:38,402 --> 00:54:05,454
+Jake Herwaldt: Because that feels pretty fundamental to as we define it. We can define current state for the internal, but until we get an answer on that part, it's just really tricky. Because imagine, let's just call block the first of all things, and then we go to do this with another company, and then they're like, why are you auto-routing things that way? That's not how we do it. Or they also want that, but that lives in sales for it. So it's like, where's the line. 
+
+300
+00:54:05,614 --> 00:54:12,294
+Steve Muniak: It's just the same conversation we had earlier with the material. Yeah.
+
+301
+00:54:13,474 --> 00:54:35,464
+Jake Herwaldt: So many of these things seem foundational that, like, your side, Steve, do you feel like we are pitching both, like, one of these and saying here's your pros and cons, or are we asking that side? Because it just very much depends on, like, what we do even in the next two to four weeks. It depends on direction.
+
+302
+00:54:36,304 --> 00:54:53,634
+Steve Muniak: But here's the other thing is we can involve it on any bus that is purely external focused. Yeah. That is going to be very independent. We can do this, in my mind, here is going to be the lightest lift. Yeah, focus on the external.
+
+303
+00:54:55,404 --> 00:55:26,406
+Andrew Bailey: Because in normal, if you were a VC fund, a product, pitching that, there would be no such thing as an internal buyer and an internal vendor. We're going to grow our relationships. We're going to have buyers and vendors. We're going to have buyers and sellers, right? We're going to have Airbnb people with houses that people want to go on vacation, and an admin dashboard that has the integration. Yeah, it's hard because we don't know your domain space,
+
+304
+00:55:26,686 --> 00:55:41,766
+Andrew Bailey: and then different leaders have different perspectives. I'm almost always about, well, pull it all and call it a type of user. Pull it all into the system and call it a type of user so that it can be reproduced in some way, shape, or form.
+
+305
+00:55:43,716 --> 00:56:14,000
+Speaker 6: Well, I mean, something is, we've all used email clients. The source of the email is still somewhere in the server. So we like the email clients that we use. So I'm curious what the reason is for putting something that could live in one side or the other. Data can live in Salesforce. That's fine. We can have our own little interface that breaks all. the limitations you had before in the thing that we're building that's what needs to be an interesting question is why why does something live in one way versus the other versus will synchronize between the two like all of our phones do with you know all day long and then give you all the things you want can you.
+
+306
+00:56:14,000 --> 00:56:46,580
+Speaker 6: use your experience perspective that are like how is that better than saying being built from scratch you know by from the Intel source I don't know nothing about Salesforce that's true but I think we can probably get the best school girls once you know what's the most important thing stores yeah well but everybody every email and what the good system do is they cash the data so that they can we can have it at our own speed and that's not be slowed down by a solar system so there's there is then your income as long and they're probably.
+
+307
+00:56:46,580 --> 00:57:13,522
+Speaker 6: something that Salesforce does really really well that we don't want to do understanding what is the best in Salesforce versus what can we say we could build this middle hybrid because especially I'm curious follows a tech talking about like at some point vendors are going to want, Something that either they'll have their teams build, or they'll hire you guys to do as integration specialists to build, to make it easier to integrate with their side. That's similar to what you're using. And then you can decide which is your competitive advantage, and you say, now you can't even build for me.
+
+308
+00:57:14,102 --> 00:57:41,012
+Andrew Bailey: Are you imagining when this... Sorry, this might be a dumb question. I forgot to tell you guys, that's my secret superpower. Dumb questions. They're like questions that we're answering. I just asked. For your internal... Right now, they just look at Salesforce 360, and the imagination is that they... Or do they even look at source and what not? Just Salesforce. Just Salesforce. That's their only security. They don't look at it.
+
+309
+00:57:41,012 --> 00:57:56,372
+Jake Herwaldt: There is no... It's just a page in Salesforce. Is all of this stuff automated? So internal people, correct me if I'm wrong, don't even look at any screen that is a... Most of them have never seen it.
+
+310
+00:57:56,532 --> 00:57:59,872
+Andrew Bailey: Yeah. No. And is there a... But there is a desire.
+
+311
+00:58:01,474 --> 00:58:25,284
+Steve Muniak: No, they don't want to. Yeah, we really don't need it. And that's what's got the hiccup in it. We keep saying that we can improve, one, the internal experience, yet you guys are just outside of the domain of this project, unless we bring some of that experience externally.
+
+312
+00:58:25,984 --> 00:58:27,784
+Jake Herwaldt: Unless we duplicate some of that.
+
+313
+00:58:28,124 --> 00:58:38,504
+Speaker 6: That's what I'm saying. We could reuse the experience that's still storage data in Salesforce, but gives them something to be able to grab. But that hasn't been decided. That's the big gray area.
+
+314
+00:58:38,744 --> 00:58:39,524
+Steve Muniak: We've got Paul tomorrow.
+
+315
+00:58:40,514 --> 00:58:44,114
+Jake Herwaldt: Would you say currently that's out of scope, or currently we don't know if that's in scope. 
+
+316
+00:58:44,114 --> 00:58:45,674
+Steve Muniak: It is to be scoped.
+
+317
+00:58:47,324 --> 00:58:54,004
+Jake Herwaldt: Oh, okay. And we're talking about right now Phase 1, 2, and 3. So Phase 1, 2, and 3 is out of scope. 
+
+318
+00:58:54,854 --> 00:58:56,494
+Steve Muniak: No, it's going to be in 2 or 3.
+
+319
+00:58:56,574 --> 00:58:59,174
+Jake Herwaldt: Oh, okay. Yeah, it's not in MVP+.
+
+320
+00:59:02,366 --> 00:59:23,416
+Jordan Clark: No, I was just going to say, I think the team that could probably most benefit from something, just because understanding at least Salesforce is so minimally friendly and mobile friendly, our FSC teams are just, the field engineers are just in a lot of pain requesting parts. They would be the internal buying leg that would be struggling the most with Salesforce.
+
+321
+00:59:23,416 --> 00:59:26,096
+Jake Herwaldt: And you put them actually as a, oh, we did, didn't we. 
+
+322
+00:59:26,176 --> 00:59:30,656
+Speaker 6: Are FSCs always internal? Or could a hospital have their own FSC?
+
+323
+00:59:33,156 --> 00:59:58,416
+Jordan Clark: To the point that I don't even know if I necessarily would call them an internal buyer. Like they're not within the building utilizing this. They are, but they're not utilizing the Salesforce tools in the same 80% of the business. Their flow is completely different than a buyer. The way they're interfacing with it is completely differently, I think, more than anything.
+

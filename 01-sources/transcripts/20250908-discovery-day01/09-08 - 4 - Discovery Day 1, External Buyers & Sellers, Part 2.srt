@@ -1,0 +1,1280 @@
+1
+00:00:00,070 --> 00:00:07,390
+Speaker 1: And then I'd say, and then, yeah, confirmation of shipping. I need to.
+
+2
+00:00:13,360 --> 00:00:20,240
+Andrew Bailey: So what did you say? Those are the four postures that people use as an external buyer. 
+
+3
+00:00:20,480 --> 00:00:22,560
+Speaker 1: The average external buyer that is the main point.
+
+4
+00:00:23,700 --> 00:00:56,520
+Andrew Bailey: Okay. I cannot perfectly predict this. You guys, I don't think, expect it to, but what I'm going to do is I'm going to have the phrases here. Obviously, they're all connected. The end of this one comes to start with this one, but I feel like we kind of start with here as our phrases, and we'll move along. That kind of helps us without getting through it. So I'm going to, let's start with the, I need a part. Is that the first one that we said? Yep. And that kind of goes into that. And so we put in here that there's a login experience.
+
+5
+00:01:00,032 --> 00:01:08,352
+Andrew Bailey: Is that part of the, are we, is that something we need to talk about? Is there, are there issues with login? I mean, that's a student for all of them.
+
+6
+00:01:08,452 --> 00:01:09,472
+Speaker 1: So you're saying state would be.
+
+7
+00:01:10,642 --> 00:01:12,642
+Andrew Bailey: No, no, no. I'm saying if you talk about future state.
+
+8
+00:01:12,682 --> 00:01:25,572
+Speaker 1: Okay. Well, future state for some of the deep API integration is not logging into a web site. Okay. So that would be that. There is no login. And integrated the way that our team, our sales force.
+
+9
+00:01:25,692 --> 00:01:25,832
+Jake Herwaldt: Yeah.
+
+10
+00:01:27,672 --> 00:01:43,832
+Speaker 1: But that would be like the premium version option way down the road. I would say if you were just to rebuild what we have now. Yeah. Okay. Issues with passwords, resetting passwords, how to reach out to them if I get a password reset. So yes, there are issues with logging. All right. But it wouldn't be like a main thing.
+
+11
+00:01:44,472 --> 00:01:59,901
+Andrew Bailey: Well, let's, since all of these are going to share, I'm operating, I'm building shapes on the fly. I like that. We're just going to cut this off right here. And right now, do you have an issue with password resets? What is it? What kind of.
+
+12
+00:02:00,333 --> 00:02:20,384
+Speaker 1: So if they don't remember their password, they can enter the eternal loop of doom, is what Vicki and I have lovingly called it. They click the password reset button, which doesn't reset their password. And then they take the time to come up with a password, and they just go back to password reset. And over and over, it's like really frustrating. And they call, and they're like really angry. And then Vicki and I manually do it for them every single time. And do password resets frequently.
+
+13
+00:02:20,784 --> 00:02:24,184
+Jake Herwaldt: Oh, yeah, every single week. Same thing happens at ParkSource.
+
+14
+00:02:24,483 --> 00:02:24,804
+Speaker 1: Really. 
+
+15
+00:02:25,064 --> 00:02:31,244
+Jake Herwaldt: Exact same thing. They cannot manage to save their lives. So I don't know if there's a solution for this. To be happy. Yeah, yeah, yeah.
+
+16
+00:02:31,584 --> 00:02:53,034
+Speaker 4: I mean, this is super easy. Nothing, nothing. My own family gift management system has a solution for this. Yeah, yeah, yeah. All right. It doesn't. It's called underwrapping. We've been talking to it. It's a great name. My wife and I. Underwrapping. Oh, my gosh. It has some.
+
+17
+00:02:53,853 --> 00:02:58,714
+Speaker 1: Do you know how many possibilities? Stop. Economy for the buyer to.
+
+18
+00:03:01,716 --> 00:03:34,826
+Andrew Bailey: So we're just going to say, we're going to say, we're going to say best practice with, authentication, right? So authentication. We expect an Amazon to be provided by this. I don't think I've ever received that. Let's use that going forward. You don't, at this point, I think we've already talked about this. I didn't want to short the process as far as like talking about it, but in terms of like, there are many ways of doing integrations and single sign up and whatever there we're.
+
+19
+00:03:34,826 --> 00:03:58,316
+Andrew Bailey: going to, but in general for this, we are going to self-management, secure, all those kinds of things. And there are currently, that's all we need to know. We don't need to fix those issues. We are going to create something without it. Okay. So, but now they've logged in and they are presented with buyer dashboard. Is this true. 
+
+20
+00:03:59,156 --> 00:03:59,576
+Speaker 1: Currently.
+
+21
+00:04:00,000 --> 00:04:10,950
+Vikki Dipple: They have like little roll-ups, but it's more of just like a count. A count of open requests and a count of pending orders.
+
+22
+00:04:11,290 --> 00:04:16,399
+Andrew Bailey: Oh, okay. So current state, it is pre-selected to their outstanding requests. 
+
+23
+00:04:16,959 --> 00:04:19,839
+Speaker 1: Yes, so it defaults to their open requests.
+
+24
+00:04:21,240 --> 00:04:35,830
+Andrew Bailey: So currently, what is... Jake, help me toggle the line between... So I should be writing this in the current state, and then they can tell us future state. Sometimes I have to talk it out before I write something down.
+
+25
+00:04:36,250 --> 00:05:09,732
+Jake Herwaldt: To some point, I feel like we might want to just focus on current state, knowing that we're making a couple of assumptions, but I feel like one key assumption with this first part of the phase is that we're trying to just replace what you guys currently can make it better. So because there's a fine line of ideal state where it's like, oh, it's completely different, and it's like we want to walk... line of well first what we're going to do is rebuild what you have yeah okay so let's let's walk that line so does that mean yes let's walk today walk.
+
+26
+00:05:09,732 --> 00:05:14,032
+Jake Herwaldt: today's path yeah but how can we make today's I'm going to try to do like a.
+
+27
+00:05:14,032 --> 00:05:46,942
+Andrew Bailey: single word or a small phrase that would be this is the make it better so we keep in mind we can decide to do so the first thing is they go there we've seen this they see their requests we call it the home page so the home page give me something what is it that there is exactly selected there it's the home current request open a little bit open your pot so that's the requests this is currently it's just a Danish open requests and the future state mr.
+
+28
+00:05:47,952 --> 00:06:25,263
+Andrew Bailey: practicing colors is that this would be a is a more informative dashboard call. this. You've got that, we are the same. And so at this point, since they're doing part, they're creating, right? So we're gonna call it create, and there's any,
+
+29
+00:06:25,443 --> 00:06:29,023
+Andrew Bailey: you guys, anything here you wanna speak to. 
+
+30
+00:06:32,003 --> 00:06:45,784
+Speaker 1: No. Yeah, so it lines it out, interestingly, on a flow, because to create a requisition, you have to search by part number. So maybe we, like, I don't know how simple you want it.
+
+31
+00:06:45,904 --> 00:06:47,723
+Vikki Dipple: You can search by description.
+
+32
+00:06:48,854 --> 00:06:49,873
+Speaker 1: And I hate that.
+
+33
+00:06:50,114 --> 00:06:50,513
+Vikki Dipple: Yeah.
+
+34
+00:06:50,674 --> 00:06:55,044
+Speaker 1: Because that's not how we instruct people. I mean, it's like too young.
+
+35
+00:06:55,203 --> 00:06:59,604
+Vikki Dipple: Yeah, you could definitely search by board and get 50,000 boards.
+
+36
+00:07:00,095 --> 00:07:00,335
+Speaker 1: Yeah.
+
+37
+00:07:00,335 --> 00:07:03,415
+Vikki Dipple: But to find the one that you want, your engineer is going to give you a part number.
+
+38
+00:07:03,555 --> 00:07:10,555
+Speaker 1: So I would say it's fine to have that data there, but, like, search by drivers, the drivers.
+
+39
+00:07:12,066 --> 00:07:14,705
+Jake Herwaldt: So, yeah, cut out the search existing material.
+
+40
+00:07:14,965 --> 00:07:15,365
+Speaker 1: Right.
+
+41
+00:07:15,545 --> 00:07:15,945
+Jake Herwaldt: Essentially.
+
+42
+00:07:16,126 --> 00:07:22,945
+Speaker 1: Yeah. You know, they can take a board and then, like, refine it to what they want, but nobody does that because they all come in with the part number they need.
+
+43
+00:07:23,185 --> 00:07:33,195
+Andrew Bailey: We often talk about what can technology do. What is a bad existence? Yeah. It's too much information for them. Yeah. You guys, who, does anybody have a map. 
+
+44
+00:07:35,655 --> 00:07:36,495
+Speaker 1: Yeah, but I'm not going to use it.
+
+45
+00:07:36,915 --> 00:07:49,395
+Andrew Bailey: Okay. There's this power, there's these super tools where you can put anything and it searches all things, right? For some industries, it's really great. Some industries, it's like, no, you're going to get yourself in trouble. Just give me the part number you're looking for.
+
+46
+00:07:49,735 --> 00:07:54,535
+Speaker 1: That's not really where we're at. I would X out the search existing material and say search by part number.
+
+47
+00:07:54,995 --> 00:08:21,839
+Jake Herwaldt: Andy, let's use the stickies because it will hold you to a certain size. Yeah. Oh, okay. It'll give you more flexibility, so easy. To clarify a little bit what Sam's saying, is the expectation will have the form of what we call part ID prior to planning the request. And sometimes that means they just went off the time. Sometimes they're paying Philips with their credit card to get part IDs, sometimes they're calling a buddy.
+
+48
+00:08:22,419 --> 00:08:28,579
+Speaker 4: You guys know your users well enough? Do you think they're going to be confused if they're used to searching into part description right now? They're not.
+
+49
+00:08:29,399 --> 00:08:43,260
+Andrew Bailey: Okay, so it's just a distraction. Question, I know this is going to sound dumb. Is it a part number, meaning it's always a number, or is it a part ID, meaning it's a number with letters, and wouldn't it be a part. 
+
+50
+00:08:43,520 --> 00:08:44,920
+Jake Herwaldt: It's a part number, it's called a part number.
+
+51
+00:08:44,920 --> 00:08:45,780
+Andrew Bailey: It's called part numbers. 
+
+52
+00:08:46,890 --> 00:08:52,530
+Vikki Dipple: but it could be a combination of both. Well, I mean, it's a good question, but yeah. So when you hear ID, it's more of identifying.
+
+53
+00:08:54,599 --> 00:08:58,939
+Andrew Bailey: Yeah, somebody out there in your tech world says part ID, and they mean the ID.
+
+54
+00:08:59,160 --> 00:09:03,311
+Vikki Dipple: Usually that's the. Oh, yeah, I'm saying part ID. What's your part ID? You mean the part number. 
+
+55
+00:09:05,451 --> 00:09:07,331
+Speaker 4: PN-123. Those are numbers.
+
+56
+00:09:07,972 --> 00:09:24,281
+Jake Herwaldt: Stick this in the back of your mind. One of the things that we could do that would be a great advantage is the ability to discern hyphenation, spelling, without, to then get to that. Or fuzzy matching. Yeah, what they're looking for. Fuzzy matching.
+
+57
+00:09:24,362 --> 00:09:30,262
+Andrew Bailey: Okay. So next thing is use either found or wasn't.
+
+58
+00:09:31,911 --> 00:09:32,311
+Speaker 1: Yes.
+
+59
+00:09:37,242 --> 00:09:43,281
+Jake Herwaldt: This, people have opinions on? This is going to be a lot of conversation. Let's first start the conversation with today.
+
+60
+00:09:43,482 --> 00:09:43,801
+Speaker 1: Okay.
+
+61
+00:09:43,801 --> 00:09:45,961
+Jake Herwaldt: Because I'm really fascinated in tomorrow.
+
+62
+00:09:46,301 --> 00:09:53,661
+Speaker 1: Okay, so today, the answer is no. Or they didn't search for a lot. Oh, right.
+
+63
+00:09:53,901 --> 00:09:55,161
+Jake Herwaldt: And then the next new part.
+
+64
+00:09:55,242 --> 00:10:30,394
+Aly Boggs-Smitley: Because without hyphenation, spelling. Right. So, yeah. So, for instance. Since currently we are one of the few companies that put dashes in Philips part numbers, I think most people do not. So currently the search function is, so let's say our part number is 4535-619-90892, but Sarah Daly from Common Spirit searches for the same thing without the dashes. Sometimes it doesn't find it, so she's technically then creating a duplicate. And this is the world that my team lives in of a lot of duplicate data.
+
+65
+00:10:30,394 --> 00:10:33,593
+Aly Boggs-Smitley: because the search function here sucks.
+
+66
+00:10:33,714 --> 00:10:34,554
+Vikki Dipple: It's pretty particular.
+
+67
+00:10:34,634 --> 00:10:45,674
+Aly Boggs-Smitley: It's really specific. We used to have a great search function. Now we have a very poor search function. That's one of the things I wrote down. So yeah, we're creating duplicate materials.
+
+68
+00:10:47,694 --> 00:10:56,054
+Vikki Dipple: Somebody has to manually go through and change their requested term to fit what it actually is. Got it. So they could type in...
+
+69
+00:10:56,054 --> 00:10:59,394
+Jake Herwaldt: So a vendor gets it and it then changes what they're actually asking.
+
+70
+00:10:59,394 --> 00:10:59,694
+Vikki Dipple: Yeah, what they are asking.
+
+71
+00:11:00,096 --> 00:11:04,036
+Jake Herwaldt: They can change, or they just quote back a different part.
+
+72
+00:11:04,036 --> 00:11:08,936
+Vikki Dipple: Most of the time they know what they meant, or they'll be like, hey, did you mean, yeah.
+
+73
+00:11:09,596 --> 00:11:29,016
+Andrew Bailey: For YouTube, how easy is it for you to show us this, if I brought the computer over behind you? Oh, yeah. Is it, can I, can we do that just now? I don't think we'll need it, like, just in case. We need that to be a part of the... Oh, I have this. Yeah, do you want to do this? I don't know if it's like...
+
+74
+00:11:29,016 --> 00:11:37,346
+Aly Boggs-Smitley: Wait, are you in production? I'm in production. All right, go to the camera. She was in production. That's not... I learned really quickly.
+
+75
+00:11:39,426 --> 00:11:46,776
+Andrew Bailey: Let's all, you should ask every tech person, what's the craziest thing you've done in production? That is... The whole database. That is...
+
+76
+00:11:49,276 --> 00:12:02,800
+Speaker 4: Good morning. Jackson National. If you don't do that, you don't learn to never do that. You do it once. You're good. 22 years ago in the hotel room, right before the launch. We built it in time, but we didn't have backup.
+
+77
+00:12:03,300 --> 00:12:15,110
+Jake Herwaldt: So Jackson is that company over by Opimus? That's the name of it, yeah. Okay, because I hear you talking about Jackson, and I see the same thing. Was he working at Parks and Rec? Or was it a big building. 
+
+78
+00:12:16,370 --> 00:12:33,140
+Speaker 4: Since then, I built new backup systems that never happened again. Do you want to tell your face? That was really rough. I built my own custom backup and restore solution, and I actually restored the old one to the base. I put it back here. Oh, no. Yeah, that's wrong. That's smart.
+
+79
+00:12:33,140 --> 00:12:37,570
+Vikki Dipple: That's smart, which that's a conversation that we'll have to have.
+
+80
+00:12:37,590 --> 00:12:40,590
+Andrew Bailey: It would be great if not all the time when we have you interrupt us with that.
+
+81
+00:12:40,610 --> 00:12:46,630
+Vikki Dipple: Because that way we don't have to rely on the stuff here because it's not as secure as it needs to be.
+
+82
+00:12:46,710 --> 00:12:50,710
+Andrew Bailey: Of course, you are looking at your screen when you're back up to any second.
+
+83
+00:12:50,810 --> 00:12:51,710
+Speaker 4: Pointed at something else.
+
+84
+00:12:52,110 --> 00:12:52,470
+Vikki Dipple: Nice.
+
+85
+00:12:52,510 --> 00:12:57,660
+Speaker 4: Then we have backups for your snapshot. You can delete everything and then go back to the second before you delete everything.
+
+86
+00:13:08,462 --> 00:13:19,292
+Vikki Dipple: So if no, you do want to see this, or do we just want to keep talking it out. 
+
+87
+00:13:19,412 --> 00:13:32,292
+Andrew Bailey: We can keep talking about it, but if no, they have to create the part. So that is a thing, is create a part. And if they create a part, they spell the word wrong.
+
+88
+00:13:33,442 --> 00:13:35,462
+Aly Boggs-Smitley: We call it a material now.
+
+89
+00:13:36,312 --> 00:13:37,892
+Vikki Dipple: We have to call it a material.
+
+90
+00:13:38,012 --> 00:13:42,232
+Aly Boggs-Smitley: We don't want to. It's a part, but in Salesforce, the name of it in Salesforce is material.
+
+91
+00:13:44,662 --> 00:13:51,572
+Speaker 4: How often are these parts also Googleable? I'm just asking in case you wanted to see definitive proof it exists in the correct name.
+
+92
+00:13:52,012 --> 00:14:23,594
+Vikki Dipple: Yeah, that's actually a lot of times what they do is they'll plug this in to Google and say, or they'll go to GE or Siemens. They'll find it, and then they'll go in. Our CSRs will admin into the request and either connect it to the right groups because it didn't source correctly, or update the spelling. Sometimes they'll put it in all caps, because as soon as they create a material, it goes into a block for all of ours.
+
+93
+00:14:23,834 --> 00:14:29,254
+Vikki Dipple: And we can't... There's no guardrail around it.
+
+94
+00:14:30,554 --> 00:14:41,874
+Andrew Bailey: But either way, once a material is created, then we are going to... Then you source my part. 
+
+95
+00:14:42,464 --> 00:14:46,794
+Vikki Dipple: Add request? Yeah. Is that true. 
+
+96
+00:14:46,974 --> 00:14:48,894
+Andrew Bailey: I would actually love to follow along with it.
+
+97
+00:14:50,144 --> 00:15:19,026
+Vikki Dipple: Yeah, so, I mean, these terms are very close. When up here where it says create a rec... In the system right now, it just says, so that's where here you've got create new requisition. I think it actually says something like, we'll find out here.
+
+98
+00:15:26,006 --> 00:15:59,546
+Jordan Clark: Currently, when they search a part number, like say they maybe type something, is there automation in creating the part number they had originally entered, or is there a process? As I know, like GE Service Shop, for instance, on their website, if you type something and they don't have an output for that, sometimes it'll have this tick below where it's like, did you mean this? And they'll give you like three or four other options, which could maybe help with some of those titles. I didn't know it would automatically push that out to the ether, even if it was maybe, oh shoot, I added an extra one, backfinger.
+
+99
+00:16:00,260 --> 00:16:06,440
+Jordan Clark: kind of thing? Or is it like once they hit enter, it's gone? Let's search. For two seconds, we're going to look. Yeah. Okay.
+
+100
+00:16:07,240 --> 00:16:16,650
+Vikki Dipple: So let's say the part number you're an engineer is 079.5.
+
+101
+00:16:16,650 --> 00:16:17,790
+Jake Herwaldt: We didn't look at her computer.
+
+102
+00:16:17,790 --> 00:16:21,070
+Vikki Dipple: But our system starts with seven. It won't matter.
+
+103
+00:16:24,770 --> 00:16:32,460
+Andrew Bailey: Either way, the next thing is that this is, it says add request item.
+
+104
+00:16:33,340 --> 00:16:43,340
+Vikki Dipple: Yeah. So you can have multiple rec items on your requisition that you're creating. So like this is the home page for a customer.
+
+105
+00:16:45,330 --> 00:16:51,500
+Aly Boggs-Smitley: Yeah. Now it's free. Yeah, now it's free. All right. Whatever. So yeah. So this is.
+
+106
+00:16:51,700 --> 00:16:52,940
+Andrew Bailey: What's a request score bar. 
+
+107
+00:16:54,240 --> 00:16:54,860
+Speaker 1: This thing. 
+
+108
+00:16:55,800 --> 00:16:57,260
+Andrew Bailey: Request score bars.
+
+109
+00:16:57,660 --> 00:16:58,940
+Speaker 1: Yeah. It doesn't make any sense.
+
+110
+00:17:06,622 --> 00:17:20,202
+Andrew Bailey: And he's like, you guys should have called us. I am not, I would rather show you guys something. I'd rather show you guys something really great and then I'll talk to you. He's given you lots to work with. Yeah, that's a good way to put it. Okay.
+
+111
+00:17:22,302 --> 00:17:25,122
+Jake Herwaldt: So, you want to just plug it back in. You do a new request.
+
+112
+00:17:25,932 --> 00:17:27,652
+Aly Boggs-Smitley: I apologize for the phone call you had. So, like, new request.
+
+113
+00:17:27,872 --> 00:17:28,692
+Andrew Bailey: That's parts number.
+
+114
+00:17:29,152 --> 00:17:33,952
+Aly Boggs-Smitley: So, like, this is what I was talking about. Well, this is what I was going to talk about. Well, we can go behind you. Yeah, but it'd be easier to go behind you.
+
+115
+00:17:34,462 --> 00:17:46,492
+Andrew Bailey: Here, how about I. No, no. I know I just. I'll bring my. Yeah, why don't you guys go over there and then you guys can direct me while.
+
+116
+00:17:47,962 --> 00:18:11,464
+Aly Boggs-Smitley: So, this is what I was talking about, about, like, duplicate type part numbers. Yeah. So, like, finding one. Like, this is the actual base G part number that everybody should be using. Yeah. But over time, people. have created all the rest of these because dash h in the oem world technically means a harvested part dash r means a refurbished part they're all this is literally the same part six different ways.
+
+117
+00:18:13,024 --> 00:18:33,344
+Speaker 1: they'll look at their part and they'll see an h or an arm they don't know so they think it's necessary it's not right i was going to say because you guys would offer, all those options regardless but if they put r in a vendor season and the vendor's like are you requiring a refurbished part or do you just not know what army do yeah so would that be.
+
+118
+00:18:34,594 --> 00:18:40,874
+Andrew Bailey: future state is that a smart input helper yeah to coach them do you really need a refurbished part.
+
+119
+00:18:40,874 --> 00:19:02,706
+Aly Boggs-Smitley: and what then can be like then for internally for us is if we have this part in stock we would probably only have it in stock under this part number but then if they're putting it in through like one of these other ones it's going to start sourcing but it says our system right now it's going to start sourcing even though we technically haven't, Oh, it's not sorted out today.
+
+120
+00:19:02,886 --> 00:19:04,546
+Jake Herwaldt: To be like, actually, we do have it.
+
+121
+00:19:04,566 --> 00:19:07,206
+Aly Boggs-Smitley: Right, so now we're wasting certain vendors' time.
+
+122
+00:19:07,366 --> 00:19:11,686
+Jake Herwaldt: Does someone ever catch that, or do you then buy that part. 
+
+123
+00:19:11,886 --> 00:19:19,486
+Aly Boggs-Smitley: We do, but these are like the workaround type things. Okay, so now my team probably goes in and checks this without an R or an A.
+
+124
+00:19:19,906 --> 00:19:24,846
+Jake Herwaldt: So there are certain times where it's like, we just know, let's put that part on.
+
+125
+00:19:24,966 --> 00:19:51,506
+Speaker 1: Correct, to see if we actually have it in terms of... Wait, so then it's a tribal knowledge. Yeah, it's a tribal knowledge. Yeah, so if it's a newer person on the team, they don't know what R or H is either. They don't know the double track, so they'll just buy it from a vendor. And we could possibly have it. And then Paul Beard comes in. And he's losing his voice. And that's hard. Because he's like, you're wasting money. And everybody's asking him questions. Yeah, yeah. But how come we're buying it from a vendor who doesn't have it on the shelf? He's tired. Yeah, we've got to pay him for it.
+
+126
+00:19:51,506 --> 00:19:58,796
+Speaker 4: We're going to call this Project Save Beard's Voice. Hopefully it's like duplicate Paul Beard's Voice.
+
+127
+00:19:58,876 --> 00:20:05,980
+Speaker 1: There could be. I would say, because it's so beat into our brains, then it's probably not fitting. I mean, because it's better than .
+
+128
+00:20:08,300 --> 00:20:12,330
+Speaker 4: But like, did everybody along the way need to double check things, including people who didn't. 
+
+129
+00:20:14,190 --> 00:20:32,380
+Speaker 1: There was a time where we bought a two-inch socket. Because it's two-inch at a time. Right now, our system doesn't connect very well.
+
+130
+00:20:33,120 --> 00:20:37,030
+Vikki Dipple: compatible parts. Because you can have a part that's a whole different.
+
+131
+00:20:37,070 --> 00:20:40,090
+Andrew Bailey: Amazon says, you could definitely buy this for your car.
+
+132
+00:20:40,250 --> 00:20:45,050
+Speaker 1: Yep. Yeah. Oh, gosh. That would be amazing. But that's also not in scope.
+
+133
+00:20:45,050 --> 00:20:51,590
+Jake Herwaldt: But here's where I struggle with all of that is, is that this platform's job to do it. 
+
+134
+00:20:51,770 --> 00:20:58,980
+Speaker 1: No. WAP should hire you to do that for them, for their data manager. But it is not the case. I mean, no.
+
+135
+00:20:59,100 --> 00:20:59,980
+Jake Herwaldt: Well, because you.
+
+136
+00:21:02,452 --> 00:21:50,692
+Andrew Bailey: I was going to say, sourcing window pro, because when we come at this, we don't think, oh, Block is successful. What we really think is that sourcing window and sourcing window procurement, I don't like calling it pro, let me just be honest, is trying to take market share in this part space. I do not think about it like this is Block's way of getting X or Y done. I think, how do they take market share with their specific goals? One of them is part liquidity for their partners, because they are a funded entity, and one of their entities' primary goal, and so they need to take market share, so more people use them, so more parts go through them, so that the funding partner gets access.
+
+137
+00:21:51,672 --> 00:21:57,381
+Andrew Bailey: So, I'm not thinking as much about Block. I mean, what is going to get more people invested. 
+
+138
+00:21:58,442 --> 00:22:08,484
+Speaker 1: It's really good. It would. It would make sense. As far as ownership goes, I feel like Paul Beard would need to weigh in a lot on it. Formatting with materials, though, that's a...
+
+139
+00:22:09,063 --> 00:22:27,803
+Andrew Bailey: Because what this is, it's obviously not part of the first replacement, but we also have to be at least somewhat understanding of what's phase two and phase three about. And phase two and phase three is about what are the things that are going to be the most attractive to our next, to us going from doubling in size over the next 12 months.
+
+140
+00:22:27,984 --> 00:22:41,413
+Speaker 1: And to build on that, it would impact vendors as a huge win as well. To be able to tell a vendor, hey, do you have this part? Also, any of these parts of the title, do you have... You're going to be missing opportunities to sell in your own inventory by not knowing the title either.
+
+141
+00:22:41,694 --> 00:22:59,403
+Andrew Bailey: So every developer calls this Clippy. Like Clippy? Like, no, Clippy. Like, remember the paper clip? Oh my gosh, I just talked about that last night. We always call it, we call it Clippy. Yes. Oh, we're like Clippy for parts, right? This little dumb helper. I don't even remember what Clippy ever did.
+
+142
+00:23:00,095 --> 00:23:05,935
+Vikki Dipple: It just told me how many words I should have had and never had. Mine says, it looks like you're having a breakdown at work. Do you need the help. 
+
+143
+00:23:08,226 --> 00:23:17,545
+Andrew Bailey: So an MRI is sort of like, it's usually some version of a smart algorithm or just a context-aware piece of software.
+
+144
+00:23:17,825 --> 00:23:32,215
+Speaker 1: I would just want you to have this on your radar, because I believe that Paul is trying to figure this out with Force Medic right now. So I don't know about what doubling efforts looks like, if we could borrow from each other. So just something maybe from a higher level to run with.
+
+145
+00:23:33,335 --> 00:23:33,976
+Jake Herwaldt: That's part of the...
+
+146
+00:23:35,175 --> 00:23:41,025
+Speaker 1: Yeah, from inventory management. Yeah, so I would just take over that.
+
+147
+00:23:41,385 --> 00:23:45,775
+Jake Herwaldt: This tool doesn't need one of that.
+
+148
+00:23:46,855 --> 00:23:49,055
+Speaker 1: I think I would want Force Medic to do this in Salesforce.
+
+149
+00:23:49,235 --> 00:23:50,635
+Jake Herwaldt: Yeah, because that's going to be different.
+
+150
+00:23:52,415 --> 00:23:53,535
+Speaker 1: It's out of scope for this.
+
+151
+00:23:53,615 --> 00:23:56,935
+Jake Herwaldt: It's out of scope for this, but then we can access that by requesting impact.
+
+152
+00:24:00,499 --> 00:24:12,509
+Andrew Bailey: Oh, because you're basically saying, hey, vendor, experts at your own parts. But that would be difficult because this has access to multiple vendors.
+
+153
+00:24:13,269 --> 00:24:45,269
+Speaker 1: I think, too, we could go off in a lot of ways here, but I think future, future state, it would also be great to crowdsource information. I know it's a risk, but if a vendor is saying these two are compatible, for example, all parts tells us all the time these two things are compatible, oftentimes if it comes from all parts, we'll update that in our system based on all parts know its parts better than the block knows its parts. We do have vendor say these two parts are compatible or else we don't trust that. They're absolutely compatible at your own risk. Yeah, so we're careful with that.
+
+154
+00:24:45,829 --> 00:24:46,189
+Speaker 1: All right.
+
+155
+00:24:46,269 --> 00:24:59,929
+Andrew Bailey: No, that's definitely, I mean, I see what you're saying, but the real problem, the real issue is that when they're searching for a part, sometimes when they have it, it's a problem, and sometimes when they don't have it, they make problems. We've got some things, but.
+
+156
+00:25:00,061 --> 00:25:03,061
+Jake Herwaldt: But it sounds like it's up to the vendor to deal with that problem.
+
+157
+00:25:03,221 --> 00:25:13,351
+Speaker 1: Yeah, because if Block says, hey, vendor, this is compatible, and the vendor sells it to the customer, it's Block's. But if that vendor says, hey, that's compatible, and it's not, hey, it's Block's, not my stuff.
+
+158
+00:25:13,891 --> 00:25:27,831
+Andrew Bailey: And right now, sourcing window is reliant on the Salesforce 360 underlying structure. But this sourcing window won't necessarily be reliant on that parts database. I think it will. I think core parts. I think it would.
+
+159
+00:25:28,091 --> 00:25:34,871
+Jake Herwaldt: I absolutely, the vendor master, the material master, should reside with it.
+
+160
+00:25:35,441 --> 00:25:36,381
+Speaker 1: Yeah, I would agree.
+
+161
+00:25:36,461 --> 00:25:53,691
+Jake Herwaldt: But with the come out of the whole platform? I believe so. Because that was one of the big things I wanted to ask about. If that's true, then it's not Blocking. It's getting it to bring it from Block. That goes back to the question that I broke down. We've got to bring it up to the adult segment. Are we going to sell this thing, or are we going to. 
+
+162
+00:25:54,771 --> 00:25:55,131
+Speaker 1: Yeah.
+
+163
+00:25:55,671 --> 00:26:03,013
+Jake Herwaldt: And you need to know. Like, you could essentially build it in a way that's like. of the product just now over a block.
+
+164
+00:26:03,973 --> 00:26:17,523
+Speaker 1: So with the thousands of IDs you have, let's pretend we're taking this over and bring it into the portal. Could we import all of those, clean it, and then build on top of it. 
+
+165
+00:26:17,623 --> 00:26:19,703
+Jake Herwaldt: Yeah, but then who owns the match. 
+
+166
+00:26:19,883 --> 00:26:25,753
+Speaker 1: If we did that, the match would be owned by the portal because we could build out the creation in the future.
+
+167
+00:26:26,173 --> 00:26:49,833
+Andrew Bailey: If you do that, you have to think about it as two separate, sourcing, because every other company is gonna be thinking like a separate entity already. So they have to be responsible for their version of the match or sourcing window would have to be responsible for its whatever useful tool. I mean, you might get special treatment as your block, but it's sort of, that's, if it is, this is what it means to think about it.
+
+168
+00:26:53,633 --> 00:27:05,665
+Speaker 1: And I don't know, like there's API stuff that could mitigate some of it. We are investing in mass data. imports from manuals, from OEMs, are we doing that for Block? Yeah.
+
+169
+00:27:06,075 --> 00:27:25,895
+Andrew Bailey: That doesn't feel right. Do you see it as a valuable, like, byproduct? Is that, oh, by sourcing window, owning this, like, we do take in the new things, and we build a tool to clean the data. Is it something that your premium customers would be like, oh, my gosh, I'm so glad because they get, we always get the right or up-to-date data, and so Block also gets it.
+
+170
+00:27:26,015 --> 00:27:31,175
+Vikki Dipple: Well, the OEMs aren't extremely, like, keeping in their data.
+
+171
+00:27:31,175 --> 00:27:32,835
+Andrew Bailey: Have you ever heard of social engineering. 
+
+172
+00:27:34,135 --> 00:27:41,535
+Vikki Dipple: Believe it or not, we have, like, scanned-in manuals because we've only gotten them in print versions from the equipment that we've tabled.
+
+173
+00:27:41,535 --> 00:27:43,195
+Speaker 1: I think we tabled that and have Paul Beard do it.
+
+174
+00:27:43,315 --> 00:27:59,615
+Jake Herwaldt: Yeah. That's a Paul Beard. The parking lot is master record for materials. Yeah. And then really, how much of a standalone product would we be developing here. 
+
+175
+00:28:02,549 --> 00:28:31,579
+Speaker 4: Are there other data lists that you guys think should be on Salesforce, or is that the big one? For materials? Other than materials. Anything else other than materials? Do you feel strongly it should? To me, the obvious place is all this should live in the portal, so it might not. Like, if we're saying that's the conversation with Paul, I'm just asking if there's any other lists that you think should live in, lists that would naturally be a part of the portal. You're saying, no, we might actually want to hold on to those. Customers, vendors.
+
+176
+00:28:32,969 --> 00:28:52,389
+Speaker 1: I think address is a big one because customers are going to want that to be protected information, and it can't be in Salesforce. So I kind of feel like that would be one of the things that we could, unless Block Imaging is doing that. What's it called? The data warehouse? Is Block Imaging that on their own? So Paul and Mark Baker.
+
+177
+00:28:55,559 --> 00:28:59,589
+Jake Herwaldt: Yeah, data. Do we have access? Yeah. Maybe.
+
+178
+00:29:10,621 --> 00:29:20,071
+Vikki Dipple: So do you guys have a meeting scheduled with Paul Beard and Mark Baker at any point. 
+
+179
+00:29:20,291 --> 00:29:23,211
+Jake Herwaldt: They were both invited to this, but they ran out.
+
+180
+00:29:30,711 --> 00:29:48,651
+Vikki Dipple: So yes, if that's, let's say in that one, they're searching multiple part numbers, they can search, they can enter multiple at one, and then once they click yes, source my parts, that's where sourcing happens. So the next step would be yes, source my parts.
+
+181
+00:29:48,651 --> 00:29:51,331
+Andrew Bailey: Is there additional materials, though, or is there additional information. 
+
+182
+00:29:52,281 --> 00:30:05,693
+Vikki Dipple: If they're creating a material. Only if they're creating a material. So that no would have another arrow going down. After create a part material, you can walk through a couple different things.
+
+183
+00:30:07,443 --> 00:30:10,713
+Speaker 1: They could add multiple materials before they source.
+
+184
+00:30:12,653 --> 00:30:17,993
+Andrew Bailey: So if they had to create a part, it's going to be something, additional parts.
+
+185
+00:30:18,013 --> 00:30:20,433
+Speaker 1: Add new part or something, yeah. Add new material.
+
+186
+00:30:21,603 --> 00:30:32,803
+Jake Herwaldt: And that's current state, five. My assumption with features that's right, because otherwise, why are you adding. 
+
+187
+00:30:33,483 --> 00:30:39,303
+Speaker 1: You want the vendor to get one notification versus five. So if you add, yeah, you can add multiple to the one.
+
+188
+00:30:44,883 --> 00:30:46,223
+Andrew Bailey: Okay, what's this. 
+
+189
+00:30:46,963 --> 00:30:48,663
+Vikki Dipple: So that'd be source my part.
+
+190
+00:30:48,903 --> 00:30:54,173
+Andrew Bailey: Source my part. That's the thing that triggers the email. And the source.
+
+191
+00:31:04,515 --> 00:31:37,815
+Jake Herwaldt: And then in this, if you have an order, if you have an order that has state by far, are you waiting, I'm jumping a little bit, but are you waiting for all of those to come back and be done all of them at once? Or can you break it up and be like, I'm buying two right now because I'll wait on you. Right now, I didn't want to tell you current state because I wouldn't want you to go that way. I want them to have a choice of doing whatever they want. Continue to check out with two and keep the three open. And then go back and buy the three. If that is possible. Because that was in a lot of the wording in here.
+
+192
+00:31:37,815 --> 00:32:07,329
+Jake Herwaldt: When it comes to like order versus like items on orders, it just makes me think, and I know we've said this, Amazon, where it's like you sometimes check out with five things, but when you go back to your orders, you're typically looking at them as if they're individually, like don't realize they're things. Yeah, I'm thinking that's probably the best way to do it because then you can. build these orders, and you go back through, you're looking for the part.
+
+193
+00:32:07,449 --> 00:32:40,919
+Andrew Bailey: Yeah, so the way that I, I still want to wait for it here, so that we can draw and erase, but there's a request just saying, hey, I'm at my desk, I need to make a request, I have six parts. My request does this, a trigger is a thing, and then within there, we actually break the request up into its individual parts, we evaluate each part as to, whose capacities, competencies, capacities, capabilities, what's that other word? Sourcing groups? No, I was going to make a joke.
+
+194
+00:32:40,919 --> 00:32:59,329
+Andrew Bailey: about that word you hate, about the, the, the level of it. Dispositions, because you've got to break it up by disposition, which is the only sensible way to break things up. Okay, they break it up, and then you notify the correct entities. Now, we probably want to rebatch those, right, so that we're only getting one email.
+
+195
+00:33:00,031 --> 00:33:18,561
+Speaker 1: From the language that we use currently, a requisition is an order with a rec item as being the individual part itself. So you can have one to 20 rec items on an order. The order itself should all stay together with the rec items being individual processes going to potentially different vendors.
+
+196
+00:33:18,881 --> 00:33:47,751
+Andrew Bailey: Yeah, because what I would imagine is we look at it, we break it up, and then we align it to a vendor as an opportunity. Let's just call it an opportunity. And some vendors may get all the same. They get all the opportunities. Some of them might only get one or two because their capabilities are aligned. Block always gets all of them. So they're one example, but there might be one. And then my assumption is each vendor gets one email with all of the aligned rec item.
+
+197
+00:33:49,171 --> 00:33:59,951
+Andrew Bailey: And then the vendor gets to go look, and they just see. They're not going to see it as far as they're not going to have to respond to the whole batch. They're going to respond. That is your.
+
+198
+00:34:00,463 --> 00:34:32,303
+Speaker 1: This is my target, and it is a key point currently we do not offer that would really be great to have as a rebuild that goes live, is a customer can create this in a really pretty way where they can see, here's my requisition with all my Ruck items. When it gets to a vendor, they don't have any way of knowing that the Ruck items are part of one Ruck. And in our industry, we do something called Hero Fit, where the vendor is taking the, I'm going to send five parts, because you might need two or three of these five parts, and I know you don't know which ones you need until you get the system open. I'm sending all five your way, and I'll take whatever you don't need back.
+
+199
+00:34:32,303 --> 00:34:50,923
+Speaker 1: It's a higher risk deal, but it's very common in our industry. And a vendor pain point is, Sam, in your tool, I can never see what's in here. I can't see what's part of one order, so I don't know how to quote from here. I would offer a better pricing if I knew the customer was going to buy three of them, you know, but we don't give them that right now. So that is one of the requirements.
+
+200
+00:34:51,543 --> 00:34:58,663
+Andrew Bailey: I don't know if you guys got that. Even though all the words you said are part of my English language, I'm only about 60%.
+
+201
+00:34:58,663 --> 00:35:06,465
+Speaker 1: Yeah, okay. So like it would be just mirroring the access the user has so they know what.
+
+202
+00:35:06,465 --> 00:35:19,405
+Andrew Bailey: So is this something like when they're looking at a part we might have some indicator like this is part of it and they say well what's the hole and only what they would get access to. Right so we would yeah would you expect if if they.
+
+203
+00:35:19,405 --> 00:35:25,425
+Jake Herwaldt: had requested that only four got sent to me vendor would you want them to see the.
+
+204
+00:35:25,425 --> 00:35:29,525
+Vikki Dipple: other six grayed out? No, because it's not in the UPC.
+
+205
+00:35:30,865 --> 00:35:42,225
+Speaker 1: I mean like most of the time. If the CT went down and the GECT went down all of those parts are going to be for GECT and the vendor has to have a specific order. I can't think of a situation that like an MRI part would be different.
+
+206
+00:35:42,975 --> 00:35:59,555
+Andrew Bailey: I'm thinking about some human who they're this field service engineer and this field service engineer and they put both this one and this one so we did the smart split and sent it out to the right people. So they were two different systems because. I'd be so mad if they were doing that.
+
+207
+00:35:59,999 --> 00:36:03,929
+Speaker 1: Let's not go to those, let's get their act together.
+
+208
+00:36:05,439 --> 00:36:14,179
+Andrew Bailey: Why, so as a technical person not understanding the main space, I'm like, Barbara has a job. She's just trying to be efficient.
+
+209
+00:36:15,209 --> 00:36:28,009
+Speaker 1: So I guess I could see, I don't think it would be a high-use case scenario, but I could see a situation where an engineer is like, all right, I know for sure I need these two parts. Oh crap, I need a third part. So I'd like to go back in and modify my order to that part. That would be cool.
+
+210
+00:36:28,249 --> 00:36:32,369
+Jake Herwaldt: Yeah. So you expect that to email blast everyone again. 
+
+211
+00:36:32,369 --> 00:36:37,309
+Speaker 1: It would have to, because if I never get to them, it would be a blast. Otherwise, we're going to miss it. But you want to. And because timing is a little bit.
+
+212
+00:36:38,029 --> 00:36:44,689
+Andrew Bailey: But you're basically saying, no, don't send these two without, I don't even want to respond to those two and then have a separate one. I'd rather just update it.
+
+213
+00:36:44,849 --> 00:36:46,949
+Speaker 1: In the perfect world, it only gets, yeah, everything would come.
+
+214
+00:36:47,459 --> 00:36:58,959
+Andrew Bailey: Gotcha. But there is, you don't see that same person doing two separate, I did this job in the morning, this job late afternoon, I have to order parts for both of them, and there's different, one's a GE unit and one's a Phillips unit.
+
+215
+00:36:59,099 --> 00:37:02,631
+Speaker 1: Oh, that would absolutely. Different purpose orders could be different.
+
+216
+00:37:02,851 --> 00:37:03,791
+Andrew Bailey: Oh, they wouldn't.
+
+217
+00:37:03,791 --> 00:37:04,871
+Speaker 1: They would not go together.
+
+218
+00:37:05,111 --> 00:37:08,371
+Jake Herwaldt: Because maybe they're blocking their structure. This purchase again.
+
+219
+00:37:11,581 --> 00:37:21,151
+Andrew Bailey: Yeah. Oh, I see. So for their accounting, for their finance, they're just not even going to do it. They're going to be trained otherwise. Correct. Because they need to align costs.
+
+220
+00:37:22,031 --> 00:37:28,851
+Speaker 1: Yep. So is that same time you're going to get multiple requests from that thing? Yeah. Different events, they need to stay very separate.
+
+221
+00:37:31,141 --> 00:37:38,811
+Andrew Bailey: That's helpful. Okay. And that's useful to them. That helps them. The reason they do it because they are aligning costs to machines. Yeah. To departments.
+
+222
+00:37:39,341 --> 00:37:47,501
+Jake Herwaldt: Do you feel like people right now are in that scenario of sitting down and being like, I'm going to create two recs because I want them to.
+
+223
+00:37:48,641 --> 00:38:04,943
+Speaker 1: I think when that happens and it does happen, it's because the user, the user experience isn't clear enough to know they can just add more parts. Okay. And they move fast and they're like, oh, I submitted my next. I'm going to submit my second one, and they're not taking the time to know, oh, I can add another part here.
+
+224
+00:38:05,103 --> 00:38:07,623
+Speaker 4: So Amazon started doing that with me. Have you guys seen this for you. 
+
+225
+00:38:07,663 --> 00:38:08,543
+Speaker 1: Yeah, it's really annoying though.
+
+226
+00:38:08,763 --> 00:38:12,983
+Speaker 4: So I like this part for me. I did an overnight order, and I'm like, I want this too. And it said, should I add this to your system. 
+
+227
+00:38:13,473 --> 00:38:13,713
+Speaker 1: Yeah.
+
+228
+00:38:13,753 --> 00:38:15,433
+Speaker 4: Which for me was really useful. So maybe to you that was helpful.
+
+229
+00:38:15,433 --> 00:38:17,673
+Speaker 1: For me, I'm like, stop trying to get me to spend all my money.
+
+230
+00:38:18,253 --> 00:38:22,973
+Speaker 4: And I'm like, take my money. I want that right. It worked out well for me. That's interesting to see the difference.
+
+231
+00:38:23,553 --> 00:38:23,833
+Speaker 1: Yeah.
+
+232
+00:38:23,893 --> 00:38:27,973
+Speaker 4: But that's actually probably half the problem with your users too. Some would love it, and some would hate it.
+
+233
+00:38:28,133 --> 00:38:39,933
+Speaker 1: Yeah. A pop-up might be annoying, because at the volume, some of these people are using it. A pop-up every time might be a lot. But in the beginning, maybe they need to use it. Don't show me again. Don't show me again, yeah.
+
+234
+00:38:41,743 --> 00:38:57,413
+Jake Herwaldt: And then one of the questions I have is when you create a part, one of the, maybe this is, so you created a material. How do you now know which vendors are capable of doing that? So then you just email blast everyone when you create. 
+
+235
+00:38:57,473 --> 00:39:16,865
+Vikki Dipple: Never. So it has to. So we have given them a certain amount of drop-downs of modalities, which will trigger if they match. If nobody matches, they can select other, because sometimes there is no matching capability.
+
+236
+00:39:16,905 --> 00:39:18,385
+Jake Herwaldt: Then who gets that? Whoever checks. 
+
+237
+00:39:18,385 --> 00:39:40,045
+Vikki Dipple: It comes to block imaging always. So the caveat is, if it doesn't match anything, block imaging will at least see it, and then be able to tell, oh, actually, one of your vendors probably should have gotten this, and then you manually add it. And so that would be...
+
+238
+00:39:40,045 --> 00:39:45,025
+Jake Herwaldt: I don't want to force this to speed up, but we're at two. Yeah. Two of four, and we're in the first 25%.
+
+239
+00:39:47,405 --> 00:40:24,769
+Andrew Bailey: All right, so, but we're kind of, I'm just mapping out a mix of current state and sort of required. We're going to call it required. So, source McPart triggers the sourcing window grains. It takes this request item. it breaks it down by capability into this distribution and then with the next like there's some brain work here but the next thing is we've already heard about how this is it is a high priority for this to be useful to be have a link.
+
+240
+00:40:24,769 --> 00:40:52,539
+Andrew Bailey: actionable actionable we're talking to you about how to make them look the right way how to make it responsive what limits there are phase one phase two we get we recognize that there is a lot of vision for this being also messaging not just email and that involves controls and people deciding systems and uptime and when all that sort of stuff but we know it exists this is communication once that happens.
+
+241
+00:41:00,031 --> 00:41:05,691
+Andrew Bailey: These guys are done, or this external buyer. They're done, yeah. They're done with that conversation.
+
+242
+00:41:05,952 --> 00:41:08,852
+Jake Herwaldt: So now they're waiting for the vendor to run. 
+
+243
+00:41:10,031 --> 00:41:44,741
+Andrew Bailey: which this is the next sentence, which you said was, I need to choose a vendor because they've responded here, which is that's the external vendor or internal vendor or no, but the thing that I heard you say the most in this.
+
+244
+00:41:44,741 --> 00:41:49,441
+Andrew Bailey: was everything visible at once, easy to see and compare.
+
+245
+00:41:51,352 --> 00:41:59,361
+Speaker 1: We call it the apples to apples view because they don't have, there's like five decisions, and we want all five right there. They don't have to click into anything.
+
+246
+00:42:00,064 --> 00:42:04,084
+Jake Herwaldt: That's already this way? Yep. Can you show us that screen. 
+
+247
+00:42:04,484 --> 00:42:05,524
+Speaker 1: Yeah, do you happen to have silver. 
+
+248
+00:42:06,933 --> 00:42:11,894
+Andrew Bailey: Yeah, it was price, discrepancy...
+
+249
+00:42:11,894 --> 00:42:17,263
+Speaker 1: It doesn't matter, but any... ...disposition, warranty... Let's do the sandboxes again.
+
+250
+00:42:17,694 --> 00:42:21,874
+Vikki Dipple: So we have pricing, warranty, disposition...
+
+251
+00:42:22,354 --> 00:42:25,114
+Speaker 1: Maybe the climate one, because that's the... Those are the three pieces.
+
+252
+00:42:25,234 --> 00:42:27,334
+Vikki Dipple: Exchange outright? Oh, exchange versus...
+
+253
+00:42:27,334 --> 00:42:32,074
+Speaker 1: Yeah. You have... And delivery. ...fire and view. Yeah.
+
+254
+00:42:32,074 --> 00:42:44,163
+Vikki Dipple: Right. Thanks. Thank you. We assume everything is next day, because that's how the industry usually goes, next day. Priority overnight. I can see it.
+
+255
+00:42:44,203 --> 00:42:46,243
+Andrew Bailey: Perfect. All right. I have one. Yeah.
+
+256
+00:43:00,566 --> 00:43:04,626
+Jake Herwaldt: Soon, though, we'll cut this, because Journal Buyer is the biggest.
+
+257
+00:43:11,076 --> 00:43:19,696
+Speaker 1: It's actually the easiest. No, you're fine. And then you can go click into the word. This is true. Oh, wait, are you in a sandbox now? Oh, good.
+
+258
+00:43:19,816 --> 00:43:24,216
+Andrew Bailey: There really hasn't been a part of this that they've said the way it currently works is just a sandbox.
+
+259
+00:43:24,216 --> 00:43:25,656
+Speaker 1: No, Doug needs to be in a sandbox, too.
+
+260
+00:43:26,226 --> 00:43:34,626
+Andrew Bailey: That's a sandbox account. So we just have to do this. Well, we like the old search the most better. In this case, it was.
+
+261
+00:43:34,726 --> 00:43:41,276
+Speaker 1: Okay, I'll go over here, because that's awkward. You have to be in the sandbox and log in as Doug in the sandbox.
+
+262
+00:43:41,896 --> 00:43:52,836
+Andrew Bailey: Oh, can I move this? This brings, she didn't even tell us how this works. Oh, you can wait. Also, he might have bought it in production, and it hasn't been cut up in sandbox, so it could be anywhere.
+
+263
+00:43:52,876 --> 00:44:01,620
+Vikki Dipple: No, they just did a refresh of the sandbox, though. Okay. Some of the old data is not there. Why? Of course it is. I just want to make sure.
+
+264
+00:44:44,950 --> 00:44:58,690
+Vikki Dipple: I will say that a lot more for the external buyer than the... We have a lot more, and we have developed them because our vendors put in a crap vendors. Unfortunately, we put in a ton more work in our buyers.
+
+265
+00:45:00,432 --> 00:45:01,752
+Andrew Bailey: I would say, yes.
+
+266
+00:45:10,402 --> 00:45:20,252
+Speaker 1: Internal buyer, I would say their experience is not great. Yeah, I would say more frustrated.
+
+267
+00:45:27,262 --> 00:45:31,102
+Vikki Dipple: And that's some of the problem is that it's two different.
+
+268
+00:45:31,102 --> 00:45:46,112
+Speaker 1: The external vendor looks sad and mad. It's pretty close to the internal buyer.
+
+269
+00:45:49,042 --> 00:45:54,722
+Vikki Dipple: I would say it's a little bit better than the internal buyer.
+
+270
+00:45:55,382 --> 00:45:59,482
+Speaker 1: So an internal vendor, that would be...
+
+271
+00:46:00,064 --> 00:46:07,364
+Vikki Dipple: That would be lock in the chain is selling a part to an SWP customer.
+
+272
+00:46:09,004 --> 00:46:11,364
+Jake Herwaldt: But again, it's driven all by 360.
+
+273
+00:46:12,024 --> 00:46:15,284
+Vikki Dipple: Yes. And I would say that one, yeah, that one's more.
+
+274
+00:46:17,594 --> 00:46:27,734
+Speaker 1: Is that the platform you feel like you're putting in? Frustration. Okay. It's like sad. It's not bad, it's just sad.
+
+275
+00:46:27,894 --> 00:46:53,864
+Andrew Bailey: So we've only been talking about the happenstance. But we just launched two. And it's not a lot. Well, of course. People, Nate and I have talked about this before. We talk all the time. It's like we might not like how somebody built something, but if they're making money, that's the part of business that's. There's a lot of software companies that make great code and don't build a business out of it. Sorry, I was just kidding.
+
+276
+00:47:03,936 --> 00:47:35,426
+Jake Herwaldt: I was asking essentially if, Andy and Nate, you probably care about this, if you can, as a vendor, quote the same, what's the word, or like, request. If you, as a vendor, you're being asked to quote something, quote it several times, condition it. So you'd be like, here's a new, here's a report. Yeah, you can clone the material itself with different conditions.
+
+277
+00:47:35,426 --> 00:47:47,806
+Jake Herwaldt: So you, when they, 99, submit their first quote? So is there some type of... Yeah, there will be another one. It's all, the record share is via... Oh, okay.
+
+278
+00:47:48,166 --> 00:47:49,706
+Aly Boggs-Smitley: Until the part...
+
+279
+00:47:50,286 --> 00:47:52,266
+Jake Herwaldt: But that's the idea.
+
+280
+00:47:52,746 --> 00:48:25,190
+Aly Boggs-Smitley: So then there's a new VMA chat in the order window, which is another thing that I have written down. you lose, then it's in two separate points, the EMA. This is what we had an issue with AllParts. For instance, let's say even with either the vendor or the customer, so if I message AllParts and say, hey, can you guys come down $1,000 on me? They say yes, and that's all in the chatter. I buy it from AllParts, and then a different person grabs my order,
+
+281
+00:48:25,290 --> 00:48:49,470
+Aly Boggs-Smitley: and they're like, who said that we would come down $1,000? They can't see the previous chat, and that breaks it up into different EMA chats. So you lose chat mystery once the part is in person. Or like you send pictures of something, and that gets lost here. Yeah, exactly.
+
+282
+00:49:00,032 --> 00:49:19,272
+Andrew Bailey: I'm sorry, guys, we failed to tell, but we were testing you, you guys, this is what. We followed you on that foot. Yeah, I was like, I wanted to, didn't you want to see if they would read. 
+
+283
+00:49:19,912 --> 00:49:22,252
+Vikki Dipple: No, we have way too much tenacity for that.
+
+284
+00:49:25,982 --> 00:49:35,332
+Andrew Bailey: We just want to, in the sake of time, yeah, for the sake of time and other things, we realized that this is, we wanted to focus on.
+
+285
+00:49:36,632 --> 00:49:51,222
+Jake Herwaldt: We think there's so much overlap, too, between all of them. I don't think there's groups, and we'll come back to it. Wait, can I make one recommendation? Oh, please. Can we take, we can either do head, shoulder, knees, and toes, or just walk around for five minutes. 
+
+286
+00:49:51,322 --> 00:49:59,792
+Andrew Bailey: Oh, yeah. And just leave us in the ground. I put on my, this is how I stay up for six years. Do a little walk. Let's come back.
+
+287
+00:50:44,054 --> 00:50:59,994
+Speaker 4: I was just curious, how many parts can you get? It could be a thousand parts. Just to see, I built, while we were talking, a thousand take parts. Just to see, we have this super test. It's almost not worth you talking about, because we're not going to get this.
+
+288
+00:51:00,096 --> 00:51:06,556
+Andrew Bailey: No, no, no, it's worth it, because when you guys say stuff, we go explore stuff. So this is how you should think about, oh, what are they going to go do. 
+
+289
+00:51:06,936 --> 00:51:38,516
+Speaker 4: Okay, as much as things can be instant, you want to make things happen. And so the basic parts, the parts aren't added in and removed. They're added in and removed pretty frequently. So things that don't change are often, we keep actually on the browsers faster. So this is just a quick test of 50,000 parts in the browser. We search through all of them, and it's like 30,000 files. So the idea is, I think, things that we find that are slow will work aggressively hard to make not slow. Yeah, because we can have things kind of just sitting on the browser waiting for you to miss.
+
+290
+00:51:38,556 --> 00:51:42,436
+Speaker 4: Every time you hit a key press, it's changing the list. It's like boom, boom, boom.
+
+291
+00:51:42,456 --> 00:51:50,236
+Andrew Bailey: Which, 30 per millisecond is faster type of life. And once you redo it, if it's done, it's just like, well, we'll find the next thing.
+
+292
+00:51:50,436 --> 00:51:59,416
+Speaker 4: Well, part of this, too, is how many parts are actually being bought every year, unique parts. I'm sure it's not just unique parts. You'll find what's actually unique ones, you'll have those in memory. Yeah.
+
+293
+00:52:00,000 --> 00:52:15,170
+Speaker 1: trying to do a quick search because we have the ability to like start displaying results based on like per but it's so slow that the user types faster than some so it's like a pointless like search that's fast yeah I think it's.
+
+294
+00:52:15,170 --> 00:52:15,890
+Speaker 4: important yeah.
+
+295
+00:52:55,220 --> 00:52:55,940
+Speaker 4: literally.
+
+296
+00:53:05,302 --> 00:53:17,742
+Andrew Bailey: Suspension Elegant Gold Sausages. I was going to ask, like, what I'm more impressed with. Oh, you do have to have them in order.
+
+297
+00:53:21,632 --> 00:53:29,122
+Speaker 4: I think some of the, especially, the reason I do want to over compare this is because the LLM.
+
+298
+00:53:32,412 --> 00:53:41,362
+Vikki Dipple: I don't even know how many times I've died Yeah, yeah.
+
+299
+00:53:53,382 --> 00:53:58,902
+Speaker 4: So you built this for your family? I built this, I mean, I said it was a family. Like an extended family of us? Yeah.
+
+300
+00:54:00,064 --> 00:54:00,844
+Jake Herwaldt: His family is massive.
+
+301
+00:54:01,244 --> 00:54:20,464
+Speaker 4: It's nice. That's true. Yeah. So in my case, this is actually real data. So I built it initially in 2000, back when, like, a certain technology wasn't a thing we all used. So this is everybody in my family lives right now. So I can tell my sister, Elizabeth, what happens is all of us can suggest ideas, but she can't see it.
+
+302
+00:54:21,984 --> 00:54:22,664
+Speaker 1: Oh, my gosh.
+
+303
+00:54:22,864 --> 00:54:35,984
+Speaker 4: Yeah. So we can all say, like, someone can say, I overheard her say she really wants this thing. Or she. And so someone else, I can suggest it to my other sister in Myrtle Beach, and you'll buy it. And then we realize, this is what we're going to do. We're going to buy it.
+
+304
+00:55:00,696 --> 00:55:52,526
+Speaker 4: I like this kind of stuff, and then other people come over here and say, oh, I heard in May, I heard today that you walked past this, you jotted down there, and then two months later someone else goes and finds what someone else recommended for you. So what I will be adding next for my kids is interest, but not, like, my kids like this color, their shoe size is bigger, and then that will be dated with expiration dates, because they change the colors all the time. My kid just changed, but yeah, you can see just as a beautiful organization, but then now going forward, as more people use it, you can see what is the average six-year-old girl who loves to see a spread of ideas, and then this is what I really want to get going in on again.
+
+305
+00:55:52,766 --> 00:56:08,110
+Speaker 4: So I can say, we want to send my parents on a quick one, but it's going to be a thousand bucks. So collaborating within, keeping the secrecy angle of destiny. What is that look? That's so cool.
+
+306
+00:56:12,760 --> 00:56:16,800
+Andrew Bailey: Jake's like, I haven't even started wondering yet. He's just gathering information.
+
+307
+00:56:17,780 --> 00:56:31,990
+Speaker 1: I know. So how many times I wanted to buy something for my husband, we're obviously on the same Amazon. Oh yeah. So I text Ali, I'm like, hey, can you buy this for me? And he's like, what? And I'm like, don't, just buy it.
+
+308
+00:56:32,370 --> 00:56:35,870
+Aly Boggs-Smitley: Why am I getting suggestions? For garden waterfalls.
+
+309
+00:56:36,470 --> 00:56:42,390
+Speaker 4: Why would I buy a waterfall? That's true. You're just drawing your data analytics when you do that kind of stuff. I am.
+
+310
+00:56:45,130 --> 00:57:16,802
+Andrew Bailey: There should be like an ignore this. My wife can order things for me on the same account. Well done. I just don't know. I don't buy any of this stuff. I'm going to find this back. Oh yeah. Jake told me. You told me that, and Steve gave me the I, he said this best. Yeah. Wait, where are you guys going? Okay. That's important. He got so excited about showing you the best response.
+
+311
+00:57:21,192 --> 00:57:21,992
+Andrew Bailey: Well, then never mind.
+
+312
+00:57:22,032 --> 00:57:37,962
+Vikki Dipple: So after we show them all their options, apples to apples options, are we going to continue in that vein or are we going to switch to external. 
+
+313
+00:57:38,302 --> 00:58:42,214
+Andrew Bailey: We're going to switch to external. I think I'll probably try to use that third one for external vendor. I think I'm going to try to, now that I've kind of got a shape, we'll see if we can get it better. I like as far as. When I was in college, I was at Union State, and I went to the surplus store, and I bought an 8 foot by 4 foot chalkboard, because I was programmed, and there was no better way for me to do math problems than on a chalkboard, because I could do it, and that didn't work, and that didn't work again, rather than throwing away pieces of paper, I just felt like I was mounting my failure, and I was like, no, no, I'm just trying again, I'm just trying this new way, and when I, oh, probably it takes 1 foot by 4 foot, and I was like, no, no, I'm just trying again, and I was like, no, no, I'm just trying this new way, and when I, oh, probably it takes 1 foot by 4 foot, and I was like, no, no, I'm just trying again, and.
+
+314
+00:58:49,704 --> 00:59:11,276
+Vikki Dipple: so I think on the bender side, and so I think on the bender side, I didn't want to start from scratch. I needed something to...
+
+315
+00:59:20,806 --> 00:59:25,216
+Andrew Bailey: Their goal is to make them a more platform. That's right.
+
+316
+00:59:26,136 --> 00:59:30,646
+Jake Herwaldt: They're saying block wins by getting these people more...
+
+317
+00:59:34,186 --> 00:59:40,186
+Andrew Bailey: But they have their... Nobody uses this platform as their sole source of revenue.
+
+318
+00:59:40,566 --> 00:59:41,106
+Jake Herwaldt: That's correct.
+
+319
+00:59:41,966 --> 00:59:56,826
+Andrew Bailey: It sounds to me, or I would... What would you say is the highest percentage of their... Is anybody hitting... The minimum is at this point. 10%? No. So this is a...
+
+320
+00:59:56,826 --> 00:59:59,926
+Vikki Dipple: For some... I'm trying to think of like...
+

@@ -1,0 +1,184 @@
+{
+  "workflows": [
+    {
+      "id": "W01",
+      "name": "Buyer Parts Request",
+      "persona": "P01",
+      "description": "Request parts/materials from qualified vendors",
+      "steps": 10,
+      "requirements_addressed": 17,
+      "complexity": "medium",
+      "file": "W01-buyer-parts-request.json"
+    },
+    {
+      "id": "W02",
+      "name": "Review and Select Vendor",
+      "persona": "P01",
+      "description": "Review vendor quotes and purchase parts",
+      "steps": 15,
+      "requirements_addressed": 20,
+      "complexity": "high",
+      "file": "W02-review-select-vendor.json"
+    },
+    {
+      "id": "W03",
+      "name": "Vendor Submit Quote",
+      "persona": "P02",
+      "description": "Submit competitive quotes for parts requests",
+      "steps": 10,
+      "requirements_addressed": 10,
+      "complexity": "medium",
+      "has_narrative": true,
+      "file": "W03-vendor-submit-quote.json"
+    },
+    {
+      "id": "W04",
+      "name": "Messaging Capability",
+      "type": "SYSTEM_CAPABILITY",
+      "personas": ["all"],
+      "description": "Cross-cutting messaging feature enabling contextual communication",
+      "components": 5,
+      "requirements_addressed": 7,
+      "complexity": "high",
+      "has_narrative": true,
+      "file": "W04-messaging-capability.json"
+    },
+    {
+      "id": "W05",
+      "name": "Vendor Confirmation & Shipping",
+      "persona": "P02",
+      "description": "Confirm orders and ship parts to buyers",
+      "steps": 9,
+      "requirements_addressed": 10,
+      "complexity": "medium",
+      "has_narrative": true,
+      "new_functionality": ["vendor-initiated-cancellation"],
+      "file": "W05-vendor-confirmation-shipping.json"
+    },
+    {
+      "id": "W06",
+      "name": "Integrated Vendor - SW Buyer Timeline",
+      "persona": "P03",
+      "description": "Integrated vendor acts as middleman for SW buyer requests",
+      "steps": 10,
+      "requirements_addressed": 11,
+      "complexity": "high",
+      "has_narrative": true,
+      "reuses_workflows": ["W01", "W02", "W03", "W05"],
+      "new_functionality": ["vendor-to-buyer-role-switching", "markup-management", "drop-ship-orchestration"],
+      "file": "W06-integrated-vendor-sw-buyer-timeline.json"
+    },
+    {
+      "id": "W07",
+      "name": "Integrated Vendor - Non-SW Buyer Timeline",
+      "persona": "P03",
+      "description": "Integrated vendor sources through SW for phone/email orders",
+      "steps": 10,
+      "requirements_addressed": 8,
+      "complexity": "high",
+      "has_narrative": true,
+      "reuses_workflows": ["W01", "W02", "W03", "W05"],
+      "system_integration": ["Salesforce", "Sourcing Window"],
+      "new_functionality": ["dual-system-coordination", "external-order-processing"],
+      "file": "W07-integrated-vendor-non-sw-buyer-timeline.json"
+    },
+    {
+      "id": "W08",
+      "name": "Integrated Vendor Auto-Sourcing",
+      "persona": "P03",
+      "description": "Intelligent tiered vendor sourcing when lacking inventory",
+      "steps": 13,
+      "requirements_addressed": 11,
+      "complexity": "very-high",
+      "has_narrative": true,
+      "reuses_workflows": ["W01", "W02", "W03"],
+      "key_features": ["tiered-vendor-release", "auto-sourcing-engine", "markup-management"],
+      "premium_features": true,
+      "file": "W08-integrated-vendor-auto-sourcing.json"
+    },
+    {
+      "id": "W09",
+      "name": "Integrated Vendor Fulfillment Pass-Through",
+      "persona": "P03",
+      "description": "Orchestrate fulfillment when selected for sourced parts",
+      "steps": 8,
+      "requirements_addressed": 5,
+      "complexity": "high",
+      "has_narrative": true,
+      "reuses_workflows": ["W02", "W05"],
+      "broker_role": true,
+      "key_features": ["information-passthrough", "drop-ship-coordination", "dual-transaction-management"],
+      "file": "W09-integrated-vendor-fulfillment-passthrough.json"
+    }
+  ],
+  "metadata": {
+    "total_workflows": 9,
+    "user_workflows": 8,
+    "system_capabilities": 1,
+    "total_requirements_covered": 99,
+    "personas_involved": ["P01", "P02", "P03", "all"],
+    "workflows_with_narratives": 7,
+    "last_updated": "2025-09-25"
+  },
+  "workflow_relationships": {
+    "W01": {
+      "triggers": [],
+      "leads_to": ["W02", "W03"],
+      "integrates_with": ["W04"],
+      "description": "Parts request (W01) generates opportunities for vendors (W03) and quotes for buyers to review (W02)"
+    },
+    "W02": {
+      "triggers": ["W01", "W03"],
+      "leads_to": [],
+      "integrates_with": ["W04"],
+      "description": "Reviews quotes generated from W01 parts requests and W03 vendor submissions"
+    },
+    "W03": {
+      "triggers": ["W01"],
+      "leads_to": ["W02"],
+      "integrates_with": ["W04"],
+      "description": "Vendors respond to requests from W01, creating quotes reviewed in W02"
+    },
+    "W04": {
+      "type": "cross_cutting",
+      "triggers": [],
+      "leads_to": [],
+      "integrates_with": ["W01", "W02", "W03", "W05", "all_future"],
+      "description": "Messaging capability available across all workflows for contextual communication"
+    },
+    "W05": {
+      "triggers": ["W02"],
+      "leads_to": [],
+      "integrates_with": ["W04"],
+      "description": "Vendor fulfills orders after buyer selection in W02"
+    },
+    "W06": {
+      "triggers": ["W01"],
+      "leads_to": ["W05"],
+      "integrates_with": ["W01", "W02", "W03", "W04", "W05"],
+      "description": "Integrated vendor becomes buyer when lacking stock, orchestrating network sourcing and drop-ship fulfillment"
+    },
+    "W07": {
+      "triggers": ["external_order"],
+      "leads_to": ["W05"],
+      "integrates_with": ["W01", "W02", "W03", "W04", "W05"],
+      "system_bridge": ["Salesforce", "Sourcing Window"],
+      "description": "Integrated vendor uses SW to source parts for phone/email orders, bridging traditional and marketplace channels"
+    },
+    "W08": {
+      "triggers": ["W01", "W06", "W07"],
+      "leads_to": ["W09"],
+      "integrates_with": ["W01", "W02", "W03", "W04"],
+      "key_features": ["tiered-vendor-system", "auto-sourcing", "intelligent-markup"],
+      "description": "Detailed implementation of integrated vendor auto-sourcing with tiered vendor release system for optimized procurement"
+    },
+    "W09": {
+      "triggers": ["W06", "W07", "W08"],
+      "leads_to": [],
+      "integrates_with": ["W02", "W05"],
+      "broker_role": true,
+      "key_features": ["information-passthrough", "order-linking", "transparent-fulfillment"],
+      "description": "Integrated vendor orchestrates fulfillment between original buyer and third-party vendor, maintaining seamless experience for both parties"
+    }
+  }
+}

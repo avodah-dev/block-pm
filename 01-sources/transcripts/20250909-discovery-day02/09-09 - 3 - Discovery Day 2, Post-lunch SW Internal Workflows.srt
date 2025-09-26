@@ -1,0 +1,984 @@
+1
+00:00:07,070 --> 00:00:13,280
+Aly Boggs-Smitley: Oh, she told me now she took you know, what I think she said she wasn't coming back.
+
+2
+00:00:13,280 --> 00:00:19,790
+Jake Herwaldt: You say see you later. I'll see you in five minutes.
+
+3
+00:00:27,420 --> 00:00:44,320
+Aly Boggs-Smitley: I saw you guys walk in which was my cue like, okay, I'll walk you're fine. Oh.
+
+4
+00:00:44,320 --> 00:01:03,541
+Steve Muniak: So we brought this time. We've not used this thing. No, I guess you were really impressed me If you brought me out wrong big squirrel that comes out of a dark room the whole visit is a dark room time Oh, I don't know that, Yeah, I know that because I used to work in a darkroom. Oh, really. 
+
+5
+00:01:04,402 --> 00:01:10,782
+Jake Herwaldt: I can tell you, I know very little about darkrooms. It's like too sensitive almost. But that's because photos have looked a little different.
+
+6
+00:01:11,502 --> 00:01:30,112
+Vikki Dipple: Oh yeah, is it a big square one? Yeah. My house I grew up in, my grandpa built. So all of my aunts and uncles lived there and had a darkroom in the basement. Oh, that's great. And it had that big square clock. That's funny, I didn't know it was like.
+
+7
+00:02:01,454 --> 00:02:19,054
+Vikki Dipple: I think the lightest, yeah, in all the years I've gone off the read, it's always, I've always stopped at the same price.
+
+8
+00:02:21,983 --> 00:02:23,804
+Jake Herwaldt: What do retreats look like for you guys. 
+
+9
+00:02:25,543 --> 00:02:39,514
+Vikki Dipple: This entire room has like three square inches taken up by chairs. Oh. But I think this year, because we have so many people, we're going to be putting it out under a tent.
+
+10
+00:02:40,034 --> 00:02:42,034
+Jake Herwaldt: What is it? Is it just like a rock. 
+
+11
+00:02:43,404 --> 00:03:11,546
+Vikki Dipple: There's a little bit of that. Somewhat, but a lot of it, we've kind of done different things over the years. We sometimes would have like special speakers come in or we'd break off into small sections and have like a specialized luncheon. But the last couple of years, because we've had so much change and they want to make sure everybody's rallying together, understanding what we're doing.
+
+12
+00:03:11,866 --> 00:03:45,866
+Aly Boggs-Smitley: In 2020, it was like the five-year plan of what 2025 was. In 2020, what we projected had nothing to do with what actually ended up happening. Just because growth is crazy. Right, yeah. There are vision tasks, writing letters to us. And they'll usually have some sort of theme around like a book that leadership has read. So like one year, the power of moments was like kind of the theme and kind of based around that. The last couple, well, no, was Krista last year or the year before that she spoke?
+
+13
+00:03:46,636 --> 00:04:17,980
+Aly Boggs-Smitley: Two years ago. So sometimes it's external speakers. Lash didn't have any external speakers. But I think that it was Siemens people that came. And so it was kind of more those lines. But we don't really know what it's going to be about fully until the day of, but it's a day where everybody kind of steps back from their everyday job as much as we can. Like, for instance, my team, obviously, just because we're having a retreat doesn't mean all of a sudden the customers stop asking for parts.
+
+14
+00:04:18,120 --> 00:04:53,150
+Aly Boggs-Smitley: So there's moments to pause during the day where then my team goes and responds. Blitzes. Yeah, blitzes to, like, go and respond. But we try to pull away to focus on the retreat as much as we possibly can. So, like, we'll send out a blast email to our biggest customers telling them that we're having a retreat so they know, like, why we're not answering the phone or why it's taking longer to respond to them. And then the last few years they have added after, like, the day for just block employees.
+
+15
+00:04:53,530 --> 00:05:24,092
+Aly Boggs-Smitley: And in the evening now, the last couple of years, they have, like, a dinner thing where people can bring. you want to bring their spouse with no children but just spouses or significant others and so like the first two years it was a um square dancing was the uh was the activity last year it was trivia it was trivia huh real experience with real yes with a legit one a legit one.
+
+16
+00:05:24,092 --> 00:05:29,812
+Andrew Bailey: he did the calling at my sister's yeah what was his name i mean i know one call.
+
+17
+00:05:29,812 --> 00:05:36,501
+Vikki Dipple: it was something well he's like the one question caller especially in michigan he's like the one.
+
+18
+00:05:36,501 --> 00:06:07,224
+Aly Boggs-Smitley: that you go to and it was his is it his wife that comes with it yeah so then but then last year last year it was trivia followed by um like chris shirock and a couple other people have a band and they did and they did like 80s night so band so like we could dress in 80s gear and i think that went over a little bit better than because we did two years of square dancing and i think everyone was like okay we're going to square dance. It's fun if you can participate, but it's intimidating, I'm sure.
+
+19
+00:06:07,343 --> 00:06:07,604
+Jake Herwaldt: Yes.
+
+20
+00:06:10,443 --> 00:06:23,554
+Steve Muniak: All right, let's kick this off. I've got a question to kind of recap this. What did we learn? Nate, why don't you do it. 
+
+21
+00:06:23,713 --> 00:06:53,463
+Nathan Bedford: Yeah, so recap. This notion of keeping source and window as standard as possible is definitely what we've done, which is what we really wanted to do. So the integrations with Salesforce, we'll build them in a way that could be used for any vendor but will only be used to this degree with source of supply. And that means that on top of that, this concept that we'll have to have good synchronization process because source of truth, both systems will maintain the same set of data.
+
+22
+00:06:53,924 --> 00:07:24,425
+Nathan Bedford: So even this concept of a source of truth, it would be a bit more about how do we want to synchronize differences than who's going to be getting it. I think that was great. We're aligned with the idea of gradually incorporating, part of the sourcing window into the admin process instead of Salesforce. And he was fully looking for this much minimal integration for the first phase around. And then we'll find other ways to smartly embed the experiences we're building into systems like Salesforce.
+
+23
+00:07:24,425 --> 00:07:35,815
+Nathan Bedford: or could be other systems. A lot of alignment. And he actually offered the thing that we wanted to be the solution. So it was great. We didn't have to convince him of anything.
+
+24
+00:07:36,525 --> 00:08:38,599
+Andrew Bailey: I wanted to just add one piece to that. The distinction that I really liked, in addition to the separation policy, was there is a basic user that provides values and window in a sense that they add part liquidity by being, there's the premium user to get what has not been used. That's really good to know and then there's Block being a super-user and then other people may get this dual-sided access, like what does it mean, is it the dual-sided access, the ability to broker, a brokerage user, however they want to do that, define that, it doesn't have to be defined today, but where you can at least build Block as a user where there is more capacity to do these powerful, that seems like, that from a product perspective, from thinking about this, that really helps to not make Block special, yeah.
+
+25
+00:08:40,929 --> 00:09:03,291
+Nathan Bedford: That allows us to say, much easier to make this its own standalone system with robust integrations instead of having to embed special things everywhere, like this really means that the integration for Block will be first class, but then some of those elements might become... Parts of the platform are very upscale features.
+
+26
+00:09:06,391 --> 00:09:20,972
+Steve Muniak: What do we want to have today? What do we want to do today? Because I just want to make sure. So great question.
+
+27
+00:09:21,681 --> 00:09:52,191
+Andrew Bailey: Go ahead. I haven't, but I know that the schedule, that at least the schedule that I've been invited to, I'm not 100% clear on what tomorrow looks like. I think we have two options as far as diving deep into things that she's shifting around. But we don't know, like, for example, if we let you go for an hour and brought you back, we could get maybe more organized. so that we were very clear on our questions or very focused.
+
+28
+00:09:53,051 --> 00:10:15,654
+Andrew Bailey: Or is it like, nope, we really need to maximize our time with you? Sort of, we haven't had a time. We can be flexible. Where we haven't had a time. We haven't had a time where we've gone and recategorized everything based on what we learned all yesterday on all today. We had a little bit yesterday, but it wasn't. Obviously, we're learning a lot each day. We don't necessarily need that. It just maybe means that the questions we're asking, we're asking with like 60% precision instead of not.
+
+29
+00:10:16,314 --> 00:10:21,113
+Steve Muniak: What if I threw this on the table because I know it would be gone. 
+
+30
+00:10:21,373 --> 00:10:22,034
+Vikki Dipple: Yeah, tomorrow.
+
+31
+00:10:22,973 --> 00:10:32,804
+Steve Muniak: But we can stay with the mediation process of Allie and Jordan. We had to pull you in for some. Would that be okay. 
+
+32
+00:10:33,784 --> 00:10:42,634
+Aly Boggs-Smitley: I'm just not available between 2 and 3. Not a team meeting.
+
+33
+00:10:47,334 --> 00:10:59,814
+Steve Muniak: Vicki and I can kind of participate in your digestive period. One thing I do want to define this, though.
+
+34
+00:11:00,596 --> 00:11:23,786
+Jake Herwaldt: So either we define this now, the external, because we kind of got halfway through and then we decided to stop. So either we finish this, or we can finish this on our own, but I just don't know. I'm cool. To me, this would be like, all right, let's just try to stuff a little bit more in. Yeah, stuff just a little bit more of the external wire, and then we can, are we cool with that. 
+
+35
+00:11:25,026 --> 00:11:34,736
+Speaker 7: I have until about 2.45 on site. What's that? I have until 2.45 on site today. Okay. I got another hour. We can probably, we can do this easily.
+
+36
+00:11:35,976 --> 00:11:36,856
+Andrew Bailey: Don't throw out time.
+
+37
+00:11:38,866 --> 00:12:09,520
+Jake Herwaldt: Easily. What did I say? I can sound the buyer. I can sound the buyer if I need to. So, do you guys still have your sheets for external wire? Otherwise, I can send them back out. Okay, so I know we were working. What do you, what is it? Do you want to? I just want to finish the flow. Yes, external buyer flow. So we got through, let's just recap, I guess. Open REC, you search.
+
+38
+00:12:09,620 --> 00:12:29,670
+Jake Herwaldt: We talked about what searching looks like for a little bit. Searching a part number. If you have the part grade, let's go to source it. If we don't have the currently, you have to create that part material, which then gets added, and then you're able to. Then you can actually do this loop a couple times. You could have multiple parts. And then, do you want to go over that. 
+
+39
+00:12:29,750 --> 00:12:59,580
+Andrew Bailey: Yeah, sourcing window brains, what it does is it takes all the REC items and runs them against the vendors with capabilities and alignments. Those parts distribute an email to each one. So vendor one, which is block, it gets all the requests. Vendor two, maybe it has capabilities and contractual alignment. Only two of the parts, so it would get that. And vendor three maybe has it for three of the parts, and so they would get that because they're going to look at things at part level, even though it's part of a full request. Great.
+
+40
+00:13:00,562 --> 00:13:11,762
+Andrew Bailey: that triggers the email so now it's on the side of the vendor to do their work now the person is going to come back this before there's a tiny little step in.
+
+41
+00:13:11,762 --> 00:13:20,662
+Jake Herwaldt: here source my part has to do with you have a list right now of let's say 10 vendors and you can opt out is it default to opting into all of the.
+
+42
+00:13:20,662 --> 00:13:25,012
+Vikki Dipple: vendors no so the only one it automatically will connect no matter.
+
+43
+00:13:25,012 --> 00:13:32,252
+Jake Herwaldt: what is blocked they can't opt out of the block but then all the rest of them they have to opt-in to say I do.
+
+44
+00:13:32,252 --> 00:13:47,462
+Vikki Dipple: I mean with that's an onboarding oh that's an onboarding I thought they have, in sourcing window they verbally tell us oh for some reason I thought that was.
+
+45
+00:13:47,462 --> 00:14:06,994
+Jake Herwaldt: request they could opt out okay cool great so then now we're going we jumped but then, goes to the vendor who does their piece and then now it goes back to the external buyer to actually.
+
+46
+00:14:06,994 --> 00:14:38,684
+Aly Boggs-Smitley: compare apples to apples that what you're pulling up so i'm putting through so like sarah daly who's a common spirit buyer so we're at that point now so like these are all the connected vendors so these are all people that kind of for gmri parts we want all of our buyers so then for my team's.
+
+47
+00:14:38,684 --> 00:14:58,504
+Aly Boggs-Smitley: side then to dark he has this little swp icon to tell us that it's enough what at least the the.
+
+48
+00:15:00,096 --> 00:15:10,646
+Andrew Bailey: I was going to ask why it was called Icon and I was like, I already know the answer to that and I was like, SWP is not a good icon.
+
+49
+00:15:12,646 --> 00:15:29,676
+Aly Boggs-Smitley: So, and I'm still looking at personal window pro. So now this is us. So like my team would put in pricing. Oh, because you are vendor blocked. We're vendor blocked.
+
+50
+00:15:30,596 --> 00:15:32,816
+Jake Herwaldt: Are you actually filling this out live. 
+
+51
+00:15:33,096 --> 00:15:33,536
+Aly Boggs-Smitley: Yes.
+
+52
+00:15:33,536 --> 00:15:34,636
+Jake Herwaldt: But this is Sandbox. 
+
+53
+00:15:34,776 --> 00:15:35,496
+Aly Boggs-Smitley: In Sandbox.
+
+54
+00:15:35,536 --> 00:15:37,576
+Jake Herwaldt: Oh, okay. It's a show fan. What. 
+
+55
+00:15:39,716 --> 00:15:47,406
+Aly Boggs-Smitley: So, I fill in a quote as soon as I do that. So now I'm back on Sarah's.
+
+56
+00:15:47,406 --> 00:15:49,526
+Andrew Bailey: But you had to press search again.
+
+57
+00:15:50,106 --> 00:15:53,526
+Aly Boggs-Smitley: That is correct. There's no auto-refreshing.
+
+58
+00:15:56,856 --> 00:16:04,350
+Jake Herwaldt: We refresh a lot. This might be done quickly. If you refresh, does it keep the page? Yes. Okay.
+
+59
+00:16:04,370 --> 00:16:05,040
+Aly Boggs-Smitley: Good question.
+
+60
+00:16:05,040 --> 00:16:06,860
+Jake Herwaldt: And if it kicks you back out anywhere.
+
+61
+00:16:06,960 --> 00:16:13,680
+Aly Boggs-Smitley: So then let's say, I'm just going to also pretend, so like let's say direct tells. This is on the back end.
+
+62
+00:16:14,110 --> 00:16:15,310
+Jake Herwaldt: Yeah, this is all fake.
+
+63
+00:16:15,350 --> 00:16:19,510
+Aly Boggs-Smitley: She's fake vendor. Yeah, this is all fake. Let's say R-S-T-I does.
+
+64
+00:16:21,060 --> 00:16:24,850
+Jake Herwaldt: In prop, do you guys have this control? Do you do. 
+
+65
+00:16:26,030 --> 00:16:42,970
+Vikki Dipple: The only thing that we can access Venlock from is the e-mail chat. Between us and the vendor. Oh, you can't spoof a chat, basically. Yeah. We could enter pricing. We could adjust our pricing. That's crazy. We could adjust our pricing. We could say no stock. That level has not been locked down. 
+
+66
+00:16:42,990 --> 00:16:53,590
+Andrew Bailey: Is that locked down to people? We probably wouldn't let you have that level. Unless you guys really want it. Then we would tell you, you probably have that level. We would advise against it. Yeah. At least not just.
+
+67
+00:16:54,690 --> 00:17:10,872
+Vikki Dipple: Even, even our like premium block edition. Um. Yeah. We would want visibility, but not edit access, so we'd still be able to see everything, just in case there was an issue we could proactive period if we wanted to.
+
+68
+00:17:10,872 --> 00:17:21,082
+Andrew Bailey: If we do give you that, we also have a tell on you. Right. And that, I just, we just mostly tell people you shouldn't do that. We would want that completely locked down. Alright, back on the phone.
+
+69
+00:17:21,462 --> 00:17:27,912
+Steve Muniak: I just threw a quick, easy explanation of Indirection.
+
+70
+00:17:32,222 --> 00:17:59,712
+Aly Boggs-Smitley: Okay, so then, Sarah announced, so far, two different quotes, one from Black, one from RSTI, who's under direct medicine post-doc. At this point, if she wanted to, let's say she really likes Triamid, she may wait for, but let's say she's in a hurry, and she just wants what is the cheapest.
+
+71
+00:18:01,334 --> 00:18:12,034
+Nathan Bedford: Warranty for them your questions on that that seems conversation. Was that just like part of the daily process where you have conversations? I might have missed a bit, but I just saw things flashing up. Was that you guys talking internally about. 
+
+72
+00:18:14,194 --> 00:18:20,754
+Aly Boggs-Smitley: I'm just saying is that in other words would it be my team is I'm teams non-stop talking. Yeah. Yeah, okay.
+
+73
+00:18:20,754 --> 00:18:27,674
+Nathan Bedford: I'm not trying to sue too much this thing at those conversations But they'd be valuable inside of the scope of a record like a chat or if they really use it on the separate.
+
+74
+00:18:28,694 --> 00:18:39,134
+Aly Boggs-Smitley: Yeah, I mean we can internally chat so like Elliot just told me on teams that I got in order He could have easily also just shattered me on the requisition saying Marcus wants to buy that wants to buy this.
+
+75
+00:18:39,134 --> 00:18:46,394
+Andrew Bailey: That was here. He did that would that be away from the vendor would know that that for the the customer wouldn't get to see that Chatter just you guys.
+
+76
+00:18:46,394 --> 00:18:54,454
+Aly Boggs-Smitley: To anybody in anybody in block chatter just chatters look the names.
+
+77
+00:18:54,454 --> 00:18:59,934
+Nathan Bedford: The same thing it's like a cow.
+
+78
+00:19:00,276 --> 00:19:15,856
+Aly Boggs-Smitley: like you know should we be invoicing blah for this they would just internally chatter on a chatter the IC team the inventory team to the you know do you like and I get pictures like there's all the internal chatter so.
+
+79
+00:19:16,156 --> 00:19:21,846
+Steve Muniak: palliative supplier issues those are directly next to that from the.
+
+80
+00:19:21,846 --> 00:19:33,156
+Aly Boggs-Smitley: character master right now let's say I didn't have this in stock then I would be able to source to all of my other vendors that are not yeah to try and.
+
+81
+00:19:33,156 --> 00:19:38,576
+Jake Herwaldt: find the system for smart enough to say that to say this personally access six.
+
+82
+00:19:38,906 --> 00:19:46,686
+Steve Muniak: correct yes and as she's sourcing then she's playing in the role for sourcing.
+
+83
+00:19:47,146 --> 00:20:09,400
+Jake Herwaldt: yeah if I am if I'm a customer if I'm if I'm a buyer that needs apartment like I am lying down am I going to go through sourcing window or is it, to just call you like do people just that might have access to this tool might just go direct through you guys anyway or is that not really so well yeah.
+
+84
+00:20:09,400 --> 00:20:40,890
+Aly Boggs-Smitley: so with common spirit yeah they have their procurement team and their entire procurement team does it this this way if they if it needs to be like an NFL, like a next fight out when they're creating their requisition there is a box like for notes where they could be like looking for same-day options too and that would usually have to give us the address so we can give them an actually on how fast we get it there yeah or they'll say overnight shipping or only looking for new options like so they have that little note box that they.
+
+85
+00:20:40,890 --> 00:21:05,831
+Aly Boggs-Smitley: could the other thing that would common spirit is is they do have a lot of engineers and everything that hate going through the procurement team and there will usually be the ones who just call us and then this is not used at all yeah we're just creating a completely separate rec in sales in sales force possibly sourcing for them, the engineers themselves are just cutting us a PO by either over the phone or emailing it to us.
+
+86
+00:21:06,992 --> 00:21:09,641
+Vikki Dipple: Which, I mean, that's them going out with their process.
+
+87
+00:21:09,861 --> 00:21:40,222
+Aly Boggs-Smitley: Or there's also ones that they don't use the procurement. Like there's certain sites that just don't. But for the most part, if they are an SWP customer, they're always coming. If it is urgent, they might put through the tool and call us to be like, hey, I just put this through something urgent. Or they can use the chat. So any questions up to this point? Okay. So let's say I'm Sarah, and so she's going to go with block.
+
+88
+00:21:40,462 --> 00:21:44,942
+Vikki Dipple: So at this point up there at the chart, you've got. Yes.
+
+89
+00:21:44,962 --> 00:21:58,891
+Andrew Bailey: Do you guys ever make the wrong decision? Who? Your team. Like your apples to apples list. Do you ever have to sort it? Do you ever like, oh, shoot, I chose the wrong one because I couldn't see it. 
+
+90
+00:22:00,903 --> 00:22:09,653
+Vikki Dipple: It's ridiculous on the back end to get a fix. Oh, do the buyers choose? My team doesn't choose.
+
+91
+00:22:11,474 --> 00:22:20,823
+Andrew Bailey: I was going to say, is that true? Because I just noticed it didn't auto-sort. And I thought, okay, do you guys ever need to sort by warranty. 
+
+92
+00:22:21,024 --> 00:22:52,204
+Aly Boggs-Smitley: The biggest issue that we have right now is let's say Sarah uploaded it. For some reason she wanted to go with R-S-T-I because she likes Tom better than me. So let's say she uploads her old and goes through the entire purchase process to R-S-T-I. Then Tom shatters back and goes, oh, sorry, Sarah, I actually just sold this. Canceling that for her to be able to buy from a different vendor on the same rep is a pain in the butt.
+
+93
+00:22:52,383 --> 00:22:56,484
+Vikki Dipple: Yeah, we have development right now. So that's not possible right now.
+
+94
+00:22:57,194 --> 00:23:09,435
+Aly Boggs-Smitley: Or same thing with us. It does happen. Oh, it does happen every week. Yeah, because they don't buy it sometimes right away, and they wait a day or two. These parts could just not be available anymore.
+
+95
+00:23:09,615 --> 00:23:15,735
+Steve Muniak: That's a problem we don't have to solve, and we're not going to solve this. It's an industry-wide acceptance. Yeah. But if we do.
+
+96
+00:23:15,735 --> 00:23:28,015
+Andrew Bailey: It's just like seeing a car on the line. But the ability to cancel. Yes, the ability to cancel. That doesn't solve the issues in the Salesforce 360 and all the other areas. It doesn't solve the problem that now they.
+
+97
+00:23:28,015 --> 00:23:30,355
+Steve Muniak: have to reach to the top of their choice. That's all it does.
+
+98
+00:23:30,715 --> 00:23:32,425
+Aly Boggs-Smitley: Yeah, make a.
+
+99
+00:23:32,525 --> 00:23:36,405
+Andrew Bailey: Is there something we can put over the top of it, like when you cancel it. 
+
+100
+00:23:37,355 --> 00:23:42,215
+Steve Muniak: That's the cancellation process, the root of that cancellation process. Oh, OK.
+
+101
+00:23:43,395 --> 00:23:50,295
+Andrew Bailey: Yes, I see, the root of the cancellation. We're not trying to solve that. We can still make the software cancel so you can choose another option.
+
+102
+00:23:51,455 --> 00:23:54,145
+Aly Boggs-Smitley: So that's the biggest real thing we've done.
+
+103
+00:23:54,465 --> 00:23:58,135
+Steve Muniak: Because that's in essence what you're rolling back then.
+
+104
+00:24:00,449 --> 00:24:11,319
+Jake Herwaldt: Which sucks for them that they have to get that far, like actually go through, submit your PO, upload your PO, fill it out, instead of just being like, yep, I'll buy it, I'll give you, but then I guess you can't.
+
+105
+00:24:13,209 --> 00:24:59,639
+Vikki Dipple: Well, somebody had an issue just recently that was like, oh, they, you know, customer sent the PO, the vendor got it, confirmed it, and then come to find out, whatever, they didn't actually have a part, and nobody told the customer until the next day when they're expecting tracking, part was never shipped, the vendor never communicated to the customer. You know, if we're offering this tool, having visibility of saying you got a PO confirmed, you confirm that PO, but then when you're shipping, yeah, and that should be a slap somehow, and that should be displayed, like, your vendor failed this month, yeah, it's like a star rating almost, right, of like how many, so she chose, so you hit select of which vendor.
+
+106
+00:25:00,291 --> 00:25:31,961
+Aly Boggs-Smitley: Then they are choosing if they're buying it outright or exchange, depending on, obviously, the amount, because we put a $3,000 exchange outright. Then they're adding it to their cart, and then they're typing out PO number here, and then saying if they want us to use the shipping instructions that are on there, or if they're going to manually enter all their shipping information. Most of this, they're just uploading to PO.
+
+107
+00:25:47,581 --> 00:26:03,223
+Jake Herwaldt: Now, when it comes to, like, back when I used to be a buyer, you would have, like, I have a FedEx account, and then I wouldn't need to, like, type it in every single time, because I would just be, like, use my FedEx account. But you can't do that. You have to say, use what's on my PO, or I have to manually...
+
+108
+00:26:03,223 --> 00:26:09,603
+Aly Boggs-Smitley: Well, if they... We say... So once we know someone's FedEx account, we enter that in the sales force, and we can continue to see just...
+
+109
+00:26:09,903 --> 00:26:11,143
+Jake Herwaldt: Oh, but you have to...
+
+110
+00:26:11,143 --> 00:26:12,223
+Aly Boggs-Smitley: Just one time.
+
+111
+00:26:12,383 --> 00:26:12,543
+Jake Herwaldt: Yeah.
+
+112
+00:26:12,603 --> 00:26:23,613
+Aly Boggs-Smitley: So, like, so, if, like, Common Spirit, we know we're just... So when I put this in my cart, like, on our side of things, I'm just typing in Common Spirit in the FedEx account, and I'm just picking Common Spirit.
+
+113
+00:26:25,833 --> 00:26:27,593
+Jake Herwaldt: But they, as a customer...
+
+114
+00:26:27,873 --> 00:26:30,293
+Aly Boggs-Smitley: I have to tell us at least one time what their...
+
+115
+00:26:31,093 --> 00:26:34,923
+Jake Herwaldt: And then who updates the system? Who actually has...
+
+116
+00:26:34,923 --> 00:26:37,473
+Aly Boggs-Smitley: My FedEx accounts are to us.
+
+117
+00:26:39,583 --> 00:26:46,043
+Andrew Bailey: After, once this... Yeah, but who... How much triggers that, though? It's just one time. I've been onboarding. Oh, I just had onboarding.
+
+118
+00:26:46,043 --> 00:27:18,725
+Aly Boggs-Smitley: Like, the first time we ever get a PO from a customer, the very first time, and we say, do you have your own FedEx account, or are we always going to invoice you for shipping? They're like, oh, here's my FedEx account. Great, I need the billing information to that FedEx account. all that into Salesforce, they never actually have to tell us again what they're doing. A lot of the times it's on their PO, a lot of times it's on their PO because that's just how their POs generate. But if they, my team usually defaults then from, if they, yeah, if it's a brand new customer,
+
+119
+00:27:18,805 --> 00:27:22,865
+Aly Boggs-Smitley: if you don't give us a FedEx item, then we're just chart viewing. So we're creating a separate item.
+
+120
+00:27:24,185 --> 00:27:39,455
+Steve Muniak: With that, start thinking about, we've talked a lot about Sysmon, there will be a SWSM vendor customer profile.
+
+121
+00:27:41,815 --> 00:27:49,055
+Jake Herwaldt: Yeah, totally. Yeah. Cause you're, every year you could renegotiate and go FedEx, go UPS, go FedEx again.
+
+122
+00:27:49,175 --> 00:27:54,085
+Steve Muniak: It may be shared back 360, but some of those, some of that record.
+
+123
+00:27:54,745 --> 00:27:55,185
+Jake Herwaldt: Yeah.
+
+124
+00:27:55,715 --> 00:27:58,595
+Steve Muniak: Do you guys ship both UPS and DHS. 
+
+125
+00:27:59,135 --> 00:28:29,949
+Aly Boggs-Smitley: We are literally. Yeah. one of the only people that does all three because we have daily UPS, DHL, and FedEx. Most of the vendors that we work with only do FedEx, and that's it. They do better with . So we actually have a few international customers that will only do DHL, so if I buy it from, someone like out there in the U.S. and it's a DHL, we would have to not only provide them.
+
+126
+00:28:29,949 --> 00:28:33,329
+Aly Boggs-Smitley: DHL labels, but we have to schedule DHL to go to their facility.
+
+127
+00:28:33,329 --> 00:28:45,539
+Steve Muniak: One of the biggest gripes, and totally, UPS has started tracking images out of FedEx and, everybody else.
+
+128
+00:28:49,319 --> 00:28:53,439
+Jake Herwaldt: Yeah, when you go back to the sheet. Yeah, your arm, your problems, and yeah.
+
+129
+00:28:54,359 --> 00:29:01,171
+Vikki Dipple: Wait, who's dying for it? UPS. I like UPS. They don't keep it on their web.
+
+130
+00:29:05,321 --> 00:29:09,351
+Andrew Bailey: That seems like that's a pretty... Okay.
+
+131
+00:29:10,101 --> 00:29:18,401
+Aly Boggs-Smitley: You're fine. So now they're submitted to us back to, like, my team's queue.
+
+132
+00:29:19,161 --> 00:29:22,551
+Jake Herwaldt: And from a buyer's standpoint, you're assuming everything gets, like, approved.
+
+133
+00:29:23,171 --> 00:29:26,781
+Aly Boggs-Smitley: Correct. So she's done. So now it comes back to my queue.
+
+134
+00:29:30,071 --> 00:29:59,771
+Vikki Dipple: When she chooses, you're choosing it, you're adding part, then you go to the screen where you add your PO, PO number and upload, or enter shipping information. You're creating the... You submit the PO, and then the process has been initiated. You're waiting for two emails. Hey, buyer, I got your PO.
+
+135
+00:30:04,123 --> 00:30:11,193
+Andrew Bailey: I'm assuming you'd rather that be on your home page.
+
+136
+00:30:12,283 --> 00:30:24,513
+Vikki Dipple: It is on the home page, but they're in their email so much that they're relying on the application. We want it to be displayed there, and it is currently.
+
+137
+00:30:24,773 --> 00:30:26,013
+Jake Herwaldt: But honestly, they live out.
+
+138
+00:30:26,753 --> 00:30:30,303
+Vikki Dipple: Yeah, once it's submitted, then they're moving on to the next one.
+
+139
+00:30:30,303 --> 00:30:31,483
+Jake Herwaldt: Yeah, they're not sitting there refreshing.
+
+140
+00:30:31,823 --> 00:30:40,893
+Aly Boggs-Smitley: Yeah, so then I would hit confirm order in an email.
+
+141
+00:30:44,023 --> 00:30:54,693
+Jake Herwaldt: Now, how slightly different? Would that look? What's different with that than, like, do you have to, like, you did the, like, apples to apples comparison. 
+
+142
+00:30:54,773 --> 00:30:59,573
+Aly Boggs-Smitley: So if she bought three parts from me all on the same rack, they would all be on the same PO.
+
+143
+00:31:00,775 --> 00:31:05,685
+Jake Herwaldt: it confirm for all and would she do would her PO be one PO for those three.
+
+144
+00:31:05,685 --> 00:31:40,665
+Aly Boggs-Smitley: items yes okay yes so let's so let's say let's say Sarah asked for three parts block imaging and we had two and but RST I had the third that we did not have she could submit a PO for the two parts to block imaging and then buy from RST I so two PO s and then our team would only process and focus on those two parts and we would cancel out the record that they didn't buy from us and then RST I would.
+
+145
+00:31:40,665 --> 00:31:59,755
+Aly Boggs-Smitley: just handle that part we would just be in charge no more the same thing they could just I could quote them all three parts and it could be decided the engineer was like I actually only need one of these to fix it the other two would just not be purchased by any better you know to anybody and we could just ship one.
+
+146
+00:32:01,699 --> 00:32:18,779
+Jake Herwaldt: And then when they're selecting on that one screen where it was like showing all those and they select it, that adds it to the cart, but then they would go back to a different screen to then add more things to their cart? Or how does that work? If you have multiple parts, how do you do that. 
+
+147
+00:32:20,229 --> 00:32:57,349
+Vikki Dipple: They'd have to go into each. You add it to your cart? Yeah, I'm trying to think if we have a sandbox one right now. We're doing this over and over and over, building out a, as it stands right now, if they have multiple items that they've requested and they're ready to buy multiple items, they will be building their cart. They'll select the first one. Because they have the fulfilled quantity, it keeps you on that page. So here's one with more. Yeah.
+
+148
+00:32:58,779 --> 00:32:59,719
+Vikki Dipple: So, that one.
+
+149
+00:33:01,091 --> 00:33:02,571
+Jake Herwaldt: So how do I get into this. 
+
+150
+00:33:03,191 --> 00:33:05,691
+Vikki Dipple: Yeah, so you have to click down on the chevron on the right.
+
+151
+00:33:11,951 --> 00:33:15,371
+Jake Herwaldt: Oh, okay. So then I add this to my cart, and I go back up, and I chevron.
+
+152
+00:33:15,611 --> 00:33:15,971
+Vikki Dipple: Yep.
+
+153
+00:33:15,971 --> 00:33:17,271
+Jake Herwaldt: And then I add that one to my cart.
+
+154
+00:33:17,351 --> 00:33:32,321
+Vikki Dipple: So as long as you're buying the same amount of quantity that you requested, it'll take you into the cart process. Instead of adding to the cart here, it'll take you to the actual cart where you can check out each piece.
+
+155
+00:33:32,971 --> 00:33:35,011
+Speaker 7: Okay. So these parts will check out one at a time. 
+
+156
+00:33:37,261 --> 00:33:51,901
+Vikki Dipple: Yeah, so let's say I requested three parts for two. The system isn't built or smart enough yet to be like, okay, you're not going to buy that. It will make you cancel or adjust that quantity.
+
+157
+00:33:52,331 --> 00:33:53,291
+Jake Herwaldt: Down to two.
+
+158
+00:33:54,841 --> 00:33:59,521
+Vikki Dipple: Before it'll let you go forward or remove this request from your open request.
+
+159
+00:34:00,063 --> 00:34:14,473
+Jake Herwaldt: Once you reduce it down to two, can you then also buy one from a different vendor? Because I want to buy three. I now have to reduce my order down to two to buy it from Block, but I still need three. How do I get that third one. 
+
+160
+00:34:14,793 --> 00:34:19,583
+Vikki Dipple: Well, if you don't have another option here, you don't get it.
+
+161
+00:34:19,743 --> 00:34:22,503
+Jake Herwaldt: What if there's a vendor that has a quantity of one. 
+
+162
+00:34:23,103 --> 00:34:23,503
+Vikki Dipple: Yeah.
+
+163
+00:34:24,023 --> 00:34:27,023
+Jake Herwaldt: Block has a quantity of two, other has a quantity of one.
+
+164
+00:34:27,123 --> 00:34:58,663
+Vikki Dipple: Yeah. How do I buy that? You select Block Imaging, you add quantity two, and then you go to the next one, select that vendor, quantity one, and as soon as you get to that threshold, then it'll take you to creating those POs and checking. Cool. It's not an easy flow, and a lot of times they will have old recs, that they can't figure out how to clear because of quantity. So they're either going to say, hey, I already bought this.
+
+165
+00:35:00,765 --> 00:35:04,755
+Vikki Dipple: And then Allison will have to go in and figure out how to pull it on in.
+
+166
+00:35:10,335 --> 00:35:34,475
+Aly Boggs-Smitley: So then we would just confirm the order process once the ICT makes the labels and everything. They enter tracking into the ship note and close out the ship note. And then that's amazing email with tracking and serial number and RMA information to the customer.
+
+167
+00:35:39,065 --> 00:35:40,185
+Nathan Bedford: So yeah, that really is the same.
+
+168
+00:35:40,545 --> 00:35:41,905
+Aly Boggs-Smitley: Yeah. And then that would fill out all.
+
+169
+00:35:52,295 --> 00:35:57,375
+Jake Herwaldt: That's great. Good. Yeah, and I feel like some of the other buckets.
+
+170
+00:36:02,219 --> 00:36:33,799
+Andrew Bailey: Side note, you guys know that this gives us sort of, like, really strong foundation. But then when we're building stuff, we're going to build something that's not going to be, like, we're not going to force you to say, well, what do you want this to be called, this to be called, this to be called? It's going to be more like we're going to build something that functionally looks and feels like this, and then we're going to go over it together. Oh, yeah. This is where we get down to the details.
+
+171
+00:36:33,919 --> 00:37:06,771
+Andrew Bailey: Because changing a name is not hard. And even before then, Jake's going to work with, I think, Fitz, probably, and build out, like, hey, this is how we think inputs can look. This is how we think screens would be compiled if we had input like this and feedback that looks like this. It's called product design. And she's like, man, I really, like, feel that. I really like looks. I really like how it operates. She's like, well, what about this screen? We're going to take some of your more complicated and cluttered screens. We're gonna mock them up to show how data would be organized and that gives us kind of a building our our tiny Lego pieces.
+
+172
+00:37:06,771 --> 00:37:33,851
+Andrew Bailey: Right. So anyway, I'm just letting you guys know that when you first get a screen you're like, why are you listening to me? It won't be that it would be more like really listen We just have emphasized this first layer, And you're like and we'll probably use words like disposition just to make fun of you and not change it for a long time I'm sorry. We'll get that next right now disposition is just the word that has to that I put on there, If Allie then show disposition.
+
+173
+00:37:40,761 --> 00:37:42,861
+Steve Muniak: Oh, she does.
+
+174
+00:37:45,981 --> 00:37:59,221
+Nathan Bedford: Do they already have an existing like design system or palette the website that's all about whether we're going to perform yeah.
+
+175
+00:38:00,063 --> 00:38:06,083
+Jake Herwaldt: thing. Yeah, that's what's going to be interesting. It's got to be unique, but also...
+
+176
+00:38:06,083 --> 00:38:15,813
+Vikki Dipple: Amy gets to design something. She does, other than a t-shirt for retreats. I mean, maybe not design. Or Josh's boat cover. Yeah, yeah, yeah. I mean, we'll see. We'll see.
+
+177
+00:38:17,133 --> 00:38:31,423
+Andrew Bailey: We're pretty particular. White on white. You should see some of the swag we're designing right now. We're kind of high. We do have a very cool logo. I like the geometric logo. You haven't seen some of our map look.
+
+178
+00:38:41,623 --> 00:38:53,963
+Steve Muniak: We all like Teddy Bauer. Oh, do you? We all do. We all do. We all do. At least that's the breathable police get waterproof.
+
+179
+00:39:02,755 --> 00:39:12,835
+Nathan Bedford: We all do, but Steve likes it the most. Did you show it to Steve? No, I haven't. How does Eddie buy our micro, please, with our logo on it? No, you've got to be kidding me. We haven't created any of our own merch yet.
+
+180
+00:39:13,235 --> 00:39:18,095
+Andrew Bailey: We built a custom site for us collaborating on Skype.
+
+181
+00:39:19,775 --> 00:39:35,735
+Jake Herwaldt: No, not we. A normal person would just put this in a Google sheet and be like, Hey, what would you like to do? Nate builds a platform. You can comment what you like. You can say you're interested in what size. There's a link to the original site that did it.
+
+182
+00:39:35,815 --> 00:39:46,015
+Nathan Bedford: It has what people said about it. We also like quality things. There's a lot of Eddie Bauer in Columbia. Nice. So this is just for you to buy gifts for your kids.
+
+183
+00:39:46,015 --> 00:39:47,015
+Steve Muniak: Well, we know. That's it.
+
+184
+00:39:47,195 --> 00:40:01,139
+Andrew Bailey: We haven't bought anything. We've bought zero things. Right now it's just a cool idea. It's in future ambitions of buying things. Okay.
+
+185
+00:40:03,469 --> 00:40:06,489
+Jake Herwaldt: Are we done? Yeah, I think this is defined enough.
+
+186
+00:40:07,499 --> 00:40:33,719
+Vikki Dipple: I will say that when an internal buyer buys something blocked, we would build this tool to bring it into our system. A lot of moving parts happen that don't happen to people. So when an external vendor gets a PO, they take that hard copy PO, do all their thing, and then just put in those three POs.
+
+187
+00:40:33,779 --> 00:40:34,719
+Jake Herwaldt: But you guys have triggers.
+
+188
+00:40:35,059 --> 00:40:43,439
+Vikki Dipple: We have triggers. We have extra recs that get created for their POs. We have extra recs.
+
+189
+00:40:43,439 --> 00:41:13,251
+Jake Herwaldt: But that's like the, oh, you're saying even for the external buyer. Like once this is done, there's kind of like blocks listening for that to be done and be like, hey, if it got awarded the block, then it kicks off the section. truly of the buyer, but it's triggered. Unwanted magic sometimes. Yeah, unwanted magic. Cool. Good.
+
+190
+00:41:13,912 --> 00:41:38,511
+Jake Herwaldt: Well, I think some of the things that we need to do now is make sure everything from the art is scoped and plotted and just make sure we're aligned from that because we're focusing now, coming out of that conversation at lunch, the focus is to define phase one. So I think that's going to be our actual remainder of the day.
+
+191
+00:41:38,751 --> 00:41:45,511
+Vikki Dipple: I think that you have FSC.
+
+192
+00:41:49,021 --> 00:41:53,662
+Jake Herwaldt: Yeah, that was me trying to say that's what this is going to be, but we didn't really define what that looks like.
+
+193
+00:41:53,741 --> 00:41:56,861
+Vikki Dipple: Yeah, and I don't think that's going to be anything phase one.
+
+194
+00:41:59,381 --> 00:42:26,953
+Jake Herwaldt: Yeah, that was me. That would be an additional scope if we added that to phase one. But I do think phase two, phase three. Is there someone, Steve or anyone, that can put numbers behind the value this could bring? If we created a – I know it's not currently in phase one scope. Yeah, I know it's not currently in phase one scope, but who could put together the numbers of the value that that process – I could help with that.
+
+195
+00:42:27,053 --> 00:42:29,214
+Steve Muniak: We're really talking about . 
+
+196
+00:42:33,473 --> 00:42:46,884
+Jake Herwaldt: I know it's not in phase – I know it's not in phase one. It wasn't even originally in phase one, two, or three. But I think we could pull it in, especially if there's real dollars behind that.
+
+197
+00:42:47,203 --> 00:43:21,056
+Andrew Bailey: Our real goal is to make phase one obviously the value options, but two is the breadth of capacity so that – So you guys can dream. The more work we can show you that's possible – collective teams and confidence building to everybody about what's possible with phase one I feel like the better the more phase two and phase three will sort of be like all the possibilities and so we're like how do we let's find the right balance of all the things that we need and is is something like this open our.
+
+198
+00:43:21,056 --> 00:43:28,856
+Andrew Bailey: minds to what's more because I think that and we don't know and is it valuable and does it open our open the expectation capacity.
+
+199
+00:43:46,946 --> 00:43:59,716
+Steve Muniak: the goal is MVP plus yeah 2028 2029 is when the plus would be you know if we can get a internal FSC arm a module.
+
+200
+00:44:04,300 --> 00:44:11,060
+Jake Herwaldt: It just needs to trigger a sales force triggers a sales for basically trigger a bucket right fill a bucket with parts.
+
+201
+00:44:12,490 --> 00:44:53,020
+Steve Muniak: That that line plus one of the other things that that are in the wish list. What's in there that in the light we want to have like to have concept and then so that when we release, Initially, it's a better for vendors and for and then we're going to take that step back, Where where our ability to drive out the costs from internal teams and where the opportunities to monitor and from me from your guts.
+
+202
+00:44:53,700 --> 00:45:24,352
+Jake Herwaldt: External buyer and external vendor. What's the overlap percent under over like five percent? Is 80% of what an external buyer does pretty similar to what an internal buyer does? Or is it, it's just helpful for us to understand, like dream state, fast forward six months to a year from now, it would be great if an external buyer and an internal buyer basically had the same workflow, except an internal buyer had all this extra magic behind, like.
+
+203
+00:45:24,352 --> 00:45:29,612
+Jake Herwaldt: a step or two in between that were like magical. There's like auto sourcing and stuff like that.
+
+204
+00:45:29,712 --> 00:45:50,942
+Steve Muniak: It's pretty well-designed because an external buyer is operated. They're just coming to us and putting a couple values in the system and looking for that. They still have all their facts. It's just our record. That's always from the end.
+
+205
+00:45:52,222 --> 00:46:11,184
+Jake Herwaldt: But an internal buyer could do all that same stuff that then kicks off Salesforce. And there can be some magical steps. So what he's saying is that like if 80% of the screens can be the same and then there's just a couple of magical ones in the middle that kick off things in Salesforce.
+
+206
+00:46:12,784 --> 00:46:36,204
+Steve Muniak: So what he's saying, what he's really saying is to make it, and I know this sounds, if you can jump out to another tab, it's so much easier to do this. Just say, hit my, hit my tier vendors away and come back and come back and have your sourcing just, just like you had your controlled sourcing here, say click, and then it kicks off the record.
+
+207
+00:46:36,204 --> 00:46:39,594
+Vikki Dipple: You know what we're doing? We're pitching SWPG.
+
+208
+00:46:41,684 --> 00:46:46,924
+Nathan Bedford: It's so true. Right now, imagine if you jumped to another tab.
+
+209
+00:46:47,304 --> 00:46:55,504
+Jake Herwaldt: Cause otherwise what I fear is you guys have this like amazing external experience and then you guys are like stuck with Salesforce.
+
+210
+00:46:55,584 --> 00:47:02,296
+Aly Boggs-Smitley: Duplicating all the new work that we already did. internally are just connected to so many other things.
+
+211
+00:47:03,196 --> 00:47:05,716
+Steve Muniak: It's going to take you a little while to get your brain wrapped up.
+
+212
+00:47:05,756 --> 00:47:17,216
+Vikki Dipple: That's the other thing, all the other vendors, all the other customers are doing that right now. Now it's us saying, we're going to do exactly what all the other buyers are doing.
+
+213
+00:47:17,476 --> 00:47:28,896
+Jake Herwaldt: We're only going into- But with extra magic, because you guys are like inside of it, you can have stuff at the front end, the middle, and at the end that can be special to you.
+
+214
+00:47:28,896 --> 00:47:59,816
+Vikki Dipple: And that special is something that other people could eventually get you guys to do, the auto sourcing. Yes, because they want to be able to plug in this product to their CMMS system and issue, all of their POs from our system. They click the submit a PO, it does all the magic, and they're just uploaded to sourcing and boom, done. All the management happens and it's clean.
+
+215
+00:48:00,090 --> 00:48:02,890
+Vikki Dipple: It's clear, and it does everything for them.
+
+216
+00:48:05,150 --> 00:48:15,830
+Andrew Bailey: What picture do you want me to take? I thought we weren't allowed to drink. Dang, Jake, just when I was trying to focus. It's a different page.
+
+217
+00:48:18,690 --> 00:48:29,520
+Nathan Bedford: It is so funny. That was impressive.
+
+218
+00:48:31,210 --> 00:49:03,732
+Jake Herwaldt: So, essentially, right now, man, I want two pictures. But basically, right now, you have Salesforce and Sourcing Window Pro. And if we pull Sourcing Window out to be its own thing, and then you have Blocks, Salesforce here, it's like the idea that what if an internal buyer, just like an external buyer, uses this, but it triggers things. that can stay up-to-date with each other throughout the whole process.
+
+219
+00:49:04,292 --> 00:49:16,652
+Steve Muniak: I think what we're describing is that block, the window that we're seeing of all these sources, options, and that's it.
+
+220
+00:49:20,052 --> 00:49:23,512
+Jake Herwaldt: What are the other things, though, connected that are making you feel it. 
+
+221
+00:49:27,282 --> 00:49:47,402
+Aly Boggs-Smitley: There's just so much stuff that gets connected to a requisition in Salesforce where other teams would need the capability to see certain things. Right now, accounting doesn't have access to logging in. We'd have to think of other ways for other departments to do that.
+
+222
+00:49:47,402 --> 00:49:57,382
+Andrew Bailey: So basically, an action that happens every year. We always updated Salesforce. Just imagine there was stuff that we did that always made sure that Salesforce got there. It's like a custom view.
+
+223
+00:49:57,642 --> 00:50:30,194
+Aly Boggs-Smitley: I think it's yes. for my team I think like the last couple years of just transitioning to Salesforce 360 has been such a giant pain in the ass a lot of scar tissue but it's like the whole point of going into Salesforce was for my team to literally go from being in Salesforce SAP and five billion other things down to one thing yeah so I think there would be that hesitancy of okay now we're back to two things so I can see plus I can see yes I know I can see plus in everything I know.
+
+224
+00:50:30,194 --> 00:50:33,214
+Aly Boggs-Smitley: so I can see plus but it's like we literally worked so hard to just do.
+
+225
+00:50:33,214 --> 00:50:41,754
+Jake Herwaldt: everything in Salesforce and I think we only earn that trust if we do these well right exactly we launch these and these are garbage you're gonna be like.
+
+226
+00:50:41,754 --> 00:50:56,974
+Aly Boggs-Smitley: absolutely yes if it yes so that would be that would be the scar tissue that's there yeah if it's beautiful when it launches the trauma of Salesforce launching us yeah that's what we want it to do for all the other people so if we.
+
+227
+00:50:56,974 --> 00:51:07,686
+Vikki Dipple: do right well first yes we know we have so much, right we can make it work in our system right which i think is a cool aspect of a mobile.
+
+228
+00:51:07,686 --> 00:51:18,696
+Speaker 7: function for like fscs right because you can take that to it really easily so you know you have decentralized purchasing that can funnel that way and even flow into the centralized purchasing.
+
+229
+00:51:18,696 --> 00:51:33,076
+Steve Muniak: you just you just hit on it because i've been struggling to give me an fsc tool the ability to quote from 15 different vendors right five minutes right it's very very powerful yeah.
+
+230
+00:51:33,076 --> 00:51:52,906
+Aly Boggs-Smitley: because a lot of what they complain about is i can't get a hold of my procurement team or they didn't do what i asked to do like i wanted this shift the next day they shifted ground for me like there's like a lot of that even between the fsc and with that though in a dream state like it.
+
+231
+00:51:52,906 --> 00:52:09,030
+Jake Herwaldt: doesn't fsc want to even let's say they kick off 15 quotes at the same time they still have to, Unless they're kicking it off and passing it to someone else. They still need to close that loop to the side Are they okay with that? Like do they have time because from what you guys explained with an FSC. 
+
+232
+00:52:09,190 --> 00:52:46,290
+Aly Boggs-Smitley: It sounds like some time. Well some would so like with like well how I was saying about common spirit They there are like how's your engineers who would like to just get a price and cut their own PO and they would and skip the whole procurement thing because, Procurement sometimes is looking through the lens of like low cost and stuff like that Well, the FSC may have their preference on why did you buy it for the low cost? I wanted you to buy it from this vendor, even if it was a little bit more or, I can go pick this up on the way because the site's an hour away from this vendor or you know, so stuff like that.
+
+233
+00:52:46,290 --> 00:53:16,362
+Steve Muniak: So what we're looking for is workflow is gonna be a part of that. Yeah These buyers then would find permissions and accept what Ali's describing. A very common one is. And engineers will wait until 5.05. Right, right, right. And they just want to kick it off. But it's a great opportunity. Even, you know, just to drop this in your mind, if an FNC has got his earphone and he's underneath it,
+
+234
+00:53:16,622 --> 00:53:26,112
+Steve Muniak: and you say, hey, open up. Yeah. I need this partner for our mission. Into this location. Pre-fill.
+
+235
+00:53:26,762 --> 00:53:27,162
+Jake Herwaldt: Yeah.
+
+236
+00:53:27,282 --> 00:53:33,242
+Steve Muniak: That's solid. I was trying to get him $2,000.
+
+237
+00:53:34,692 --> 00:53:46,132
+Andrew Bailey: He just suddenly was like, I'm ahead of the game, guys. Maybe it wasn't so subtle. He's like, I came back. We needed AI.
+
+238
+00:53:49,702 --> 00:53:56,872
+Steve Muniak: You know, Alexa is still terrible. It is. Yeah. And I've got an Alexa in my bedroom for 12 years. Right.
+
+239
+00:54:00,064 --> 00:54:14,774
+Jake Herwaldt: that's cool cool okay do you how do we want to work through the next step of the photo team um i think.
+
+240
+00:54:15,054 --> 00:54:49,224
+Andrew Bailey: that we just break out yeah yeah i started working through shapes nice but colors yes yeah i'm so glad i'm either like i'm either like hey let's talk and present or i'm like i need to build a card tower for the next three hours don't talk to me don't blow on it i'm in the middle of school, yeah it's a special my way do you want me to find you guys a room with a white board yeah oh yes.
+
+241
+00:54:52,404 --> 00:55:23,456
+Andrew Bailey: is it bad a white board it's like either either i do that or i do that. Wait till you say the words, I don't care what they propose, do what a VOTUS says, and, you're no longer afraid. That's without a gun up to your head. Do whatever they say.
+
+242
+00:55:24,436 --> 00:55:25,656
+Vikki Dipple: Do whatever they said.
+
+243
+00:56:00,000 --> 00:56:23,040
+Andrew Bailey: collaboration we do think that there are best practices we've definitely work with customers you can ask for silly things but usually question is is there any other software that does it like this you may want it like this but can you imagine other more often that we often say like you you know Apple took away our little central button and almost immediately we never think about it ever again right if we put a button back but why when it first happened my.
+
+244
+00:56:23,040 --> 00:56:26,940
+Jake Herwaldt: parents were freaked out yeah yeah like how are they gonna use the people.
+
+245
+00:56:26,940 --> 00:56:30,560
+Nathan Bedford: operating the phone for that yeah and I'm like within a couple days like oh.
+
+246
+00:56:30,560 --> 00:57:02,892
+Andrew Bailey: yeah it's a it's a mixture it's a collaboration it's but some some tech people get jaded customers don't know and they do whatever they want it's that's not that's that software product right right and then there's some customers who get jaded and be like software people don't care about me and that's again so we're all learning okay cool like it's all. Before somebody left in there back in before the merge.
+

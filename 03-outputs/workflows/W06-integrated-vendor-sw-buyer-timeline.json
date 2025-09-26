@@ -1,0 +1,152 @@
+{
+  "id": "W06",
+  "name": "Integrated Vendor - SW Buyer Timeline",
+  "type": "user_workflow",
+  "persona": "P03-integrated-vendor",
+  "trigger": "Receiving part request without having stock",
+  "goal": "Act as middleman to fulfill SW buyer requests when lacking inventory",
+  "complexity": "high",
+  "reuses_workflows": [
+    "W01",
+    "W02",
+    "W03",
+    "W05"
+  ],
+  "steps": [
+    {
+      "id": "W06-S01",
+      "name": "Buyer Creates Request",
+      "type": "reuse",
+      "references": "W01-buyer-parts-request",
+      "actor": "Original Buyer",
+      "outputs": [
+        "parent_requisition_id"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W06-S02",
+      "name": "Integrated Vendor Decision",
+      "type": "decision",
+      "actor": "Integrated Vendor",
+      "description": "Check stock availability",
+      "branches": {
+        "has_stock": "W03-vendor-submit-quote",
+        "no_stock": "W06-S03"
+      },
+      "requirements_addressed": []
+    },
+    {
+      "id": "W06-S03",
+      "name": "Create Extended Network Request",
+      "type": "action",
+      "actor": "Integrated Vendor as Buyer",
+      "description": "Request quotes from non-connected vendors",
+      "reuses": "W01-buyer-parts-request",
+      "modifications": [
+        "Exclude vendors from original request",
+        "Link to parent requisition ID"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W06-S04",
+      "name": "Network Vendors Quote",
+      "type": "reuse",
+      "references": "W03-vendor-submit-quote",
+      "actor": "Third-Party Vendors",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W06-S05",
+      "name": "Review & Markup",
+      "type": "action",
+      "actor": "Integrated Vendor",
+      "description": "Review quotes and apply markup",
+      "reuses": "W02-review-select-vendor",
+      "modifications": [
+        "Add markup calculation step"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W06-S06",
+      "name": "Submit to Original Buyer",
+      "type": "action",
+      "actor": "Integrated Vendor as Vendor",
+      "description": "Submit marked-up quote",
+      "reuses": "W03-vendor-submit-quote",
+      "modifications": [
+        "Price includes markup"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W06-S07",
+      "name": "Buyer Selection Process",
+      "type": "reuse",
+      "references": "W02-review-select-vendor",
+      "actor": "Original Buyer",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W06-S08",
+      "name": "Integrated Vendor Purchases",
+      "type": "action",
+      "actor": "Integrated Vendor as Buyer",
+      "description": "Create drop-ship purchase order",
+      "reuses": "W02-review-select-vendor",
+      "modifications": [
+        "Specify drop-ship address"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W06-S09",
+      "name": "Third-Party Fulfillment",
+      "type": "reuse",
+      "references": "W05-vendor-confirmation-shipping",
+      "actor": "Third-Party Vendor",
+      "modifications": [
+        "Ship to original buyer"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W06-S10",
+      "name": "Forward Updates",
+      "type": "action",
+      "actor": "Integrated Vendor",
+      "description": "Pass through shipping updates to buyer",
+      "requirements_addressed": []
+    }
+  ],
+  "key_features": [
+    "vendor_buyer_role_switching",
+    "parent_child_requisitions",
+    "network_visibility_control",
+    "markup_management",
+    "drop_ship_orchestration"
+  ],
+  "system_architecture": {
+    "visibility_model": {
+      "buyer": "sees_connected_vendors_only",
+      "integrated_vendor": "sees_entire_requisition_tree",
+      "network_vendors": "see_specific_request_only"
+    },
+    "data_relationships": {
+      "parent_requisition_id": "links_all_related_requests",
+      "visibility_flag": "connected_to_buyer"
+    }
+  },
+  "requirements_coverage": {
+    "addressed": [],
+    "notes": "This workflow describes internal Block operations for integrated vendors acting as middlemen. No direct client requirements are addressed as this represents Block's internal fulfillment process."
+  },
+  "success_metrics": [
+    "network_utilization_rate",
+    "markup_optimization",
+    "drop_ship_success_rate",
+    "end_to_end_fulfillment_time"
+  ]
+}

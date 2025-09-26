@@ -1,0 +1,355 @@
+{
+  "document_id": "RRD-002",
+  "title": "Sourcing Window Pro (Buyer) Requirements - Avodah RFP Response",
+  "source": "04_Sourcing Window Pro Requirement Analysis.docx",
+  "extracted_date": "2025-09-24T12:17:32.596441",
+  "addresses": "CAD-001",
+  "requirements_responses": [
+    {
+      "id": "SWP-1",
+      "title": "UX must be highly intuitive and easy to use",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "You need a platform where users can accomplish their tasks without extensive training or support intervention. Your teams are spending too much time onboarding new users and answering repetitive questions. Field engineers need to submit requests quickly from job sites without being tied to a desktop. An intuitive experience means your buyers, vendors, and admins can focus on their actual work instead of fighting with the system.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll redesign the interface using modern UX principles and a zero-training philosophy. This includes intuitive navigation, mobile-responsive design, contextual help replacing manual training, smart defaults to reduce data entry, and automated onboarding flows. We'll engage with all user types - buyers, vendors, and admins - to understand their unique workflows and ensure the platform delivers a first-class experience for everyone. All features will be validated through comprehensive user testing across these different roles."
+    },
+    {
+      "id": "SWP-2",
+      "title": "Ability for customers to manage their connected vendors (based on account, KPIs, display locations, shipping cut offs, etc)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "You need comprehensive control over vendor relationships beyond just approved lists. Currently, Vikki and your team manually manage vendor capabilities within Salesforce, spending countless hours ranking vendors based on response times and fill rates. With 80 different suppliers actively quoting, you're drowning in manual vendor management tasks - from tracking KPIs that determine who sees requests first, to managing which parts each vendor can actually fulfill. Your procurement teams need real-time visibility into vendor performance metrics like response times (a huge KPI in your industry), fill rates, and quality scores to make strategic sourcing decisions that impact millions in annual spend.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build an intelligent vendor management system that automates the manual work currently consuming your team's time. The platform will automatically track and display vendor KPIs including response times and fill rates. You'll have self-service controls to adjust vendor connections as needed. The system will provide real-time dashboards showing vendor performance by customer account. We'll ensure complete transparency between connected buyers and vendors."
+    },
+    {
+      "id": "SWP-3",
+      "title": "Ability for multiple buyers accessing one account",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers",
+        "SW Admins"
+      ],
+      "description": "Multiple buyers from the same organization need to access a single account, each with their own login credentials. Each buyer should be able to see and manage their own requests while authorized users can view all team activity for oversight and coordination.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build multi-user accounts where each buyer has their own login and can toggle between viewing their personal requests and all team activity. The system will clearly show who initiated each request and current ownership, with self-service user management so designated admins can add or remove team members without waiting for support tickets."
+    },
+    {
+      "id": "SWP-4",
+      "title": "Ability for buyers to access all historical data (their past requests, purchases, prior quotes from their suppliers)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "You need access to all historical data including past requests, purchases, and prior quotes from suppliers. Block Imaging monitors pricing data from both their own sourced requests and market-wide transactions to understand industry trends. Your teams search through historical data to verify past pricing - for example, checking what a tube cost six months ago to gauge if current quotes are competitive.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll provide a searchable interface for historical data where buyers can find past quotes by part number and view transaction histories. The system will display pricing data over time and maintain complete records of past communications and documentation. We'll work with buyers to understand their search needs and build practical tools for accessing historical information."
+    },
+    {
+      "id": "SWP-5",
+      "title": "Ability for buyers to see all of their requests and follow as status changes prompt next steps",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "You need visibility into all procurement requests with clear guidance on next steps. Currently, accounts with 2-20 buyers can find the open request view overwhelming. Some accounts accumulate hundreds of open requests because users must manually cancel each one individually. The system shows when requests move from \"Checking\" to \"Available\" status, but doesn't clearly indicate what action to take next.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build a dashboard that displays all active requests with clear status indicators and action prompts. The system will include auto-archiving after 7 days (configurable), filtering between \"My Requests\" and team views, and visual cues that guide users through each step of their workflow. We'll ensure requests are organized by priority and age to help teams focus on what needs immediate attention."
+    },
+    {
+      "id": "SWP-6",
+      "title": "Ability for Customers to communicate (chat) directly with their customers",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers",
+        "Vendors"
+      ],
+      "description": "Your current email-driven communication creates chaos in this fast-paced, whirlwind industry. Buyers often reply to no-reply emails that never reach vendors, while chat messages scatter across two different locations - sourcing records and purchase orders - leaving users confused about where they sent important negotiations. The existing Chatter feature is wildly popular for price negotiations and compatibility discussions, but the fragmented experience costs your teams valuable time. When high-dollar medical equipment deals depend on clear communication, you need a unified chat system that captures every negotiation, picture, and technical document in one permanent record that everyone can reference when deals get complicated.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll consolidate chat functionality into a single, intuitive location that becomes the permanent record for all buyer-vendor communications. The system will eliminate the no-reply email problem with smart notifications that guide users back to the platform instead of encouraging doomed email replies. We'll provide real-time messaging with picture and document sharing capabilities, automated email alerts with direct conversation links, and complete message history that travels with transactions from initial request through final purchase order. Most importantly, we'll ensure every price negotiation, compatibility check, and technical clarification becomes part of the permanent record - so when wheels come off a deal months later, everyone has access to exactly what was agreed upon."
+    },
+    {
+      "id": "SWP-7",
+      "title": "Ability for a Req Item to automatically connect to the connected vendors in the right capability",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers",
+        "SW Admins"
+      ],
+      "description": "When a buyer submits a part request, the system needs to automatically suggest vendors who have the right capabilities to fulfill that specific part type. No manual thinking or vendor selection required - the system instantly identifies which connected vendors can supply the requested part based on their established capabilities and the buyer's approved vendor list.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll implement intelligent vendor suggestions that match part requests to vendors based on capability mappings and connection status. The system will check Block's inventory first, then suggest connected vendors who have the matching capabilities. We'll maintain transparency by showing which vendors are suggested and why, while allowing buyers to override suggestions or add additional vendors when needed."
+    },
+    {
+      "id": "SWP-8",
+      "title": "Ability for buyers to put through one or multiple req items on a single requisition (ie: Multiple parts on one order)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "Buyers need the ability to add multiple parts to a single requisition. While most requests contain just one part, there are situations where multiple parts are needed - for example, when the system is down and an engineer has identified several parts they need on-site. Users can build a list by adding multiple part numbers to the same requisition.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll enable buyers to add multiple rec items (individual part requests) to a single requisition. The system will allow users to build their parts list by adding items one at a time, specify quantities for each part, and process them together. Each item will still route to appropriate vendors based on capabilities while keeping all items grouped under one requisition for easier tracking."
+    },
+    {
+      "id": "SWP-9",
+      "title": "Ability for a SWP user to create a new material (heavy restrictions here)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers",
+        "SW Admins"
+      ],
+      "description": "You need controlled material creation capabilities that prevent data quality issues from plaguing your system. Right now, any new part request automatically adds to Block Imaging's database, potentially creating duplicates and inconsistencies that your team may struggle to manage. You want buyers to request items not yet in the system, but with heavy restrictions and validation to protect your material master data from pollution.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll implement a restricted material creation workflow with approval gates if needed, duplicate detection, and validation rules that protect your data integrity. The system will check for existing similar parts before allowing creation, require specific fields to prevent ambiguous entries, and route new material requests through designated approvers who understand your taxonomy. We'll work with buyers to understand legitimate new part scenarios, vendors to ensure proper capability matching, and admins to design approval workflows that balance user needs with data quality - ensuring new materials enhance rather than pollute your catalog. And if Salesforce is the system of record for parts, we'll make sure all work is appropriately coordinated with that system."
+    },
+    {
+      "id": "SWP-10",
+      "title": "SWP must have deep API integrations with Block Imaging SF360 for sales, inventory and material access",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1,2",
+      "personas": [
+        "SW Admins"
+      ],
+      "description": "Salesforce is phenomenal for what it does, but it's very limiting for building the user experience you need. You can't change button names, can't make fields required, and the Legendary managed package forces naming conventions that damage your customer experience. Currently, all data - inventory, pricing, accounting, billing - lives within your Salesforce ecosystem, where Vikki and your team manually manage vendor rankings and spend hours creating reports. With 70% of platform volume coming from Block Imaging's internal teams, you need Sourcing Window v3 to be completely independent while maintaining seamless connections. The critical question: which system owns which data, and how do you keep everything synchronized without creating conflicts or delays.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build deep API integration that allows Sourcing Window v3 to operate independently while maintaining real-time communication with SF360. Through discovery sessions, we'll determine optimal data ownership - our bias is toward moving sourcing-related data into the new platform while preserving critical connections. The system will integrate with your existing Azure data warehouse infrastructure, implementing robust bi-directional sync through APIs, events, and webhooks. Block Imaging users focused on Salesforce work won't need to log into any additional platform - they'll continue working in Salesforce while benefiting from the enhanced capabilities of the independent Sourcing Window backend. All updates will happen as close to real-time as possible, because honestly, everything needs to be pretty darn live - pricing from vendors, conversations, status changes. This architecture enables you to eventually sell the platform as a standalone product without Salesforce dependencies."
+    },
+    {
+      "id": "SWP-11",
+      "title": "New pricing, messages, shipping notifications come via email as well as in-app",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1,2",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "Users need to receive notifications about new pricing, messages, and shipping updates both in-app and through external channels. The platform needs a standard in-app notification area that shows all updates, plus email notifications enabled by default for external alerts. Field engineers working on equipment also need the option to receive SMS notifications for urgent updates since they're not at computers.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build a comprehensive notification system with three layers: a standard in-app notification area that's always active and shows all platform updates, email notifications enabled by default with direct links to relevant records (maintaining the current workflow), and optional SMS alerts that users can enable for time-critical updates. Users can configure email and SMS preferences by notification type, but the in-app notification area will always display all updates as the single source of truth within the platform."
+    },
+    {
+      "id": "SWP-12",
+      "title": "Mobile Friendly",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1,2",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "The platform needs to be mobile friendly, allowing users to access it from various devices. Field engineers and on-site personnel need to interact with the system while away from their computers. The platform should work across phones, tablets, and desktops.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build a responsive web experience that works on phones, tablets, and desktops. The interface will adapt to different screen sizes while maintaining functionality. Users will be able to submit requests, review quotes, and manage orders from mobile devices without needing to download a separate app."
+    },
+    {
+      "id": "SWP-13",
+      "title": "Ability to upload PO to order or Manually input shipping data to order",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1,2",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "Buyers complete orders by uploading a hard copy PO (the legally binding contract) and can optionally override shipping information if it differs from what's on the PO. The current process allows buyers to either use the shipping information from their uploaded PO or manually enter shipping details including priority/method, account number, recipient name, phone number (FedEx requirement), email, and address. This flexibility is essential when shipping needs differ from standard PO information or when buyers need to update delivery details at checkout.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll support and enhance your current order submission process. Buyers will continue uploading hard copy POs via drag-and-drop, with the option to pull shipping information directly from the PO when desired. We'll maintain the ability to manually override shipping data at any point. In Phase I, we'll add prompts to reuse previously used shipping addresses from their account or past orders. In Phase II, we'll integrate a mailing address validation service to verify addresses before submission, preventing costly shipping errors while maintaining the workflow flexibility your buyers rely on."
+    },
+    {
+      "id": "SWP-14",
+      "title": "Fully transparent between SWP Buyers and their connected SW Vendors",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers",
+        "Vendors"
+      ],
+      "description": "You pride yourselves on being super transparent - it's what sets you apart from other portals in the industry. While competitors act as middlemen, quoting everything through their own company and marking up prices, you're committed to deep transparency that may not be for everyone but differentiates your platform. You're not looking to be the middleman in every scenario. Instead, you enable vendors and customers who already have existing relationships to see each other and work directly together. This transparency isn't just a nice-to-have - it's fundamental to how you operate, allowing vendors to see exactly who they're quoting for and buyers to know who they're actually working with.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build transparency into every aspect of the platform, ensuring both buyers and vendors have high visibility into who they're working with and what's happening with their transactions. The system will show vendor names clearly to buyers, display buyer identities to vendors, and provide shared views of all transaction details including pricing, status updates, and conversation history. Unlike black box marketplaces, we'll create open communication channels with complete audit trails showing who did what and when. This level of transparency strengthens existing buyer-vendor relationships while building trust in new ones. We'll ensure clear visibility without compromising sensitive competitive information between vendors."
+    },
+    {
+      "id": "SWP-15",
+      "title": "Ability to use chat features to negotiate, send docs / pics, etc with directly connected suppliers",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "1",
+      "personas": [
+        "Buyers",
+        "Vendors"
+      ],
+      "description": "Buyers and vendors need chat functionality to negotiate prices, share technical documentation, and exchange images directly within the platform. The current direct chat feature is unique to the industry and absolutely critical - it lives on both sourcing records and purchase orders. This feature enables real-time communication with the actual person on the other side, supporting price negotiations and compatibility discussions while maintaining a permanent record of all exchanges.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll enhance the existing chat functionality with expanded capabilities for file sharing, image uploads, and document exchange. The chat will continue to live on both sourcing records and purchase orders, with all messages permanently tied to transactions. Users can share part photos, technical specs, and compatibility documentation within the conversation thread. Email notifications will alert users to new messages with direct links back to the chat, maintaining the current workflow while adding richer communication options."
+    },
+    {
+      "id": "SWP-16",
+      "title": "Ability for SWP buyers to cancel a PO (post order, pre-shipping)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "2",
+      "personas": [
+        "Buyers",
+        "Vendors"
+      ],
+      "description": "Buyers need the ability to cancel purchase orders after submission but before vendors ship. Sometimes orders need to be cancelled when buyers realize they've ordered the wrong part or no longer need it.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll implement purchase order cancellation functionality that allows buyers to cancel orders before vendors ship. The system will notify vendors immediately when an order is cancelled so they can stop processing. Cancellation will only be available until the vendor confirms shipment, after which the order cannot be cancelled through the platform."
+    },
+    {
+      "id": "SWP-17",
+      "title": "Ability for SWP buyers to order a warranty replacement in SWP",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "2",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "Your buyers handle warranty replacements every single day, but they're forced to manage these critical transactions outside your platform through manual emails and phone calls. When parts arrive dead or fail shortly after installation, your procurement teams need a streamlined way to order replacements while linking back to the original purchase for warranty validation. This gap in post-sale support creates unnecessary friction and delays in getting replacement parts to your field engineers.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build a warranty replacement workflow that connects directly to original purchase records, automatically validating warranty periods and capturing required information like serial numbers and failure descriptions. The system will enable one-click warranty claims that generate new orders with special warranty pricing, maintain complete audit trails linking claims to original purchases, and provide vendors with all necessary documentation for warranty processing. We'll work with buyers to understand claim patterns, vendors to ensure smooth warranty fulfillment, and admins to configure warranty rules and approval workflows that protect both parties while expediting replacements."
+    },
+    {
+      "id": "SWP-18",
+      "title": "Customer dashboards to show request volume, spend (with each vendor) and user analytics",
+      "priority": "Medium",
+      "required": "Yes",
+      "phase": "3",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "Your team currently spends hours each month manually creating reports because there's no user dashboard. You need automated account-level analytics showing revenue trends, purchase order volumes, and vendor spend. Additionally, you want user performance visibility to create competitive motivation - allowing buyers to see colleague metrics and drive higher platform engagement through friendly competition.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build automated dashboards with account-level analytics for revenue, order volumes, and vendor spend. A separate performance dashboard will enable competitive transparency between users, showing metrics like request volumes and response times. This gamification approach will increase platform usage while maintaining appropriate privacy controls."
+    },
+    {
+      "id": "SWP-19",
+      "title": "Ability to upgrade /downgrade to different profiles (impact here: billing and additional permissions /upgraded access)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "2",
+      "personas": [
+        "Buyers",
+        "SW Admins"
+      ],
+      "description": "Buyers need the ability to upgrade or downgrade between different platform tiers based on their needs. The system will have multiple access levels - a free basic version with current functionality, and premium tiers with additional features like returns management, FedEx integrations, and API connections. Organizations need to move between these tiers as their procurement needs and budgets change.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll implement a tiered subscription system with clear upgrade and downgrade paths. The basic free tier will include all current functionality, while premium tiers unlock advanced features. Account administrators can upgrade to access features like returns processing, shipping label generation, and CMMS integrations. There are many ways to handle payment for these premium features - we'll work directly with Block to advise and land on the appropriate solution, whether it be credit card or ACH integrations with vendors like Stripe, or a separate PO process managed through Salesforce. The system will handle billing transitions and feature activation automatically, ensuring smooth transitions between tiers without service disruption."
+    },
+    {
+      "id": "SWP-20",
+      "title": "Returns Module (Upgraded Access)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "2",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "You need a returns module to manage exchanges, returns, and warranty replacements within the platform. Parts in this industry are often sold on exchange basis, where buyers send their non-functioning part back to vendors. You also deal with DOA parts that need immediate replacement.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build a returns module that allows buyers to initiate returns from their purchase history and track return status. The system will handle exchanges, warranty replacements for DOA parts, and manage RMA numbers. Vendors will receive notifications about incoming returns, and both parties can track the return process through completion."
+    },
+    {
+      "id": "SWP-21",
+      "title": "Upgraded Access: Fedex integrations (internally we have this already, API w/Fedex) to create shipping labels in the portal for sending to vendor w/PO. Gives buyers full control over tracking # and shipping details",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "3",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "Only your Block Imaging internal team currently has the ability to create shipping labels with the FedEx API and upload them with POs to vendors. This gives you ownership of all tracking numbers and puts less risk in the hands of vendors. External buyers don't have this capability - they're dependent on vendors to handle shipping, losing control over tracking and delivery timing. You've deliberately held back this feature from customers, waiting until you can monetize it as a premium offering.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll extend your existing FedEx API integration to external buyers as a premium upgraded access feature. Buyers will gain the same control you enjoy internally - creating shipping labels directly in the portal and uploading them with purchase orders. This gives buyers full ownership of tracking numbers and shipping details. We'll implement usage-based billing or tier this into your premium subscription model. The system will leverage your proven internal infrastructure while adding customer-facing interfaces and billing mechanisms that turn this operational advantage into a revenue stream."
+    },
+    {
+      "id": "SWP-22",
+      "title": "Upgraded Access: AI Integrations to assist with flows, training (ie: next steps), reporting feedback, etc",
+      "priority": "High",
+      "required": "",
+      "phase": "3",
+      "personas": [
+        "Buyers",
+        "Vendors"
+      ],
+      "description": "Even with a simplified v3 platform, users will benefit from AI assistance for less common tasks, new user onboarding, and general workflow optimization. You want AI to make procurement easier through intelligent chat support and automated actions - helping users find the right features quickly, suggesting optimal vendors, and handling routine tasks without manual intervention. Field engineers especially need hands-free options while working on equipment.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll implement AI chat and agent capabilities that enhance the user experience without adding complexity. This includes natural language support for answering questions, AI agents that can execute multi-step workflows, and smart suggestions based on user patterns. As a differentiator, we've built custom AI-powered voice agents accessible through phone calls - imagine field engineers checking order status or sending messages to vendors hands-free while working on equipment. The AI will complement the simplified interface by handling complex scenarios behind the scenes. We'll work with you to find the right fit for your budget and users' needs."
+    },
+    {
+      "id": "SWP-23",
+      "title": "Upgraded Access: Buyers ability to request / manage installs, tech support, etc.",
+      "priority": "Medium",
+      "required": "",
+      "phase": "3",
+      "personas": [
+        "Buyers"
+      ],
+      "description": "Buyers need the ability to request installation quotes and technical support services directly related to the parts they've purchased through the platform. Currently, there's a gap between purchasing critical equipment like X-ray tubes and getting the professional services needed to install and calibrate them properly. Buyers often need installation quotes that include engineer availability, site visit costs, and timeframes. They also need flexible tech support options - whether that's scheduling a call before installation for planning, getting live assistance during installation for calibrations, or arranging follow-up support after installation is complete.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll build service request functionality that connects directly to purchased parts, allowing buyers to request installation quotes and schedule technical support calls specific to their orders. The system will enable buyers to request installation quotes that include engineer availability, site visit costs, and installation timeframes. For tech support, buyers can schedule calls before installation (for planning), during installation (for live assistance with calibrations), or after installation (for follow-up support). All service requests will be tied to specific purchase records, ensuring support teams have complete context about the parts and equipment involved. We'll route requests to appropriate service providers - Block's internal teams or qualified vendor partners - and provide communication tools for coordinating service delivery."
+    },
+    {
+      "id": "SWP-24",
+      "title": "Upgraded Access: Ability for Customers to use heavy or Light API integrations with their own internal CMMS (ex: Nuvolo)",
+      "priority": "High",
+      "required": "Yes",
+      "phase": "3",
+      "personas": [
+        "Buyers",
+        "SW Admins"
+      ],
+      "description": "Large hospital systems need to integrate with their existing CMMS platforms like Nuvolo. Having to operate in both their CMMS and your sourcing tool separately is a pain point - ideally the systems would handle the integrations so users don't have to work in two places. This represents a significant opportunity to streamline workflows for enterprise customers who've invested heavily in their maintenance management infrastructure.",
+      "acceptance_criteria": [],
+      "avodah_response": "",
+      "how_we_deliver": "We'll leverage the proven architecture we're building for Sourcing Window Pro - where Block Imaging integrates like any other vendor and customer - to create a robust API framework for external CMMS platforms. By developing a standard interface that already handles the complexity of vendor-buyer relationships, we'll make it straightforward to connect with systems like Nuvolo and others. We'll start by interviewing enterprise customers to understand their specific integration needs, then offer both heavy integrations (full bi-directional sync) and light integrations (basic data exchange) as upgraded access features. The beauty of this approach is that we're not building something special just for CMMS - we're extending the same clean API architecture that makes the entire platform work."
+    }
+  ]
+}

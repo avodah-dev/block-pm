@@ -1,0 +1,183 @@
+{
+  "id": "W07",
+  "name": "Integrated Vendor - Non-SW Buyer Timeline",
+  "type": "user_workflow",
+  "persona": "P03-integrated-vendor",
+  "trigger": "Phone call or email request from non-SW buyer",
+  "goal": "Fulfill phone/email orders through SW network when lacking inventory",
+  "complexity": "high",
+  "reuses_workflows": [
+    "W01",
+    "W02",
+    "W03",
+    "W05"
+  ],
+  "system_integration": [
+    "Salesforce",
+    "Sourcing Window"
+  ],
+  "steps": [
+    {
+      "id": "W07-S01",
+      "name": "Receive Phone/Email Order",
+      "type": "external",
+      "actor": "Non-SW Buyer",
+      "channel": "phone_or_email",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W07-S02",
+      "name": "Enter in Business System",
+      "type": "action",
+      "system": "Salesforce",
+      "actor": "Integrated Vendor",
+      "description": "Create opportunity/quote in Salesforce",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W07-S03",
+      "name": "Check Internal Inventory",
+      "type": "decision",
+      "system": "Salesforce",
+      "automated": true,
+      "branches": {
+        "has_stock": "traditional_salesforce_flow",
+        "no_stock": "W07-S04"
+      },
+      "requirements_addressed": []
+    },
+    {
+      "id": "W07-S04",
+      "name": "Create SW Buyer Request",
+      "type": "action",
+      "system": "Sourcing Window",
+      "actor": "Integrated Vendor as Buyer",
+      "reuses": "W01-buyer-parts-request",
+      "modifications": [
+        "Note actual delivery address"
+      ],
+      "system_transition": "Salesforce_to_SW",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W07-S05",
+      "name": "Vendors Submit Quotes",
+      "type": "reuse",
+      "references": "W03-vendor-submit-quote",
+      "system": "Sourcing Window",
+      "actor": "Network Vendors",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W07-S06",
+      "name": "Review & Select Quote",
+      "type": "action",
+      "system": "Sourcing Window",
+      "actor": "Integrated Vendor",
+      "reuses": "W02-review-select-vendor",
+      "modifications": [
+        "Not purchasing yet, gathering pricing"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W07-S07",
+      "name": "Mark Up & Quote Customer",
+      "type": "action",
+      "system": "Salesforce",
+      "actor": "Integrated Vendor",
+      "description": "Transfer SW quote to Salesforce with markup",
+      "system_transition": "SW_to_Salesforce",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W07-S08",
+      "name": "Customer Accepts",
+      "type": "external",
+      "channel": "phone_or_email",
+      "actor": "Original Customer",
+      "creates": "confirmed_order",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W07-S09",
+      "name": "Purchase from Vendor",
+      "type": "reuse",
+      "system": "Sourcing Window",
+      "references": "W02-review-select-vendor",
+      "actor": "Integrated Vendor as Buyer",
+      "modifications": [
+        "Specify customer shipping address"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W07-S10",
+      "name": "Manage Drop-Ship",
+      "type": "reuse",
+      "references": "W05-vendor-confirmation-shipping",
+      "systems": [
+        "Sourcing Window",
+        "Salesforce"
+      ],
+      "modifications": [
+        "Ship to end customer"
+      ],
+      "requirements_addressed": []
+    }
+  ],
+  "system_boundaries": {
+    "salesforce": [
+      "customer_relationships",
+      "accounting_invoicing",
+      "internal_inventory",
+      "business_reporting"
+    ],
+    "sourcing_window": [
+      "vendor_network_access",
+      "price_discovery",
+      "network_inventory",
+      "drop_ship_coordination"
+    ]
+  },
+  "integration_points": [
+    {
+      "name": "inventory_check",
+      "direction": "Salesforce → Decision"
+    },
+    {
+      "name": "quote_transfer",
+      "direction": "SW → Salesforce"
+    },
+    {
+      "name": "order_execution",
+      "direction": "Salesforce → SW"
+    },
+    {
+      "name": "status_updates",
+      "direction": "SW → Salesforce"
+    }
+  ],
+  "operational_challenges": [
+    "multiple_user_coordination",
+    "dual_system_monitoring",
+    "shared_inbox_management",
+    "system_synchronization"
+  ],
+  "business_logic_layer_opportunities": [
+    "api_callbacks_for_status",
+    "automatic_quote_sync",
+    "unified_monitoring_dashboard",
+    "event_driven_updates"
+  ],
+  "requirements_coverage": {
+    "addressed": [],
+    "notes": "This workflow describes Block's internal process for handling phone/email orders through SW network. It leverages buyer/vendor workflows but doesn't directly address client requirements."
+  },
+  "success_metrics": [
+    "time_from_call_to_sw_request",
+    "manual_vs_automated_ratio",
+    "system_sync_accuracy",
+    "end_customer_delivery_rate"
+  ]
+}

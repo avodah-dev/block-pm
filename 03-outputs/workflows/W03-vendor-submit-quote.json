@@ -1,0 +1,353 @@
+{
+  "workflow_id": "W03",
+  "name": "Vendor Submit Quote",
+  "persona": "P02-vendor",
+  "goal": "Submit competitive quotes for parts requests",
+  "trigger": "I have a request to submit pricing",
+  "input_sources": {
+    "image": "vendor-submit-quote-diagram.png",
+    "voice_transcript": "Team discussion - 2025-09-24",
+    "transcript_participants": [
+      "Product Owner",
+      "Jake"
+    ]
+  },
+  "narrative_captured": true,
+  "steps": [
+    {
+      "step_id": "W03-S01a",
+      "name": "Access via Dashboard",
+      "description": "Vendor navigates to their dashboard to view opportunities",
+      "actions": [
+        "Navigate to Dashboard",
+        "Click Open Requests View"
+      ],
+      "ui_elements": [
+        "Dashboard",
+        "Open Requests section"
+      ],
+      "entry_point": true,
+      "next_steps": [
+        "W03-S02"
+      ],
+      "requirements_addressed": [
+        "SW-M-9",
+        "SW-M-10"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W03-S01b",
+      "name": "Access via Email Link",
+      "description": "Vendor clicks link from opportunity notification email",
+      "actions": [
+        "Open email",
+        "Click opportunity link"
+      ],
+      "ui_elements": [
+        "Email notification",
+        "Embedded link"
+      ],
+      "entry_point": true,
+      "future_enhancement": "Add 'No Stock' button directly in email",
+      "next_steps": [
+        "W03-S02"
+      ],
+      "requirements_addressed": [
+        "SW-M-21",
+        "SW-M-42"
+      ],
+      "resources": [
+        "Email system"
+      ]
+    },
+    {
+      "step_id": "W03-S02",
+      "name": "Check Opportunity Status",
+      "description": "System validates if opportunity is still available",
+      "system_process": true,
+      "business_rule": "If buyer already purchased, show closed message",
+      "decision_point": true,
+      "branches": {
+        "opportunity_open": "W03-S03",
+        "opportunity_closed": "W03-S02a"
+      },
+      "requirements_addressed": [
+        "SW-M-11",
+        "SW-M-12"
+      ],
+      "resources": [
+        "Order database"
+      ]
+    },
+    {
+      "step_id": "W03-S02a",
+      "name": "Show Lost Opportunity",
+      "description": "Display message that opportunity is no longer available",
+      "ui_elements": [
+        "Lost opportunity message"
+      ],
+      "end_state": true,
+      "user_message": "This opportunity has already been fulfilled",
+      "requirements_addressed": [],
+      "resources": []
+    },
+    {
+      "step_id": "W03-S03",
+      "name": "View Request Details",
+      "description": "Vendor reviews part requirements and specifications",
+      "actions": [
+        "View part number",
+        "Review quantity",
+        "Check requirements"
+      ],
+      "ui_elements": [
+        "Request details panel",
+        "Part specifications"
+      ],
+      "decision_point": true,
+      "branches": {
+        "no_stock": "W03-S04a",
+        "submit_quote": "W03-S04b"
+      },
+      "requirements_addressed": [
+        "SW-M-20"
+      ],
+      "resources": [
+        "Request database"
+      ]
+    },
+    {
+      "step_id": "W03-S04a",
+      "name": "Submit No Stock",
+      "description": "Vendor indicates they cannot fulfill request",
+      "actions": [
+        "Click 'No Stock' button"
+      ],
+      "ui_elements": [
+        "No Stock button"
+      ],
+      "impact": "Removes vendor from consideration",
+      "next_steps": [
+        "W03-S08"
+      ],
+      "requirements_addressed": [
+        "SW-M-22",
+        "SW-M-13"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W03-S04b",
+      "name": "Enter Quote Details",
+      "description": "Vendor enters pricing, condition, and warranty information",
+      "actions": [
+        "Enter price",
+        "Select condition",
+        "Specify warranty",
+        "Optional: Add message"
+      ],
+      "ui_elements": [
+        "Pricing field",
+        "Condition dropdown",
+        "Warranty field",
+        "Message box"
+      ],
+      "data_inputs": {
+        "pricing": "required",
+        "condition": "required (New/Refurbished/Used)",
+        "warranty": "required",
+        "message": "optional"
+      },
+      "next_steps": [
+        "W03-S05"
+      ],
+      "requirements_addressed": [
+        "SW-M-24",
+        "SW-M-25",
+        "SW-M-26"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W03-S05",
+      "name": "Add Another Condition Decision",
+      "description": "Vendor decides whether to add another price/condition variant",
+      "actions": [
+        "Choose to add another variant or proceed"
+      ],
+      "ui_elements": [
+        "Add another condition button",
+        "Done button"
+      ],
+      "decision_point": true,
+      "business_value": "Allows multiple options to increase win probability",
+      "branches": {
+        "add_another": "W03-S04b",
+        "done": "W03-S06"
+      },
+      "requirements_addressed": [
+        "SW-M-28",
+        "SW-M-23"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W03-S06",
+      "name": "Submit Quote",
+      "description": "Vendor submits completed quote(s)",
+      "actions": [
+        "Click 'Submit Quote' button"
+      ],
+      "ui_elements": [
+        "Submit Quote button"
+      ],
+      "validations": [
+        "All required fields completed",
+        "At least one quote variant"
+      ],
+      "creates": "Quote record in database",
+      "next_steps": [
+        "W03-S07"
+      ],
+      "requirements_addressed": [
+        "SW-M-23"
+      ],
+      "resources": [
+        "Quote database"
+      ]
+    },
+    {
+      "step_id": "W03-S07",
+      "name": "Auto Email Buyer",
+      "description": "System automatically notifies buyer of new quote",
+      "system_process": true,
+      "actions": [
+        "Generate email",
+        "Send to buyer",
+        "Log notification"
+      ],
+      "next_steps": [
+        "W03-S08"
+      ],
+      "requirements_addressed": [
+        "SWP-M-17"
+      ],
+      "resources": [
+        "Email system"
+      ]
+    },
+    {
+      "step_id": "W03-S08",
+      "name": "Confirmation",
+      "description": "Vendor sees confirmation of submission",
+      "ui_elements": [
+        "Confirmation message",
+        "Quote reference number"
+      ],
+      "end_state": true,
+      "requirements_addressed": [
+        "SW-M-28"
+      ],
+      "resources": []
+    }
+  ],
+  "resources": {
+    "databases": [
+      {
+        "name": "Request Database",
+        "usage": "Store and retrieve request details",
+        "steps_used": [
+          "W03-S03"
+        ]
+      },
+      {
+        "name": "Quote Database",
+        "usage": "Store vendor quotes",
+        "steps_used": [
+          "W03-S06"
+        ]
+      },
+      {
+        "name": "Order Database",
+        "usage": "Check if request already fulfilled",
+        "steps_used": [
+          "W03-S02"
+        ]
+      }
+    ],
+    "systems": [
+      {
+        "name": "Email System",
+        "usage": "Send notifications",
+        "steps_used": [
+          "W03-S01b",
+          "W03-S07"
+        ]
+      }
+    ]
+  },
+  "edge_cases": [
+    {
+      "scenario": "Multiple vendor employees accessing same quote",
+      "current_gap": true,
+      "proposed_solutions": [
+        "Show warning about concurrent access",
+        "Implement locking mechanism",
+        "Add refresh notifications"
+      ]
+    },
+    {
+      "scenario": "Vendor clicks email after opportunity closed",
+      "handled": true,
+      "solution": "W03-S02a shows clear message"
+    }
+  ],
+  "requirements_coverage": {
+    "directly_addressed": [
+      "SW-M-9",
+      "SW-M-10",
+      "SW-M-11",
+      "SW-M-12",
+      "SW-M-13",
+      "SW-M-20",
+      "SW-M-21",
+      "SW-M-22",
+      "SW-M-23",
+      "SW-M-24",
+      "SW-M-25",
+      "SW-M-26",
+      "SW-M-28",
+      "SW-M-42",
+      "SWP-M-17"
+    ],
+    "partially_addressed": [],
+    "gaps": [],
+    "notes": "Requirements mapped to actual CAD-001 and CAD-002 content after CSV data cleanup"
+  },
+  "business_insights": {
+    "key_differentiators": [
+      "Multiple condition/price variants per quote",
+      "Quick 'No Stock' option to save time",
+      "Automatic buyer notification"
+    ],
+    "efficiency_features": [
+      "Email direct links",
+      "Opportunity status checking",
+      "Bulk condition entry"
+    ],
+    "future_enhancements": [
+      "No Stock button in email",
+      "Real-time collaboration",
+      "Quote revision capability"
+    ]
+  },
+  "metadata": {
+    "created_date": "2025-09-24",
+    "version": "1.0",
+    "status": "draft",
+    "complexity": "medium",
+    "estimated_duration": "5-10 minutes",
+    "business_value": "Core vendor functionality enabling competitive quoting"
+  }
+}

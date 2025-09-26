@@ -1,0 +1,48 @@
+{
+  "documents": [
+    {
+      "id": "RRD-001",
+      "title": "Sourcing Window (Vendor) Requirements - Avodah RFP Response",
+      "description": "Our RFP response to vendor-side requirements with implementation approach",
+      "file_formats": {
+        "json": "RRD-001-sw-vendor-response.json"
+      },
+      "source": "03_Sourcing Window Requirement Analysis.docx",
+      "addresses": "CAD-002",
+      "response_count": 22,
+      "categories": ["Vendor Management", "Capability Assignment", "Request Routing", "Integration"],
+      "phase_breakdown": {
+        "phase_1": 22,
+        "phase_2": 0,
+        "future": 0
+      },
+      "tags": ["vendor", "rfp-response", "sw"]
+    },
+    {
+      "id": "RRD-002",
+      "title": "Sourcing Window Pro (Buyer) Requirements - Avodah RFP Response",
+      "description": "Our RFP response to buyer-side requirements with implementation approach",
+      "file_formats": {
+        "json": "RRD-002-swp-buyer-response.json"
+      },
+      "source": "04_Sourcing Window Pro Requirement Analysis.docx",
+      "addresses": "CAD-001",
+      "response_count": 24,
+      "categories": ["Request Management", "Vendor Selection", "Approval Workflows", "Reporting"],
+      "phase_breakdown": {
+        "phase_1": 24,
+        "phase_2": 0,
+        "future": 0
+      },
+      "tags": ["buyer", "rfp-response", "swp"]
+    }
+  ],
+  "metadata": {
+    "last_updated": "2025-09-24",
+    "total_documents": 2,
+    "total_responses": 46,
+    "document_types": {
+      "rfp_responses": 2
+    }
+  }
+}

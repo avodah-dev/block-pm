@@ -1,0 +1,277 @@
+{
+  "workflow_id": "W04",
+  "name": "Messaging Capability",
+  "workflow_type": "SYSTEM_CAPABILITY",
+  "description": "Cross-cutting messaging feature (EMA) that enables contextual communication throughout the platform",
+  "personas": [
+    "P01-buyer",
+    "P02-vendor",
+    "all-future-personas"
+  ],
+  "trigger": "Available at multiple touchpoints across system",
+  "input_sources": {
+    "image": "messaging-system-diagram.png",
+    "voice_transcript": "Team discussion on messaging architecture and vision",
+    "transcript_date": "2025-09-24",
+    "participants": [
+      "Product Owner",
+      "Jake"
+    ]
+  },
+  "narrative_captured": true,
+  "components": [
+    {
+      "component_id": "C01",
+      "name": "Message Object",
+      "type": "data_structure",
+      "properties": [
+        "text_content",
+        "sender_recipient",
+        "timestamp",
+        "context_object_id",
+        "thread_id",
+        "topic_tags"
+      ],
+      "requirements_addressed": [
+        "SWP-M-26",
+        "SW-M-36"
+      ]
+    },
+    {
+      "component_id": "C02",
+      "name": "Messages Page",
+      "type": "user_interface",
+      "capabilities": [
+        "Global search",
+        "Vendor filtering",
+        "Context filtering",
+        "Thread view",
+        "New conversation"
+      ],
+      "requirements_addressed": [
+        "SWP-M-29",
+        "SW-M-30"
+      ]
+    },
+    {
+      "component_id": "C03",
+      "name": "Context Attachment Points",
+      "type": "integration",
+      "attachment_points": [
+        "unique_part_request",
+        "purchase_order",
+        "vendor_relationship",
+        "extensible_for_future"
+      ],
+      "requirements_addressed": [
+        "SWP-M-29",
+        "SW-M-36",
+        "SW-M-37",
+        "SW-M-38"
+      ]
+    },
+    {
+      "component_id": "C04",
+      "name": "File Attachments",
+      "type": "functionality",
+      "features": [
+        "upload_pictures",
+        "upload_documents",
+        "attachment_validation",
+        "PO_upload_warning"
+      ],
+      "requirements_addressed": [
+        "SWP-M-27",
+        "SWP-M-28",
+        "SW-M-30"
+      ]
+    },
+    {
+      "component_id": "C05",
+      "name": "Notification System",
+      "type": "functionality",
+      "triggers": [
+        "new_message",
+        "mention",
+        "status_change"
+      ],
+      "delivery_methods": [
+        "email",
+        "in_app"
+      ],
+      "requirements_addressed": [
+        "SWP-M-9",
+        "SWP-M-24",
+        "SW-M-41"
+      ]
+    },
+    {
+      "component_id": "C06",
+      "name": "Vendor Contact Visibility",
+      "type": "functionality",
+      "features": [
+        "show_recipient_vendor",
+        "vendor_contact_info",
+        "recipient_confirmation"
+      ],
+      "requirements_addressed": [
+        "SWP-M-25"
+      ]
+    }
+  ],
+  "integration_points": [
+    {
+      "workflow_id": "W01",
+      "workflow_name": "Buyer Parts Request",
+      "integration_type": "embedded",
+      "usage": [
+        "Post-request clarifications",
+        "Vendor questions",
+        "Broadcast updates"
+      ]
+    },
+    {
+      "workflow_id": "W02",
+      "workflow_name": "Review and Select Vendor",
+      "integration_type": "embedded",
+      "usage": [
+        "Term negotiations",
+        "Warranty/price discussions",
+        "Specification clarifications"
+      ]
+    },
+    {
+      "workflow_id": "W03",
+      "workflow_name": "Vendor Submit Quote",
+      "integration_type": "embedded",
+      "usage": [
+        "Pre-quote clarifications",
+        "Post-quote negotiations",
+        "No-stock explanations"
+      ]
+    },
+    {
+      "workflow_id": "W05",
+      "workflow_name": "Vendor Confirmation & Shipping",
+      "integration_type": "embedded",
+      "usage": [
+        "Order status updates",
+        "Shipping coordination",
+        "Issue resolution"
+      ]
+    }
+  ],
+  "data_architecture": {
+    "message_storage": {
+      "type": "centralized",
+      "indexing": [
+        "text",
+        "sender",
+        "context",
+        "timestamp"
+      ],
+      "retention": "configurable"
+    },
+    "access_control": {
+      "organization_level": "see_all_org_messages",
+      "participation_level": "see_participated_threads",
+      "object_level": "see_accessible_object_messages"
+    },
+    "threading": {
+      "grouping": "context_plus_participants",
+      "ordering": "chronological_within_thread",
+      "branching": "supported"
+    }
+  },
+  "technical_insights": {
+    "scalability_concerns": [
+      "Message volume growth",
+      "Search performance at scale",
+      "Notification delivery speed"
+    ],
+    "architectural_decisions": [
+      "Messages as separate service",
+      "Event-driven notifications",
+      "Elasticsearch for search",
+      "Context tagging system"
+    ],
+    "future_considerations": [
+      "Real-time collaboration",
+      "Message encryption",
+      "Audit trail requirements",
+      "Data retention policies"
+    ]
+  },
+  "ai_opportunities": {
+    "phase_1": [
+      "Smart search suggestions",
+      "Auto-categorization",
+      "Thread summarization"
+    ],
+    "phase_2": [
+      "Response suggestions",
+      "Pattern recognition",
+      "Sentiment analysis",
+      "Knowledge base creation"
+    ],
+    "vision": "Messages become training data for AI agent that provides context-aware assistance"
+  },
+  "business_insights": {
+    "current_pain_points": [
+      "Messages fragmented across objects",
+      "Hard to find past conversations",
+      "No unified communication view",
+      "Context lost between interactions"
+    ],
+    "value_proposition": [
+      "Unified communication platform",
+      "Institutional knowledge capture",
+      "AI-ready data structure",
+      "Improved vendor relationships"
+    ],
+    "success_factors": [
+      "User adoption of Messages Page",
+      "Search effectiveness",
+      "Context preservation",
+      "Integration seamlessness"
+    ]
+  },
+  "requirements_coverage": {
+    "directly_addressed": [
+      "SWP-M-9",
+      "SWP-M-24",
+      "SWP-M-25",
+      "SWP-M-26",
+      "SWP-M-27",
+      "SWP-M-28",
+      "SWP-M-29",
+      "SW-M-30",
+      "SW-M-36",
+      "SW-M-37",
+      "SW-M-38",
+      "SW-M-41"
+    ],
+    "enhanced_beyond_requirements": [
+      "Unified Messages Page (not in original requirements)",
+      "AI-ready structure",
+      "Cross-object threading",
+      "Advanced search capabilities"
+    ],
+    "notes": "Requirements mapped to actual CAD-001 and CAD-002 EMA content after CSV data cleanup"
+  },
+  "quotes_from_discussion": [
+    "Every message is just text sent with a context",
+    "I know I had that conversation with some vendor at some point on some part or PO",
+    "Make messaging a first-class experience",
+    "When a new request happens, we can give an agent really meaningful context immediately",
+    "This is where we organize this data well"
+  ],
+  "metadata": {
+    "created_date": "2025-09-24",
+    "version": "1.1",
+    "status": "draft",
+    "complexity": "high",
+    "implementation_priority": "high",
+    "business_value": "Platform-wide communication enhancement"
+  }
+}

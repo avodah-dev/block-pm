@@ -1,0 +1,379 @@
+{
+  "workflow_id": "W05",
+  "name": "Vendor Confirmation & Shipping",
+  "persona": "P02-vendor",
+  "goal": "Confirm orders and ship parts to buyers",
+  "trigger": "I won, now I need to ship!",
+  "input_sources": {
+    "image": "vendor-confirmation-shipping-diagram.png",
+    "voice_transcript": "Team discussion on fulfillment process",
+    "transcript_date": "2025-09-24",
+    "participants": [
+      "Product Owner",
+      "Jake"
+    ]
+  },
+  "narrative_captured": true,
+  "steps": [
+    {
+      "step_id": "W05-S01a",
+      "name": "Access via Dashboard",
+      "description": "Vendor navigates to pending fulfillment section",
+      "actions": [
+        "Open Dashboard",
+        "View Pending Fulfillment"
+      ],
+      "ui_elements": [
+        "Dashboard",
+        "Pending orders list"
+      ],
+      "entry_point": true,
+      "next_steps": [
+        "W05-S02"
+      ],
+      "requirements_addressed": [
+        "SW-M-15"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W05-S01b",
+      "name": "Access via Email",
+      "description": "Vendor clicks link from order won email",
+      "actions": [
+        "Open email",
+        "Click order link"
+      ],
+      "ui_elements": [
+        "Email notification"
+      ],
+      "entry_point": true,
+      "next_steps": [
+        "W05-S02"
+      ],
+      "requirements_addressed": [
+        "SW-M-31",
+        "SW-M-40",
+        "SW-M-42"
+      ],
+      "resources": [
+        "Email system"
+      ]
+    },
+    {
+      "step_id": "W05-S02",
+      "name": "View Pending Orders",
+      "description": "View list of orders where vendor was selected",
+      "actions": [
+        "Review order details",
+        "Check requirements"
+      ],
+      "ui_elements": [
+        "Order list",
+        "Order details panel"
+      ],
+      "decision_point": true,
+      "branches": {
+        "confirm_first": "W05-S03",
+        "straight_to_fulfill": "W05-S04",
+        "cannot_fulfill": "W05-S09"
+      },
+      "requirements_addressed": [
+        "SW-M-15",
+        "SW-M-18"
+      ],
+      "resources": [
+        "Order database"
+      ]
+    },
+    {
+      "step_id": "W05-S03",
+      "name": "Confirm Order",
+      "description": "Acknowledge order receipt to buyer",
+      "optional": true,
+      "actions": [
+        "Click Confirm Order"
+      ],
+      "ui_elements": [
+        "Confirm Order button"
+      ],
+      "impact": "Updates status, sends confirmation email",
+      "automated_action": "Email buyer: Order Confirmed",
+      "next_steps": [
+        "W05-S04"
+      ],
+      "requirements_addressed": [
+        "SW-M-33"
+      ],
+      "business_insight": "Reduces buyer anxiety",
+      "resources": [
+        "Email system"
+      ]
+    },
+    {
+      "step_id": "W05-S04",
+      "name": "Download PO",
+      "description": "Download purchase order for warehouse",
+      "actions": [
+        "Click Download PO"
+      ],
+      "ui_elements": [
+        "Download button"
+      ],
+      "output": "PO document",
+      "next_steps": [
+        "W05-S05"
+      ],
+      "requirements_addressed": [
+        "SW-M-32"
+      ],
+      "resources": [
+        "Document storage"
+      ]
+    },
+    {
+      "step_id": "W05-S05",
+      "name": "Pull & Pack Part",
+      "description": "Physical warehouse activities",
+      "external_process": true,
+      "actions": [
+        "Physical fulfillment"
+      ],
+      "duration": "Variable (minutes to days)",
+      "next_steps": [
+        "W05-S06"
+      ],
+      "requirements_addressed": [],
+      "resources": []
+    },
+    {
+      "step_id": "W05-S06",
+      "name": "Enter Fulfillment Details",
+      "description": "Enter shipping and tracking information",
+      "actions": [
+        "Enter tracking number",
+        "Enter serial number",
+        "Enter RMA number(s)"
+      ],
+      "ui_elements": [
+        "Fulfillment form"
+      ],
+      "data_inputs": {
+        "tracking_number": "required",
+        "serial_number": "conditional",
+        "rma_number": "required (multiple allowed)",
+        "message": "optional"
+      },
+      "next_steps": [
+        "W05-S07"
+      ],
+      "requirements_addressed": [
+        "SW-M-34",
+        "SW-M-35"
+      ],
+      "resources": []
+    },
+    {
+      "step_id": "W05-S07",
+      "name": "Complete Order",
+      "description": "Finalize and ship order",
+      "actions": [
+        "Click Finish Order"
+      ],
+      "ui_elements": [
+        "Finish Order button"
+      ],
+      "system_actions": [
+        "Auto-confirm if not already done",
+        "Mark as shipped",
+        "Update all statuses"
+      ],
+      "next_steps": [
+        "W05-S08"
+      ],
+      "requirements_addressed": [
+        "SW-M-35"
+      ],
+      "resources": [
+        "Order database"
+      ]
+    },
+    {
+      "step_id": "W05-S08",
+      "name": "Send Shipping Email",
+      "description": "Notify buyer of shipment",
+      "system_process": true,
+      "automated_action": "Email buyer with tracking info",
+      "email_contents": [
+        "Tracking number",
+        "Serial numbers",
+        "RMA numbers",
+        "Expected delivery"
+      ],
+      "end_state": true,
+      "requirements_addressed": [
+        "SWP-M-43",
+        "SWP-M-44",
+        "SWP-M-45"
+      ],
+      "resources": [
+        "Email system"
+      ]
+    },
+    {
+      "step_id": "W05-S09",
+      "name": "Cancel Order",
+      "description": "Cancel order if unable to fulfill",
+      "alternative_path": true,
+      "new_functionality": true,
+      "actions": [
+        "Click Cancel Order",
+        "Provide reason"
+      ],
+      "ui_elements": [
+        "Cancel button",
+        "Reason field"
+      ],
+      "impact": "Order cancelled, buyer notified to select alternative",
+      "automated_action": "Email buyer: Order Cancelled",
+      "end_state": true,
+      "requirements_addressed": [
+        "SW-S-5"
+      ],
+      "business_insight": "Improves over current manual process",
+      "resources": [
+        "Email system"
+      ]
+    },
+    {
+      "step_id": "W05-S10",
+      "name": "Handle Messaging",
+      "description": "Communication throughout fulfillment process",
+      "parallel": true,
+      "optional": true,
+      "actions": [
+        "Send/receive messages on order"
+      ],
+      "ui_elements": [
+        "EMA on order record"
+      ],
+      "requirements_addressed": [
+        "SW-M-37"
+      ],
+      "resources": [
+        "Messaging system"
+      ]
+    }
+  ],
+  "decision_logic": {
+    "confirmation_flexibility": {
+      "description": "Vendors can confirm separately or during fulfillment",
+      "paths": [
+        {
+          "scenario": "Quick fulfillment",
+          "flow": "Skip confirm → Fulfill → Single email"
+        },
+        {
+          "scenario": "Need time",
+          "flow": "Confirm → Process → Fulfill → Two emails"
+        }
+      ]
+    },
+    "email_consolidation": {
+      "rule": "If no separate confirmation, combine into shipping email",
+      "benefit": "Reduces notification fatigue"
+    }
+  },
+  "new_capabilities": [
+    {
+      "feature": "Vendor-initiated cancellation",
+      "current_state": "Vendor must message buyer to cancel",
+      "new_state": "Vendor can directly cancel with reason",
+      "impact": "Faster resolution, better communication"
+    }
+  ],
+  "resources": {
+    "databases": [
+      {
+        "name": "Order Database",
+        "usage": "Track order status and details",
+        "steps_used": [
+          "W05-S02",
+          "W05-S07"
+        ]
+      }
+    ],
+    "systems": [
+      {
+        "name": "Email System",
+        "usage": "Send notifications",
+        "steps_used": [
+          "W05-S01b",
+          "W05-S03",
+          "W05-S08",
+          "W05-S09"
+        ]
+      },
+      {
+        "name": "Document Storage",
+        "usage": "Store and retrieve POs",
+        "steps_used": [
+          "W05-S04"
+        ]
+      },
+      {
+        "name": "Messaging System",
+        "usage": "EMA on order records",
+        "steps_used": [
+          "W05-S10"
+        ]
+      }
+    ]
+  },
+  "business_insights": {
+    "efficiency_gains": [
+      "Optional confirmation reduces steps",
+      "Direct cancellation saves time",
+      "Email consolidation reduces noise"
+    ],
+    "vendor_benefits": [
+      "Flexibility in fulfillment approach",
+      "Clear status communication",
+      "Reduced friction for cancellations"
+    ],
+    "buyer_benefits": [
+      "Faster confirmations",
+      "Clear shipping information",
+      "Quicker resolution of issues"
+    ]
+  },
+  "requirements_coverage": {
+    "directly_addressed": [
+      "SW-M-15",
+      "SW-M-18",
+      "SW-M-31",
+      "SW-M-32",
+      "SW-M-33",
+      "SW-M-34",
+      "SW-M-35",
+      "SW-M-37",
+      "SW-M-40",
+      "SW-M-42",
+      "SW-S-5",
+      "SWP-M-43",
+      "SWP-M-44",
+      "SWP-M-45"
+    ],
+    "partially_addressed": [],
+    "gaps": [],
+    "notes": "Requirements mapped to actual CAD-001 and CAD-002 content after CSV data cleanup"
+  },
+  "metadata": {
+    "created_date": "2025-09-24",
+    "version": "1.1",
+    "status": "draft",
+    "complexity": "medium",
+    "estimated_duration": "5-15 minutes (excluding physical fulfillment)",
+    "business_value": "Critical fulfillment process enabling vendor operations"
+  }
+}

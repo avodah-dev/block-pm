@@ -1,0 +1,832 @@
+1
+00:00:01,970 --> 00:00:30,240
+Speaker 1: Yeah, that was good. Yeah, no, I think it was good. Basically, everything I just said at the end in person was just like, oh, I definitely forced us to hurry it up and then realized that we really can't hurry it up. And so now I almost want to go back and slow it back down even slower on the two things we can to really get that out, especially for phase one.
+
+2
+00:00:30,240 --> 00:01:06,322
+Speaker 2: Yeah, my first response was, yeah, it feels like they're a naturally, I think Nate and Rudy's very collaborative. I like seeing Allie talk. I like seeing Sam talk. It seems like when it's time, Jordan will not have a problem talking. He's just a specialist in another thing. I think I got a little thrown for a loop, if I'm honest. I, about how I didn't realize there was such a big unknown and I, I wasn't, and it, and.
+
+3
+00:01:06,322 --> 00:01:10,102
+Speaker 2: it caught, I was like, I, we, we wouldn't have done what we did.
+
+4
+00:01:10,812 --> 00:01:16,832
+Speaker 1: Yeah. I thought for sure we were ripping Salesforce out, but then we started acting like that wasn't a for sure thing.
+
+5
+00:01:17,822 --> 00:01:27,562
+Speaker 3: Yeah. Like to know that was probably my big, if there was one surprise, it was for me knowing that MVP flow is definitely not recreating the admin parts of Salesforce in our own tool. Yeah.
+
+6
+00:01:27,622 --> 00:01:30,882
+Speaker 1: That's what Sam kept saying. No, that is number one. Right.
+
+7
+00:01:31,362 --> 00:01:31,762
+Speaker 3: Yeah.
+
+8
+00:01:31,762 --> 00:01:41,741
+Speaker 1: So they've just happened. It's weird. Paul's not in these meetings. It's weird that some of the people that have to make that decision aren't in this meeting and aren't the experts. I guess maybe Paul is, but.
+
+9
+00:01:41,982 --> 00:01:53,801
+Speaker 3: That was the other thing to me that was weird is how, um, Paul, I don't know what his role is, but he, he's clearly like a super speedy. Yeah. More than I expected. I'm, cause we didn't interview him. Like if he was.
+
+10
+00:01:53,882 --> 00:02:05,923
+Speaker 1: But in almost an eye roll way, I felt like that was the, they talked with the least respect about. Paul. I felt like in like a joking way. I just got weird vibes when they would talk about him.
+
+11
+00:02:07,163 --> 00:02:38,904
+Speaker 2: I'm trying not to use for some reason, I think it could just be his personality, that he's it almost feels like that guy who's been around longer than you and says no to all of your ideas when the reality is you know that you can do them. He's like, no, you can't do that. But he's sort of curmudgeonly. I don't know if that's actually true. So don't let me live that out. I do a pretty good job letting people prove themselves but he's always been quiet. He's always kind of had a less.
+
+12
+00:02:38,904 --> 00:02:59,224
+Speaker 2: than engaged facial expression. He hasn't offered a lot of information so he's quite, you know, it's hard for me to steer off that. And he has a strong relationship with FMD and I wonder how this is professionally to see a team come in and essentially be able to do things that they didn't maybe think or realize or, yeah.
+
+13
+00:02:59,384 --> 00:03:12,256
+Speaker 3: Do we know? Just for clarity, I don't want to hover around too much, like the actual players, like FMD, who actually created V2 that we're replacing? I don't think it was FMD. It was Legend. Not Legendary? Legendary, Legendary, yes.
+
+14
+00:03:12,316 --> 00:03:23,196
+Speaker 1: No, no, no, that's not true. That's not the answer you're asking. Yeah, it is. I don't think it's Legendary. Legendary is the suite of software that's sitting on top of Salesforce, but I don't think that's this.
+
+15
+00:03:23,796 --> 00:03:27,116
+Speaker 2: I thought 2.0 was the Legendary build.
+
+16
+00:03:28,766 --> 00:03:51,456
+Speaker 1: Legendary, from what I understand, and we should go back in the transcripts, because it's on your thing somewhere, Nate, is Legendary is, I think, an inventory management suite, that focuses on taking Salesforce and making it extra special, and then that's why they're now locked into this Legendary ecosystem that they can't break out of.
+
+17
+00:03:52,126 --> 00:03:54,086
+Speaker 2: Okay, yeah, I'm. 
+
+18
+00:03:54,086 --> 00:03:55,566
+Speaker 1: But yeah, we should fact-check all of that.
+
+19
+00:03:55,566 --> 00:04:29,920
+Speaker 2: You know what's interesting? I agree. Sorry, I'm like- trying to break this down into what is real like they've created their own language and they're they've like sort of incestually fallen into some patterns yep and the reality is like we would never call this sourcing window and sourcing window Pro because you don't call something Airbnb and Airbnb renter right Airbnb owner right and they seen opened it not doing that yeah yeah like all this it's the whole thing is sourcing window yeah and and it's just.
+
+20
+00:04:29,920 --> 00:04:59,840
+Speaker 2: that there is a customer side and a vendor side yeah and then the question right now I'm trying to find a way to simplify the nomenclature so that I can, categorize things like here's the buckets right and then there's vendor customer and then there's block do you want to be a special sourcing window customer or do you want to be an infectious disease on the product and I don't mean to say that to be mean but that is probably how I think about it and you will never be a great.
+
+21
+00:05:00,032 --> 00:05:09,592
+Speaker 2: product. You will not be able to sell it if you're a special use case in the product. You could sell it if you are a special type of user and are willing to allow other people to have the same.
+
+22
+00:05:10,212 --> 00:05:20,892
+Speaker 1: utilities you have. But that means retraining. That's what scares them, I'm assuming, is that means retraining everyone that's internal. But I do think that is also a thing we can do in.
+
+23
+00:05:20,892 --> 00:05:37,352
+Speaker 3: phase three, four months. Yes, yes. I agree with you. I was so glad to hear that they weren't pushing that, but they seemed open to it. Because I do think by the end of this product, they're going to love that how all of the things that bother them about the current solution just kind of, I think, may go away. And I think they're going to want to bring that kind of magic to.
+
+24
+00:05:37,352 --> 00:06:14,003
+Speaker 1: their internal processes. To that point, I think that's what we pitch to like Paul and people like them is like, come in and be like, yes, we're going to phase one. And I think this is Steve's mindset already is phase one is focused on external buyer, external vendor. And then you know what, once phase one is done, then we can slowly start to rip out functionality. and be like okay this specific block team we're going to replace your workflow but we'll even do it in phases where it's like you can use it in this admin page for like starting the process.
+
+25
+00:06:14,003 --> 00:06:44,253
+Speaker 1: or something like that and it still lives in both because if if we do it right i think they can still technically keep version two alive if they wanted to even in like fast forward like because if version two is just running off of salesforce then as long as they have salesforce update to our system then they could always run salesforce or sorry sourcing window two and three our version.
+
+26
+00:06:44,253 --> 00:06:49,354
+Speaker 1: at the same time just no one's going to want to because of how good art's going to be and i think.
+
+27
+00:06:49,354 --> 00:07:21,835
+Speaker 3: that's a good action item that by the end of this week we should have a clear diagram of what we believe are all of the like object types and where they like i'm going to see i think there's like six, to ten of them and that's the thing is that loosen right yeah yeah exactly it's like object types where do they live now we're not even there where do they live now what's the source of truth and which of these if any will be deprecated going forward like how are we going to manage them are they going to be synced you know who's going to be the owner of the source of truth or did some of them go away because what you just said i wouldn't have thought that would be true but it.
+
+28
+00:07:21,835 --> 00:07:32,015
+Speaker 3: could be true the v2 still being relevant it's going to depend on how certain things um are already an integral part of their which their current process like benefit abilities um who's.
+
+29
+00:07:32,015 --> 00:07:38,015
+Speaker 1: it correct correct me if i'm wrong if i if i all i think of when i think of sourcing window two.
+
+30
+00:07:38,015 --> 00:07:51,935
+Speaker 3: currently all all it is is we lost you if you can hear me jake we lost you if you can't hear me then.
+
+31
+00:07:51,935 --> 00:07:59,055
+Speaker 2: you already did if you can't hear me we lost you and maybe we didn't i don't think i even.
+
+32
+00:07:59,055 --> 00:08:03,579
+Speaker 3: he's on there still, I'll just text him, I'll text him, because he's probably...
+
+33
+00:08:03,579 --> 00:08:06,539
+Speaker 2: Oh, you know there's that middle ground between here and Grand Rapids where...
+
+34
+00:08:06,539 --> 00:08:26,189
+Speaker 3: Just... He doesn't even know. Jake, we lost all that last bit. We're cutting in now. If we need to switch to a phone, the plot can easily capture that now. I want to see you wear it.
+
+35
+00:08:26,489 --> 00:08:30,509
+Speaker 2: I never. I said when I got it, I was like, I'm going to wear this once a month.
+
+36
+00:08:31,189 --> 00:08:41,699
+Speaker 3: Not even that, probably. Maybe put it on your head twice. Well, probably on your head, but just a few times. Does it fit well? Because I know it's custom, right? It depends on your hair length.
+
+37
+00:08:41,839 --> 00:09:01,671
+Speaker 2: It was weird, and I didn't really... I probably would have spent more time. Yeah, you could pull it off. Now, I think with my longer hair, it does better. I would have had them round this a little better. I kind of liked it like that at first, but then the angles aren't... Perfect. Maybe that's because of my head.
+
+38
+00:09:01,831 --> 00:09:03,431
+Speaker 3: Oh, he's back. Hey, Jay, can you hear me. 
+
+39
+00:09:04,291 --> 00:09:04,651
+Speaker 1: I'm back.
+
+40
+00:09:04,831 --> 00:09:05,632
+Speaker 3: All right, we got you.
+
+41
+00:09:06,012 --> 00:09:10,472
+Speaker 1: I can hear you. Did you hear any of my rant or did I die? Literally zero.
+
+42
+00:09:10,752 --> 00:09:12,151
+Speaker 3: Literally zero of that rant we caught.
+
+43
+00:09:13,561 --> 00:09:17,482
+Speaker 1: Oh, that's great. Okay, so can I rant or what were you guys in the middle of something. 
+
+44
+00:09:17,681 --> 00:09:18,982
+Speaker 3: No, do it again. We were waiting for you.
+
+45
+00:09:19,301 --> 00:09:53,362
+Speaker 1: Okay, so basically it'll be better this time. So basically my thought on why I thought they could both stay alive is all sourcing window currently current state is just an automation of Salesforce is like how I'm thinking of it now. Yep. So then going forward, if whatever we do is still like being pulled into Salesforce, so then it basically could still run in that same way. And the reason I think of that is like the block style vendor, whoever the next one is,
+
+46
+00:09:53,821 --> 00:10:08,504
+Speaker 1: like our data is not going to match theirs. And so they're going to have to do an API. I massage it to like get. into their Salesforce, the same way we would probably want to do the way that we build up ours, is we're not going to be handcuffed to whatever table they call stuff, you know. 
+
+47
+00:10:08,603 --> 00:10:40,843
+Speaker 3: Yep. No, I got you. You're right. I think what I was curious is, once we see the inventory of objects, I'm curious if some things only existed purely for sourcing window and weren't used anywhere else in Salesforce. Oh, yeah. But even if that was the case or not, you're right. We build, that's actually what I was talking to Steve about at the very end. I think, in my opinion, sourcing window is its own isolated system that has adapters to the APIs it needs, and that way they can still keep whatever they want, you know, inside of Salesforce, but sourcing window is the source of truth, and you can have, then you.
+
+48
+00:10:40,843 --> 00:10:49,243
+Speaker 3: just have to decide what's the update strategy, you know? As much as possible, we never update the same thing in both systems, but if you have to, then you deal with those conflicts.
+
+49
+00:10:49,983 --> 00:11:25,756
+Speaker 2: Right. Can we map this for my brain, because I think I start to slow down and get caught up on something. For example, Airbnb is not the owner of... address space is it actually probably uses Google Google or some Internet registry of addresses I imagine it's just Google and I don't know what Google uses but so and we don't have no matter what there that doesn't exist in this industry attacking us from from the north and then but that's kind of what.
+
+50
+00:11:25,756 --> 00:11:40,326
+Speaker 2: we're saying is do we want to give everybody sort of every nation sort of like but you decide what you want to call because a homeowner comes in and says what is my address and like well that's fine because they're gonna have.
+
+51
+00:11:40,326 --> 00:11:59,166
+Speaker 1: to do something like that because like block does different part numbers it sounds like then was traditional so there's gonna have to be this translation of okay I remove hyphens from the system to compare to my when I hook it up via API yeah right.
+
+52
+00:12:00,400 --> 00:12:33,110
+Speaker 3: I would say this tomorrow's discussion will be pretty robust around this, I think. My two cents is we could talk about this more, but that part I think we've identified as the biggest unknown, let's say, that will be heavily discussed tomorrow. I think Steve, I wanted him to understand at the end, I don't care where it lives necessarily because I'm going to probably cache it anyways in our own database. Because I don't want to rely on Salesforce's API speed to be an impact on our user experience, you know? So as long as the caching and synchronization process isn't getting really messy, then I would just as soon have our own cache of it.
+
+53
+00:12:33,610 --> 00:12:44,590
+Speaker 3: But I think by the end of tomorrow, I will, because if they say, no, it's got to stay in Salesforce and you have to call APIs for all this, we'll call it as a pretty big risk of the whole project, really. It's not a good decision to do that.
+
+54
+00:12:45,270 --> 00:12:50,270
+Speaker 1: And do we just, whatever Paul does say tomorrow, do we just trust him and say, no? I don't think so.
+
+55
+00:12:50,550 --> 00:13:08,492
+Speaker 3: They didn't hire us. Mark specifically said, we want you guys to push back with your industry expertise. Oh, okay. I think that's why I asked, we asked why. Why do you want it in Salesforce? What's the reason for it being Salesforce as the source of truth, versus just a reflection of the truth that's in the sourcing window. 
+
+56
+00:13:09,412 --> 00:13:09,912
+Speaker 1: Right, right.
+
+57
+00:13:09,912 --> 00:13:35,922
+Speaker 3: I think we become, I'm curious how to match Paul's energy. I think we'll be fine, but I'm ready to push back gently if he says something that we think is not a good idea technically. I don't think he's going to. I think, again, this is a great question for what tasks we're here to perform and problems we're trying to solve. And then we can come with the expertise around how the source of truth impacts the user experience and the ability to sell the company later.
+
+58
+00:13:37,312 --> 00:14:09,144
+Speaker 2: It is, it'll be interesting if they have the, it's one thing to say, I want to, you know, I want to cut off from the ecosystem. I want to, I want to go cold turkey and not use a smartphone anymore, you know, but it's another thing actually. In this case, it's, I think, I don't think they will lose anything with. term if they completely rip this out of Salesforce and even if they make themselves a special super premium user because I think it makes there is at.
+
+59
+00:14:09,144 --> 00:14:37,344
+Speaker 2: least some reason for those features to exist for a two-sided user yeah it's, just whether or not they feel like the benefit they get from being the only user like that exceeds the benefit they would get from yeah allowing that to more people I I guess it really kind of messed with my the way I was Tetris in.
+
+60
+00:14:37,344 --> 00:15:12,456
+Speaker 3: things a little bit this is because it remembering to that's why I want to have a list of objects types so we can say which ones I don't care like I don't care a ton of parts have to be source of truth living in Salesforce because they change so infrequently that that's easy if it's things they're more transactional I can't let's say the lowest level would probably be oh actually comments aren't going to be edited so looking for things the biggest. I'm looking for the biggest problem will be if things might be updated frequently in both.
+
+61
+00:15:12,456 --> 00:15:40,106
+Speaker 3: systems. So like if they want both systems to let's say update order status for some reason, then you run the risk of them overwriting each other and how you handle that. But everything else, like even the customer list, if they want to keep that all inside a block instead of Salesforce and that's just read into sourcing window, I don't care a ton about that. I think we call out the risks of doing that, but yeah, this is, that was my biggest surprise so much. The business runs off of Salesforce. I did not expect that.
+
+62
+00:15:41,346 --> 00:15:44,966
+Speaker 1: Yeah. And it sounds like it was intentional, which I didn't realize either. Yeah.
+
+63
+00:15:45,046 --> 00:15:56,646
+Speaker 3: In fact, Steve said they moved away from SAP for this. I was surprised because SAP is a big ERP designed for that. And they didn't, he said specifically for the accounting, he said, I guess there's an account.
+
+64
+00:15:56,746 --> 00:16:00,100
+Speaker 1: And just inventory management. Like that's just, that's, that's a big thing. Wow.
+
+65
+00:16:00,520 --> 00:16:03,760
+Speaker 3: Yeah, because the SAP does that as a core feature. Yeah.
+
+66
+00:16:04,040 --> 00:16:11,990
+Speaker 2: It'd be interesting to know what it was that made them choose Salesforce to run their business off of.
+
+67
+00:16:12,150 --> 00:16:27,970
+Speaker 3: He said, I asked Steve directly, and he said it was the ability to customize the accounting parts. They couldn't do that in SAP for some reason, which is surprising to me. I don't believe that actually, meaning like I believe it was hard to, but if they had an API, you could do it.
+
+68
+00:16:28,150 --> 00:16:28,470
+Speaker 2: Yeah.
+
+69
+00:16:28,670 --> 00:16:30,010
+Speaker 3: They just, people didn't want to do it.
+
+70
+00:16:30,010 --> 00:16:58,030
+Speaker 2: They were like, we're gonna use the worst way possible. Yeah, yeah. Okay, all right, so when we, do you guys, based on the trajectory of today, do you have any concerns about the three days, what we're trying to accomplish, and what we want to get out of, what we want to be able to, given that this week was we want to have, decently high clarity on phase one.
+
+71
+00:16:58,350 --> 00:16:59,050
+Speaker 3: Okay, yeah.
+
+72
+00:17:00,032 --> 00:17:33,442
+Speaker 2: a good idea, a good idea of phase two and a good idea of phase three targets, like obviously we'll have to, what we'll have to say is, all right, Paul, because either the goal of this, of this discovery phase was that we would have this level of certainty on phase two and phase three, do we need to adjust that? Because I want to adjust that expectation now, both for us and for you guys, because this is part of what, you know, quote unquote completion means for this phase. And he's like, yeah, it's going to be, and then we'll basically say, well, give us, if.
+
+73
+00:17:33,442 --> 00:17:47,542
+Speaker 2: we were going to make an assumption, either can you tell us what the assumption we should make today, or will we know by next week what assumption, because next week is we're supposed to dig in on the biggest unknowns, which is whatever.
+
+74
+00:17:47,922 --> 00:18:06,324
+Speaker 3: I'm thinking, I want to look at the list of 46 requirements, whatever number it was. And I want to put them like, I'll just put them, I mean, I'll do this with your AI, but put them easily in a mirror board. So that we can see. here's all the things they said, here's the MVP plus, like, phase one bucket, and here's phase two and three. Where do these things belong. 
+
+75
+00:18:07,474 --> 00:18:14,314
+Speaker 1: Nate, do that plus also the thing that Sam sent, which, do you know where that is in the drive. 
+
+76
+00:18:15,074 --> 00:18:17,834
+Speaker 2: Nope. If I search, I can find it. Okay. I know where it is.
+
+77
+00:18:17,834 --> 00:18:28,234
+Speaker 1: Go, go, it's in the top level, and it's, like, Discovery, I think, but, um, only, I only say that, Nate, because she basically took that, and she added some more things to it.
+
+78
+00:18:28,354 --> 00:18:28,954
+Speaker 3: Okay, good.
+
+79
+00:18:28,954 --> 00:18:33,694
+Speaker 1: Like, nice to have, should have, um, like, must have.
+
+80
+00:18:33,834 --> 00:19:06,416
+Speaker 3: Because I think if we end this week, if we end this three-day period with some pretty great clarity as to what is in and out of scope for this, you know, the first phase, like, I have a pretty good general idea, but then I want to make sure whatever specifics, they mention that were more vague, we have narrowed down to be less vague, or at least we know how to quickly do that. Like, some of the training stuff, you know, that they talked about, like, what do they mean by that, and is that, you know, is that phase one, two, or three? Um. Cause all the basics we went through today, like all of that, I really genuinely think we could redo in like a month of solid work. Yeah.
+
+81
+00:19:06,496 --> 00:19:10,496
+Speaker 2: Like it just wasn't that crazy. Nothing that they said was like. 
+
+82
+00:19:10,836 --> 00:19:44,956
+Speaker 3: and I know maybe I'm wrong. Maybe it's two months. It's still hardly much. It's very simple. What we just talked about today to Molly warned us, it gets more complicated, but I don't think that complicated, especially with them insisting on the fact that the whole admin, multi auto sourcing bit is just out of scope. So all that means to me is that we set up like the synchronization processes. There's work to be done to track the data flows for that. Um, but that's mostly about synchronizing data and providing some visibility somewhere and not about built re recreating that auto auto tiering auto.
+
+83
+00:19:44,956 --> 00:20:14,050
+Speaker 3: sourcing process, right? Like that. That's, that's not, if that's not the thing you have to focus on, let's say till February, that's a big deal. That's very easy. So then I want to, I want to, I want them to look at this complete list that is, you know, the list that they, we recently. got plus sams or let's say mixed with sams and say yeah that looks about right like that is mvp plus especially identifying what is the plus part because i do think if we have this visually where there's now let's say 50 cards on a mirror board and a few of them are starred or more.
+
+84
+00:20:14,050 --> 00:20:36,650
+Speaker 2: obviously plus that they could see i think it would be harder for us to replace sourcing window 2.0 than it will be for us to build sourcing window 3.0 which is the plus because some of the things that they're talking about being quote-unquote plus features are things that we would not build it the way that they currently have it and i so what do you i'm curious about this.
+
+85
+00:20:36,650 --> 00:20:44,330
+Speaker 3: because i thought some things we could specifically say you shouldn't we shouldn't replace it like we shouldn't do it like this let's just take it to a better way yeah that's what i mean when i mean.
+
+86
+00:20:44,330 --> 00:20:59,990
+Speaker 2: certain there were some things that she said where she was like we just wouldn't we wouldn't do it to where they had to manage uh oh yeah like their own um users and logins we wouldn't build a login cycle obviously that's like a direct bug but then we also wouldn't have them yeah controlling it.
+
+87
+00:21:00,032 --> 00:21:01,492
+Speaker 3: It's more work to recreate their bad process.
+
+88
+00:21:01,712 --> 00:21:33,032
+Speaker 2: Yeah, it would be more work because no modern solution is saying that's really the best way. And then there was a handful of other things that they said where I couldn't imagine us wanting to build it the way that it currently is. Even if it was a little more work to build the plus, quote-unquote, we would hate building the current state. It would be more fun and more fun for us, valuable for us to build the nicer way.
+
+89
+00:21:34,292 --> 00:21:43,351
+Speaker 2: Like honing in on the messaging? Oh, like the dashboard, like the homepage. There's no part of us that wants to build something that useless.
+
+90
+00:21:44,032 --> 00:22:19,093
+Speaker 3: Yeah, the areas they kind of lit up about were the bad checkout process, all of them, including Steve. Steve was generally positive, but that part he was like, yeah, it's a really bad process. So we'll go over that, I think, tomorrow. The checkout process is bad. The, um... Messaging process, they all kind of lit up. how rough it currently is and we just all know like just adding some simplicity like some simple ways to say would you like to search around all things related to this order they don't have that we'll add that it'll be easy to me like if we're looking for low-hanging fruit like the buttons replying to simple options on an email easy to do um but that's the parts i want to be able to.
+
+91
+00:22:19,093 --> 00:22:29,603
+Speaker 3: highlight so they know where they're spending those extra calories so that when new ones come up we can say well don't forget we've got these six things that we're doing that are the plus because they seem like we're not going to be strong i don't think we're going to be in the.
+
+92
+00:22:29,603 --> 00:22:42,813
+Speaker 2: space of arguing over scope with them right now is there uh given what they've talked about wanting to do an email does that narrow down in the volume narrow down to two or one or two uh you know.
+
+93
+00:22:44,303 --> 00:23:15,095
+Speaker 3: solutions i've already we're doing 12 smart for sure at this point i'm pretty convinced of that um this just solidified that to your point like yeah for sure hands down because email is so important to them that's that's got the best delivery rates so that's easy and really the things they wanted like they didn't even talk about i think we should probably put this in, But the ability to reply to an email is something that she said would be nice in the videos, and it wouldn't be that hard to do. But I think, she didn't even mention it, like the middle ground is you don't have to reply to it, but you can click a link in the email that takes a pre-canned action.
+
+94
+00:23:15,635 --> 00:23:16,855
+Speaker 3: That's easy to do. Yeah.
+
+95
+00:23:16,855 --> 00:23:18,655
+Speaker 2: She did want to be able to do replies also though, right. 
+
+96
+00:23:18,835 --> 00:23:25,315
+Speaker 3: I mean, she definitely did. I'm just saying if we need to draw a line for what's MVP plus versus plus plus or whatever, like we could push that one out and give her the buttons.
+
+97
+00:23:25,315 --> 00:23:54,295
+Speaker 1: But I think as far as though for the week, I would say I definitely think we are at risk, of like not hitting the, like completing the things we were hoping to hit, which is like, schedule, risks, scope, fully. I think we'll have scope. That's not a problem. I can see how we could not get our scheduling maybe like, like a schedule, a mock schedule. Yeah.
+
+98
+00:23:54,395 --> 00:23:59,055
+Speaker 3: I think, I think that's okay too, because what's the point of not getting the next week if it's not refining whatever we had this week.
+
+99
+00:24:01,239 --> 00:24:28,819
+Speaker 2: When we say deep dive and de-risk, we're basically just saying, well, was it that we didn't get to cover something? Was it that they didn't have something? Yeah. And so at this point, we know that the biggest risks have to do with the decisions that they're responsible for on Salesforce 360 and the fallout from that. We're not afraid of either of those outcomes, which, what direction do you want to go? And our advice is let it rip.
+
+100
+00:24:29,969 --> 00:24:47,159
+Speaker 3: Yeah. Um, you guys were in more like one-off conversations around workflows. Was there anything that was that just to clarify what you thought you'd heard, or was there some surprises that came up in the workflow discussions? I think what specifically was the vendor.
+
+101
+00:24:47,519 --> 00:25:13,171
+Speaker 2: What I would say, Jake, correct me about this is I would say that given, I think we were coming in as not assuming that everything was. But now that I've gone through those two, I believe that those videos that Sam provided was really everything. I think so, too.
+
+102
+00:25:13,471 --> 00:25:24,651
+Speaker 1: And now I was like, was that 70%? I really expected them to rip it up and throw it away and be like, wow, these are not even close. But the fact that they were pretty close is wild.
+
+103
+00:25:26,111 --> 00:25:55,401
+Speaker 2: There's two things that I sort of like to do, and Nate's seen me do this with PFS and other things, is if I can't visualize it in three blocks, then I can't visualize it, then my 10 blocks are going to be wrong. If I can't do 10 blocks, then my 20 blocks are going to be wrong, right? And so that's probably, I took pictures just because I wanted to try to make sure that if I were to, I'm at least tempted to.
+
+104
+00:25:56,311 --> 00:26:25,543
+Speaker 2: Make a pretty version of what we did yesterday to start. from sort of like when cooking shows where they're like and I did it all and then boom here's the one that's been in the oven for 30 minutes and so that we can sort of continue the discussion with things that are at least slightly better mapped and proportioned and give us space to extend from I haven't committed my brain to doing that but that's that's at least something I'm entertaining doing in the morning before we go oh yeah is there anything we think that's a.
+
+105
+00:26:25,543 --> 00:26:59,603
+Speaker 3: good question what do you think what would put us in the best position to be prepared for tomorrow my feeling is Steve asked if I could just extract he didn't need it for tomorrow I'm gonna give it to him by tomorrow just the executive overviews what's looking for in the project so between the meet the individual meetings we had plus what Josh said he said that's really the most important thing he wanted to grab out of the meetings we had and the transcripts so yeah I think I want to start that whole I mean I'll put out all the swp points in in Miro so we can at least track as we're moving along do we have clarity around where things belong or not what do you think.
+
+106
+00:26:59,603 --> 00:27:19,385
+Speaker 2: that's going to be the most important thing that's going to be the most important thing that's going, Yeah, if we have all those in there and we have, like, the buckets visually in Miro and we can either definitively say this is, this thing splits between multiple and let it split between multiple or it distinctly lives in this. Yes. And that way we can say, we understand this, or we can say, this one still doesn't have clarity.
+
+107
+00:27:19,725 --> 00:27:34,265
+Speaker 3: And I think if we end this week saying we see both high level, like, let's say there's, I don't know, six to eight buckets of features and work to be done by the end of phase one. If we see that and we see deep enough to say, and I'm not concerned about, like, all the rest.
+
+108
+00:27:34,465 --> 00:27:34,685
+Speaker 2: Yeah.
+
+109
+00:27:34,925 --> 00:27:38,625
+Speaker 3: Or I think we need to fill in the blanks more on this and I'll feel good about this week.
+
+110
+00:27:38,825 --> 00:27:52,565
+Speaker 2: I think the other thing I'm wrestling with is due to the way Bonds was working and the way things work, you guys have probably spent individually each hours more on the domain space than I have. And I'm catching up. Yeah. I'm not quite there yet.
+
+111
+00:27:52,805 --> 00:28:13,799
+Speaker 3: Yeah, you're ramping up. I think Jake probably has, I, because of his personal experience with it, he's got, he's well ahead. I feel pretty. good about most of it and it's helpful to I think we're agreeing that 50 48 minutes of video from Sam covered 90% at least like there's nothing that we learned today that it wasn't on those videos that's what it is I'm trying to.
+
+112
+00:28:13,799 --> 00:28:45,799
+Speaker 2: find the disconnects in my head it was that Sam's videos make the project seem very easy oh yeah which I do think it kind of is Salesforce yes there it is yeah can make the project more well let's say just frustrating yeah precedent can make the comp make it more complicated but the actual when we look at sourcing window as a product not sourcing winners and then you have a customer a vendor and then an admin who's allowing people to do things and.
+
+113
+00:28:45,799 --> 00:28:56,359
+Speaker 2: then customer admin and vendor admin right a product admin platform and whatever yes by the way we do need to make sure that some of these are conversations are about an internal and some of them are that's the reason I.
+
+114
+00:28:56,359 --> 00:29:05,831
+Speaker 3: haven't released the other one yet as I want to scar through the tree didn't miss something block doc, Steve went to the bathroom, we just said nothing wrong, but we like, we're debriefing internally.
+
+115
+00:29:06,131 --> 00:29:06,311
+Speaker 2: Yeah.
+
+116
+00:29:06,591 --> 00:29:20,691
+Speaker 3: And, um, you know, things like this is going to be so easy. Yeah. They might not want public in this point, but yes, I agree with that. Cause I, overall, I think that's a fun, I think us being able to share with them in an organized process. Here's what we heard you say.
+
+117
+00:29:20,831 --> 00:29:27,331
+Speaker 1: Honestly, I feel like all they care about probably is the summary. If I was them, you know, it depends on the person probably.
+
+118
+00:29:27,371 --> 00:29:28,531
+Speaker 3: Yeah. I think, yeah.
+
+119
+00:29:28,531 --> 00:29:33,671
+Speaker 2: I mean, that might be for like, honestly, we didn't sign up to give them this. If we give them a summary.
+
+120
+00:29:33,931 --> 00:29:59,751
+Speaker 3: I agree. My thinking is we, since, you know, transparency is important to them, we can give them more than the average would give them, but it doesn't have to be everything. I think it's a, I think it's a, um, secondary sell on the stuff we can do for them internally really. But, but I'm not even saying all the transcripts, just like we'll have, we'll have a well-organized list of here's what we heard you say, summary. Um, here's the roadmap. Here's where we're at right now. Like things like that artifact of the project. That. Are often buried.
+
+121
+00:30:02,163 --> 00:30:13,823
+Speaker 2: Do you guys see there being any way where we're successful in this project and they don't have to eventually, if they're honest with themselves, reconsider doing work with Salesforce and Forcemedic. 
+
+122
+00:30:14,733 --> 00:30:27,113
+Speaker 3: I think they will absolutely, I think they're already starting to reconsider it. So I think, I think we will hopefully know by the end of this project, what is Salesforce good for? Because I'm kind of like right now, very little is what I think it's good for. If it's CRM related.
+
+123
+00:30:28,633 --> 00:30:37,013
+Speaker 1: It forces you to not need to have a internal technical team as much, or just like Excel, experts.
+
+124
+00:30:37,293 --> 00:30:55,733
+Speaker 3: But what they did was they had an internal team and then that spun off to be FMD and then they made a bad product. So like, I think what you said is exactly the pitch and what people realize is, well, if you want to work kind of specifically for your business, you still have to customize it. And now you're left with honestly the lower tier development groups that don't know what's even possible. And they build things that everybody hates. The end.
+
+125
+00:30:55,853 --> 00:31:18,585
+Speaker 1: Well, did you hear it? It sounds like there's even a second. So we know that. pricing thing right the pricing project yeah I feel like there was a second project that they alluded to that's also starting to kick off unless it's the same project under a different name but they said something about like data or it is.
+
+126
+00:31:18,585 --> 00:31:36,755
+Speaker 2: weird to see how willing to work with a team that's not delivering yeah we're just because they also said well that was supposed to be there of this with that yes last week like there was constant talk about oh well this project is going but I guess it makes sense they don't know anybody I'm just trying to like there were a lot of things that I'm trying to like solder in.
+
+127
+00:31:36,755 --> 00:31:39,595
+Speaker 3: my brain right their current team seems bad enough that we had a fight a long.
+
+128
+00:31:39,595 --> 00:32:00,699
+Speaker 1: time ago yeah but I swear they talked about a second project that sounded like the pricing project I'm like dang that's like three views of this project that's three projects they're trying to spin up right now and pump cash into that feel like they're all connected yeah it was the parts the parts thing wasn't it, around parts. 
+
+129
+00:32:00,819 --> 00:32:03,719
+Speaker 2: It was about parts. It was absolutely around parts.
+
+130
+00:32:04,299 --> 00:32:10,219
+Speaker 1: It was about parts, it was about the Clippy, it was Clippy for parts.
+
+131
+00:32:10,919 --> 00:32:35,729
+Speaker 3: Yeah. And that's really going to be just so trivial, like I genuinely did that for my first six months at Bosch. It was this problem, very close to the same problem. It was user coaching, integrated user coaching, right? I'm really hoping, yeah, I don't want to get ahead of myself, but I think there's a lot of opportunity. And they seem to open, even from the beginning, to us being in more than one project, you know, over time.
+
+132
+00:32:36,309 --> 00:32:39,029
+Speaker 2: I don't have it, but I'm trying to look up the books so good that you can find them.
+
+133
+00:32:39,029 --> 00:32:48,189
+Speaker 1: That's where, Andy, you've got to stay in people's ears, though, so that they know. If it's not for Steve, I don't know if we'll get our name input on those.
+
+134
+00:32:48,409 --> 00:33:19,611
+Speaker 2: I think I can get it through Chris, for sure, but my goal would be to win over Paul. And my issue, again, is that I have, I currently have a negative, like, this little, you know, that I need to get over and then I need to figure out if it's just that he's busy or is it just that he's quiet is it just is he really an expert because I know that I don't want to come in with that attitude so I really need to to like hear him talk and then generate some empathy compassion and understand shared understanding and then I feel like there's.
+
+135
+00:33:19,611 --> 00:33:42,531
+Speaker 2: a real chance but I got to know if it's like are you just quiet do you feel threatened are you observant are you shy like one of those things are you hiding like because I'm gonna have a hard time if it's just like oh I'm hiding and I'm afraid to tell everybody that I'm hiding right I'm hiding behind what I know because I know if I like distribute this I become in value or I lose my value and I'm those are all worst case scenarios.
+
+136
+00:33:42,531 --> 00:34:14,493
+Speaker 3: I'm just venting yep no I think you're right Paul's pretty key and I do think between visibility with like really we have visibility with Josh too right yeah Josh sees all the projects that are going on at some point he sees a high-level version of him and I think I think, leaders start to, you know, connect the dots. But I think to your point, Jake, we want to, we want to make it really easy for them to connect those dots by building relationships with the right people. Yep. Yep. And some of that, honestly, I think is we do sprinkle an.
+
+137
+00:34:14,493 --> 00:34:22,373
+Speaker 3: occasional amount of, um, sugar in a problem. We've heard them mention and say, Oh, just a thought, but here's a little thing we threw together around, you know, cleaning up your.
+
+138
+00:34:22,373 --> 00:34:37,753
+Speaker 1: data. Yeah. That's where you show someone like Paul a demo and it'll blow his freaking mind or he, or unless depending on his personality and be like, no, that won't work because you're oversimplifying the problem. And yeah. Right. That's true. I think we had a read.
+
+139
+00:34:37,753 --> 00:34:47,823
+Speaker 2: on that. Yeah. Does Miro like, Oh, Miro lets you integrate, draw that IO. Well, that's cool. I.
+
+140
+00:34:47,823 --> 00:34:53,693
+Speaker 3: didn't know that. Like as an import. It's like, yeah, this is Miro. I'm sorry. I was going to.
+
+141
+00:34:53,693 --> 00:35:07,315
+Speaker 1: build a video. Nate can show you, but I found a way this weekend to take, you can have Miro. AI take your mermaid diagram and turn it into an actual mirror elements oh man I.
+
+142
+00:35:07,315 --> 00:35:15,015
+Speaker 2: the first tried that I think nine months ago and it's so bad I was like this is this is too bad but yeah it's improved yeah definitely at a.
+
+143
+00:35:15,015 --> 00:35:18,795
+Speaker 3: point where you can now get the roll items connected and then you can get.
+
+144
+00:35:18,795 --> 00:35:35,005
+Speaker 2: managed to style yeah yeah oh that's cool I'm I'm I am a fan of that that, would be nice so I mean by the end of tomorrow it would be really nice if we.
+
+145
+00:35:35,005 --> 00:36:22,599
+Speaker 1: get through if we finish up if we go back to the external buyer we finish that up and then we go or I guess wait the internal I think the internal buyer I marked it I don't know which one and then and then we go back to the external one that we skipped then at some point we need to talk through like a rough schedule outline, Because there's things I was even thinking this weekend towards the end of it that I was like, oh, shoot, I need to have like a swim lane that's like design because I need to meet with them, get consensus on like what design system, styling they want, just like literally fundamentals that I don't know if they have opinions, but I'm sure they do. And then we have to like create mocks for them for weeks.
+
+146
+00:36:24,139 --> 00:36:58,619
+Speaker 3: Yeah, and I think they will be, I mean, I don't know who the point of contact is there, but they've expressed wanting us to guide them there. So I'm sure you coming in with strong opinions, I'll appreciate. What do we think from like a meta perspective, were things if we do another discovery like this, we would want to do differently. So for instance, like Steve mentioning the breaks, that was a good thing to think about. Oh, yeah, we looked at that. I mean, we I don't and I don't know if we could have honestly, like, it's clear that there is.
+
+147
+00:37:00,031 --> 00:37:30,531
+Speaker 3: A lot, like, even trying to come up with the agenda requires knowing enough of the domain, to take a stab at guesses for hours so we didn't feel like we were rushing or going too slow. I don't, I'm asking that question because I don't know if we actually could have done better than that. But, like, I'd say, it feels like not wanting people to feel rushed about one of the more important expenditures of their year. Like, I'd like, I like that idea. Maybe that, part of that is having an escape hatch for, like, hey, you know, like, going, like, in advance saying, what do you think, Steve?
+
+148
+00:37:30,591 --> 00:37:57,951
+Speaker 3: If we need more time for these people, can we have a follow-up meeting set up later? I don't, we can always do that. I'm just brainstorming here, but, like, I want people to feel comfortable, if we need to say, we just learned, this is, like, the very agile process, we just learned that we didn't know this really important thing, so, like, we're gonna have to change the schedule on the fly right now. How do we do that? Things that are very predictable, like, if we're doing a discovery around a thing we know in and out, we won't have any problems like this. It's more the fun problems that have a lot of unknowns that have that.
+
+149
+00:37:58,851 --> 00:37:59,871
+Speaker 1: Um, I'm a good...
+
+150
+00:38:00,063 --> 00:38:30,603
+Speaker 3: discovery in that scenario yeah I mean honestly we still walk people through it you know like it might be new to us it's new to them but not new to us oh I see then that's true it's a little bit less discovery when it's that's the case but like yeah that's so to that point how do we even do anything around discovery timelines when we have no clue how how deep or shallow certain topics are that's a deeper question for another day but to me it's at best acknowledging we don't know and it's doing a rough outline knowing that hey Steve if we.
+
+151
+00:38:30,603 --> 00:38:34,683
+Speaker 3: need more we can do individual smaller focus meetings through teams next week.
+
+152
+00:38:34,683 --> 00:38:51,363
+Speaker 2: it might have been one of those things where we interview if we would have, knowing what we know now I might have built out based on Sam's videos or interviewed Sam directly for an hour yeah I tried to get her time she was.
+
+153
+00:38:51,363 --> 00:38:55,403
+Speaker 1: booked all lastly oh yeah because yeah you did actually say because then we.
+
+154
+00:38:55,403 --> 00:39:10,885
+Speaker 2: would have had the big things that we said okay now we've got this anchor point from your, I mean, That would be interesting. It's like, hey, before we do a discovery, we do one-hour sessions with each of your SMEs on the major workflows, and then the other exercises would have still been valuable.
+
+155
+00:39:13,606 --> 00:39:20,925
+Speaker 1: I asked Steven if we could just give it to her and ask her to mark it up. He said she just didn't have time. That would have been nice.
+
+156
+00:39:21,345 --> 00:39:55,965
+Speaker 3: Jake, how are you thinking about all this information we've learned, like how do we build out, what do we build out, or don't build out, like specifications? And I'm saying this because I've seen this done, I think, right and wrong over 20 years. I don't know what the best way is. But at some point, we've talked about what we should build. We have to document it, which to me is a combination of words and pictures and diagrams. And if we do too much, people won't read it. If we do too little, it's not clear what we should build. We don't have a sign-off on that. I don't like it personally being split up into... Do you like a bunch of linear tasks? Like I personally like it because it's a source of truth that people can comment.
+
+157
+00:39:56,145 --> 00:40:00,539
+Speaker 1: Week-by-week tasks, I feel like, at minimum. I like the small... listening from it.
+
+158
+00:40:00,599 --> 00:40:31,279
+Speaker 3: And what I personally like, this is again, have strong opinions on this, but like, I like a document that is, and maybe several documents that are like, here's essentially the documentation for what we're building, you can see comments, you can see revision histories, and then the cards are linked to that to say, as you can see in the vendor, whatever, the part selection process, that way we don't have to search through all the cards to see even like the documentation to build up for the training material later, you know? So like, we have the source of truth that is in,
+
+159
+00:40:31,379 --> 00:41:02,071
+Speaker 3: if it was our stack, it would be in Google Docs probably, or Slab, I actually would prefer Slab, but you know, anyways, something like that, where that is like the official source of truth for all of the details, whether it's, and it's often technical and functional specifications, like that, I don't, it's either, it's gotta be written down somewhere if I'm working my way back, right? It's not, it can't be living in our brains, so it's gotta be written down somewhere. If it's down somewhere, I would love it to be in a place that's well-referenced, right? So you can link to things, so like, you can have a doc that links to another doc,
+
+160
+00:41:02,191 --> 00:41:07,352
+Speaker 3: to say, for more about this process, for onboarding your users, for instance, go over here, we're not gonna cover that here, we're just gonna say.
+
+161
+00:41:07,412 --> 00:41:10,031
+Speaker 1: Yeah, how do we make that external though, to your point. 
+
+162
+00:41:10,251 --> 00:41:36,631
+Speaker 3: And I think all, so Slab we could, or we could use something like Notion, but I think like this actually, I didn't even think about this till right now, I'm newly excited about leading, guiding them in this process. Because I think whatever they've used in the past hasn't been very good. But Slab is not a bad idea, Slab has, especially for the, I don't remember what their guest pricing is, but something of that nature that is, I mean, I would really hate to put it in Word, and I'd hate to put it in SharePoint.
+
+163
+00:41:36,691 --> 00:41:38,111
+Speaker 1: No, I'd hate to, yeah.
+
+164
+00:41:38,491 --> 00:41:40,191
+Speaker 3: I would rather it be something that they don't use.
+
+165
+00:41:40,191 --> 00:41:43,872
+Speaker 1: I mean, I'm used to it in Word, but I get where you're going, and I think it's good.
+
+166
+00:41:44,071 --> 00:41:44,511
+Speaker 3: I think the benefit.
+
+167
+00:41:44,511 --> 00:41:53,011
+Speaker 1: My fear would be, who do you limit access to, and then your team is now, you're paying licenses for people that don't even look at it, but they should, but they could.
+
+168
+00:41:53,312 --> 00:42:25,444
+Speaker 3: I do think that's probably the takeaway, I'll do a little bit of searching around, because I did some pretty good research on this when I picked Slab. is finding something that doesn't price per user as much. Because, yes, to your point, we want visibility from the right people. We don't really want to pay per user where we can. Some places have, like, cheaper guest options, which I like that. But I think the features that I would want, is easy to write, I'm not wasting time formatting, easy to insert pictures and links to other documents, easy to see revision histories. So if somebody changes something, you can see who did it and when.
+
+169
+00:42:25,884 --> 00:42:50,904
+Speaker 3: Easy to link to other tools. And there it is. Yeah, so I think a few of those, we can just have excellence in the communication around the purpose of the project. Because we just had a great conversation that now has to go somewhere. So when we build it, we can say, so we can actually document what is, whether we reached the mark or not. Like, did we build it the way that you said we should build it? Like, we can get that sign off.
+
+170
+00:42:51,844 --> 00:43:31,116
+Speaker 1: Yep. Yeah, I think that's a combination in my head. That's a combination of, I was going to outline, Scope, in scope, out of scope, and then I think that also gets documented by breaking down the, like, schedule on a week-by-week basis of here's essentially what we're thinking the timeline could look like, but obviously don't hold us to it. Nice. But here are the deliverables you should expect. You should expect to be able to do X, Y, and Z. Yeah, I get it. And then that also then is coupled with the metrics, right, because we're talking about, we're not committing to metrics, but we're committing to, like, ways of measuring, yeah.
+
+171
+00:43:32,286 --> 00:43:49,026
+Speaker 1: Yep. So, like, yeah, we wouldn't say that we expect a request to only take 30 seconds to go from no request to starting to make one to submit one. Yeah. But we could say an outline in there, like, the current process takes five minutes, and our goal is to decrease that or whatever.
+
+172
+00:43:49,226 --> 00:44:21,890
+Speaker 3: And just as a quick intro or heads up to what I just learned. Like, yeah. If we went with even, like, Notion, which isn't my favorite, but it's a big player, they have a $10 per month per season. But guests are, you can have a hundred guests seats for free included in that. So that's like, that's the model. I think they're trying to fix the problem we're talking about, which is great. Yeah. Okay. And if we're on their free tier, it's like 10 guest seats, but I bet you there's other limitations we wouldn't like. So either way, I think we can solve this. I'm personally doing this project as a test bed for some of these tools, but we want to.
+
+173
+00:44:21,890 --> 00:44:25,370
+Speaker 3: be careful to have tool fatigue for, you know, for everybody, but mainly for them.
+
+174
+00:44:25,430 --> 00:44:29,050
+Speaker 2: I just don't want to lose money on this teasing.
+
+175
+00:44:29,850 --> 00:44:59,890
+Speaker 3: On this million dollar project, I just don't want to lose 50 bucks, if we could please. No, I, what you're, what I was, I think we'll talk about it more after, later Andy, but yeah, I'm glad you're open to that, Jay, because I, I have seen this, I've never seen this done perfectly, which means it probably can't be done perfectly, but I think we can do it better by, again, addressing what are the pain points that we felt in the past when it came to project documentation. And one of the bigger pain points is I read a bunch and nobody reads it. So I think, you know, part of that, we can like, if we link it to the, you know, the users.
+
+176
+00:45:00,032 --> 00:45:08,872
+Speaker 3: stories and then we do need to require some level of handoff for them on the acceptance criteria, otherwise how do we know if we're building what they want us to build or not it is so worth it to.
+
+177
+00:45:08,872 --> 00:45:47,182
+Speaker 2: me to spend to make a little to make less quote unquote per hour during this first month and and really build out how do we think we can share accountability share information share responsibility, and and then do it in a way that says all right either we're going to learn to manage our products better or we're going to learn we're going to be better set up for this next one be more prepared as much as i think we're knocked it out of the park on this thing it's also i feel like it's going to be good for us to level up i would love to to get to a 2.0 avoda through this yep.
+
+178
+00:45:47,182 --> 00:45:53,932
+Speaker 2: i agree okay uh are you almost home jake i'm pulling in to get gas right now because they're.
+
+179
+00:45:53,932 --> 00:45:59,012
+Speaker 1: just but yeah i'll be home soon don't feel like you guys have to do do you miss us.
+
+180
+00:45:59,012 --> 00:45:59,732
+Speaker 2: you.
+
+181
+00:46:01,104 --> 00:46:02,624
+Speaker 1: Yeah, your presence mostly.
+
+182
+00:46:03,464 --> 00:46:10,574
+Speaker 2: Did you did you like how we coordinated or or for a first try? Oh, yeah. Yeah.
+
+183
+00:46:11,314 --> 00:46:25,554
+Speaker 3: Yeah, I think you did a good job as a team. Yeah, I thought I thought yeah, I honestly like I I Don't think that everybody's gonna be as easy as easy as block to work with but I sure hope I would not hate it If we just didn't work with anybody for a long time.
+
+184
+00:46:25,554 --> 00:46:37,814
+Speaker 2: I wouldn't hate it if were like this is the minimum how easy no, Sorry, we've got a product that actually sports are we do this, When we do this for fun? Yeah, we came to heal the sick not the arrogance.
+
+185
+00:46:37,814 --> 00:46:51,434
+Speaker 3: Jake and I were talking on the way in here after he called you The idea of us doing discovery as a service would be really exciting. Let's come with our package If we bring your own projector, we bring all of our own stuff, whatever you need Like don't worry about it. Just come with your brain. We come with everything else.
+
+186
+00:46:51,434 --> 00:47:07,956
+Speaker 2: Couldn't be cool to do off-site discoveries and we have special places. Yeah, we like will choose the venue We'll choose you can do the, Three-day four-day package. Yeah, there's something real powerful, Psychologically about moving yourself in space and especially if we say if we include things like we will.
+
+187
+00:47:07,956 --> 00:47:12,616
+Speaker 3: Administrate the food and Steve will cater. I think we've got a deal right here. You will care.
+
+188
+00:47:12,616 --> 00:47:17,176
+Speaker 2: But just little things like that. They're like wait a second. Yeah to think oh, yeah.
+
+189
+00:47:17,176 --> 00:47:18,356
+Speaker 3: If people get in a brain space.
+
+190
+00:47:18,356 --> 00:47:25,756
+Speaker 2: They wouldn't get otherwise and we get a better outcome and then we we do like a ramp up on the domain expert On the domain and do the other stuff.
+
+191
+00:47:25,756 --> 00:47:31,736
+Speaker 1: I love this stuff by the way. Yeah, Nate. Do you feel like there's anything from your side? It could be better.
+
+192
+00:47:32,236 --> 00:47:38,796
+Speaker 3: No, I know you were working on did you like doing what you were doing? Oh, I enjoy it You know, this is one of the easiest work days. I've had in a long time.
+
+193
+00:47:38,796 --> 00:47:44,736
+Speaker 2: I actually liked removing your your brain from the need to facilitate and I was like, I was kind of curious I was like, what's Nate. 
+
+194
+00:47:44,756 --> 00:48:10,600
+Speaker 3: I was thinking anything I thought I facilitate these before and I'm not and I'm okay with that Like I think that what happens is when I don't facilitate like this someone in the room who sees me sitting there being quiet thinks I am more like, A Jordan type and then you know later on whatever I'll dig in deeper. But no I, I thought it was great. I didn't feel a need to step in there. I would have gently said something about that we were off track. We obviously weren't. I think I was a little bit curious to see how we got the flywheel spinning, which we did pretty quickly.
+
+195
+00:48:10,780 --> 00:48:11,120
+Speaker 2: Yeah.
+
+196
+00:48:11,460 --> 00:48:12,760
+Speaker 3: Like that first little bit.
+
+197
+00:48:12,920 --> 00:48:13,560
+Speaker 2: That's funny to them.
+
+198
+00:48:13,760 --> 00:48:41,740
+Speaker 3: Yeah, I mean, like clearly, you know, having more paper, we learned that real quick, just putting two of that side by side. But no, I think we learned a ton on the fly. I think we had a really easy audience to work with. We got them rolling. I liked how you guys rolled with the shift from workflows to personas to whatever they did was different. It's like, okay, that's fine. We're talking at least. I wouldn't have had all this admin, you know, like they put, they made their own little persona that was, what was it? It was the biomed, right? It's not really a persona. It's not a user type.
+
+199
+00:48:42,380 --> 00:48:46,060
+Speaker 1: Yeah, yeah. But that's fine. I didn't want to fight. That's not the conversation we need to have.
+
+200
+00:48:46,100 --> 00:49:30,852
+Speaker 3: No, I agree. That was a really good audible to not chase them down and fix that. I think part of guiding well is meeting them where they're at, knowing we'll get what we need out of this, which we did, great conversation. I think we should actually have our own little internal direction. Um, cause I don't remember what Jordan's the SME of, but you guys might, but somewhere we put this in a mural or returns, returns warranty on that's a phase three, four thing. Oh, that's been great. I can't wait to get that better. Um, yeah, but I think we have to, I think we crushed it. No, I think it was, I have no, is there anything we need to think about with getting more from Amy? Cause she met, she left pretty early cause she was like, I can't add value. I think she was in a room where Vicky and, and, um, Allie were just doing everything that she, she could provide, but probably better.
+
+201
+00:49:31,092 --> 00:49:59,252
+Speaker 2: Okay. Okay. So yeah, she's an expert in something we should do or not. I don't know. What is her expertise in? She's a VP of something with, she's the VP of communications. I thought when she said finance, I was confused. Okay. Yeah. I think she isn't responsible for how block works. It's not really, she really cares. She's going to be very invested Jake when you're doing the product branding product design. Okay. Yeah. Yeah.
+
+202
+00:50:00,064 --> 00:50:04,344
+Speaker 1: She'll probably care a lot about the design system side of things, unless maybe...
+
+203
+00:50:04,344 --> 00:50:22,594
+Speaker 3: It was very interesting, her input on, that makes sense why she was inputting, had input on their website. Because, yeah, that's obviously an add-on that we could, you know, improve, but not now. Okay. Yeah. Cool. Okay. Let us know if you come up with any brilliant ideas. Love it. All right. Awesome.
+
+204
+00:50:22,774 --> 00:50:47,404
+Speaker 1: But I guess a big thing, though, for you to think about, Nate, is I think Wednesday morning is, I probably want you to do, I mean, not I, but you should probably maybe think about leading that more. Because that's going to be with FMD Wednesday morning. Yeah. And that's going to be like, what are the technical things that we need from them that are beyond just like timeline and stuff like that. 
+
+205
+00:50:47,864 --> 00:51:18,386
+Speaker 3: Yeah, I'm looking right now. That's actually blocked out a decent part of the, oh, no, I blocked out the whole day. But that's not what's, okay, it's blocked out just in the morning. Good. Yeah. That's like three hours currently blocked. And by then, yes, I'll probably spend some, by tomorrow night. I hope to understand pretty well what we need to extract information-wise, or, you know, what do we need to discover. Because I don't even think I fully know... Well, yeah, the internal discussion will actually help to drive this, so we know what to even talk about. Okay. Yeah. Yeah. Cool. Okay. Cool. Awesome. Alright, sounds good, man.
+
+206
+00:51:18,946 --> 00:51:20,146
+Speaker 3: Have a good time, good family. All right, y'all.
+
+207
+00:51:20,146 --> 00:51:22,726
+Speaker 1: See ya. Have fun, bye. See ya.
+
+208
+00:51:23,646 --> 00:51:25,166
+Speaker 3: I didn't realize tomorrow was so short.
+

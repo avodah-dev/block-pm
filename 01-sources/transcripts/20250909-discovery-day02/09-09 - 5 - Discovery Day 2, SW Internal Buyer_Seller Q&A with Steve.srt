@@ -1,0 +1,620 @@
+1
+00:00:01,430 --> 00:00:17,630
+Jake Herwaldt: it out and so then therefore now we need to create this add within our portal yeah our dashboard to, then actually set up that and configure and add whatever so for in the beginning because it can't.
+
+2
+00:00:17,630 --> 00:00:21,430
+Nathan Bedford: just stay blocked but in the beginning it might be able to yeah that's i guess the question about how.
+
+3
+00:00:21,430 --> 00:00:59,370
+Jake Herwaldt: we phase that in so there's if you guys know what i'm anticipating what is read-only coming out of that yeah and then we should be able to there might be some things that only get here here there might be some things that cross over but specifically the stuff that's going to reside here is going to be very just what's that very stripped back well you don't need specifics i'm, thinking about i'm just thinking about a lot of the yeah if you want if every time i don't get away.
+
+4
+00:01:03,482 --> 00:01:04,721
+Jake Herwaldt: Got it.
+
+5
+00:01:06,072 --> 00:01:07,352
+Nathan Bedford: Clean data that way, yeah.
+
+6
+00:01:10,122 --> 00:01:12,241
+Jake Herwaldt: Again, we're trying to speed up that experience.
+
+7
+00:01:14,472 --> 00:01:43,072
+Nathan Bedford: Okay. So then even categorically, like the things I would consider master data, which is not just material maintenance, but like any of the other lists of vendors, vendor capabilities, list of customers. Like I know that's all Salesforce set up. I saw the same screens on that. Do you think for this phase, the desire is to keep that all in Salesforce and we just synchronize that. Eventually to, I think, meet the vision that Paul has, right? It's all standalone. It will have to be in the new system and synchronized another way. I think we have to.
+
+8
+00:01:43,092 --> 00:01:45,592
+Andrew Bailey: I think we have to own it right away.
+
+9
+00:01:45,792 --> 00:01:48,452
+Nathan Bedford: I don't think we have to, but I think maybe we certainly can.
+
+10
+00:01:48,592 --> 00:01:51,771
+Andrew Bailey: Well, have to is always a, I feel.
+
+11
+00:01:52,832 --> 00:01:53,572
+Nathan Bedford: Explain what you mean.
+
+12
+00:01:54,692 --> 00:01:59,472
+Andrew Bailey: Have to, meaning I don't see any advantage to letting Salesforce.
+
+13
+00:02:00,253 --> 00:02:11,573
+Nathan Bedford: to own it when it doesn't seem like it this is all about to me just whoever's admins are doing that right now is this gonna be too much change too fast for them oh is it helped MVP plus in the phase one or two three and four I feel.
+
+14
+00:02:11,573 --> 00:02:23,434
+Andrew Bailey: like it's really ugly in my is I don't know if I'm going to it just feels real ugly not to to bring that in and show them the cost of ownership to this because it's not like we're gonna make that really hard open part of what I'm.
+
+15
+00:02:23,434 --> 00:02:31,914
+Nathan Bedford: getting at is whoever does that job right now like who sets up better capabilities right now is that Vicki and saying well what's that Sam like who actually says these vendors have these capabilities yeah.
+
+16
+00:03:00,856 --> 00:03:31,706
+Nathan Bedford: That's very true. Are you empathetic at least? That's the real question right now. I don't have the receipt out. Oh, that's good. That's an intentional choice. So now I don't remember my question. Oh, yeah, we were talking about which eventually all of it, so many things should live in Sourcing Window Pro. My question is I realize I don't know exactly who are the firm admins, like who are the people entering in new vendors, new buyers, vendor capabilities, who's doing that on the team right now. 
+
+17
+00:03:32,226 --> 00:03:36,666
+Jake Herwaldt: Right now that would be Vicki. So that would be the district digital experience team.
+
+18
+00:03:36,746 --> 00:03:40,826
+Nathan Bedford: Okay. So someone who's open to change more than like, yeah, okay.
+
+19
+00:03:41,746 --> 00:03:59,016
+Jake Herwaldt: Well, because even the workflow that, yeah, to your point, let's say there's a new vendor in this future world, are we imagining that add the new vendor to Sourcing Window and then that pushes an event to Salesforce? What do you imagine. 
+
+20
+00:03:59,016 --> 00:04:12,140
+Nathan Bedford: Right, right. That's true. That's kind of what I imagine. That's what I want to understand is, I mean, yes, that's what I would imagine what you just said. Unless, for version one, they really needed it elsewhere. Just mark off your book record. Yeah, you can't read it.
+
+21
+00:04:14,550 --> 00:04:45,140
+Jake Herwaldt: This is why I put this up earlier, because this is a very, we share this, and this is regulated by C. So any ads in Salesforce now has to go through the Siemens test for viability. Or what's the insurance they carry all of them? Really, even for sourcing window?
+
+22
+00:04:45,940 --> 00:05:48,222
+Steve Muniak: So let me get that. Now, the requirement here, probably 2x of this one. Information that's needed, insurance capabilities, things like that. But there's still a bit. process and remember that this is the vendor record. A direct connect vendor here doesn't necessarily go through the same Siemens, but we would anticipate them because if they're going to play with the SWB customers, we're probably going to want to know about this. Got it. So having and maintaining vendor is as certainly this will be the master. I would expect setup to be done 360 as well because of the alignment and some of the. Okay. So then if you're going to have a vendor that's going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you.
+
+23
+00:05:48,222 --> 00:06:19,123
+Jake Herwaldt: want to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct connect vendor, you're going to want to have a direct connect vendor. So if you're going to have a direct, The weirdness of that flow though is if this block is a special user type, then once we add special user type 2, then does that mean every time that they add a vendor, it just auto shows up? Because then who controls the vendor. 
+
+24
+00:06:19,364 --> 00:06:30,854
+Andrew Bailey: No, sales, sourcing window, I'm going to say this aggressively, not because I think I'm right, because we've got to think, sourcing window has to be its own product. It's a product. It owns customers and the vendors.
+
+25
+00:06:30,854 --> 00:06:35,273
+Nathan Bedford: But it's true, but there's always an organization who's typed 2.
+
+26
+00:06:35,273 --> 00:06:36,573
+Andrew Bailey: And there's always 1 then.
+
+27
+00:06:36,773 --> 00:06:36,973
+Nathan Bedford: Right.
+
+28
+00:06:37,213 --> 00:06:51,294
+Andrew Bailey: But if somebody signs up, they're going to have to sign up through who? Through the sourcing window human who operates. They may be able to make an optional, like, hey, look through our vendor list. Who would you like to coordinate with? Do you or do you not already have a relationship with them? That's a pick.
+
+29
+00:06:51,494 --> 00:06:52,794
+Jake Herwaldt: That's a pick list.
+
+30
+00:06:53,013 --> 00:06:54,494
+Andrew Bailey: They can select that.
+
+31
+00:06:54,513 --> 00:06:54,794
+Jake Herwaldt: Yes.
+
+32
+00:06:55,693 --> 00:07:03,875
+Andrew Bailey: They can add the admin for sourcing window who is the product. Hey. You're going to come to our e-commerce, our, what's it called. 
+
+33
+00:07:04,865 --> 00:07:05,305
+Nathan Bedford: Platform. 
+
+34
+00:07:05,765 --> 00:07:14,795
+Andrew Bailey: Yeah. Marketplace? Products. What's the thing you go to? It's like Fall Festival. I don't know. Come to our medical parts Fall Festival. Okay.
+
+35
+00:07:14,915 --> 00:07:33,075
+Nathan Bedford: All right. Well, I think I get what you're saying. So what I'm hearing is for now, there's so much like vetting. Like, let's imagine, whoever buys this, if someone buys the company going forward, they still might want their own specialized way of vetting those numbers. And so that happening externally and then getting pushed into the system, even though... It's like owner.
+
+36
+00:07:33,355 --> 00:07:36,935
+Jake Herwaldt: It's like product owner. This is separate from product.
+
+37
+00:07:36,955 --> 00:07:44,115
+Nathan Bedford: And that's easy enough to start that way, too. It's actually easier for us to start that way anyways because we don't have to build the screens. We get digital farmers. There you go. You found the words.
+
+38
+00:07:44,335 --> 00:08:17,399
+Jake Herwaldt: Now, are you okay with that idea in terms of... Like, technically in Salesforce, are we a vendor, a voter? You could potentially... I wouldn't be surprised if you were. I don't know of all... So... I would assume you're paying these people via your invoicing and financing. I would assume they're in Salesforce. Well, I would assume we're in Salesforce because Salesforce is everything.
+
+39
+00:08:18,519 --> 00:08:22,079
+Nathan Bedford: Which means there has to be a flag, so you filter the right vendors that you're getting at.
+
+40
+00:08:23,759 --> 00:08:50,060
+Jake Herwaldt: I'm just saying you're already within your system probably flagging these. So instead, could we just pull that out? Or we keep it, and then it becomes part of this product owner. There are going to be vendor capabilities. There's going to be vendors that are never going to use Salesforce as a part of Salesforce. It could be just a service, especially for the service side. I get it.
+
+41
+00:08:50,780 --> 00:08:59,550
+Nathan Bedford: But then I guess to flip it on its head, if we do that, why won't we also have a part of Salesforce? Because even like how Sam wants them to be able to auto-add their capabilities.
+
+42
+00:09:00,031 --> 00:09:24,382
+Jake Herwaldt: So that same thing, if we have vendors being the source of truth, being the sales force, why don't you then also, the parts, that's the same argument. I would make the argument, but I want feedback from Mark. I would make the argument that our source of truth should always be.
+
+43
+00:09:26,102 --> 00:09:45,041
+Andrew Bailey: That's a separate entity though. Block is a separate entity for billing things. It's just using sourcing window as a way of coordinating vendors and buyers. So it keeps its source of truth. But it uses, it's able to, when it's participating, it just so happens to have this one-to-one and block is the only one with a one-to-one.
+
+44
+00:09:45,421 --> 00:09:52,472
+Jake Herwaldt: And it consumes that. But as soon as you add the next block. And so they'll have their own.
+
+45
+00:09:54,341 --> 00:09:59,831
+Andrew Bailey: Every company needs to hold their source of truth for their customers. Sourcing window just holds the source of truth.
+
+46
+00:10:00,064 --> 00:10:08,584
+Jake Herwaldt: it's farmers we're not building an erp let's let's keep that in mind let's get this key.
+
+47
+00:10:10,363 --> 00:10:27,264
+Andrew Bailey: we're also not legally like the sourcing window is not legally required to uphold the siemens standard because sourcing window is all it's doing is saying you are a vendor the company who's ending up doing business with you we're giving them your legal name here's your display name and you can click on them and get their legal name so you have the right but i'm thinking like.
+
+48
+00:10:27,264 --> 00:10:55,473
+Jake Herwaldt: currency you go into the sourcing window and you're like i need part one two that looks at the blocks that looks at blocks parts now fast forward you have another block that's this extra t or whatever you say i have block i have part one two three it's now looking at block system but it's not looking at this other how do you have a one system that has all the parts to build that.
+
+49
+00:11:01,416 --> 00:11:35,486
+Steve Muniak: Going back to the ERP, we're not putting discounting on it. Right. We don't care about the price of the page. Right, yeah. We're not going to document their discounting. I'm pushing no on that. No vendor is going to give block access to that. Yeah. Now, we're no list price on it. We can figure out what it is.
+
+50
+00:11:35,506 --> 00:11:50,216
+Jake Herwaldt: So we're just putting that sort of financial reported in this document.
+
+51
+00:11:50,556 --> 00:12:23,000
+Andrew Bailey: This is kind of like, this is a little bit, and it's messy in this situation. I don't know when the last time you've had a QuickBooks account list, but QuickBooks will, When you add a customer, it searches through its database with the domain and it tries to match up with the current QuickBooks. It doesn't have to. It's very painless. You don't even... Like you either... Oh yeah, that is that. Or... Yeah. No, it's not. And that's what this would be like is when you're...
+
+52
+00:12:23,000 --> 00:12:54,380
+Andrew Bailey: You can use our vendors. We've got like vendors that are on the platform. If they match up, we'll do a one-to-one. There may be a tool. A version of this can do a one-to-one sync, so we'll grab your ID so when we send information back to you, it comes with your customer ID, whatever. There are some future mistakes here. That feels like more of a good situation where a sourcing window has to own its participant, even if it doesn't own all the...
+
+53
+00:12:54,380 --> 00:13:02,972
+Andrew Bailey: Well, it shouldn't own all the individual decisions that Block makes about the... Either as a buyer or as a seller.
+
+54
+00:13:03,522 --> 00:13:16,992
+Nathan Bedford: Okay, I think I'm going to digress from this. I give it to you. I think it's on the same page as us. It lives in two places. It lives in two places, but the master, this is different than what you're saying, Richard. The master of the vendor is still in Salesforce.
+
+55
+00:13:17,232 --> 00:13:34,502
+Andrew Bailey: Oh, I agree. Sorry, maybe I wasn't clear. Block's master cares about more things than sourcing windows. Sourcing windows is like, are you this, and this? Block cares about, are you insured? Well, I don't care. Block knows that. They either decided to do business with you or they didn't.
+
+56
+00:13:35,952 --> 00:13:36,272
+Nathan Bedford: Okay.
+
+57
+00:13:36,472 --> 00:14:07,954
+Jake Herwaldt: Just think about it this way, too. Limiting loads as well. That's all we really need to load. And if it's not there, you do it again. Okay. We were thinking about calling it Ask Jeeves. How do you feel about that? There's a gal. I've got to find her. that has all of those little icons in one room which plays the roles. And it's fantastic because it's like,
+
+58
+00:14:08,014 --> 00:14:18,094
+Jake Herwaldt: and literally, like all the cool kids are seeing them one time and Clicky shows up and they're like, oh, who invited Clicky? It's literally one of the great lines.
+
+59
+00:14:18,734 --> 00:14:48,754
+Nathan Bedford: Nobody liked Clicky. That's not right. Okay, we got 15, we got 14 minutes. I think we understand the data flows better. I'm still curious if there's any, what at all would Libin be owned by Sourcing Window, versus what is just entirely, it sounds like most of it's gonna be owned by Blocks at SF360. Even things like an order which is initiated, like I'm just thinking through those synchronization processes. But I think once we've identified the list of data, which is like material, material type, vendors, capabilities, customers, modalities,
+
+60
+00:14:48,854 --> 00:14:49,794
+Nathan Bedford: there's more than that, I'm sure.
+
+61
+00:14:49,994 --> 00:14:55,454
+Jake Herwaldt: Wait, that's a really good question. A order that is by a vendor and a buyer that's not Blocking it.
+
+62
+00:14:57,744 --> 00:14:59,004
+Nathan Bedford: Yeah, and this is to me, yeah.
+
+63
+00:14:59,104 --> 00:15:07,846
+Jake Herwaldt: Oh, we have to own all of it. No, I'm saying within Salesforce, like they still want to track that. I wouldn't say architecturally we're going to start .
+
+64
+00:15:09,276 --> 00:15:10,356
+Nathan Bedford: Yeah, I would agree with that.
+
+65
+00:15:12,366 --> 00:15:24,816
+Jake Herwaldt: So to answer that question was, tool configuration specific to a vendor or user belongs, the remainder of that base.
+
+66
+00:15:26,956 --> 00:15:56,006
+Nathan Bedford: Okay. I think once I, like I'm going to take a stab at what I think are the master data lists, and then I'll have you guys add what I missed to it. And then we can make sure we have a clear understanding as to which pieces are owned, how they synchronize, how we handle conflicts, that kind of stuff. That helps me think through this bit here. We saw, since we're moving from two domains to one, which makes sense. Was that the side? What was that? I thought I heard it was, maybe not. Last time we brought it up. Excuse me. Go for it.
+
+67
+00:15:57,006 --> 00:16:22,020
+Nathan Bedford: Sounds like it. Which part? Two domains to one. When I had mentioned it in the first meeting, it was sort of elusive, like, yeah, we're going to move to one domain. But now I'm hearing maybe it's not. It matters specifically about the role, because that's the whole reason. This is leading into, do you have to log into your accounts? It changes, are you required to log into those two different domains, whether you're a buyer or a seller? That's what I'm trying to get at. Or do we need to have a switching thing. 
+
+68
+00:16:22,240 --> 00:16:27,720
+Jake Herwaldt: Is it not as simple as just having it behind the scenes to be actually the exact same? The domains are. 
+
+69
+00:16:32,280 --> 00:16:40,200
+Nathan Bedford: But then the question is, could you, I mean, it might be that simple, but then are you prevented from logging into one? If you were like, can a buyer log into either of them then. 
+
+70
+00:16:40,420 --> 00:16:44,260
+Jake Herwaldt: Oh, but I think if you went to that domain and tried to log in, you know, you'd just be like.
+
+71
+00:16:44,340 --> 00:16:55,150
+Nathan Bedford: And that's my question. It's from a user experience, like from a user flow perspective. Why didn't I enroll you on two domains? I hate probe. We've got to get rid of it. Yeah, it just feels. Sourcing windows, sourcing window probe.
+
+72
+00:16:55,190 --> 00:17:03,002
+Jake Herwaldt: It feels like this is a new idea. Or just call it just sourcing window probe. I'm happy with it. I feel like they should rename Total Edge.
+
+73
+00:17:03,532 --> 00:17:33,292
+Andrew Bailey: This is a good chance for a running source. In the words of Daniel. You've heard of a pizza window. Welcome to Source. This is where my future is. I think Met Parts Plus. Oh, he's thinking about the Met. Met Parts Plus Plus. What's the part source? What's the one that they're competing with? Part source?
+
+74
+00:17:33,712 --> 00:17:44,792
+Andrew Bailey: Yeah. Part source. And then they were talking about the premium. Super premium. Plus. Bonus.
+
+75
+00:17:46,032 --> 00:17:58,272
+Nathan Bedford: Oh, by the way, you did a lot less. You're bouncing your feet today. Was I going crazy? Yesterday, you were moving the whole table. I was like, it's fine. No, no, I've done it before too. I was fine. Bye, guys. See you next time. Bye. See you next time.
+
+76
+00:18:01,254 --> 00:18:10,724
+Jake Herwaldt: Thank you for everything. We'll come back in six months. No, but I told you, right. 
+
+77
+00:18:12,844 --> 00:18:31,334
+Nathan Bedford: How do we get ourselves in? You just asked Josh. Didn't you invite us last time and we just didn't make it? I'll send them a... Just tell us the date. I invited them last year. All are welcome.
+
+78
+00:18:32,854 --> 00:18:37,444
+Andrew Bailey: Josh, your favorite, technical member. 
+
+79
+00:18:40,544 --> 00:18:42,844
+Nathan Bedford: I remember Steven on record saying we were not the selected vendors.
+
+80
+00:18:45,524 --> 00:18:54,924
+Andrew Bailey: I was going to say, who overrode Steve? That's what I want to know. It's probably Sam. She's like, no! A few of us.
+
+81
+00:18:56,344 --> 00:19:12,316
+Nathan Bedford: Thank you guys. I will excitedly wait. Oh, yeah, we'll be talking soon. Yeah, we'll probably get signed on, but... No. Let's throw it out there. All right, guys.
+
+82
+00:19:12,576 --> 00:19:23,306
+Jake Herwaldt: All right, see you. So, now we've got the tech team. That's going to be... The previous tech team.
+
+83
+00:19:23,446 --> 00:19:27,406
+Nathan Bedford: FMD and Carlos... Our technical partners. Is Carlos in-house Salesforce. 
+
+84
+00:19:27,726 --> 00:19:29,486
+Jake Herwaldt: Carlos is in-house data interface guy.
+
+85
+00:19:29,606 --> 00:19:30,466
+Nathan Bedford: Data interface guy, okay.
+
+86
+00:19:30,746 --> 00:19:33,856
+Jake Herwaldt: Carlos is the engineer's engineer.
+
+87
+00:19:34,396 --> 00:19:34,616
+Nathan Bedford: Got it.
+
+88
+00:19:34,656 --> 00:20:01,640
+Jake Herwaldt: Very black and white. Got fired off 50 questions. As soon as he got the invite, I said... We'll talk. That's it. Got it, okay. But you can get him laughed. He's on your team. He's very interesting. They can blow a lot of our assumptions. So, let's get through tomorrow. and see what questions.
+
+89
+00:20:04,720 --> 00:20:17,360
+Nathan Bedford: What, so at this point, yeah, I'm thinking about the conversations, like the topics that are coming. We don't have any topics laid out yet, right? Like this is generally what it looks like to synchronize and integrate with Salesforce.
+
+90
+00:20:17,920 --> 00:20:36,210
+Jake Herwaldt: So you've gotten some of the flow from the question, what expectations have been set with you in terms of architecture? What does it mean, and then start to lay in, this is what we're seeing, this is what.
+
+91
+00:20:37,650 --> 00:20:37,930
+Nathan Bedford: Okay.
+
+92
+00:20:38,030 --> 00:20:51,120
+Jake Herwaldt: Should we map out what we think current state is versus what this will look like? Just in terms of like. Yeah, like high level. Just so that they understand we're gonna be syncing, not like stealing or anything.
+
+93
+00:20:51,120 --> 00:21:22,732
+Nathan Bedford: Like what we just talked about right now. Yeah, yeah. I'm just wondering. Yeah, what I knew that I wanted to at least understand more about was like, what is the synchronization options look like? with Salesforce, what does embedding options look like? What does, especially the embedding one. And then yeah, seeing the current state would be helpful. Yeah, but like a lot of, I think a lot of, what I'm asking you Steve, so direction as far as, specifically FMDs, like let's say taking the vendor name out of it, like Salesforce development involvement.
+
+94
+00:21:22,732 --> 00:21:37,151
+Nathan Bedford: over the next 10 months, do you feel like that's ironed out yet, are we still figuring some of this out? Like the conversation with Paul helped put us in a pretty good direction. But like I still think there will be some effort from them for the first couple months, but eventually we'll start to face some things in the social window.
+
+95
+00:21:37,371 --> 00:21:50,611
+Jake Herwaldt: Yeah, that's fine. In terms of what's on there, we're going to be competing at some point in terms of our program.
+
+96
+00:21:50,871 --> 00:21:51,512
+Nathan Bedford: Okay, okay.
+
+97
+00:21:53,581 --> 00:21:56,042
+Andrew Bailey: When you said Carlos, he's a Block employee. 
+
+98
+00:21:56,322 --> 00:21:59,482
+Jake Herwaldt: Block employee, he came over from Siemens.
+
+99
+00:22:03,163 --> 00:22:28,653
+Andrew Bailey: I'm going to ask a question, even on projects where everybody's getting paid by the same fee. I've been in meetings where some people are sort of like no people, pushback people, uncooperative. I like questions. I like, are people cooperative. 
+
+100
+00:22:29,623 --> 00:22:55,234
+Jake Herwaldt: So, good news about this is we're really not in a lot of multiple catcher sponsors, which, are aiming on their fiat for a lot of this decision on the technicals. Jeff Olmstead. So, we'll be able to do that. Thank you.
+
+101
+00:23:00,645 --> 00:23:18,065
+Nathan Bedford: Okay. Yeah, I think that's good. I'll prep a little bit more tonight just to make sure I have a line of questions. But in general, I've got plenty of practicals like getting a sandbox instance. To your point about maybe sequencing and resourcing, we can start thinking through what things we know we're going to need their help on in availability.
+
+102
+00:23:18,065 --> 00:23:58,215
+Jake Herwaldt: I think you're working on it. I thought I did. Was I seeing it right that there's a limited number of sandboxes in Salesforce? They are. We're delayed right now. We still have three tickets left. They are just going through. And I think there are probably multiple sandboxes. Everything was done in sandbox. Okay. Got it.
+
+103
+00:24:00,129 --> 00:24:30,369
+Nathan Bedford: I think the idea of high level, current state, future state, how will we see the future state evolving over time, that would be easy to get us on the same page up front. Looking for specific ways we can collaborate, obviously. I think blocking so deep in the Salesforce world, this isn't about moving away from Salesforce, obviously. Okay, and what is the Salesforce work that you're anticipating? You've thought about this a bit more than I have, I think. I can already think about down the road,
+
+104
+00:24:30,529 --> 00:24:49,109
+Nathan Bedford: but if, as Amy was describing when we were at lunch, especially the admin side of things, we're not changing the workflows there, we're keeping the same workflows for the internal sourcing, internal buying and selling. And so it's really more about probably coordinating around the synchronization processes right now. Synchronization with anticipation. 
+
+105
+00:24:51,649 --> 00:25:12,291
+Jake Herwaldt: taking that source. Got it, yeah, then migrating that away. Yeah, because basically for our first two, external buyer and external vendor, we're just going to be doing that reading parallel, but also trying to hit with updates. And then I guess just making sure.
+
+106
+00:25:12,451 --> 00:25:22,691
+Andrew Bailey: We call that an integration package. Is that a separate repository that is a, mediary between these things? Is that the cleanest way to do that. 
+
+107
+00:25:22,971 --> 00:25:26,661
+Nathan Bedford: Yeah, a lot of that's independent on like what integration options we have with Salesforce. I'm curious.
+
+108
+00:25:27,141 --> 00:25:30,181
+Andrew Bailey: But is that like a way to keep things clean. 
+
+109
+00:25:30,481 --> 00:25:31,621
+Nathan Bedford: Yeah, an intermediate, yes.
+
+110
+00:25:31,621 --> 00:25:51,811
+Jake Herwaldt: Yes, that's something of the, I think Nate touched on, but of the requirements Sam outlined, there's a lot of like system level or not outlined that we need to sit back in. And that being one of it, the integration, the like, if they're all right.
+
+111
+00:25:52,671 --> 00:26:03,843
+Nathan Bedford: They can help us get a lay of the land on the Salesforce objects that we're talking about. I really still know that they will know all the... Yeah, I know the basic ones are gonna be there, but there's probably half a dozen I've missed.
+
+112
+00:26:03,903 --> 00:26:11,933
+Andrew Bailey: I'm interested in there, why did they make things. 
+
+113
+00:26:12,113 --> 00:26:38,553
+Nathan Bedford: Especially all the picolists, because there are a bunch of existing picolists that I haven't even thought about, that on a vendor, there's probably four or five fields that each have their own picolists that have to be maintained somewhere. Categories, same thing with materials. So getting that, that's how these things just spread. There's the core entities, and then there's the... And then are those... They have to be to some degree. Wow. Well, it depends on how much, they will be, if we have to update them from SW. If they're not in the read-only.
+
+114
+00:26:43,803 --> 00:27:15,425
+Jake Herwaldt: When can I expect you guys to, at least Friday, give us, Thursday, give us a couple... like probably Friday we should probably see if I Monday and so then yeah by Monday I mean by Friday hopefully we'll have a good idea but solid and we've got.
+
+115
+00:27:15,425 --> 00:27:49,565
+Jake Herwaldt: the we've got the street yeah and from from I'm curious when we'll need to pull certain people back just because I think I will want to but it's gonna be a lot more when we are like when we are like hey I'm working through this users like get low I want to so I don't know if I'll pull them in there, okay but like a Vicki or a Sam would be really helpful for some of our follow-up.
+
+116
+00:27:49,565 --> 00:28:07,939
+Jake Herwaldt: question and we already have yeah sure would you that could be an email that could be what seems like. 10 hours a month. 10 hours a month of knowing that September is going to be heavy. A month? 10 hours a month? Yeah, she's going to be tested. Already done. But right now we're front loading her.
+
+117
+00:28:08,179 --> 00:28:08,579
+Nathan Bedford: Okay.
+
+118
+00:28:08,899 --> 00:28:11,139
+Jake Herwaldt: September is as much time as she allows.
+
+119
+00:28:11,419 --> 00:28:11,839
+Nathan Bedford: Got it.
+
+120
+00:28:12,439 --> 00:28:42,469
+Jake Herwaldt: But after that is, because this is the front, she's in the front loading. She really is a perfect second. I have her in until mid-October. Cool. And then after October, she's half time or zero time? Zero time, but still a resource because she's in IT. There's a mobile app? What's that? Did you say there's a mobile app for this? No. What did you say?
+
+121
+00:28:42,529 --> 00:28:44,729
+Jake Herwaldt: IT project management. Oh, IT project management. Oh.
+
+122
+00:28:45,639 --> 00:28:56,889
+Nathan Bedford: Do you think on the FSCs, just brainstorming for a second, FSCs, is having an actual native mobile app interesting to them? Or is that installing something is overhead. 
+
+123
+00:28:56,929 --> 00:29:04,341
+Jake Herwaldt: So think about this. I just talked to this guy. Of course, we're going to be mobile optimized.
+
+124
+00:29:06,021 --> 00:29:14,331
+Andrew Bailey: Well, highly functional for mobile. Optimized for mobile, I don't know what that means. I want to be clear, because optimized for mobile is different than...
+
+125
+00:29:14,331 --> 00:29:32,211
+Jake Herwaldt: So, but it's going to be web-based. Yeah, right. Imagine a technology, you tell me what this is, and I really want to be able to lie on one of those in my ears and say part number of vendors I want to get a quote from.
+
+126
+00:29:34,511 --> 00:29:34,911
+Nathan Bedford: Yeah.
+
+127
+00:29:36,431 --> 00:30:03,263
+Jake Herwaldt: 100%. Do you see them granted? We're in a different place. If we're first to market with that... Yeah. ...because they take... I made this comment with you, right? Yeah, yeah. You know, you can't tell me... You have to use the web app. No, don't tell me it was the Cleveland Browns.
+
+128
+00:30:03,263 --> 00:30:22,593
+Nathan Bedford: Yeah, yeah, yeah. Yeah, now that one, we've built similar things for other events, like other clients. So that's the one I know we can do. And that's the question I'm thinking about. The edges around it, if you start it and then go underneath the machine, simple things like that that I want to think through. But the actual conversation itself, we've done that enough to know it's very doable.
+
+129
+00:30:22,953 --> 00:30:40,853
+Jake Herwaldt: We wanted, and where I want to take this is, I want the service in my field, service orders. Yeah, right, of course, of course. And then that's, yep. Yeah. Well, and two of you, and we already mentioned too, we've done voice agents.
+
+130
+00:30:41,093 --> 00:30:43,153
+Nathan Bedford: Right, for phoning up on the phone. So it's the same technology.
+
+131
+00:30:43,153 --> 00:30:44,753
+Jake Herwaldt: So they talk about making calls.
+
+132
+00:30:45,473 --> 00:30:46,613
+Nathan Bedford: Yeah, it's the same technology.
+
+133
+00:30:46,653 --> 00:31:22,685
+Jake Herwaldt: We've done that. Same thing with email, where it's like it emails and then the AI reads it first to see if it could action it before it even gets to it. 4 o'clock. What do you guys need from me? Feedback from me? Is there anything you need from us? No. Any feedback for finishing up tomorrow? Obviously we're not going to end tonight. Yeah, yeah. No, exceeded expectations on all accounts. Getting all the team members, you guys, quickly understanding the business, the questions.
+
+134
+00:31:22,685 --> 00:31:27,605
+Jake Herwaldt: you're asking, and all.
+
+135
+00:31:28,825 --> 00:31:58,535
+Andrew Bailey: Awesome. I think you can probably tell, one of the things we try to let people know is we all look at things differently. Me, myself, and Jay. None of the things that we're seeing, I mean it's mostly exciting. It's like, this is one of our favorite reasons why Agile, Agile, Agile, Agile.
+
+136
+00:32:00,749 --> 00:32:33,719
+Andrew Bailey: The Tetris pieces aren't quite full enough, but they're getting closer, I'm seeing it. I think today, hearing Paul with clarity, he was important. This has to be standalone. That's an important line to maintain, and it does not diminish any quality of output. It is much, I think, maybe there's a couple things that might be slightly more expensive in the beginning. There's a lot of things that will be a lot easier in the end. I think him having clarity and conviction and being an executive voice in it or a sponsor voice in it is really important.
+
+137
+00:32:34,139 --> 00:32:55,749
+Andrew Bailey: I think the next thing that we figure out tomorrow, which is how to coordinate, how to merge that, or the function that focuses and brings that to life, phase one, two, three, with your guys' current partners, is probably the piece that I'm missing that will make me, oh, that's the Tetris piece that I've been trying to play with them.
+
+138
+00:32:56,839 --> 00:33:27,681
+Jake Herwaldt: And then just selfish. They are ABI capable, I'll send you their ABI, they are fully ABI capable to be able to request being driven by SW and I'm able to respond instantly. You feel like they could be doing that sooner? If you turn that on all of a sudden, it's going to be a great, and there's a reason why. Would they be a first game?
+
+139
+00:33:29,031 --> 00:33:43,891
+Jake Herwaldt: It shouldn't be a game future. And it shouldn't because we want. I'm just saying, would they, when we create it? They would probably get Grandmother then. Okay. There's an early adopter.
+
+140
+00:33:44,411 --> 00:33:44,771
+Nathan Bedford: Yes.
+
+141
+00:33:45,211 --> 00:33:50,901
+Jake Herwaldt: Well, it's not all purchases are preferred. Oh, really? The highest quality product.
+
+142
+00:33:51,931 --> 00:33:58,291
+Andrew Bailey: Nice. Best pricing. Okay. We get it mixed up because you are all parts. It just isn't the part source. Yeah.
+
+143
+00:34:00,063 --> 00:34:32,993
+Jake Herwaldt: Parts, part sources, volume. Part source volume is about 500 million. 80% of that is to buy online. Wow, that's why you guys don't even buy online. Yeah, because buy online is easy. You get a platform like part source has. It's an easy seller. No, sorry, sorry, parts, you're all parts. What's the volume compared to block? Are you guys similar in size? It's a very different business. This is a $200 million business with 50 of that.
+
+144
+00:34:32,993 --> 00:34:50,043
+Jake Herwaldt: All parts is a $100 million business. Oh, got it, got it. So it's just the other half. Our parts business is much larger, but you can call 1-800-PHILLIPS.
+
+145
+00:34:53,923 --> 00:35:17,085
+Andrew Bailey: Part of the reason I was asking that is because one of our things is we've sort of, not help you block hugely accountable to not talking to external buyers because you guys are such integrated parts of these but the truth is we would want to talk to a yeah oh yeah an all parts person and work with them we want to talk with an fsc yeah once we get to this actual.
+
+146
+00:35:17,365 --> 00:35:51,925
+Jake Herwaldt: mocking it up i would love to sit down with them and to understand a what are their pain points like i'm sure it overlaps a lot but but it would be great to hear that from them and then also walk the therapy point is having a dedicated resource to answer request resources there's someone's full-time job if someone's watching that and it's it's intense right now there's way too many clicks bad experience but you're saying yeah api's yeah parts are all parts today you've quoted.
+
+147
+00:35:51,925 --> 00:36:21,399
+Jake Herwaldt: typical customer in about 45 seconds wow so if you find me you're guys pricing them, So, you know, they can call us on the phone 45 seconds later. I have a few takes for us to reply to just one line in sourcing for the takes about, and they were doing 15,000 transactions, crazy like that.
+
+148
+00:36:22,539 --> 00:36:51,339
+Jake Herwaldt: Yeah. So when this happened, when this new version came 20 months ago, my customer service team was like, they're like, we can't do this. Tell them we're not going to do it. Well, what we've heard today, individual buyers, buyers, so whether you're internal or you're on the buy side or sell side, you're sourcing. That person right there gets, and if you're a pain in the ass and I have to go outside the process that I want,
+
+149
+00:36:52,779 --> 00:37:22,961
+Jake Herwaldt: and that's $3 million of business right there that AllParts has. The block is bought. So they're willing to put that. But as soon as we can eliminate that cost, they're going to be all in on pricing it. Well, once we get to the schedule, let's keep them in mind. A, have them get on their schedule now, start the API integration.
+
+150
+00:37:23,281 --> 00:37:38,901
+Jake Herwaldt: It would be great because what you see products do is they launch it, and then they notify these companies. And then the companies are like, great, now I need to get budget to integrate via API. And then it's six months later before they can actually.
+
+151
+00:37:38,921 --> 00:37:41,461
+Andrew Bailey: Yeah, it's great to have a friendly, an external friendly.
+
+152
+00:37:41,501 --> 00:37:56,481
+Jake Herwaldt: Or several. Yeah, do you feel like there's several? Yeah, there's all parts and there's multiple. Yeah, yeah, absolutely. That'd be great. We'll get that on the. All right, boys.
+
+153
+00:37:56,981 --> 00:38:27,243
+Nathan Bedford: Awesome. But they're an hour away. I'll see you tomorrow. Got to play with my kids. Caleb might beat me up, but I don't know. They are lovely. Oh, I want to have some. You know, we like to use a little sugar. We have some USB powered sign that says, new request available. API connected. No checking every 10 minutes. You get notified when there's a new partner. Oh, that is actually. Wouldn't that be nice? We can add to all parts of the present. Oh, that would be fun if we built little presents for our clients like that. Yeah. A little sign. A little noise goes off.
+
+154
+00:38:27,283 --> 00:38:35,643
+Nathan Bedford: A little red light lights up. But if you're a green light. If you're integrated via API, you know what I mean. That's true. If it's, if it can actually do all the auto sourcing and everything.
+
+155
+00:39:00,865 --> 00:39:06,165
+Jake Herwaldt: A translation of any of them.
+

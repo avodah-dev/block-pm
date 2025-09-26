@@ -1,0 +1,239 @@
+{
+  "id": "W08",
+  "name": "Integrated Vendor Auto-Sourcing",
+  "type": "user_workflow",
+  "persona": "P03-integrated-vendor",
+  "trigger": "Receiving request to submit pricing without stock",
+  "goal": "Respond to requests using intelligent auto-sourcing",
+  "complexity": "very-high",
+  "premium_feature": true,
+  "reuses_workflows": [
+    "W01",
+    "W02",
+    "W03"
+  ],
+  "steps": [
+    {
+      "id": "W08-S01",
+      "name": "Receive Request",
+      "type": "reuse",
+      "references": "W03-initial-steps",
+      "actor": "Integrated Vendor",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S02",
+      "name": "Check Stock Decision",
+      "type": "decision",
+      "actor": "Integrated Vendor",
+      "branches": {
+        "has_stock": "W08-S03a",
+        "no_stock": "W08-S03b"
+      },
+      "layer": "product",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S03a",
+      "name": "Submit Standard Quote",
+      "type": "reuse",
+      "references": "W03-vendor-submit-quote",
+      "condition": "has_stock",
+      "actor": "Integrated Vendor as Standard Vendor",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S03b",
+      "name": "Initiate Auto-Sourcing",
+      "type": "action",
+      "condition": "no_stock",
+      "actor": "Integrated Vendor as Buyer",
+      "description": "Transform to buyer and create tiered request",
+      "premium": true,
+      "layer": "product",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S04",
+      "name": "Configure Tiers",
+      "type": "configuration",
+      "actor": "System with Integrated Vendor Config",
+      "tier_sources": {
+        "product": "stored_tier_configurations",
+        "business_logic": "api_call_to_business_system",
+        "business_system": "real_time_tier_calculation"
+      },
+      "example_config": {
+        "tier_1": {
+          "vendors": 10,
+          "delay": 0
+        },
+        "tier_2": {
+          "vendors": 10,
+          "delay": 600
+        },
+        "tier_3": {
+          "vendors": 10,
+          "delay": 1800
+        }
+      },
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S05",
+      "name": "Release Tier 1",
+      "type": "automated",
+      "system": "auto_sourcing_engine",
+      "description": "Send request to Tier 1 vendors only",
+      "layer": "product",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S06",
+      "name": "Wait Period",
+      "type": "timer",
+      "system": "auto_sourcing_engine",
+      "duration_seconds": 600,
+      "configurable": true,
+      "decision": {
+        "sufficient_quotes": "W08-S08",
+        "timer_expires": "W08-S07"
+      },
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S07",
+      "name": "Release Tier 2",
+      "type": "automated",
+      "system": "auto_sourcing_engine",
+      "condition": "insufficient_tier_1_responses",
+      "description": "Send request to Tier 2 vendors",
+      "repeatable": "tier_3",
+      "layer": "product",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S08",
+      "name": "Collect Quotes",
+      "type": "reuse",
+      "references": "W03-vendor-response-collection",
+      "actor": "Multiple Vendors",
+      "from_tiers": [
+        "tier_1",
+        "tier_2",
+        "tier_3"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S09",
+      "name": "Review & Select",
+      "type": "action",
+      "actor": "Integrated Vendor as Buyer",
+      "reuses": "W02-review-functionality",
+      "strategic_choice": "may_select_multiple",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S10",
+      "name": "Apply Markup",
+      "type": "action",
+      "actor": "Integrated Vendor",
+      "implementation_options": {
+        "simple": "manual_price_adjustment",
+        "advanced": "percentage_markup",
+        "future": "dynamic_tiered_markup"
+      },
+      "layer_decision": {
+        "product": "basic_markup_capability",
+        "business_logic": "client_specific_rules"
+      },
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S11",
+      "name": "Submit to Buyer",
+      "type": "action",
+      "actor": "Integrated Vendor as Vendor",
+      "reuses": "W03-quote-submission",
+      "modifications": [
+        "price_marked_up"
+      ],
+      "pass_through": [
+        "warranty",
+        "condition"
+      ],
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S12",
+      "name": "Await Selection",
+      "type": "wait",
+      "references": "W02-buyer-selection",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W08-S13",
+      "name": "Cascade Purchase",
+      "type": "action",
+      "condition": "if_selected",
+      "actor": "Integrated Vendor",
+      "description": "Create purchase to selected vendor",
+      "references": "W06-purchase-cascade",
+      "leads_to": "W09-fulfillment",
+      "requirements_addressed": []
+    }
+  ],
+  "key_features": {
+    "auto_sourcing_engine": {
+      "tiered_release": "configurable_vendor_groups",
+      "timer_management": "configurable_wait_periods",
+      "vendor_exclusion": "prevent_duplicate_requests",
+      "quote_aggregation": "collect_from_multiple_tiers"
+    },
+    "markup_feature": {
+      "basic": "price_adjustment",
+      "advanced": "percentage_based",
+      "future": "dynamic_rules"
+    }
+  },
+  "architecture_layers": {
+    "product": [
+      "auto_sourcing_engine",
+      "timer_management",
+      "vendor_exclusion_logic",
+      "basic_markup",
+      "quote_aggregation"
+    ],
+    "business_logic": [
+      "tier_configuration_api",
+      "markup_rules_engine",
+      "auto_sourcing_triggers",
+      "performance_analytics"
+    ],
+    "business_system": [
+      "inventory_check",
+      "vendor_performance_data",
+      "pricing_history",
+      "approval_workflows"
+    ]
+  },
+  "configuration_requirements": [
+    "tier_assignment_interface",
+    "delay_timer_settings",
+    "markup_rules_configuration",
+    "vendor_exclusion_logic",
+    "quote_threshold_settings"
+  ],
+  "requirements_coverage": {
+    "addressed": [],
+    "notes": "This workflow describes Block's premium auto-sourcing feature for integrated vendors. It's an internal innovation that leverages existing buyer/vendor workflows but doesn't directly fulfill client requirements."
+  },
+  "success_metrics": [
+    "tier_1_response_rate",
+    "time_to_sufficient_quotes",
+    "markup_optimization",
+    "win_rate_with_auto_sourced",
+    "vendor_tier_performance"
+  ]
+}

@@ -1,0 +1,1700 @@
+1
+00:00:03,840 --> 00:00:15,440
+Jake Herwaldt: That's what I mean. I want to accomplish phase one, phase two. I want to accomplish talking through, have we talked through all of the items that they've marked as required? That's what I'm thinking, I'm going to go super quickly and slip through it.
+
+2
+00:00:15,440 --> 00:00:17,440
+Nathan Bedford: and mark out one that we haven't talked about.
+
+3
+00:00:17,500 --> 00:00:23,680
+Andrew Bailey: Oh yeah, definitely. We just did that. Would that be the worthwhile thing, is to build with buckets. 
+
+4
+00:00:24,800 --> 00:00:29,100
+Jake Herwaldt: That's huge, I mean that's, if we haven't talked about a thing, we need to.
+
+5
+00:00:29,280 --> 00:00:31,160
+Andrew Bailey: Is that worth saying. 
+
+6
+00:00:39,410 --> 00:00:42,070
+Jake Herwaldt: We don't, just do two slash three, because we don't know yet.
+
+7
+00:00:42,170 --> 00:00:56,790
+Andrew Bailey: Yeah, that's what I was going to do. Really, it's just, yeah, it's a little parking lot. Because I feel like you could just list them off and I could just be like. Yeah, yeah, it's 118, so I don't think we're going to do. Oh, we're not doing the original list. 
+
+8
+00:00:57,030 --> 00:00:57,310
+Nathan Bedford: Well I think. 
+
+9
+00:00:57,330 --> 00:00:58,610
+Andrew Bailey: No, yeah, it's way bigger.
+
+10
+00:00:58,890 --> 00:01:02,052
+Nathan Bedford: It's way bigger. It's more detailed, probably not necessarily bigger, but detailed.
+
+11
+00:01:02,251 --> 00:01:05,532
+Andrew Bailey: Should we start with the original one and then look at Sam's and try to map them. 
+
+12
+00:01:05,652 --> 00:01:07,172
+Jake Herwaldt: The more exhausted one's better, right. 
+
+13
+00:01:07,211 --> 00:01:28,521
+Nathan Bedford: My feeling was it would take a bit less time just if we're looking at the time savings. I think what she did was just a superset of what she... She added more detail to them, but nothing is brand new, I don't think. Jake, when you look at this earlier, so she's got it grouped into must-haves, should-haves, could-haves. And then will-not-haves. And her will-not-haves is just my way of saying must-haves in the opposite direction, really.
+
+14
+00:01:28,902 --> 00:01:29,582
+Jake Herwaldt: Must-not-haves.
+
+15
+00:01:29,582 --> 00:01:31,582
+Nathan Bedford: Yeah, so, okay.
+
+16
+00:01:32,832 --> 00:01:33,551
+Jake Herwaldt: What's your question, though. 
+
+17
+00:01:33,912 --> 00:01:42,292
+Nathan Bedford: Yeah, so could-haves, I can give you, those are less. I guess I'll start with those, because I think we can rule those out as a not-a-phase-one thing. Okay, okay.
+
+18
+00:01:42,491 --> 00:01:44,632
+Jake Herwaldt: Are you marking them in some way? Okay, okay.
+
+19
+00:01:47,252 --> 00:02:05,204
+Nathan Bedford: We'll have to spend half a day organizing our data, obviously. But this is just, I'll take what was given in the scope. This is really, I'll just put phase. So the could-not, the... The could-haves. Oh, you're not in the site.
+
+20
+00:02:05,204 --> 00:02:06,863
+Jake Herwaldt: I was going to follow you in Sheets.
+
+21
+00:02:06,904 --> 00:02:23,084
+Nathan Bedford: Yeah, I pulled this down to import it. That's fine. Do you. OK, so ability for vendors to explicit could-haves. Ability for vendors to export and use data from portals. That actually feels like a newer thing to me. That's not phase one, we agree. Nothing we've heard makes us think that vendors need to do.
+
+22
+00:02:23,404 --> 00:02:23,763
+Andrew Bailey: Yeah.
+
+23
+00:02:24,024 --> 00:02:35,094
+Nathan Bedford: I'll just say two plus. Ability for internal block teams to propose new suppliers. Definitely base two plus. Ability, I mean, I'm going to, you guys tell me if I'm wrong. I'm going to make my side up.
+
+24
+00:02:35,094 --> 00:02:37,934
+Jake Herwaldt: What's the persona we're on right now? This is SW or SWP.
+
+25
+00:02:39,084 --> 00:03:09,406
+Nathan Bedford: So procurement, so the buyers. Ability for vendors to upload view of their terms and conditions. That was already listed as not a phase one. OK. That had been in earlier. So I think all these are pretty clearly not phase one, not in B plus. I mean, I do think. Because we can confirm these things, but we're . Yeah, we will. Yeah, you're right. This is for us to confirm . I don't believe these are not based on. Ability for vendors to view their approval status in SW, not current state, therefore not based. And it's not, what's been listed is MBD plus.
+
+26
+00:03:10,126 --> 00:03:22,966
+Nathan Bedford: So that's the could haves. I'm gonna switch to the could haves. I'm sorry, that wasn't, I mean, the tab coloration on this Excel file is horrible. I can't tell the difference. That was not at the SWP, that was at the SWP, SW. So that was buyers.
+
+27
+00:03:22,966 --> 00:03:24,266
+Jake Herwaldt: SW, so that was vendors.
+
+28
+00:03:24,586 --> 00:03:35,586
+Nathan Bedford: Yeah. SWP is for buyers. Vendors, yes, vendors. Now I'm switching to buyers. That made sense why I was saying vendors everywhere. So now on the buyer side, the ability for an account to have multiple profiles. See, I think that actually needs to be probably.
+
+29
+00:03:35,906 --> 00:03:36,806
+Jake Herwaldt: We need to talk about that.
+
+30
+00:03:36,886 --> 00:03:38,426
+Nathan Bedford: Yeah, that's the vindication, which I think.
+
+31
+00:03:38,526 --> 00:03:40,046
+Jake Herwaldt: Can you just say define or something. 
+
+32
+00:03:40,406 --> 00:03:40,646
+Nathan Bedford: Yeah, I will.
+
+33
+00:03:41,336 --> 00:03:42,996
+Jake Herwaldt: That feels like that should be the first one.
+
+34
+00:03:43,136 --> 00:03:45,116
+Nathan Bedford: Yeah, that was exactly what I was missing.
+
+35
+00:03:45,276 --> 00:03:52,516
+Andrew Bailey: Yes and no. I can't imagine us deciding to build it. Like, I'm not worried about it. We'll just push something else out if it's big.
+
+36
+00:03:52,636 --> 00:04:05,550
+Nathan Bedford: Oh, here's what it actually means, this is helpful. Here's what they meant, they have a detail column. We have customers who want to be in SWP, but currently have existing SW. accounts it cannot currently be enrolled oh that's awesome yeah yeah so well what does.
+
+37
+00:04:05,550 --> 00:04:09,690
+Jake Herwaldt: that look like does that does that look like that's how we do anyways does that look like.
+
+38
+00:04:09,690 --> 00:04:16,550
+Nathan Bedford: us having two different domains it's roles no in fact they said they clearly there's no need for two domains which is what they have right now so they're going from two domains to one.
+
+39
+00:04:16,550 --> 00:04:26,830
+Jake Herwaldt: so then how do you know what i am right now it's just what you're just talking about right now no no i log in i think i'm like i want to be a buyer i think you have to work through that workflow.
+
+40
+00:04:26,830 --> 00:04:56,360
+Nathan Bedford: flow to understand what does that look like because yeah that's i've seen this kind of be a role switching problem or do you just this is just different pages and different views and you know i don't know like it's significantly different it might be a yeah because flash let's give a real quick example of where you're playing different roles, i'm sure that people other people are like block who are both sourcing parts and buying parts, well we've done it before yeah this is like blanco teacher at the teacher being a student they had the same problem and they didn't solve this um.
+
+41
+00:04:57,420 --> 00:05:18,022
+Nathan Bedford: in in lincoln you've got tas who are teaching students, but are also taking higher ed classes. Okay. Interactive help features, chat bots, this is too vague, so we shouldn't talk about it. Also, there can, yeah, anyway. Their note on that was, if they get stuck currently, they don't have immediate info on who to contact, what to do.
+
+42
+00:05:18,082 --> 00:05:19,001
+Jake Herwaldt: Phase two and phase three.
+
+43
+00:05:19,342 --> 00:05:20,282
+Nathan Bedford: That's where that might be.
+
+44
+00:05:20,421 --> 00:05:22,662
+Jake Herwaldt: But that's just literally tool tips and tools.
+
+45
+00:05:22,662 --> 00:05:30,121
+Nathan Bedford: That's my question, actually. What's phase one versus two and three? Phase one might just be, you need help, click this button, here's a help page that has all the help information.
+
+46
+00:05:30,522 --> 00:05:36,602
+Jake Herwaldt: Do you want to have a delimiter in there, a delimiter in there that's like a minimal phase one, but then expands in phase two, three. 
+
+47
+00:05:36,741 --> 00:05:41,562
+Andrew Bailey: Yeah, I think. I think if you do one comma two, it'll be like, all right, let's talk about this display.
+
+48
+00:05:42,262 --> 00:05:55,551
+Nathan Bedford: Okay, yeah, and I think even to your point, that might be two, three, and four, which I'll get into now. But to your point, though, it could be a tool tips, like a guided tour. Something has to be there.
+
+49
+00:05:55,572 --> 00:05:57,472
+Andrew Bailey: Something will be phase one, and something will like.
+
+50
+00:05:58,522 --> 00:06:05,903
+Nathan Bedford: Ability for customers to be exposed. of Davidson Portal, that's, again, that feels like that's not a thing, but I think when.
+
+51
+00:06:05,903 --> 00:06:09,443
+Jake Herwaldt: we say it that way, unless it's already in there, but I don't think it is, and that's.
+
+52
+00:06:09,443 --> 00:06:12,183
+Nathan Bedford: why if it's could-haves, like could-haves, if you look at the menu, this is definitely.
+
+53
+00:06:12,183 --> 00:06:16,433
+Jake Herwaldt: the, not the main one, oh, I forgot that's the lens we're looking at, or these are still.
+
+54
+00:06:16,433 --> 00:06:49,643
+Nathan Bedford: the lens, yeah, sorry, sorry, in fact, that's interesting about even if you want to be already suggested, customers should have the ability to chat on the order record in addition to the SRC record, you should, but should have, and it could have, yeah, yeah, I'm used to talking about that, um, yeah, I think they can already do that, um, can't they, like I thought they can, they can, they're just separate, yes, that's right, and there's no like messages page or something, right, it just says, oh, I should just search all of the messages, yeah, I think we need a little more clarity on that one, but I think we know what they mean, um, okay, this is what they, the description, we don't love this feature.
+
+55
+00:06:49,643 --> 00:07:14,575
+Nathan Bedford: currently, and we'll be interested in seeing the ultimate alternative, okay, yeah, that's fine, we'll figure it out, that feels like a beyond, well, we'll see, customers, if that's what they want, the plus, that's fine, customers could have, If you have the ability to export views from SOP into Excel, just export, that's like a super simple export. If that's really all that it is, that might be easy for us to, you know what I mean. 
+
+56
+00:07:14,655 --> 00:07:32,095
+Andrew Bailey: Yes, I do. Almost every app we've built that has the list in Excel. There's one thing that, there's another thing that Al Alonzo is super good at is saying, I want you to hit the export button. Yeah, we built that like four or five times a day, right? Literally. Yeah. Sometimes it just doesn't, when I say mention something remotely, it's like, hey, I built this like four or five times a day.
+
+57
+00:07:32,215 --> 00:07:36,475
+Nathan Bedford: Yeah. Customers could have further prompts training on how to filter through the.
+
+58
+00:07:37,605 --> 00:07:39,025
+Jake Herwaldt: It's more tool-tippy stuff.
+
+59
+00:07:40,165 --> 00:07:44,655
+Nathan Bedford: Yes. Currently they can't filter, but it's not. I'm thinking that's big.
+
+60
+00:07:44,695 --> 00:07:48,235
+Jake Herwaldt: That's just improved UX, which might come for free.
+
+61
+00:07:49,626 --> 00:07:58,945
+Andrew Bailey: I'll get a refresher. I would just like to . You need to stop hanging around with Bates so much. We brought you on here for cold blooded. You got it.
+
+62
+00:08:00,439 --> 00:08:06,939
+Nathan Bedford: This is how we don't share all these transcriptions that we're putting in. Yeah, yeah, thanks. Okay, so this is just.
+
+63
+00:08:07,199 --> 00:08:07,979
+Jake Herwaldt: Fresh, now frozen.
+
+64
+00:08:08,199 --> 00:08:16,519
+Nathan Bedford: This is literally just, can the page automatically refresh its data every one, two, five minutes? Yes, yes, yes. Sure. Move on. How about we do it, how about we do it instantaneously. 
+
+65
+00:08:17,519 --> 00:08:20,339
+Andrew Bailey: Yeah, can we make that a bare bones thing? Cause I just.
+
+66
+00:08:20,359 --> 00:08:21,599
+Jake Herwaldt: No, guys, guys.
+
+67
+00:08:22,019 --> 00:08:22,599
+Andrew Bailey: Sales 101.
+
+68
+00:08:23,699 --> 00:08:29,399
+Jake Herwaldt: You show up and there is a refresh button. And then they're like, can it be instantaneous. 
+
+69
+00:08:29,399 --> 00:08:48,609
+Nathan Bedford: Wait a minute, do you want one, two, or three minutes or all three? Is that the premium feature? I just want to build a system that's just like, sorry. Let's put it this way, the merge ordering system that I built has this. So we'll probably leave it.
+
+70
+00:08:48,729 --> 00:08:59,300
+Andrew Bailey: Right, that was a fun, unexpected win. That would be really funny to be able to say, we did it in our merge system, we're not sure what to do in here, unless you guys. We still don't have enough time, it's hard.
+
+71
+00:09:00,031 --> 00:09:03,352
+Jake Herwaldt: Okay, this is going to take forever to get through on your video list.
+
+72
+00:09:04,191 --> 00:09:11,242
+Nathan Bedford: So now we're on, that's all the good news. We'll not have any connection, I think that's just fine. That's an obvious one.
+
+73
+00:09:11,421 --> 00:09:11,742
+Jake Herwaldt: That's fine.
+
+74
+00:09:12,352 --> 00:09:24,031
+Nathan Bedford: And then we'll not have for the other side of the, it was the same kind of thing, we'll not have the ability, oh, sorry, we'll not have any connection. Do you really want to get that out there? Don't worry, no connection to Legendary at all.
+
+75
+00:09:24,031 --> 00:09:25,291
+Jake Herwaldt: Say we hate Legendary too.
+
+76
+00:09:25,291 --> 00:09:43,622
+Nathan Bedford: And I think what I'm hearing is Legendary is both a product, I think it's what they're calling the product, and it's the company behind it. It's like, that's why it was confusing. Okay, then this is where Sam told me, I asked her at lunch, she's like, well, I'm going to need more heat on later, because it was confusing a little. On SRC, did you hear, over here talking about this, on the SRC record.
+
+77
+00:09:44,262 --> 00:09:45,581
+Jake Herwaldt: What category are we in, sorry. 
+
+78
+00:09:45,622 --> 00:09:46,681
+Nathan Bedford: This is back to.
+
+79
+00:09:46,722 --> 00:09:47,521
+Jake Herwaldt: To should or don't.
+
+80
+00:09:48,421 --> 00:09:50,061
+Nathan Bedford: This is now will not have.
+
+81
+00:09:50,161 --> 00:09:50,722
+Jake Herwaldt: Will not have.
+
+82
+00:09:50,722 --> 00:09:54,982
+Nathan Bedford: Which is really another way of saying. Or SW. Must not have. Yeah, this is back to SW.
+
+83
+00:09:55,222 --> 00:09:55,841
+Jake Herwaldt: Okay, okay.
+
+84
+00:09:56,061 --> 00:10:09,603
+Nathan Bedford: On the, when you're on the sourcing record. Okay. There shouldn't be an edit. You shouldn't be able to go change the status, only the way the status changes when you're moving through the workflow. Sure. Obviously. There shouldn't be a cancel or save button because they do different things you wouldn't expect.
+
+85
+00:10:09,764 --> 00:10:11,343
+Jake Herwaldt: She was saying... Yes. Yeah.
+
+86
+00:10:11,964 --> 00:10:12,343
+Nathan Bedford: That's fine.
+
+87
+00:10:12,524 --> 00:10:13,524
+Jake Herwaldt: Yes, I did hear that.
+
+88
+00:10:13,764 --> 00:10:15,584
+Nathan Bedford: Yeah. She said if you hit cancel, it refreshes the page.
+
+89
+00:10:16,384 --> 00:10:22,584
+Jake Herwaldt: Cancel, refreshes, save doesn't do anything. The way to save is to close the next button. So she's saying don't do that.
+
+90
+00:10:22,824 --> 00:10:28,983
+Nathan Bedford: I got it. Check, check, check. Okay. So cool. Now we're down to the bigger lists, which are the should haves and the...
+
+91
+00:10:28,983 --> 00:10:38,064
+Jake Herwaldt: Because I think she was saying some of that stuff because she genuinely... She said out loud, when we say we want you to replace the current system, I don't want you to literally replace the current system.
+
+92
+00:10:38,064 --> 00:10:56,973
+Nathan Bedford: And I think she's used to having to spell this out for all the vendors. And that's what we had said is, that's when you asked, can we just reimagine? That's right. Andy was talking to Ziggy. But what we asked was, what Jake asked was, can we just reimagine stuff? You tell us the work you're trying to do, the problem you're trying to solve. We walk you through our... Yeah.
+
+93
+00:10:57,093 --> 00:11:03,716
+Jake Herwaldt: Do you want me to improve your current process? Right. or do you want me to re-imagine? She was like, re-imagine. Yeah, yeah. She's totally down for that.
+
+94
+00:11:03,816 --> 00:11:04,796
+Nathan Bedford: So a lot of this goes away. Okay.
+
+95
+00:11:05,216 --> 00:11:09,246
+Jake Herwaldt: I also wonder how often we'll see her now. Which one? She's consulting, Sam.
+
+96
+00:11:10,466 --> 00:11:14,146
+Nathan Bedford: She's staying in a couple months. I think she's consulting specifically for this equipment.
+
+97
+00:11:14,386 --> 00:11:16,106
+Jake Herwaldt: Right. I just didn't know, like, yeah.
+
+98
+00:11:16,566 --> 00:11:38,576
+Nathan Bedford: She's not an actual consultant. She's just part-time here. Yeah, yeah. That's it. Okay. So now we're looking at SW, not SWP, is the must-haves. Ability to fully manage suppliers while still agnostic to block. Detail context. Assigning vendor capabilities. Okay. Tracking DOA rates, et cetera, for blocking.
+
+99
+00:11:40,676 --> 00:11:42,196
+Jake Herwaldt: I feel like that's not phase one.
+
+100
+00:11:42,996 --> 00:12:02,420
+Nathan Bedford: New functionality, yes and no. Current system, resistant blocks, we can integrate into the system. That's, like, the very first must-have that she has. Oh, that's a must-have. Yeah, these are must-haves. Okay. So then she kind of mixed things. Like, obviously being able to assign vendor capabilities is critical. Tracking DOA rates, I think that's... That's a new feature. Maybe we have some more.
+
+101
+00:12:02,440 --> 00:12:03,240
+Jake Herwaldt: Yeah, question mark.
+
+102
+00:12:03,380 --> 00:12:06,240
+Nathan Bedford: It feels like there's going to be how much debt do you want? There's a couple things wrapped up in that.
+
+103
+00:12:06,340 --> 00:12:06,680
+Jake Herwaldt: One, two.
+
+104
+00:12:06,920 --> 00:12:16,530
+Andrew Bailey: What if we name this MedPartsPlus, but then have a basic and a super name? So MedPartsPlusSuperClean.
+
+105
+00:12:17,510 --> 00:12:44,800
+Nathan Bedford: That makes a lot of sense. Let's do that. You get to do the marketing for that. Now we have sourcing. It's not in the bucket now. Still must have sourcing and vendor management ability for vendors to have multiple. Yeah, that was just covered above. These are buckets that we put them into to route requests to. I think that's Facebook. That's just basic. Must be able to rank each vendor with new capability within tier, so that's really just put them into tier.
+
+106
+00:12:46,760 --> 00:12:47,880
+Jake Herwaldt: That is new, though, huh. 
+
+107
+00:12:48,200 --> 00:12:55,060
+Nathan Bedford: No, they did that right now. It's not new. Really? Yeah, they currently put them in tier, so they auto source. This is admin, block admin stuff.
+
+108
+00:12:55,180 --> 00:12:56,140
+Jake Herwaldt: Oh, we're in block admin.
+
+109
+00:12:56,340 --> 00:12:57,740
+Nathan Bedford: Well, this is not called block admin.
+
+110
+00:12:57,740 --> 00:12:59,240
+Jake Herwaldt: Yeah, because that's weird. OK. That's fine.
+
+111
+00:12:59,360 --> 00:12:59,900
+Nathan Bedford: That's a fair question.
+
+112
+00:13:00,032 --> 00:13:01,512
+Jake Herwaldt: Because SWP doesn't do that.
+
+113
+00:13:02,082 --> 00:13:03,942
+Nathan Bedford: This is not SWP right now.
+
+114
+00:13:03,982 --> 00:13:07,022
+Jake Herwaldt: This is SW? Yeah. Oh, okay. But still, anyway, okay.
+
+115
+00:13:07,222 --> 00:13:07,942
+Nathan Bedford: Yeah, but that's a good question.
+
+116
+00:13:07,942 --> 00:13:08,922
+Jake Herwaldt: That's an internal thing.
+
+117
+00:13:08,922 --> 00:13:10,562
+Nathan Bedford: This is where it gets a little bit too...
+
+118
+00:13:11,212 --> 00:13:12,472
+Jake Herwaldt: So I would say that's phase two.
+
+119
+00:13:13,412 --> 00:13:31,212
+Nathan Bedford: This is where we probably need to define what workflows, what work needs to happen in the new system versus just whatever happens in Salesforce gets closed. I don't know. Yeah. Let me see if she says... These are buckets. We put them in to wrap the question. That is a good question about...
+
+120
+00:13:31,212 --> 00:13:37,912
+Jake Herwaldt: I just feel like if our focus is external vendor, internal buyer, anything not that is out of scope.
+
+121
+00:13:38,112 --> 00:13:39,252
+Nathan Bedford: I'm going to say at phase two...
+
+122
+00:13:39,252 --> 00:13:41,052
+Jake Herwaldt: Unless it's fundamental to the database.
+
+123
+00:13:41,702 --> 00:13:42,022
+Nathan Bedford: Yeah.
+
+124
+00:13:42,042 --> 00:13:44,682
+Jake Herwaldt: But, I mean, you could add a field later. That's that.
+
+125
+00:13:45,222 --> 00:14:16,554
+Nathan Bedford: And they might... Yeah, they might... That one in particular is an admin thing. As far as I know, at least, there's no tiers that are happening outside of the block ad. You must be able to manage customer concession vendors. I don't know what that means. If not approved or actively listed as customer concession by block, teams just need to have this building. Oh, I think I remember. Customer concession is like, we really shouldn't use them. I remember this from our videos. It's like, the only time we're going to use them is if, like, fine, I guess we have to.
+
+126
+00:14:16,554 --> 00:14:19,914
+Jake Herwaldt: Oh, the worst year. Yeah, so then we're still on this internal. Okay.
+
+127
+00:14:19,974 --> 00:14:34,384
+Nathan Bedford: Yeah. Teams have, okay, I think you still asked about it. I'm putting that as phase two sync and Salesforce question mark. It sounds like phase two. It must be able to record vendor warehouse locations and shipping cutoff times on vendor accounts.
+
+128
+00:14:34,384 --> 00:14:38,244
+Jake Herwaldt: This is all internal stuff. Can you mark this with, as, like, internal. 
+
+129
+00:14:38,784 --> 00:14:39,264
+Nathan Bedford: Yeah.
+
+130
+00:14:39,424 --> 00:14:40,444
+Jake Herwaldt: An internal flag. 
+
+131
+00:14:40,804 --> 00:14:41,284
+Speaker 4: Um.
+
+132
+00:15:00,466 --> 00:15:23,856
+Nathan Bedford: Okay, must be this is all under the sourcing and vendor management section of the community as well. We'll see if there's two more like this. Must be able to record vendor warehouse locations, various of that. Yeah, that sounds like internal. On capability record, we must be able to include notes visibility visible to internal block users. Okay, that whole section just sounds like we need to find out what's going on.
+
+133
+00:15:25,806 --> 00:15:43,416
+Andrew Bailey: Well, and that's that's a good question. Her saying that is not the same as Paul Beard's, right? We want this to be a product and what she's essentially saying is there is the sales, sourcing window admin person who can see capability notes, and then there's the internal team can see capability notes.
+
+134
+00:15:44,886 --> 00:15:52,856
+Nathan Bedford: Yeah, that's right. This might be for phase one just a synchronization. So if notes exist in Salesforce, we can see them, somebody can see them on the inside as well.
+
+135
+00:15:52,896 --> 00:15:58,376
+Andrew Bailey: But if I'm a customer and I have a vendor relationship, I would want to see our capability notes on them.
+
+136
+00:15:58,936 --> 00:16:19,070
+Nathan Bedford: Yeah. Ability for vendors to be connected to multiple customers. That's just connected flags. I think that's phase one. User must be able to have multiple users under one account. And I think the way they're calling an account is an account like a Salesforce account. So we could say organization, by the way.
+
+137
+00:16:19,230 --> 00:16:19,790
+Speaker 4: Yeah, yeah.
+
+138
+00:16:22,700 --> 00:16:28,410
+Nathan Bedford: Okay, homepage. Users must be able to see who is logged in from the homepage.
+
+139
+00:16:28,710 --> 00:16:30,650
+Jake Herwaldt: Yeah, like their name in the corner, like the avatar.
+
+140
+00:16:31,960 --> 00:16:37,170
+Speaker 4: Okay, that's really... No, I know. Come on, move on. I know, I know.
+
+141
+00:16:38,170 --> 00:16:39,410
+Nathan Bedford: That's what that means. I wouldn't guess that.
+
+142
+00:16:39,730 --> 00:16:41,590
+Andrew Bailey: They need to be able to see how many minutes they've been on.
+
+143
+00:16:41,990 --> 00:17:07,932
+Nathan Bedford: Okay, this is a good example of envisioning versus... If they see homepage must default to open requests, we probably would say we'll get a new dashboard that shows you, you know, things you want to see. Yeah, yeah, yeah. Requests must be ordered... Speak a little deeper. Requests must be ordered... Oh, that's a question now. SRCs must display with time... Open SRC number, I'm gonna just skip through that. That's obviously like all of these are super detailed on the home page. They're either user experience stuff and I don't know any detail.
+
+144
+00:17:08,232 --> 00:17:10,392
+Jake Herwaldt: I think it's literally her describing the current system.
+
+145
+00:17:10,392 --> 00:17:22,542
+Nathan Bedford: Yeah, I think you're right. I wouldn't call, yeah. When responding from, we'll use these to build the cards. Yeah. Okay, when responding from the home page, do you use them to be able to press an enable button without drilling into SRC? That's the, that is the...
+
+146
+00:17:23,612 --> 00:17:31,372
+Jake Herwaldt: How about we also do it in the email? For real though, can you put maybe like insert a row? Yeah, yeah. Cause like that's us adding scope, but not ridiculous.
+
+147
+00:17:31,692 --> 00:17:54,232
+Nathan Bedford: I think as far as the email goes, we'll just have to make sure we figure out what that looks like from a compliance perspective. Cause that would either mean, the question I would wonder is, actually I'm not sure. Store the login in the cookie cookie. Where else can we store it, Jake? No, it's a matter of like, they should mention not having to log in to do that, but I think what she meant. Is just if you're already logged in. 
+
+148
+00:17:54,252 --> 00:17:55,132
+Jake Herwaldt: don't make them log in again.
+
+149
+00:17:55,212 --> 00:17:56,952
+Nathan Bedford: Right, yes. Cause there is ways to make it.
+
+150
+00:17:56,952 --> 00:17:59,652
+Andrew Bailey: If they click it on mobile. Cause we can make, cause the session is still live.
+
+151
+00:18:00,064 --> 00:18:07,184
+Nathan Bedford: Yeah, right, and there's ways you could make it truly like an unauthenticated experience, but I don't think you need that. No, no, no. Like, there's times when you need to do that.
+
+152
+00:18:07,424 --> 00:18:12,944
+Andrew Bailey: I don't know, I've never had to invent something. I know it can be done, because I've touched it and done it.
+
+153
+00:18:13,464 --> 00:18:35,984
+Nathan Bedford: Yeah, I've seen it frequently in orders and I've ordered stuff. How many times has he ordered a mattress? It's been in a cup recently, and then twice in the last five years. I mean, isn't it just a URL with an ID in it, and then when... And then you'd have to have some back-end, like, one-time usage things. The problem with that is you can't tell who it was. Yeah, there's different rules of whether or not you're using it.
+
+154
+00:18:36,104 --> 00:18:37,864
+Jake Herwaldt: Yeah, we auth it. We would not auth it.
+
+155
+00:18:37,904 --> 00:18:45,044
+Nathan Bedford: No, well, she said specifically, they don't have to be logged into this, but I'm realizing what she meant was they don't have to be explicitly logged in separately.
+
+156
+00:18:45,664 --> 00:18:50,264
+Andrew Bailey: We'd have to ask that question. Are you willing to let somebody else who's not with that email come forward. 
+
+157
+00:18:50,264 --> 00:19:00,044
+Jake Herwaldt: Yeah, forwarded that email, and they can confirm it. I would say no, I would say no. We want to track it. And when she says not logged in, I think... I think she meant we're previously logged in.
+
+158
+00:19:00,096 --> 00:19:11,856
+Andrew Bailey: And that also scares me because if you're sending out, I mean, it's probably really hard, but that's an open endpoint. Yeah, right, right. Even if though even if it is a wonky. Yeah. Yeah, I think it's helpful to this is kind of like.
+
+159
+00:19:11,856 --> 00:19:42,306
+Nathan Bedford: You should have your name Like oh, I would never have said that way, but I think I see what you meant Yeah, okay home page view must be able to so from home page view vendors must be able to view their connected customers They must be able to see either three ones see the roll-up of pending fulfillments Those little dashboard icons on top to see the number right must be they call them roll-ups to be able to see pending fulfillments, Request history that one's doubled up in order histories. These are all just show very simple metrics on the dashboard It was search each list you open.
+
+160
+00:19:42,306 --> 00:19:59,716
+Nathan Bedford: I mean, yeah, yes pending the film. It's gotta must it's gonna be shorter to do it than it will be to read it I did that's kind of a writer. I mean, you know must The pennies on the tab must display, You don't have to.
+
+161
+00:20:00,000 --> 00:20:00,920
+Andrew Bailey: You can read through them if you want.
+
+162
+00:20:00,940 --> 00:20:19,570
+Nathan Bedford: I'm scanning through it to see if it's even worth discussing. This one is a little bit longer. This is worth reading through. I had to actually scroll to see. Okay, so the ending fulfillment tab should display obvious information that we put in the card. But then there's age open, which is a specific time measure. It was created. Confirmed button to click in to view.
+
+163
+00:20:19,870 --> 00:20:24,390
+Andrew Bailey: Okay, active. And what we need to do is it needs to be an unformatted black or red minutes.
+
+164
+00:20:25,300 --> 00:20:56,950
+Nathan Bedford: Yes, that's what they need. Just like we saw? Yeah. Okay, request history view. I mean, just this too. Yeah. Okay. Yeah. That's just really basic stuff. So this is really talking about us all describing the homepage. What we would say to dashboard. Responding to SRC. Okay. Then it must be able to see SRC. This does kind of suck. And we'll have to bake and malt internationalization, which Emily, I don't know if she has it here,
+
+165
+00:20:56,970 --> 00:20:58,170
+Nathan Bedford: but she already mentioned it.
+
+166
+00:20:58,410 --> 00:21:05,631
+Andrew Bailey: I'm already like realizing. Okay. Somebody could make a request in California. I mean, obviously, they're going to do it all in WGC, but...
+
+167
+00:21:05,952 --> 00:21:31,651
+Nathan Bedford: Yeah, it's a large place where things go wrong, yeah. Okay, so a vendor must be able to see... When a vendor's responding to the SRC, they can see basic information that we would... They should be able to respond from the email by logging into the portal. We should find out what exactly... Oh, she said, for example, Virtus Imaging. That's the one we're saying. We just need to know what you mean by that. But if you mean there's a difference between... There's a significant difference between buttons or hit reply, you know. 
+
+168
+00:21:31,772 --> 00:21:32,851
+Jake Herwaldt: Mm-hmm, yeah.
+
+169
+00:21:33,111 --> 00:21:35,591
+Nathan Bedford: Both of which you can... You can do one as much as you can do the other.
+
+170
+00:21:35,712 --> 00:21:38,752
+Jake Herwaldt: What ID are you on? I just want to follow along.
+
+171
+00:21:38,932 --> 00:21:50,202
+Nathan Bedford: Me? Oh, um... 21. Oh, yeah. No, I'm with you. I just wanted to be with you. Row 25. Yeah, vendors must be able to respond. Okay, we got that. So that's the first...
+
+172
+00:21:50,202 --> 00:21:51,141
+Jake Herwaldt: Oh, that's the one. Okay.
+
+173
+00:21:51,282 --> 00:21:58,802
+Nathan Bedford: That is the one right there. We just need to know... We need to describe to her what we think she said and just say the answer. Then no stop button. That's really important.
+
+174
+00:22:01,883 --> 00:22:05,083
+Jake Herwaldt: But it makes sense, time is money, they just want it to be done.
+
+175
+00:22:05,323 --> 00:22:39,163
+Nathan Bedford: Totally. It is a real pain point that is not hard to do. This system should automatically update and status the time, close the record off, keep the vendor on the page. Buttons at the bottom of SRC, there should be a submit quote, clone, no stock. I would say that's too detailed. We don't know if that should be at the bottom or somewhere else. We tell you where it should be and you tell us if you love it or hate it. The ability, really, is what she means, to submit it, clone it, no stock. To submit quote, minimize the required pieces, send exchange outright, condition warranty.
+
+176
+00:22:41,593 --> 00:22:55,274
+Nathan Bedford: WANV field should default to WANV or name check, they're completely available. New checkbox, this item is on the backboard. That's a good example of, I can add the checkbox, how does that get synchronized to whatever is behind it.
+
+177
+00:22:55,433 --> 00:23:04,655
+Jake Herwaldt: Yeah, that's a couple of the, like a lot of this, I'm more concerned truly of, like the FMD element of it, you know what I mean. 
+
+178
+00:23:05,235 --> 00:23:05,935
+Nathan Bedford: Yes, exactly.
+
+179
+00:23:06,115 --> 00:23:08,275
+Jake Herwaldt: Like, cool, we have it, but then now what. 
+
+180
+00:23:08,515 --> 00:23:33,275
+Nathan Bedford: Yep, okay, and then her note on that is, if vendor selects this, it must be visible to customer and has to be block imaging as it means . Yeah, you're right, that's the data behind the question. All right, we're halfway through this list, more than halfway through, I'm on that side, okay. If vendor submits quote, it keeps them on the record with a submitted notification and allows them to clone it for the second time with it, so it's just workbook.
+
+181
+00:23:33,275 --> 00:23:39,085
+Jake Herwaldt: But that's where you pointed out of like, does cloning make sense, or can I just add an option within there. 
+
+182
+00:23:39,285 --> 00:23:46,726
+Nathan Bedford: I love it, as you said, as developers, it's their note, please propose an alternative way of users offering multiple options for one material. That's what I was asking yesterday.
+
+183
+00:23:46,885 --> 00:24:08,799
+Jake Herwaldt: Yep, yep, yep, multiple options. Basically being like, instead of, right now, what they do is they clone quotes, instead of just saying, I have this new, I have this refurbished, I have this this. Basically, to me, it. It's just like a field with that always has one and then it's like add new row is always showing to be like I have another option or add a new condition.
+
+184
+00:24:08,939 --> 00:24:27,749
+Nathan Bedford: This is where I think you running with UX will be fun to see that because we know that they're really interested in workflow improvements. I'm really curious how many of whoever's doing this, likes keyboard navigation versus not. Like I don't wanna, I think it was actually for the mouse. But like we wanna make the tabs really simple. The arrow keys do what you expect.
+
+185
+00:24:28,029 --> 00:24:28,409
+Andrew Bailey: Yeah.
+
+186
+00:24:28,469 --> 00:24:29,689
+Nathan Bedford: Enter key does what you expect.
+
+187
+00:24:29,689 --> 00:24:40,979
+Andrew Bailey: Yeah, I mean, honestly, A plus, A software does that and A plus is such a stretch. Like it's such a minimum bar to be A, A minus. Yeah. And then to be superhuman, very few.
+
+188
+00:24:41,179 --> 00:24:50,729
+Nathan Bedford: Oh yeah, superhuman really is the top. Okay, so now we're on the vendor must be able to view all connected clone option history. I think that means all connected clone options.
+
+189
+00:24:51,069 --> 00:25:01,331
+Jake Herwaldt: Basically if I cloned, cause currently I cloned and this is now multiple things. I wanna be able to see that I did that. We would just. probably group it as one thing.
+
+190
+00:25:01,511 --> 00:25:02,591
+Nathan Bedford: Yeah, I think I'm really curious what.
+
+191
+00:25:02,731 --> 00:25:06,591
+Jake Herwaldt: It's one quote in my head. It's just multiple options within the quote.
+
+192
+00:25:06,771 --> 00:25:15,071
+Nathan Bedford: Just change the way, it might be a thing you expand and use as well. Then we have, must be able to view, you vendor must be able to view customers.
+
+193
+00:25:15,311 --> 00:25:20,291
+Jake Herwaldt: It's like they're in Excel right now and they're like, everything has to be a row. And we're like, well, what the heck.
+
+194
+00:25:21,781 --> 00:25:34,981
+Nathan Bedford: This is the one about being able to have the conversation. Like this is a good example where, we have so many tiny points. This one is a lot baked into it, which is that they must be able to have a conversation, and send messages and files, et cetera.
+
+195
+00:25:35,141 --> 00:25:35,461
+Jake Herwaldt: Yes.
+
+196
+00:25:36,181 --> 00:25:38,201
+Nathan Bedford: That one is worth its own little digging into.
+
+197
+00:25:38,441 --> 00:25:43,861
+Jake Herwaldt: I had a full flow diagram we didn't talk about. That's communication. That I don't know if we need to, but.
+
+198
+00:25:44,401 --> 00:25:49,281
+Nathan Bedford: We can tell that was the one that they listed as a major pain point is the messaging, communication side of things.
+
+199
+00:25:49,341 --> 00:26:02,533
+Jake Herwaldt: And they said it needs to be like if, ooh, that would be a good question for us to ask them next one. Andy, this sounds like a thing you would do is be like, hey, if you can choose one feature, to be amazing. What's the future. 
+
+200
+00:26:03,153 --> 00:26:13,453
+Nathan Bedford: What's the second future that you're like? Like what's the thing you really want to make amazing? They started leaning into FSC mobile way more than I expected, and I feel like we led that. And then they ran with it.
+
+201
+00:26:14,153 --> 00:26:20,333
+Jake Herwaldt: Because I think just the pain point, you don't have a solution. We're not replacing a current solution, we're creating a solution.
+
+202
+00:26:20,593 --> 00:26:29,253
+Nathan Bedford: And what we saw, Vicky and Ellie going over at the end was really helpful, that I'm realizing that we are, we have the benefit of being outside the system to see, obviously it should be one system, guys.
+
+203
+00:26:29,413 --> 00:26:29,633
+Jake Herwaldt: Yeah.
+
+204
+00:26:29,753 --> 00:26:35,953
+Nathan Bedford: And they're so like, even Steve's on the ramp up with, maybe we shouldn't keep it inside of Salesforce.
+
+205
+00:26:36,273 --> 00:26:36,613
+Jake Herwaldt: Yeah.
+
+206
+00:26:36,733 --> 00:26:38,013
+Nathan Bedford: If that was good for me to see. 
+
+207
+00:26:38,393 --> 00:26:43,973
+Jake Herwaldt: they, yeah, cause he's been saying, that's not a scope, guys, you don't have to worry about that. Until now, he's like, well, maybe.
+
+208
+00:26:44,133 --> 00:27:13,645
+Nathan Bedford: I think it's starting to shift, yeah, okay. So then we got 31, processing orders, vendor must be able to click into order from pending fulfillment view and from link in email. Sure, so we'll be able to open it. See this view as a customer, vendor must be able to see this view as a customer. Vendor must be able to see this view as a customer. to see that the same view as customer here, that's like a concern. So you recap the purchase fields, customer name, POs, your date of strong use, the vendor must be able to click to confirm the order, what does that mean. 
+
+209
+00:27:13,745 --> 00:27:18,745
+Jake Herwaldt: That means the customer's going to want it, and the vendor's going to say, The vendor must be able to click confirm, yeah, that means yes.
+
+210
+00:27:19,085 --> 00:27:25,965
+Nathan Bedford: So is this the workflow? I didn't pay, I didn't follow this all the way. So like, the buyer's like, I want these things, I'm going to hit up all these vendors, vendors are like, cool, here's what we can offer.
+
+211
+00:27:25,965 --> 00:27:26,585
+Jake Herwaldt: Vendor's like, yes.
+
+212
+00:27:26,865 --> 00:27:29,985
+Nathan Bedford: And the buyer's like, good, I want this. The vendor's like, cool, I'll confirm it.
+
+213
+00:27:29,985 --> 00:27:32,605
+Jake Herwaldt: Yes, and then vendor finally adds tracking.
+
+214
+00:27:34,005 --> 00:27:41,905
+Nathan Bedford: Launches, email notifications, customer, period, and product, and it stops the timer. Oh yeah, so that's those, obviously the details on exactly what the timers are doing, what we're doing.
+
+215
+00:27:41,905 --> 00:28:17,669
+Jake Herwaldt: I think there's multiple timers here, too. Because there's like, my time to get confirmed that I ordered, like, as a vendor, I, because one timer, right, should be like my response time between things. Another timer should be, I guess it's not even a timer, we're just going to have timestamps on everything. But, But basically another one, Nate, is like the idea of going from vendor or buyer reach out to you to vendor finally said, yes, I will fulfill it versus I shipped it. Like that's different because I would want to know that stat of like how long from when you say, yes, I have it to shipping it.
+
+216
+00:28:17,829 --> 00:28:27,229
+Andrew Bailey: Yeah, because that will be different numbers. Some people will emphasize they'll gain it. You know, if it's gamified, they'll gamify it. They'll respond quickly to something because they would rather deal with it.
+
+217
+00:28:27,229 --> 00:28:29,749
+Jake Herwaldt: But they'd suck at shipping it because their shipping department sucks.
+
+218
+00:28:30,349 --> 00:28:31,509
+Andrew Bailey: Or, yeah, whatever.
+
+219
+00:28:32,989 --> 00:28:38,299
+Nathan Bedford: Good. So I'm just going to do the other one. Yeah, I'm going to do the other one. Chatter messages. I hate that name.
+
+220
+00:28:39,079 --> 00:28:41,179
+Jake Herwaldt: Their fancy email is garbage.
+
+221
+00:28:41,219 --> 00:28:47,519
+Nathan Bedford: What's that about? What's chatter? What's the chatter? The chatter bothers me. It kind of bothers me in that first sort of tune out.
+
+222
+00:28:48,359 --> 00:28:48,999
+Speaker 4: No, I love it.
+
+223
+00:28:49,099 --> 00:28:57,119
+Nathan Bedford: Once a sourcing record has been purchased, the vendor may still use EMA on that record, but it's guided to the PO record if messages are related to it or so.
+
+224
+00:28:57,399 --> 00:28:58,839
+Jake Herwaldt: EMA is their messaging system.
+
+225
+00:28:59,219 --> 00:28:59,699
+Nathan Bedford: That's chatter.
+
+226
+00:29:00,971 --> 00:29:31,081
+Jake Herwaldt: No, it's not. It's their own. Well, I asked that question. Oh, you did. Yeah. In fact, they even say it right now. Okay. I mean, I want to. Because EMA is their messaging for this system, but it might be chatter behind the scenes. It is chatter behind the scenes. It's Salesforce chatter behind the scenes. It certainly seems like it. It seems like that's an app. I guess everything's, everything's Salesforce, right? Yeah, I was thinking about that. Nothing's not. I think they have the capability to do this. Especially, it had app features in it, and I just don't think. Did you hear FMD pulled their. Yeah, I did. They pulled their.
+
+227
+00:29:31,201 --> 00:30:03,253
+Nathan Bedford: submission from this project. Were you hearing about that? No, no, no. He was talking to me. Yeah, that was a really, like, I'm starting to see, there might have, I'm curious how much that would change our bid. Basically, FMD, this is Steve saying that they were, Steve's name? No, Paul. They realized they were going to overextend it if they took this, so they really wanted it, but they decided. They pulled it out. They pulled it out. I asked, were they really, like, generally, I was trying to say, were they capable of doing this? Because they're such a Salesforce. and they think really highly of Jeff.
+
+228
+00:30:03,593 --> 00:30:03,993
+Nathan Bedford: Jeff.
+
+229
+00:30:04,453 --> 00:30:07,873
+Jake Herwaldt: I've heard Paul feel like he's very connected with them.
+
+230
+00:30:07,993 --> 00:30:28,033
+Nathan Bedford: Paul, yeah. I think Paul has a real connection to them. But Steve is like super, still highly viewing Jeff, who's their director. And I looked at his LinkedIn, he talks all the way I talk, honestly, about like the things that motivate him. I hope we connect well. But that helped me realize, oh, I wonder if that was like a significant shift. He lives in Pennsylvania, and what did the guy find. 
+
+231
+00:30:29,013 --> 00:30:44,703
+Jake Herwaldt: Oh, and just know, tomorrow when we talk on this convo, that that's the lens that we're talking to F&B, is like they wanted to do this, and they chose not to. So they're giving up on the lead, basically. So just be sensitive, basically.
+
+232
+00:30:45,263 --> 00:30:47,843
+Nathan Bedford: They know it's not perfect.
+
+233
+00:30:48,083 --> 00:31:02,605
+Jake Herwaldt: It doesn't sound like they were handcuffed to Salesforce, like they didn't want to be handcuffed. They would've been okay not. They wanted to rebuild it, but they are choosing to lose the opportunity. So we need to be sensitive. I mean, Paul didn't really say that, but...
+
+234
+00:31:02,605 --> 00:31:09,365
+Nathan Bedford: It does, I mean, you guys don't think I'm reading this wrong, but it makes me wonder now, oh, was Steve kind of joking when he was saying it's AI, these guys aren't our first.
+
+235
+00:31:09,365 --> 00:31:09,925
+Jake Herwaldt: Yeah, yeah, yeah.
+
+236
+00:31:10,405 --> 00:31:13,565
+Nathan Bedford: It doesn't matter too much, we got it, but I'm just curious if...
+
+237
+00:31:13,565 --> 00:31:14,825
+Jake Herwaldt: Not fully wrong, maybe.
+
+238
+00:31:15,045 --> 00:31:20,205
+Nathan Bedford: I wonder if that was, yeah, like, they've had, these guys worked at Block for a while. They had a lot of reasons to...
+
+239
+00:31:20,205 --> 00:31:21,265
+Jake Herwaldt: Yeah, if you would choose them...
+
+240
+00:31:21,265 --> 00:31:29,655
+Nathan Bedford: There was a lot of reasons to potentially choose them. Like, the one challenge I would say is you want an outside perspective. These guys have been living in Salesforce for so long, I don't think they can provide what we didn't expect.
+
+241
+00:31:29,955 --> 00:31:36,535
+Andrew Bailey: There's this part of me that's like, listen, how many times do I have to look at this crappy system for me to be like, well, you aren't here.
+
+242
+00:31:37,085 --> 00:31:41,645
+Nathan Bedford: No, that's my thought. I know you had years, but I think if we were here for years, we would have probably made it better.
+
+243
+00:31:43,965 --> 00:31:55,985
+Andrew Bailey: In months, in months, I made a much uglier system much better. And I'm not, this isn't a comparison, this is just like, meh. I was going to be sensitive either way because you're a person and I care about you. I'm not going to be sensitive because...
+
+244
+00:31:56,345 --> 00:31:59,845
+Nathan Bedford: Yeah, I agree. Okay, so I'm almost done with the must-haves.
+
+245
+00:31:59,999 --> 00:32:00,879
+Andrew Bailey: Scratch that from the recording.
+
+246
+00:32:01,559 --> 00:32:09,589
+Nathan Bedford: I'll be scrubbing this heavily. What are you doing? I thought it was tape.
+
+247
+00:32:10,629 --> 00:32:13,429
+Jake Herwaldt: It was. It was and then you started pulling it.
+
+248
+00:32:13,509 --> 00:32:24,229
+Andrew Bailey: I literally was like, I'm going to do them a favor. I'm going to do them a favor and I'm going to take this tape off it for them. It's a monstrosity.
+
+249
+00:32:24,809 --> 00:32:35,619
+Nathan Bedford: Damn it. When your kids do this with less grace we'll know exactly why. My kids would do that too. What were you taking? It does look like tape on it. I was like, who put tape on it. 
+
+250
+00:32:35,659 --> 00:32:37,359
+Jake Herwaldt: I hate tape on windows.
+
+251
+00:32:37,899 --> 00:33:04,861
+Nathan Bedford: I'm going to fix this for them. Okay, notifications. I'm just going to read this out loud. You must receive a notification via email. Is this all about receiving them for all the things we know? Click through. Yeah, many of these are duplicated. This is all about receiving all the notifications when you need it. Vendors must know it's a warranty. Why now? And be prompted to provide that to them. All that just means they'll tell us exactly what to put in the email list.
+
+252
+00:33:04,921 --> 00:33:11,141
+Jake Herwaldt: This will be, I know we've been playing with emails a lot, Nate, but this will be us, we'll want to really tighten it up.
+
+253
+00:33:11,341 --> 00:33:12,941
+Nathan Bedford: I was going to say, what does that mean. 
+
+254
+00:33:13,101 --> 00:33:19,501
+Jake Herwaldt: Well, I just feel like we've tried out a couple that were like, emails suck, but you found something recently that was really nice.
+
+255
+00:33:19,721 --> 00:33:26,941
+Nathan Bedford: No, you found one in the last couple months. We've been playing with them because I've been experimenting, but when I was at Linko, I moved us from SendGrid to Postmark because they were so good.
+
+256
+00:33:27,201 --> 00:33:31,981
+Jake Herwaldt: No, but I mean like using React instead of needing to do like all the weird HTML and all that garbage.
+
+257
+00:33:31,981 --> 00:33:32,981
+Nathan Bedford: Oh, you mean the bodies of them.
+
+258
+00:33:32,981 --> 00:33:36,761
+Jake Herwaldt: Yeah, yeah, sorry, that's what I meant. Not actually, not infrastructure.
+
+259
+00:33:37,061 --> 00:33:37,801
+Nathan Bedford: Yes, no, I think.
+
+260
+00:33:37,801 --> 00:33:43,121
+Jake Herwaldt: But I mean styling because you don't want it to look like garbage and you want it to look good on mobile or your iPad. No, you're right.
+
+261
+00:33:43,181 --> 00:33:44,941
+Nathan Bedford: There's libraries and I've even thought this really.
+
+262
+00:33:45,101 --> 00:33:46,881
+Jake Herwaldt: You found something, though, that played nice with React.
+
+263
+00:33:47,141 --> 00:33:47,501
+Nathan Bedford: I did, yeah.
+
+264
+00:33:47,761 --> 00:33:48,281
+Jake Herwaldt: Oh, okay.
+
+265
+00:33:48,401 --> 00:34:05,983
+Nathan Bedford: Yeah, it was actually, I think it was recently. Either way, the truth is we probably want, the kinds of things that they might want to change frequently, we should make it easy for them to change. Like this is typically how you do this. Oh. Like we might eventually, eventually met an admin portal, they can go in and make very limited time.
+
+266
+00:34:06,143 --> 00:34:07,183
+Jake Herwaldt: CRM almost, yeah.
+
+267
+00:34:07,583 --> 00:34:18,303
+Andrew Bailey: Wait real quick, what was that new email system that had a really nice marketing website that you tried, but you were going to Postmark? Recent? Yeah, over the last year.
+
+268
+00:34:18,543 --> 00:34:29,983
+Nathan Bedford: Yeah, recent. Recent, yeah, you threw it my way. It was on my commenter app. They're good, Postmark has the best in class delivery. Recent is a bit cheaper. They're both good, but Postmark, that's the two that are probably good.
+
+269
+00:34:29,983 --> 00:34:32,863
+Andrew Bailey: And they're both, they're like their API for everything.
+
+270
+00:34:33,063 --> 00:34:43,643
+Nathan Bedford: Yeah, the biggest thing with Postmark is they have longer audit logs out of the box. So it's really nice to go back to, even if it didn't get delivered two weeks ago, I can see that, I can see more exactly why.
+
+271
+00:34:44,163 --> 00:34:47,343
+Andrew Bailey: Why did Recent do anything that made them why commenter. 
+
+272
+00:34:47,863 --> 00:34:51,843
+Nathan Bedford: They were more developer-first, that's what, they're like Stripe for email.
+
+273
+00:34:52,303 --> 00:34:52,663
+Andrew Bailey: Gotcha.
+
+274
+00:34:52,743 --> 00:35:03,025
+Nathan Bedford: And Postmark makes it easy for you to have templates inside of them. Postmark, why I like them is they put a ton of effort into, Cleaning their IP addresses, keeping them clean, keeping...
+
+275
+00:35:03,025 --> 00:35:03,585
+Jake Herwaldt: So it delivers.
+
+276
+00:35:03,725 --> 00:35:04,865
+Nathan Bedford: So delivery is just like...
+
+277
+00:35:04,865 --> 00:35:10,345
+Andrew Bailey: So there's a little bit more professional experience versus like quick app experience.
+
+278
+00:35:10,465 --> 00:35:32,275
+Nathan Bedford: Let's put it this way. Postmark on their website, they track their delivery to all the major platforms live. They say, in the last hour, we delivered two and a half seconds to Gmail. And then they show you the five top platforms. They track that metric. All right. I like that. That's sexy. Yeah. Okay. Then we have should haves. Frequently asked questions tab on. That's a good example where I'd love to make that frequently asked questions thing.
+
+279
+00:35:32,975 --> 00:35:33,735
+Speaker 4: That's not a thing.
+
+280
+00:35:33,995 --> 00:35:38,115
+Nathan Bedford: They can pull you up. Not a thing, ideally. But if they're going to change it, I don't want them to have to go through us.
+
+281
+00:35:38,335 --> 00:35:39,915
+Andrew Bailey: Yeah. That should be a...
+
+282
+00:35:39,915 --> 00:35:42,455
+Nathan Bedford: It's normally a CMS kind of thing. Is that right? Yeah.
+
+283
+00:35:43,075 --> 00:35:43,395
+Jake Herwaldt: CRM. 
+
+284
+00:35:43,755 --> 00:35:47,445
+Nathan Bedford: CMS. Content management stuff. Yeah. But we'll see what they have.
+
+285
+00:35:47,865 --> 00:35:50,115
+Andrew Bailey: We've done a ton of that with stuff.
+
+286
+00:35:50,535 --> 00:36:09,799
+Nathan Bedford: Vendors should be able to view their shopping cart from portal view. These feel like low-hanging fruit for even phase one. But let me read. Actually, they have descriptions for all these. Vendors should be able to view their shipping cut-off times from the portal view in SW on the home page so they can request edits.
+
+287
+00:36:09,899 --> 00:36:14,089
+Jake Herwaldt: I don't fully know what that means. I think, does that mean the like, yeah, I don't know.
+
+288
+00:36:14,189 --> 00:36:19,449
+Nathan Bedford: I think it's just a little bit of information that they want to flow through. This is a good example of high business value but low debt effort, I think.
+
+289
+00:36:19,529 --> 00:36:19,809
+Speaker 4: Yeah.
+
+290
+00:36:20,819 --> 00:36:32,979
+Nathan Bedford: I'll put it as phase one discuss. The ability for vendors to view all required items that are connected to a single record. We've talked about that one quite a bit. So, not just, this is the hero kit thing that Sam talked about. The question is, is that phase one or phase two? Because it should have.
+
+291
+00:36:33,159 --> 00:36:35,159
+Jake Herwaldt: The ability for vendors to view all records.
+
+292
+00:36:36,299 --> 00:36:44,859
+Nathan Bedford: Right now, if I have a record with five different items, you will get five different requests. And you might not be able to see how they all connect together to the same request.
+
+293
+00:36:44,919 --> 00:36:46,199
+Jake Herwaldt: Oh, I feel like we should.
+
+294
+00:36:46,279 --> 00:36:47,859
+Nathan Bedford: I feel like we should. Yeah, I think so too.
+
+295
+00:36:47,959 --> 00:36:50,039
+Jake Herwaldt: Because that's a UX thing, I feel like, right. 
+
+296
+00:36:50,079 --> 00:36:53,579
+Nathan Bedford: I don't think there's, I think if we're building from scratch, it'll be easier to build it that way.
+
+297
+00:36:53,719 --> 00:36:54,799
+Jake Herwaldt: Yeah, then we'll change it.
+
+298
+00:36:55,319 --> 00:37:29,221
+Nathan Bedford: Yeah, I think. All right. Legal agreements to... For buyers, let's see, so not a debt requirement. Legal agreements for buyers, vendors, some sort of terms and conditions. This is definitely a phase two. This is like if they want their vendors to be able to upload their terms and conditions and not mandate. Vendors should be able to cancel a PO if they have no longer fulfilled. We just talked about that, right? This will auto-close stages and status to cancel. You must issue a notification to customers that it was canceled.
+
+299
+00:37:29,941 --> 00:37:35,461
+Nathan Bedford: Was that pitched as a phase one, phase two? That's a new feature, by the way. Should we put that as, what do you guys think. 
+
+300
+00:37:35,561 --> 00:37:40,991
+Jake Herwaldt: That's what auto-closed. I mean, they should be able to do that.
+
+301
+00:37:41,011 --> 00:37:42,411
+Nathan Bedford: I don't know why we wouldn't just do that.
+
+302
+00:37:42,791 --> 00:37:48,611
+Jake Herwaldt: The problem is, can Salesforce support a canceled PO? Like, I don't know.
+
+303
+00:37:48,651 --> 00:37:50,891
+Nathan Bedford: I don't know. I don't know how that works. I'll say phase one.
+
+304
+00:37:50,911 --> 00:37:55,191
+Jake Herwaldt: Like, why else hasn't this been a feature? It's probably because.
+
+305
+00:37:55,331 --> 00:38:06,773
+Nathan Bedford: I think, honestly, it's a lower priority thing. It's my guess, but you're right. It might be complicated. Last one in this list is if a vendor does not respond to an SRT within seven days, the record should automatically move to the tree.
+
+306
+00:38:06,773 --> 00:38:07,313
+Jake Herwaldt: I hate this.
+
+307
+00:38:07,593 --> 00:38:08,973
+Nathan Bedford: They put this everywhere.
+
+308
+00:38:11,023 --> 00:38:34,523
+Jake Herwaldt: I hate this because I hate stuff auto-moving. If you want it to go into, like, no response or, like, hide it or, like, whatever, archive, like, you should archive it. I don't like the idea of personally, as a buyer, my parts, like, this is for a buyer and a vendor. This is talking about the vendor. But I don't like the idea of what happened to that order. Oh, it just disappeared. It's been seven days.
+
+309
+00:38:34,723 --> 00:38:37,823
+Andrew Bailey: I wonder if they have to go into it to do that.
+
+310
+00:38:37,883 --> 00:38:39,283
+Jake Herwaldt: No, she wants it auto.
+
+311
+00:38:39,483 --> 00:38:45,423
+Andrew Bailey: I know, I know, I know. But the current state is in order for the dark head, they have to go into it rather than just being a button.
+
+312
+00:38:45,483 --> 00:38:53,193
+Jake Herwaldt: Yeah, like a market archive. I thought it was possibly already. Oh, maybe not. And he finishes Apple.
+
+313
+00:38:54,193 --> 00:39:14,595
+Speaker 5: And the peanut hole jar of peanut butter. All right. And now you're. your ankle so you can just you're going to your quick this is bulking season i'm gonna do a dirty bulk and i'll get very strong i'm up 10 pounds break of the tailbone so you guys need anything.
+
+314
+00:39:15,065 --> 00:39:45,545
+Jake Herwaldt: right now we're going through sam's long list of requirements okay just to make sure we've covered all of those items so and then some of the ones that we need more clarification on um to make sure that we feel good about phase one phase one's our focus and then post this i'm hoping that we can talk through what do we need to do to prepare for the fmd conversation for tomorrow so based on what we know because there's certain features in here where it's like hey it would be nice because she gave us must have nice to have could have type things some of these to us were like oh.
+
+315
+00:39:45,545 --> 00:40:09,619
+Jake Herwaldt: that's so easy like canceling a po that's a button that's great but for fmd it's like that that must not be a thing that can happen today and is that because canceling a po is difficult and if that's so like we need these are conversations we need to start having, FMD is like from our stamp side a lot of this is low effort but that's because we're just going to be saying that hey Salesforce do the thing yeah and a lot.
+
+316
+00:40:09,619 --> 00:40:20,739
+Speaker 5: of that cancel field will have no interaction with us was about 50% the volume is not we're not in control of the December control all right I'll be in here and so four o'clock okay.
+
+317
+00:40:20,739 --> 00:40:54,849
+Nathan Bedford: okay I think listen then FMD is what I'm hoping okay let's do this real quick for you so this is on the SWP side of things must-haves I'm gonna do this one. is worth saying must-have fire must be able to be must be guided through the process like an on-screen tutorial I'm a little surprised with that but I guess I.
+
+318
+00:40:54,849 --> 00:40:58,469
+Nathan Bedford: shouldn't be shocked on-screen tutorials and he built those before yeah there's a lot of yeah there's a lot of people.
+
+319
+00:40:58,909 --> 00:40:59,989
+Jake Herwaldt: yeah and there's.
+
+320
+00:41:00,031 --> 00:41:04,051
+Andrew Bailey: so many new ones all the time. We tried. Better than there were in 2018 with.
+
+321
+00:41:04,051 --> 00:41:10,251
+Jake Herwaldt: Linko. Yeah. There was going to be one we were using for HSA. Driver? Yeah.
+
+322
+00:41:10,631 --> 00:41:14,091
+Nathan Bedford: Multiple users under one account. That one we just need to talk about.
+
+323
+00:41:14,471 --> 00:41:20,991
+Jake Herwaldt: Are you still thinking clerk or not clerk? Because clerk has organizations out of the box.
+
+324
+00:41:20,991 --> 00:41:24,892
+Nathan Bedford: It probably won't be clerk because of some of their specific requirements around security.
+
+325
+00:41:25,292 --> 00:41:27,771
+Andrew Bailey: Isn't there a new company that's coming or are you looking at an older one. 
+
+326
+00:41:27,771 --> 00:41:34,711
+Nathan Bedford: No, the one when I built the tracking for the audio thing, that was using WorkOS, which is one I probably would.
+
+327
+00:41:35,191 --> 00:41:38,091
+Jake Herwaldt: Does it have orgs out of the box? It does have orgs.
+
+328
+00:41:39,471 --> 00:42:08,663
+Nathan Bedford: Do we not want to get handcuffed? This actually is the one where we need, I'm going to see, I'm going to put a discuss on that. So with Tom, with Mark specifically. Because this is all super easy if they, if we don't have to get into individual single sign-on connections with each org. Which I know they want in the future, but it's not right now. Like, you know, like with, Yeah, it's SAML or it's OpenID, but they're both like, they're auth providers, and there's some pricing considerations.
+
+329
+00:42:12,444 --> 00:42:40,513
+Nathan Bedford: There's so few users. Yeah, right, that's part of the problem is there's so few users that, and they're telling them look at, like WorkOS makes it really easy, but they charge for the Oregon operating system. If you use the custom SAML options. Anyways, I think just having that discussion probably isn't, I'll ask them from a feature perspective, unless a lot of this is in the voice chat.
+
+330
+00:42:42,334 --> 00:42:51,074
+Jake Herwaldt: I've done my things for Tina to do, but we didn't have our sync, so we're going to see if, it's going to get done this week. If it's not already done, let me tell you.
+
+331
+00:43:09,556 --> 00:43:16,716
+Nathan Bedford: So they have, I'll put this down, search by part number or description and I thought they made a big effort of saying we shouldn't let them search by description.
+
+332
+00:43:18,306 --> 00:43:19,946
+Andrew Bailey: Yes, do not let them search by description.
+
+333
+00:43:20,186 --> 00:43:27,946
+Nathan Bedford: That's what they said. I'm going to trust they know the users better. I'm like why wouldn't you want that ability? Unless it gets in the way, which maybe it does.
+
+334
+00:43:28,526 --> 00:43:36,426
+Andrew Bailey: I think that we can start with that. What they don't want is that search, they have a separate field that searches by description currently.
+
+335
+00:43:37,596 --> 00:43:38,616
+Nathan Bedford: That's what they don't want.
+
+336
+00:43:38,616 --> 00:43:49,776
+Andrew Bailey: Yeah, do you remember the old dealer circle? It was like 17 search fields. Oh, yeah. So they don't want that, but I think they wanted just a fuzzy search ID.
+
+337
+00:43:51,096 --> 00:43:52,216
+Nathan Bedford: Okay, let's go with that.
+
+338
+00:43:54,406 --> 00:43:56,726
+Andrew Bailey: We can put a secret control K in there.
+
+339
+00:43:57,646 --> 00:44:21,770
+Nathan Bedford: I think we probably shouldn't anyways. I just think there's so many things too that you're gonna blow their mind with just like this fuzzy search that yeah I'm hoping like we'll have to regulate the thing yeah it'd be easy that's why I'm curious what things they really want to go deep in so we make sure you build their minds on that one yeah like.
+
+340
+00:44:21,770 --> 00:44:39,180
+Jake Herwaldt: resetting their passwords like that one we should probably blow their mind on that one that's the problem if you if you say one feature to blow their mind they're gonna like say something you know all right assuming we get what's your second feature can you try again yeah yeah I'm realizing there's a lot of.
+
+341
+00:44:39,180 --> 00:44:53,460
+Nathan Bedford: requirements here that we'll have to extract out that aren't in here this doesn't really even talk yet about like there actually is it probably an overlap there's a difference between this and the original list this isn't talking about any synchronization of Salesforce which we know is yeah it's.
+
+342
+00:44:53,460 --> 00:44:56,660
+Jake Herwaldt: just assuming I'm behind this right which is if we're actually building out.
+
+343
+00:44:56,660 --> 00:45:08,652
+Nathan Bedford: like the menu we're gonna have to have like like when you when you install you're gonna have to have like like when you install, something on your computer and it's like, oh, it's just taken up this much. That's what is going to happen with a Salesforce integration. Some things are just, we have to do them. Here's what's left in the menu.
+
+344
+00:45:08,712 --> 00:45:26,252
+Jake Herwaldt: And I think that's kind of, unfortunately, our job, probably, is to get with FMD and say, okay, what out of the box can we just, like, do you assume FMD right now just has these routes and stuff that they can then expose to us? Or do you think that this is all brand new work they're going to have to do. 
+
+345
+00:45:27,492 --> 00:45:31,552
+Andrew Bailey: Do you think that they're going to need, we're going to need from them. 
+
+346
+00:45:31,612 --> 00:45:36,392
+Jake Herwaldt: Everything. Anything we're doing, it needs to be, like, hitting Salesforce.
+
+347
+00:45:37,012 --> 00:45:56,512
+Andrew Bailey: No, because it's separate. Their integration needs to hit Salesforce eventually. But we're going to have, we own the customer data. We own the vendor data. We own the master parts list. It's our quote for the external piece because it is eventually being fully pulled. Like, there isn't really that much.
+
+348
+00:45:57,462 --> 00:46:03,064
+Jake Herwaldt: Yeah, but. If your vendor. is blocked, that needs to trigger a Salesforce thing.
+
+349
+00:46:03,324 --> 00:46:03,684
+Andrew Bailey: Sure.
+
+350
+00:46:05,044 --> 00:46:21,474
+Jake Herwaldt: If you are a vendor and you are asking block for a thing, that needs to trigger Salesforce. Anything that hits block, either vendor or buyer, needs to call Salesforce because they don't currently use the system. Do you get what I'm saying. 
+
+351
+00:46:21,594 --> 00:46:29,684
+Andrew Bailey: Yeah, I do. But is that, is making, maybe that's something, a distinction we make is that we can actually get a quicker external.
+
+352
+00:46:29,684 --> 00:46:49,874
+Jake Herwaldt: And then there's these questions of like cleaning the parts list. Like, is that an Avoda action or is that, hey, you have someone. That's a good example of something we need to call out. Yeah, because like if you tell us, there's one assumption of you give us a list. That's low effort. If you are now asking us to learn how to clean your data, that's a lot more effort.
+
+353
+00:46:49,974 --> 00:47:04,806
+Nathan Bedford: Yeah. We have 45 minutes before we leave Steve. Okay. And so to answer the, real quickly, Salesforce, think about it more like we're not going to have, it's not going to expose APIs. It's just Salesforce is a big bucket of data that you can subscribe to.
+
+354
+00:47:05,816 --> 00:47:12,176
+Jake Herwaldt: Database tables. Okay, and so and hit with and hit with requests. Oh, so it's just one thing.
+
+355
+00:47:12,176 --> 00:47:21,456
+Nathan Bedford: I think it's primarily crud actions on database tables. Oh That's like that's really there's probably some workflows they can put in the middle of some of them Yeah.
+
+356
+00:47:21,456 --> 00:47:27,556
+Jake Herwaldt: But we're just not hoping that they're looking at these like looking at changes to trigger some of their magic.
+
+357
+00:47:27,556 --> 00:47:48,276
+Nathan Bedford: Well that and that's where we need to find out precise I believe the way that Salesforce is built out is that you have like kind of listeners for database to changes So wherever it's changed it triggers up a workflow if it means, Confirms whether I'm right or whether there is individual API created for specific things I guess that probably it won't matter a ton to us either way in the sense that we'll just call something.
+
+358
+00:47:49,376 --> 00:47:51,216
+Andrew Bailey: I'm trying to imagine how it was built.
+
+359
+00:47:51,216 --> 00:48:12,150
+Nathan Bedford: But yeah, certainly when it comes to us, you know, if I have changes we're subscribing to a Salesforce event, And then If I Just have a we push things back, of the intercept to do their workflow. But it's a very self-sourced question. So, auto-archiving requests, that's your favorite one. Cool. I hate that one. Do you, okay, fine.
+
+360
+00:48:14,040 --> 00:48:20,160
+Jake Herwaldt: Am I crazy in that? Do you like the idea of stuff moving by itself? I think what I'm- Do you like your emails auto-archiving. 
+
+361
+00:48:21,200 --> 00:48:49,510
+Nathan Bedford: Is, it depends on what it's there for. Like, if it's something that, if I know that the only reason they ever show up there is if someone just forgot to close it, then I don't mind. So it totally depends on the work. But I think for people that are intentional about their actions, they're like, yeah, I left it there for a reason, don't do that. So, it tells me more about how they process. All right, let's go. Click and revert to see all the requests there. And let's them see that one of those parts.
+
+362
+00:48:49,510 --> 00:49:03,242
+Speaker 4: is in my breath. Request to see all S or T. to do a quick select of choice.
+
+363
+00:49:09,082 --> 00:49:29,302
+Nathan Bedford: There's nothing in here about an audit journal that we'll need to have, that they should have. So there's probably the things they said they want, and then we'll propose, we'll say here's the things that are the baseline features, and we'll say here are the things that really you should have. Like the ability to see a full audit list of everything that happened on a rec order. That's probably there on the right side already, but we'll need to add that.
+
+364
+00:49:29,402 --> 00:49:31,262
+Jake Herwaldt: They didn't actually ask for it. No, it's not. Yeah, they said.
+
+365
+00:49:31,262 --> 00:49:35,202
+Nathan Bedford: they'd put it there. I saw something on the right side that was somewhere. But you can't.
+
+366
+00:49:35,202 --> 00:49:45,132
+Jake Herwaldt: like when it leaves and comes back, right? Anything like that? Because that's what Sam was freaking out about, that she went to some place, a parts master.
+
+367
+00:49:45,132 --> 00:49:49,612
+Andrew Bailey: or something. Can you explain to me again? The idea, a timeline.
+
+368
+00:49:49,612 --> 00:50:19,834
+Jake Herwaldt: of a part. You know how you said like parts over everything? Sam was saying you cannot right now in Salesforce, there's not like one screen to see what has all... happen to that part over its life yeah yeah because like imagine you it's you quoted it you bought it you shipped it it got rma'd back you fixed it you shipped it to some new customer there's nowhere to like you can look up that part and just see that the story um i just went.
+
+369
+00:50:19,834 --> 00:50:51,534
+Nathan Bedford: on flag i'll upload this or google drive when i'm done so we can mark it up um but easy logging fruit for ai advantage during the chatter you shouldn't be able to upload a po so they just have a band instead of don't upload views obviously we use a little bit of a scan and say it's a little bit maybe you shouldn't do this yeah it's a common user mistake and currently, um breaks the entire connection so i don't know what that means but we won't do that, um yeah make sure that everything else is your record obviously um editor so see.
+
+370
+00:50:51,534 --> 00:51:09,026
+Nathan Bedford: carton doing so much confirmed quantity and purchase very workflow specific. i think just there's so many of these i'm going to skip over it because we know it just means we'll have to talk with you about how you want what you want to do minor stuff like that though.
+
+371
+00:51:09,026 --> 00:51:20,266
+Jake Herwaldt: me like is there certain things we need to have the customers opt into if we're going to process their document like i'm even thinking like are those things we need to put on our radar to have.
+
+372
+00:51:20,266 --> 00:51:55,246
+Nathan Bedford: them we should confirm it because somebody should confirm that it's not breaking anything but i we should confirm it yeah yeah i've not seen that be a problem yet but i think we should, do this probably is where if we get that draw to sign off we'll get lots of help on that so see checkout page must include list of tncs for purchasing parts get recap check out this is all a checkout page just your basic checkout page okay then there's the options we've already seen hard copy po manual set up guys that from a buyer's standpoint was yeah.
+
+373
+00:52:02,920 --> 00:52:05,780
+Jake Herwaldt: In parentheses, you should put, this is a sticky note.
+
+374
+00:52:15,300 --> 00:52:21,780
+Nathan Bedford: One thing that's helpful with this is maybe he's trying to help us with the did we or didn't we satisfy David? Yeah, yeah.
+
+375
+00:52:26,730 --> 00:52:35,420
+Speaker 4: This is your complete QR code attachment. Thank you. This issue came back from a page that's like a court history.
+
+376
+00:52:37,260 --> 00:52:40,180
+Jake Herwaldt: Are you guys feeling like we need to adjust our budget for phase one. 
+
+377
+00:52:41,270 --> 00:52:42,090
+Nathan Bedford: I don't, I would.
+
+378
+00:52:42,470 --> 00:52:43,650
+Jake Herwaldt: Phase one is too early.
+
+379
+00:52:43,650 --> 00:52:48,990
+Nathan Bedford: It's too early. No, I mean, obviously, if anything, it would go down. So I'd say we won't put stuff in.
+
+380
+00:52:50,310 --> 00:53:05,482
+Andrew Bailey: Yeah, I would rather use the budget and expand the breadth of impact. I'm excited to show how much we are capable. I'm excited to have the space to like.
+
+381
+00:53:05,482 --> 00:53:15,072
+Jake Herwaldt: create a design system, have design reviews, go through like mocks and then where we just don't really normally have that budget. Last one in this category.
+
+382
+00:53:15,592 --> 00:53:31,162
+Nathan Bedford: customers be able to initiate warranty replacement or off the original work, that's like a yes or no but we don't really know what that that's going to be the whole process. It's underspecified I would say. We can easily initiate that what does it mean once you click that button? What happens after you click that button. 
+
+383
+00:53:31,972 --> 00:53:46,922
+Jake Herwaldt: Oh yeah because they talked about a drop-down of you need to be able to say how long it can warranty for and then they like the idea of you coming back in and being like I want to enact the warranty but like but then what. 
+
+384
+00:53:47,522 --> 00:54:01,564
+Nathan Bedford: Yeah yeah that's okay so I put that as a phase one discuss because I think you need to know be able to initiate is one thing but that's what's one funny is nothing else that's in this list is and here's what the warranty process is supposed to do. So we're super detailed in all the other questions. This just says, kick it off.
+
+385
+00:54:02,684 --> 00:54:14,954
+Andrew Bailey: Yeah, I guess that would be, the vendor would have a record that basically said, you know, a warranty has been triggered on this part, and it would create a new interaction.
+
+386
+00:54:16,884 --> 00:54:47,474
+Jake Herwaldt: And do you think they ever plan on being like the middleman, like Amazon is with deliveries, where it's like, hey, my package says it was delivered, but it never showed up, and then Amazon will, like, refund you? Like, do they plan on doing that kind of stuff, where it's like, hey, I wanted a warranty, but your vendor's being a jerk. And it's like, well, you opted into that vendor. That's the other weird thing, is like the current system of, like, an onboarding a vendor or a supplier. Like, say I'm a new vendor.
+
+387
+00:54:47,954 --> 00:54:55,494
+Jake Herwaldt: How do I get all of your buyers to now know that I'm available on this platform? Can you put that actually as a question. 
+
+388
+00:54:55,594 --> 00:54:55,974
+Nathan Bedford: What was it. 
+
+389
+00:54:55,974 --> 00:55:15,326
+Jake Herwaldt: If you're a new vendor or a new buyer, how do I, when I add... am added to the system how do I notify all buyers that I'm now a new vendor on the scene you know what I mean because you have to tell us who your preferred vendors are but what if I just don't know who you have in your system yeah I.
+
+390
+00:55:16,086 --> 00:55:18,846
+Nathan Bedford: wonder if since they said the small community they have like outside of this.
+
+391
+00:55:18,846 --> 00:55:22,246
+Jake Herwaldt: process means oh that's right yeah that's true they might just be like it's.
+
+392
+00:55:22,246 --> 00:55:52,716
+Nathan Bedford: the 12 people you might just order pizza people like Steve did like that's so smart your classic sales guy yep okay so more if the customer let's see the, customer doing indicated the purchase but process the order outside of the portal that's out of the portal this is probably the admins of currently customers customer has access and it has to add SRC to cart and check out then requiring them to upload a PO and submit many large hospitals have completely separate teams or automated systems that will generate the PO and send them we.
+
+393
+00:55:52,716 --> 00:56:05,420
+Nathan Bedford: need a solution to allow for us to sell information but not require the sending of the PO to the players so there's I'm reading that as a, We need a little bit more info, but in general, there's some nuances to the PO and the checkout process.
+
+394
+00:56:05,640 --> 00:56:15,540
+Jake Herwaldt: Basically, just like, let me submit without a PO. Yeah, it's like... But that seems like it's a person-specific. That sounds like that's a vendor or a buyer-specific thing.
+
+395
+00:56:15,740 --> 00:56:18,940
+Nathan Bedford: This is under should have, so we could mark it as phase two unless they want to bring it in.
+
+396
+00:56:19,690 --> 00:56:27,130
+Jake Herwaldt: That's why I think that we should keep a bucket of things that we say are phase two, that if we have time, we pull in.
+
+397
+00:56:27,410 --> 00:56:36,910
+Andrew Bailey: Yeah, the question would be, so if we don't do a phase one, it just means that there's some customer who does the PO and then this thing sitting out there in the big deal.
+
+398
+00:56:37,070 --> 00:56:56,280
+Jake Herwaldt: Which is how they currently get, because I feel like what you do is you create an ability to have a certain special buyer who's not required to bring in a PO. Yeah, I guess. Dude, we need to talk a whole lot about admin.
+
+399
+00:56:57,780 --> 00:56:58,540
+Nathan Bedford: Like as in like...
+
+400
+00:56:58,540 --> 00:57:06,892
+Jake Herwaldt: Admin within this. within this tool admin within like they don't they don't define that stuff at all we just glaze over all of that yeah.
+
+401
+00:57:06,892 --> 00:57:08,352
+Nathan Bedford: which right now.
+
+402
+00:57:08,352 --> 00:57:10,432
+Jake Herwaldt: everything they do is in salesforce they now.
+
+403
+00:57:10,432 --> 00:57:11,292
+Nathan Bedford: no it's true.
+
+404
+00:57:11,292 --> 00:57:11,932
+Jake Herwaldt: not even.
+
+405
+00:57:11,932 --> 00:57:21,832
+Nathan Bedford: like even what those look like I think yeah part of that I'm remembering like these in-person meetings are great for fast bandwidth communication but we're going to have follow-ups next week.
+
+406
+00:57:21,832 --> 00:57:22,332
+Speaker 4: yeah yeah yeah.
+
+407
+00:57:22,332 --> 00:57:52,212
+Nathan Bedford: and some of that will be what are all the master data tables that you have in salesforce that feed into this like vendors what should a vendor screen look like we'll have to reproduce it you know what is your capabilities, like you have to add new capabilities you have to track whenever they change all those admin portal pages, that's it for I'm going to upload this but that's it for what we had you need to get out of it so it doesn't yell yeah, we got about half an hour before I think yep.
+
+408
+00:57:52,792 --> 00:57:58,482
+Jake Herwaldt: do we want to talk about, FMD with him, or is that just a five minute combo are you thinking.
+
+409
+00:57:58,902 --> 00:58:05,624
+Nathan Bedford: um the, That's like just seeing what he, I mean, asking what he's essentially expecting tomorrow to cover. Is that what you're thinking. 
+
+410
+00:58:06,754 --> 00:58:15,524
+Jake Herwaldt: I want to, I want to just go in with a plan.
+
+411
+00:58:15,784 --> 00:58:17,404
+Andrew Bailey: They said we were heading shoulders above.
+
+412
+00:58:19,424 --> 00:58:23,584
+Nathan Bedford: That was probably before FMD pulled out. Are you talking about FMD as in what's the point of tomorrow's meeting. 
+
+413
+00:58:23,744 --> 00:58:32,244
+Jake Herwaldt: I just want to go in with a plan to make sure that when we talk to FMD, mostly you, Nate, are like, here's all the, like, butt sniffing.
+
+414
+00:58:33,344 --> 00:58:35,744
+Nathan Bedford: Yeah, that's what I like to do.
+
+415
+00:58:35,744 --> 00:58:49,394
+Jake Herwaldt: It's like dogs, you know, they just sniff butts. That's all I do. I just got on LinkedIn a buddy of mine from high school just tried to connect with me. He is currently a people ops specialist at BrainVue.
+
+416
+00:58:50,274 --> 00:58:51,154
+Speaker 4: What was his name. 
+
+417
+00:58:51,314 --> 00:58:59,384
+Jake Herwaldt: Well, he must be new. His name is Kyle Kruzniak. Are they at Grand Rapids Company. 
+
+418
+00:58:59,624 --> 00:58:59,884
+Speaker 4: Yeah.
+
+419
+00:59:00,136 --> 00:59:01,176
+Jake Herwaldt: Oh, I didn't know that.
+
+420
+00:59:03,916 --> 00:59:16,376
+Andrew Bailey: They are, most of them are in Texas now, but they started two guys. One guy was from Jackson. Another guy was from Great Rampage, Matt Shaver. Those are the two owners.
+
+421
+00:59:16,916 --> 00:59:46,966
+Nathan Bedford: I've got it there in the hood. So I think if we want, so now we basically, I mean, was there anything that we brought up here that we're like, shoot, this is going to dramatically change things? I don't think so. No. But I listed like... I think the admin stuff's interesting. I think understanding, yeah, that's probably one of the unknowns, is understanding. More than some of these little things that have discussion questions about like multiple profiles. Or like, actually, it would be valuable to think, what does it look like if you happen to be both a buyer and a seller?
+
+422
+00:59:47,206 --> 00:59:50,806
+Nathan Bedford: What do you expect that experience? You log into one... Yeah, that would be interesting.
+
+423
+00:59:51,146 --> 00:59:52,686
+Jake Herwaldt: But if that's an edge person. 
+
+424
+00:59:52,946 --> 00:59:54,586
+Nathan Bedford: Yeah. It might, yes, that's true.
+
+425
+00:59:54,786 --> 01:00:12,240
+Jake Herwaldt: But yes. Because it could be honestly just as simple as when I click my little... And if it's one in 200 people, then yes. I mean, that's correct, right?
+

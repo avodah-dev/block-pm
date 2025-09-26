@@ -1,0 +1,788 @@
+1
+00:00:03,880 --> 00:00:11,320
+Andrew Bailey: According to my research, I'm just thinking of the school bus.
+
+2
+00:00:11,560 --> 00:00:14,400
+Steve Muniak: We don't have time in the day to stamp these on this recording.
+
+3
+00:00:15,410 --> 00:00:30,600
+Andrew Bailey: That's right, that's done. What is supposed to be this afternoon is the risk register and project communication planning as far as what have we deemed as risk.
+
+4
+00:00:30,660 --> 00:00:31,640
+Jake Herwaldt: Yeah, we're off schedule.
+
+5
+00:00:31,640 --> 00:01:13,062
+Andrew Bailey: It doesn't necessarily have to be done today, but that's certainly something we want to make a priority. I think we've learned a lot. We need to start categorizing, tetrasing, saying, hey, here are three ways we see we could do this, talking to your side, figuring out what people really want. But I think some of those things... We'll get re-actioned until 922, because we want to give you a couple options if we have a high proposal.
+
+6
+00:01:14,292 --> 00:01:53,602
+Andrew Bailey: And then next week, at least our original thought was, there's going to be something that we want to de-risk that is highly unknown. Sure. Or is, you think, just, what is the most risky thing and how do we do it? Is it a process? Is it an integration? Something else? I don't think it means we have to, like, not leave today until we get that, because that might just be what we spend time doing tomorrow, figuring those things out. But do we, I feel like, as an opening statement, my suspicions coming in were, all right, things seem pretty straightforward.
+
+7
+00:01:53,982 --> 00:02:17,694
+Andrew Bailey: How much is hiding when we give them a chance to, more than just Sam a chance to talk, because she's an expert. experts tend to gloss sometimes just like don't don't share things it doesn't seem like those user-based conversations didn't unearth anything scary just more detail i wouldn't and i would say.
+
+8
+00:02:17,694 --> 00:02:21,814
+Jake Herwaldt: definitely unearth things but it's more sure which is we would have gotten into even when.
+
+9
+00:02:21,814 --> 00:02:39,944
+Andrew Bailey: we made our first first proposal like when we start getting into all right here's how we imagine this this screen looking it's better to get it now but we would have wouldn't have like derailed things today's conversation i would love to hear your kind of synopsis yeah did anything catch you.
+
+10
+00:02:39,944 --> 00:03:08,626
+Nathan Bedford: off guard um i honestly nothing shocks me um jeff's going to be great to work with we just we're chatting on linkedin right now so i love that he we're seeing eye to eye about the stack and the forward the forward progress here um i'm curious if carlos will be someone we have to pitch himself you, to or is he here to help us avoid traps that might come up in the review process with Siemens? Like how much is, what's his role exactly going to be? Do you happen to know that. 
+
+11
+00:03:08,846 --> 00:03:32,506
+Steve Muniak: I got to talk to Mark about it, exactly what he's going to do. He's an engineer's engineer. Yep. So you know he's going to do what Mark tells him to do, but he's going to have a lot of questions. My feeling is a lot of what he does has to fit into his own, he has to put it into his own box before he understands it. Okay, yeah that's kind of what I'm seeing too. It's like.
+
+12
+00:03:32,506 --> 00:04:01,640
+Nathan Bedford: that it'll be good for us to try to see things from his perspective so we can present it in a way that is easy for him to digest. Because I think we're bringing, we're bringing an outside perspective. I've worked enough with internal external teams that we're bringing some outside ideas that I think his first reaction will be, I don't like it. And then I think we'll work him toward, oh it makes sense. And that's like a good protective measure that I've seen someone with his experience have. That's some value he brings to his company, but I will do it carefully. I think we know how to fit what he needs.
+
+13
+00:04:02,270 --> 00:04:23,720
+Steve Muniak: Yeah, just out of thinking this through with him also, I think we need to get some time, maybe later this week, on Mark's calendar, just the four of us and Mark on the call, and just start to give him some of the high-level technical questions and or thoughts, just to get some initial guides from him and to bring him up to speed on what the thing is.
+
+14
+00:04:23,860 --> 00:04:54,950
+Nathan Bedford: Yeah, I totally agree. We were on the way to lunch, I was saying similarly, if there's a thing he's gonna say no to, I'd love to know it sooner than later, and this gives us a chance to, like he's been, I like the overarching thing he presented, which is we're gonna kind of treat you guys like a black box external client, or like the product, that almost opened a lot of doors for us inside that box, but we still need to know what the review process looks like so we can make sure we're totally ready for it. But yeah, process-wise, no surprises there. I think me, like us, creating a diagram that clearly explains how we understand.
+
+15
+00:04:54,950 --> 00:05:21,392
+Nathan Bedford: the internal processes will help, so that we were talking a bit in circles this time, I think. I want to make it clear from the diagram. Here's what we think is the query API versus the middleware layers they were talking about. And here's the synchronization packages and patterns. And that's still to me the gray area that we, I think you're right, it's as big as everything else right now, getting that all working the way we want it to. But no surprises, except combo pro is better than I thought it was. It's more complete than I thought it was.
+
+16
+00:05:21,912 --> 00:05:30,782
+Steve Muniak: I'm hearing that it's been disappointing on their implementation. The current implementation is not meeting what was described.
+
+17
+00:05:31,062 --> 00:05:38,121
+Nathan Bedford: Okay, internally you're hearing that feedback? Internally. Okay, what you're trying to do, I've been saying for a while, somebody needs to build. So like, I see the need.
+
+18
+00:05:38,342 --> 00:05:39,602
+Jake Herwaldt: A private AI cloud.
+
+19
+00:05:39,782 --> 00:05:55,741
+Nathan Bedford: Right, like everybody wants that. Everybody wants the chat to be seen, but it's safe. And then with some of the workflows they're talking about. So that's good to hear. We'll be patient and work with them to provide feedback. Because it sounds like if we want to incorporate AI, we need to run it through there if we can.
+
+20
+00:05:55,921 --> 00:05:58,882
+Steve Muniak: Yeah, perfect, because they'll be blessed by Siemens.
+
+21
+00:05:58,962 --> 00:06:18,424
+Nathan Bedford: Yeah, exactly. the voice is the only thing that might not be able to go through that but i think we can worry about that later okay um yeah timeline wise it's clear that i'm just like the question carlos asked at the end we'll have to have an answer to pretty soon i think about we all want to know how much is this going to be a sales force lift or not yeah yeah because there's a way to do it with minimal.
+
+22
+00:06:18,424 --> 00:06:23,453
+Jake Herwaldt: to none and then there's ways to do it with heavy i'm thinking about the voice piece of this too as.
+
+23
+00:06:24,703 --> 00:06:49,523
+Steve Muniak: long as you're not as long as that object is not going into proprietary data yeah that's true you know if you're just if you're just running that against a part master it's a part master api request we're all going to do it yeah you're you're not looking at you're look you're basically looking at the exact same data request as someone manually yeah there's definitely things yeah.
+
+24
+00:06:49,523 --> 00:07:19,735
+Nathan Bedford: yeah you can intentionally limit its first version to skip all the dangerous steps that siemens might be concerned about okay yeah that's good that'll be it that'll be a fun. So, but yeah, as far as, that was my summary. I think it's like, it was very, it meant a lot to me that Jeff, at the end, agreed with all of us that the flow was not that complicated, the process is not that complicated. I think that's what we're gently helping the rest of Block It on board with, is like, yeah, I know it's been scary, but things are different this time because of the tech stack.
+
+25
+00:07:21,235 --> 00:07:30,225
+Steve Muniak: He brought, he crystallized a lot of the art, the frameworks that they were not able to fully describe.
+
+26
+00:07:30,665 --> 00:07:32,225
+Nathan Bedford: Yeah, yeah, yeah, that was good.
+
+27
+00:07:32,225 --> 00:07:32,725
+Andrew Bailey: Mm-hmm.
+
+28
+00:07:33,475 --> 00:07:36,315
+Nathan Bedford: Okay, so, but I feel like, yeah, I think I know what I need to do next week now.
+
+29
+00:07:37,675 --> 00:08:33,530
+Andrew Bailey: One of my questions is do you, from deciding how to operate, how to deploy, do you think it's more attractive to everybody to do a bare bones, as quick as possible release? Like you were talking about to get something out there, even if we were slowly and then deal and then having two active systems or is it bare bones but do a clinch switch and then kind of manage navigate what happens there or we've been talking about Oh, what more can we squeeze in if we were doing a February launch? Yeah, because we were talking about Oh, could we could we get that FSC tool as part of the package because that's going to provide value?
+
+30
+00:08:33,530 --> 00:08:59,829
+Andrew Bailey: Or can we get this other thing? Or so there's a mix of us saying, Okay, if this is really straightforward, these are our next steps, right? Or which we need to map it out and give them a menu. Oh, yeah, yeah, but there's a general philosophy. Yeah, I still I'd rather just stick to February. Let's get a few more things in hers. You know, I want to show me I'm actually very intrigued by by a quick launch for this reason. So I'll answer.
+
+31
+00:09:00,051 --> 00:09:33,711
+Steve Muniak: from a different lens because to your point I you guys need to go home you need to go back and tell me what reality is right yeah from a political is the wrong word to use here but for me from a perception of success if we were but it's got to be at 100% home run our first release yeah sooner than later is good he's going to be deemed very successful but if we do go to Jan or Feb it's just communicating that value that's going to be delivered as good and.
+
+32
+00:09:33,711 --> 00:09:37,051
+Steve Muniak: that's going to be on me yeah it's good right the key to maintaining that.
+
+33
+00:09:37,341 --> 00:10:10,264
+Jake Herwaldt: enthusiasm in the exact because for my for my seat the goal is to get these people to love it and I think the way to do that is personally is not to do it quickly because we don't want them to have whiplash but instead if we if we have till February we have enough time to every month every two weeks give them, more and more stuff to play with so that come to by February we now have three experts of the new tool that then are actually out there evangelizing a new.
+
+34
+00:10:10,264 --> 00:10:13,644
+Jake Herwaldt: tool to everyone and we are we start pulling in some of those other team.
+
+35
+00:10:13,644 --> 00:10:22,993
+Steve Muniak: members too and those were three with pretty high emotional intelligence and communication skills that are going to broadcast that right and they're.
+
+36
+00:10:22,993 --> 00:10:32,124
+Nathan Bedford: trusted yeah Carlos brought up a good point which is yet normally is there internally released first so and there's a part of me that still wants to see a.
+
+37
+00:10:32,124 --> 00:10:41,634
+Jake Herwaldt: hard it would be to do that that's why I think we push February and yeah I get more I know February I mean I'm a program to release something early.
+
+38
+00:10:41,634 --> 00:10:45,733
+Andrew Bailey: internally to got a lot of rest but we've talked a lot to though once you.
+
+39
+00:10:45,733 --> 00:11:03,716
+Jake Herwaldt: launch a product even if we get like let's say we launch it earlier but it's just the external buyer and external matter as soon as you launch it you are now distracted with the idea that you have launched users on there while you're all, doing the other thing. So instead, if you just... And it's a new thing, right? And it's a new thing.
+
+40
+00:11:03,876 --> 00:11:04,856
+Nathan Bedford: So the launch users are going to have dumb questions.
+
+41
+00:11:04,996 --> 00:11:11,856
+Jake Herwaldt: And you have to train internal people to help those people so that you're not doing it. You have to bug fixes there. That's one reason why I like the parallel.
+
+42
+00:11:11,856 --> 00:11:40,116
+Nathan Bedford: internal launch idea. Yeah. If we could, see I need to see from Jeff where if I'm missing something about the synchronization between Salesforce, I don't think it's that complicated. And if it's not, you can run in parallel. And internal folks will start to use these new things you're building, even though that's, I know they were going to be our last to get it. It was really easy. A few people would probably use it. It was dramatically better. And then we do get more reps. And then everything's synchronizing behind the scenes. Like, that's a perfect world that we need to see why it can't happen. And one.
+
+43
+00:11:40,116 --> 00:11:54,416
+Jake Herwaldt: thing that'll win these people over too is if instead of a feature request taking, I don't know what the current is, but it seems long, to them taking quick, as soon as one of these people are like, oh, I wish it could do this. And if we turn that around in a week, that's going to gain confidence.
+
+44
+00:11:54,416 --> 00:12:07,900
+Nathan Bedford: We asked Paul that question, and maybe, I don't think we got the full answer. It was like, I think you had it. specifically why are things taking so long to get v2 out is it budget is it personnel is it like FMD being so busy doing other things yeah it's it's been.
+
+45
+00:12:07,900 --> 00:12:41,280
+Steve Muniak: they shut down we went live when they had to shut down all other development to support sources externally from block like all other clients that weren't blocked they shut down you know the accounting needs this warehousing needs the service needs although all those enhancements basically got put on hold oh they're catching up on that stuff and then they went back to the bigger part of business and now we're finally doing some guys that's right they do a time where sales force work outside of certain window oh yeah it's it's.
+
+46
+00:12:41,280 --> 00:12:44,700
+Nathan Bedford: everything it's every block even yeah yeah that makes sense so really was that.
+
+47
+00:12:44,700 --> 00:13:05,382
+Steve Muniak: they just didn't have enough time there is no other the only other business system I was velocity for a HRP role Wow that's it that's a lot and the other of course their SharePoint and all that integration you know there's you know I'm, I would imagine legal probably is using it, too, just for document. Got it. That's a lot of things like that. Just keeping them busy.
+
+48
+00:13:06,392 --> 00:13:09,632
+Jake Herwaldt: Who are the choosers of the menu once we have that. 
+
+49
+00:13:10,552 --> 00:13:22,242
+Steve Muniak: It's going to be the recommendation of Paul, Mark, and Amy to Josh. Oh, okay. Which role do you play in that as a product owner? I'm really just communicating, advising.
+
+50
+00:13:23,882 --> 00:13:38,182
+Nathan Bedford: Because I think, yeah, to your point about going home and kind of regrouping, we need to think about, like, what are the things that just need to happen, right? Like, regardless, to get a platform off the ground, you've got to get off. You've got to get these pieces in place for the CICD pipeline, testing, and all that stuff.
+
+51
+00:13:38,442 --> 00:13:45,482
+Jake Herwaldt: Are you okay and comfortable with us leaving that here, assuming that still go with the February launch. 
+
+52
+00:13:45,762 --> 00:13:53,202
+Nathan Bedford: Yeah, absolutely. Okay. And then, yeah, as the menu progresses, it's clear that there's other options. Right, right, right.
+
+53
+00:13:53,262 --> 00:13:53,482
+Jake Herwaldt: That's good.
+
+54
+00:13:54,122 --> 00:13:55,102
+Nathan Bedford: Okay, okay.
+
+55
+00:13:55,222 --> 00:14:24,664
+Jake Herwaldt: Because I think that's, like, the FSE is a completely new scope. That's not stuff we had talked about. I think we would all, through this week, would love to pull it in, but it's just more of that's part of the menu option of do you guys want to fit it in or do you not want to? Because if we focus on February, let's just say, external and internal, that would be insane, and that's way more than what we expected for the MEP phase, potentially.
+
+56
+00:14:25,204 --> 00:14:45,684
+Steve Muniak: I'm just thinking, we do videos here, right? They're always doing videos on LinkedIn, and I would just love to be sitting in a chair behind the block banner saying, this was a group we had in the industry in 2010 for voice recognition. We're the first major distributor in the HTM market. Deliver this, and it's available in the sourcing window.
+
+57
+00:14:45,904 --> 00:14:50,064
+Nathan Bedford: I really thought you were trolling us when you kept on saying that, because we had put that in your proposal, and he just didn't see it.
+
+58
+00:14:50,344 --> 00:14:52,984
+Steve Muniak: There was a lot of words to remember you guys delivering.
+
+59
+00:14:53,784 --> 00:14:55,044
+Nathan Bedford: Yeah, how'd you miss that piece. 
+
+60
+00:14:55,364 --> 00:14:58,704
+Andrew Bailey: How did you miss it? It was buried there. If we would have put it in Kindle format, would you have put it. 
+
+61
+00:14:58,784 --> 00:15:06,836
+Steve Muniak: Yeah, probably. I think he asked me the other day, do you have your Kindle in front of you, and I actually had a beautiful Manhattan in front of me.
+
+62
+00:15:07,076 --> 00:15:10,296
+Andrew Bailey: Yeah, that's how I knew it was in Atkinson.
+
+63
+00:15:11,206 --> 00:15:14,666
+Steve Muniak: Oh, that's right, yeah. Oh, did you see the title? No, I threw it in the chat, GPP.
+
+64
+00:15:14,946 --> 00:15:26,506
+Andrew Bailey: Yeah, of course you did. And then I said, you know what I said? I said, tell me this person's Myers-Briggs. Give me the top three options. Oh, you're reading it? Yeah, and it was good. Pretty good. I thought about turning that into a little fun game.
+
+65
+00:15:26,506 --> 00:15:36,836
+Steve Muniak: I mean, that was that. I do that all the time. Now it's just become so customary, at least for the folks who know how to do it. Yeah, absolutely. References and all that.
+
+66
+00:15:36,856 --> 00:15:44,956
+Andrew Bailey: I did it with Steve. Because I didn't know the book, and I was like, well, I kind of know how to know here. And I was like, oh, it's like a modern mystery. What kind of person does it? It's like somebody who likes to be thoughtful. I was like, that sounds like Steve.
+
+67
+00:15:45,996 --> 00:16:11,140
+Steve Muniak: This book has every obscure, you know, we know esprit de corps, we know the boom. That's every French saying that's, you know, anglicized is in this book. Yeah. If you look at looked up words. You know, if you have a Kindle, you can go to your Look Up Words page. I have probably 30 French phrases that are in there that I want to use that I know I'm not gonna remember. We're ending the conversation. That's funny.
+
+68
+00:16:14,380 --> 00:16:39,540
+Jake Herwaldt: Okay, and then from, so I think our actions are to take this, we're gonna map it out. We were hoping, obviously, yeah, but we will map it out. We will then mark up between the things that Sam detailed. We'll make sure they're on that map, which we think they are. We had a couple follow-up questions we wanted to ask for Sam's list, and then any other follow-up questions that come from like, oh, actually, question here. But, um.
+
+69
+00:16:39,980 --> 00:17:03,392
+Nathan Bedford: All right, and do you think it's, we're assuming we have pre-raining on the tools we'll use for tracking the spec, the architecture diagrams, and the project plan stuff, unless we have to use something you guys have. We'll use just industry standard tools, this sort of stuff. I'm asking, because we're gonna ask questions, we're gonna get answers, we're gonna wanna track them. Yeah, yeah, yeah. And we can say, well, actually, he said this, And when someone else conflicts, we'll have the history of the decision, basically.
+
+70
+00:17:03,572 --> 00:17:14,472
+Steve Muniak: Yeah, that works. And then in terms of diagrams, things like that, as long as we can consume it in either a PDF or a Visio, that's where they standardize it.
+
+71
+00:17:14,472 --> 00:17:16,772
+Jake Herwaldt: Yeah, we can give you access to, I think, all the systems.
+
+72
+00:17:16,832 --> 00:17:25,462
+Nathan Bedford: Yeah, we use Lucidchart normally, which exports the Visio. Perfect. Okay. I have a question related to endo, after what you had. Do you have any more you want to ask. 
+
+73
+00:17:28,982 --> 00:17:57,642
+Jake Herwaldt: Yeah, I think we'll just finish up the schedule that we had originally. Because, yeah, there's all the risks, the things like that. The direction of whether or not we need Salesforce or not changes, that's just going to be interesting. But, yeah, I envision right now we're going to come up with a plan that gets us to February with just external buyer, vendor, maybe FSE, and then maybe external buyer, external vendor, and internals, and what that looks like.
+
+74
+00:17:57,822 --> 00:18:06,784
+Steve Muniak: Keep in mind that Paul is... one but i think that's called just just yeah i mean throwing an executive milestone now oh yeah.
+
+75
+00:18:06,784 --> 00:18:13,964
+Nathan Bedford: just pushing create urgency as opposed to he was pushing early november i remember like right he remember right in the conversation he's like november but then december but then january.
+
+76
+00:18:13,964 --> 00:18:17,964
+Andrew Bailey: should have pushed for it he wanted to be rfp approved by the august states.
+
+77
+00:18:17,964 --> 00:18:32,164
+Jake Herwaldt: and but you're also out half of my memory right yeah i'm out we just think when your main project.
+
+78
+00:18:32,164 --> 00:18:55,994
+Steve Muniak: uh driver is out it's best to uh it's a bad look i know and i made them fully aware that i'm pushing the button for non-refundable here yeah yeah now black wants me to write me a check and stay at home i can do it the following month yeah i'm out starting the.
+
+79
+00:19:02,796 --> 00:19:18,146
+Steve Muniak: Well, I'm out starting the 26th, and I'm back in the 22nd. I'm out the 16th. This is actually good to know. I'm back the 28th, so I'm out the 16th, back the 28th, so it's the second half.
+
+80
+00:19:18,366 --> 00:19:19,266
+Nathan Bedford: Oh, December or January. 
+
+81
+00:19:19,446 --> 00:19:31,376
+Andrew Bailey: January. So this is actually good to know. Steve's out January 16th to 28th. That's useful. Nate is out September 21st.
+
+82
+00:19:32,536 --> 00:19:37,356
+Nathan Bedford: Yeah, that's my non-negotiable one, too. I've not missed it for 40 years.
+
+83
+00:19:37,356 --> 00:19:38,136
+Andrew Bailey: Oh, we wouldn't ask you.
+
+84
+00:19:38,356 --> 00:19:47,056
+Nathan Bedford: I'm just saying. For 40 years? I haven't. I know. I'm the only person in my family that hasn't missed it since I was born. Like, everybody else has got reasons to skip it.
+
+85
+00:19:47,116 --> 00:19:48,876
+Andrew Bailey: Oh, because your brother is in Italy. Right.
+
+86
+00:19:49,686 --> 00:19:50,706
+Nathan Bedford: It's an important thing to me, yeah.
+
+87
+00:19:51,756 --> 00:19:54,036
+Andrew Bailey: So he's out September 21st to 24th.
+
+88
+00:19:54,036 --> 00:19:56,456
+Jake Herwaldt: I'm out all of December. I take that off for Christmas.
+
+89
+00:19:57,216 --> 00:19:59,196
+Nathan Bedford: Yes, it wasn't a reunion in the beginning. It was just a family vacation.
+
+90
+00:19:59,436 --> 00:19:59,636
+Jake Herwaldt: Yeah.
+
+91
+00:20:00,000 --> 00:20:14,240
+Andrew Bailey: Do you have any known things, Jake? Any more babies you guys are going to have to plan for? I won't have, or my family will do something in March or April.
+
+92
+00:20:15,240 --> 00:20:48,470
+Jake Herwaldt: But this being said, here's an ideal state. Let's dream for just a second. If we pull in internal buyers and vendors into the first phase, and we build it in the correct way, I do not, correct me if I'm wrong, I do not see a scenario where if we have it mostly built out come December or January, why an internal person couldn't also use the new system for their day-to-day. In a pre-release state that, in theory, is doing 80 to 90, maybe even 100%,
+
+93
+00:20:48,470 --> 00:20:56,090
+Jake Herwaldt: but we just haven't production launched it because we're waiting for the February. Because there does need to be a marketing engine that needs to be behind this launch.
+
+94
+00:20:56,710 --> 00:20:59,830
+Steve Muniak: Oh yeah, I'm going to write marketing slides as we leave for two.
+
+95
+00:21:00,822 --> 00:21:13,162
+Jake Herwaldt: Oh, yeah. And so there needs to be this marketing engine where even if it's ready in January, we need to sit on it until February because of the marketing engine. But we could open it up to all internal people who could be using it.
+
+96
+00:21:14,002 --> 00:21:19,202
+Andrew Bailey: You're saying there's a version of this where we can have all the work going external in the first launch. 
+
+97
+00:21:19,442 --> 00:21:25,881
+Jake Herwaldt: Yeah, and I'm saying I think we need to map it out to practically see if we can, but my gut says there's a scenario where we could.
+
+98
+00:21:26,042 --> 00:21:27,442
+Nathan Bedford: And ideally it starts with an internal...
+
+99
+00:21:27,442 --> 00:21:45,002
+Jake Herwaldt: And internally, yes, it starts with internal beta users. It starts with even your buddies at PartsSource, AllParts, I'll get it eventually. Like them running a beta version of External Vendor, and it works because it's actually working. You know what I mean. 
+
+100
+00:21:45,242 --> 00:21:48,302
+Andrew Bailey: Our goal is to get this done before Amy agrees on the rebrand name.
+
+101
+00:21:50,682 --> 00:22:01,823
+Jake Herwaldt: It's not changing in the name, right? That's out of scope. I want them to change it. No, stop. You can't rebrand. Remove the pro. Oh, yeah. Oh, yeah. Is it sourcing? Is it sourcing? Sourcing Window or Sourcing Window Pro going forward. 
+
+102
+00:22:02,163 --> 00:22:09,524
+Steve Muniak: Branding is in my bucket of to-do's, and I think that's probably going to be Amy and Josh.
+
+103
+00:22:10,244 --> 00:22:14,524
+Jake Herwaldt: Is Amy in today? No, she went home. Oh, okay.
+
+104
+00:22:15,043 --> 00:22:31,573
+Nathan Bedford: We don't need the answer on this now, but we had talked and then we didn't finish talking about the two domains versus not two domains thing. The domains don't matter as much as are they respecting different experiences per domain. And it would be nice to know that in the next couple of weeks, probably. Having the wind will know it, but I'd like to know it sooner.
+
+105
+00:22:31,573 --> 00:22:45,073
+Steve Muniak: My vote is I really want the login screen to introduce both sides of the value proposition.
+
+106
+00:22:45,694 --> 00:22:49,053
+Jake Herwaldt: Oh, sure. Like a marketing splash page that then you log into.
+
+107
+00:22:49,954 --> 00:22:59,803
+Nathan Bedford: And that's the other thing. One of the questions was from Sam. If you're an external buyer and a seller, how do we toggle back and forth between that. 
+
+108
+00:23:00,095 --> 00:23:18,875
+Steve Muniak: that question and and so I would imagine that we're gonna probably have some type you know this is this is the I wish we could do this in all browsers right now you have sandboxes in the URL yeah yes you know the screen changes color the banner changes something yes so we'll do that we do that on our internal right.
+
+109
+00:23:18,875 --> 00:23:28,985
+Nathan Bedford: yes they don't accidentally make them say I'm like this is in local this is the yeah yes yeah that'll be done okay but do you think they want like a flip.
+
+110
+00:23:28,985 --> 00:23:53,765
+Steve Muniak: between buyer-seller mode if it for those for those partners yes that's a very small population correct it is yeah yeah it is but here's for now if we're everybody and their brother does exactly what we do we would sell them inventory and resource yeah yeah and then we're sourcing then got it we're gonna buy.
+
+111
+00:23:53,765 --> 00:23:58,705
+Nathan Bedford: yep mm-hmm okay that's the kind of one intervention that should be a more seamless yeah.
+
+112
+00:24:00,899 --> 00:24:03,339
+Jake Herwaldt: Yeah, you'd like search the part, and then it's like buy-sell.
+
+113
+00:24:03,499 --> 00:24:08,459
+Nathan Bedford: Right, which is really what's happened, yeah, yeah, like with the block experience that everybody, the internal one.
+
+114
+00:24:09,289 --> 00:24:20,079
+Jake Herwaldt: Yeah, that could, yeah, might be a lot of change at the beginning to try and do both, you know. But that would be easy to do them in separate and then smash them together pretty easily.
+
+115
+00:24:20,199 --> 00:24:21,699
+Nathan Bedford: Yeah, I haven't even thought about what that would look like to be together yet.
+
+116
+00:24:21,799 --> 00:24:22,419
+Jake Herwaldt: Yeah, that wouldn't be hard.
+
+117
+00:24:26,869 --> 00:24:29,869
+Nathan Bedford: It'd be interesting to see what that flow, think about what that flow would look like.
+
+118
+00:24:29,869 --> 00:24:39,349
+Jake Herwaldt: It really depends on your users, because is the buyer, like even internally, is a buyer also the seller, or is it different seats next to each other? I would assume it's different seats.
+
+119
+00:24:40,069 --> 00:24:41,469
+Steve Muniak: It's sometimes the same seat.
+
+120
+00:24:42,649 --> 00:24:43,249
+Jake Herwaldt: It is down here.
+
+121
+00:24:43,369 --> 00:24:48,099
+Steve Muniak: Yeah. Again, you know, you've got a request in front of you, I'm either, I either have it in the back.
+
+122
+00:24:48,139 --> 00:24:49,599
+Jake Herwaldt: That's true. Yeah, you're right.
+
+123
+00:24:49,659 --> 00:25:21,361
+Andrew Bailey: It really should be one flow. And you should see, I don't know why they didn't bring this up, I went over there and talked to Elliot, and he's looking at the Salesforce thing, and his screen is just flickering. That homepage. you know what all the colors on top yeah it's just and i was like what's that doing it's like it's just refreshing something's just just happening of course yeah with salesforce and he had one screen with messaging he's using two monitors and he's got a new jordan no this is elliott he's got a screen with the the home page with the colors on the top it's just flickering.
+
+124
+00:25:21,361 --> 00:25:28,961
+Andrew Bailey: angrily and he's got a chatter message on another one and then he's got teams open here okay yeah.
+
+125
+00:25:28,961 --> 00:25:36,951
+Steve Muniak: can you find that is that a jonathan or a red delicious i count them in a bite yeah do you know.
+
+126
+00:25:36,951 --> 00:25:48,451
+Nathan Bedford: cosmic oh it's cosmic chris chris related to the old honeycrisp once again better yield for the farmers yeah i didn't know there was a row i wonder what they were hardy that was one of their.
+
+127
+00:25:48,451 --> 00:25:52,851
+Steve Muniak: big value props early on yeah i'll see if i find the article it might have been a video someplace.
+
+128
+00:25:52,851 --> 00:26:02,303
+Andrew Bailey: i'm curious i think they'd be rated my apple budget for my family apples alone in our family is over a hundred dollars a month, Well, that's 30 apples.
+
+129
+00:26:03,283 --> 00:26:07,603
+Steve Muniak: Think of it, we have seven people in our family. That's 1.10 apples a day.
+
+130
+00:26:08,323 --> 00:26:12,863
+Andrew Bailey: Or 1.10 pounds a day. There's seven people in my family.
+
+131
+00:26:13,123 --> 00:26:14,123
+Jake Herwaldt: Everybody eats an apple.
+
+132
+00:26:14,223 --> 00:26:35,443
+Andrew Bailey: And I would say my wife and I definitely eat an apple a day with peanut butter because it is a good balance between carbohydrates and protein and fat and fiber. This is a really great thing. Anyway, have you ever been to Horrocks here? Have you ever gone to the west side? Oh, Horrocks is cool. We make a little field trip.
+
+133
+00:26:35,503 --> 00:26:40,623
+Nathan Bedford: We'll trade you a West Side Deli tip for a Horrocks tip. Yeah, I think that's a good tip. Horrocks is fun.
+
+134
+00:26:40,803 --> 00:26:44,263
+Andrew Bailey: Yeah, that's a good Kindle. It's there just to pick out an apple and do something else.
+
+135
+00:26:45,363 --> 00:26:46,663
+Nathan Bedford: How would you even describe it. 
+
+136
+00:26:48,493 --> 00:26:53,393
+Jake Herwaldt: Like an old, imagine a farmer's market that turned into a grocery store. That turned into a theme park.
+
+137
+00:26:54,173 --> 00:27:01,805
+Steve Muniak: A lot of things in one space. I go to every place I go, I try to get to them. local grocery stores, especially out of the country.
+
+138
+00:27:02,145 --> 00:27:06,635
+Andrew Bailey: For our president, it has a wine and beer area.
+
+139
+00:27:06,815 --> 00:27:07,455
+Jake Herwaldt: A beer room.
+
+140
+00:27:08,155 --> 00:27:23,495
+Andrew Bailey: That's bigger than some small, than a Dollar General. And then it has a fresh fruits and vegetables, it's all over, it's got all kinds of peppers. It's like, oh, here's our cheese, here's 100, here's 300 square feet of cheese. Like you make it bigger. 
+
+141
+00:27:23,635 --> 00:27:25,635
+Jake Herwaldt: because then this one's constrained to the physical space.
+
+142
+00:27:25,635 --> 00:27:28,555
+Andrew Bailey: And there's an outdoor section and different stuff. A great Thai place.
+
+143
+00:27:28,815 --> 00:27:28,955
+Jake Herwaldt: Okay.
+
+144
+00:27:28,955 --> 00:27:31,355
+Nathan Bedford: Can I ask another question? Yes.
+
+145
+00:27:31,615 --> 00:27:32,995
+Jake Herwaldt: Sure, yeah, we just keep hitting them.
+
+146
+00:27:33,395 --> 00:27:53,855
+Nathan Bedford: This is because I need something to keep my brain busy when I'm showering. And so I just want to think through, because you had this dream about voice, I think we're gonna try to make this a reality. What is the voice, what does the experience look like to you? You're a field, you're an FSC, you have your phone. What are you thinking it looks like when, I don't know what it's like for it to get underneath the equipment or whatever, so talk me through what you're envisioning that looks like.
+
+147
+00:27:54,635 --> 00:27:59,355
+Steve Muniak: Simply, I need quotes on a, I don't know, a sea wisp.
+
+148
+00:28:01,539 --> 00:28:04,199
+Jake Herwaldt: Why is it not as easy? Oh, no, sorry. I chopped you off. Keep going.
+
+149
+00:28:04,699 --> 00:28:13,679
+Steve Muniak: But it's really that. Because especially people of age, I hate typing on these things. I don't have the dexterity. I'm always hitting the space bar.
+
+150
+00:28:13,879 --> 00:28:14,279
+Andrew Bailey: Yep.
+
+151
+00:28:14,299 --> 00:28:14,819
+Steve Muniak: All of that.
+
+152
+00:28:14,839 --> 00:28:15,139
+Andrew Bailey: Open Amazon.
+
+153
+00:28:15,359 --> 00:28:21,979
+Steve Muniak: And I'm going more and more towards voice. Yeah. I'm not. Oh, yeah. We were just talking about WhatsApp.
+
+154
+00:28:22,999 --> 00:28:23,779
+Andrew Bailey: Yeah, yeah.
+
+155
+00:28:24,779 --> 00:28:29,909
+Steve Muniak: WhatsApp is on fire in Latin America. Really? And nobody texts. They send voice messages.
+
+156
+00:28:30,149 --> 00:28:32,509
+Nathan Bedford: Oh, yeah. My sister was trying to do that with a message.
+
+157
+00:28:32,989 --> 00:28:50,759
+Jake Herwaldt: Why is it not just as simple as if, imagine, fast forward, external buyer, internal buyer, is user mobile friendly. I like that. Why is it not as simple as the search bar just also has a microphone that you just click and say, oh, it's the Wisp. It could be that as well. And then done.
+
+158
+00:28:50,939 --> 00:28:54,249
+Steve Muniak: Yeah. You know, because we're. Some of this is marketing.
+
+159
+00:28:54,849 --> 00:28:55,209
+Jake Herwaldt: Yeah.
+
+160
+00:28:55,489 --> 00:29:04,991
+Steve Muniak: Correct. You're going to have to be within whatever is capped. Yeah. Now, could it even be as simple as sending a text message into the platform. 
+
+161
+00:29:05,251 --> 00:29:15,811
+Nathan Bedford: That totally could be done. And also, legitimately, just picking up, like, this is where I, I don't know if this is too much of a disconnect, people, but we built things where you could just call on the phone and talk to an AI. After you authenticate yourself, you're talking to an AI agent.
+
+162
+00:29:15,971 --> 00:29:17,091
+Jake Herwaldt: Yeah, what's your ID number. 
+
+163
+00:29:17,471 --> 00:29:25,331
+Nathan Bedford: And then you can open up the phone and you see that what you just created is on your phone now. Like, it just connected to the back end, and you see the things you just said when your hands are busy doing stuff.
+
+164
+00:29:25,571 --> 00:29:29,431
+Jake Herwaldt: I think we need to interview an FSE before we create a solution. Call me on speakerphone.
+
+165
+00:29:29,531 --> 00:29:37,991
+Nathan Bedford: Don't you think? It would definitely help, you're right, because that's what I'm trying to, like, part of it is the handoff from, like, okay, do I know what I'm doing before I get underneath that machine? Or do I have it. 
+
+166
+00:29:38,031 --> 00:29:41,831
+Jake Herwaldt: And then do I even have my machine? Or, I mean, my phone with me when I write this. 
+
+167
+00:29:41,891 --> 00:29:48,131
+Nathan Bedford: Because the voice to text is getting, like, the voice agent stuff is really good now. Are you testing how good Siri is at this stuff. 
+
+168
+00:29:48,391 --> 00:29:52,491
+Andrew Bailey: Well, I want to see, if I can call you on speakerphone, then I could call the AI agent.
+
+169
+00:29:53,811 --> 00:29:58,771
+Jake Herwaldt: I could. How, though? You'd have to save them as a contact.
+
+170
+00:29:58,831 --> 00:29:59,851
+Andrew Bailey: I know. You would just, you'd.
+
+171
+00:30:00,063 --> 00:30:02,963
+Jake Herwaldt: Save it as Sourcing Window AI or something.
+
+172
+00:30:03,283 --> 00:30:11,063
+Andrew Bailey: Sourcing Window Pro and say hey, call Sourcing Window Pro on speaker phone. And then I've done everything hands-free. Yes, that would take training, but then, yeah.
+
+173
+00:30:11,343 --> 00:30:28,503
+Nathan Bedford: The problem we're trying to solve, just reducing that friction if you're an FSE to creating that order. Right, right. That friction's gotta be super low. And I agree with you that I've started using called WhisperFlow, which is a better Siri for text-to-speech, because even though it's not a ton of friction to type, I don't like to do it either.
+
+174
+00:30:28,563 --> 00:30:28,983
+Jake Herwaldt: Yeah, yeah, yeah.
+
+175
+00:30:28,983 --> 00:30:40,123
+Nathan Bedford: And so it sounds like it's about reducing friction, so that it's just easier and easier, and also enjoyable. I think maybe the enjoyable is harder to do. Is this gonna be a differentiator, which is good for marketing? I'm just curious what actual problem are we solving. 
+
+176
+00:30:40,143 --> 00:30:41,523
+Jake Herwaldt: Text is a really interesting idea.
+
+177
+00:30:41,823 --> 00:30:42,343
+Nathan Bedford: Yeah, yeah.
+
+178
+00:30:42,343 --> 00:31:12,395
+Jake Herwaldt: The idea of just having a ton of text here and I can just be like, yeah, Wisp, whatever. And then it kicks back, if it doesn't know the exact part number, it kicks back and it's like, did you want one of these three? Yeah. And it says type one for this, two for this, three for this, and you're like, oh yeah, I want two. Okay, wait a minute. What's your point? Three. than a search though on an app. You just have to put, we need to talk to these people. We need to talk to an FSE. Because I just would assume like a text message to them is low friction. Telling them they need to download an app, they're not gonna do.
+
+179
+00:31:12,515 --> 00:31:16,375
+Andrew Bailey: Maybe you said low friction. It's probably not even better. It's just easier.
+
+180
+00:31:16,415 --> 00:31:17,715
+Nathan Bedford: I think a lot of it is perception.
+
+181
+00:31:17,995 --> 00:31:21,735
+Jake Herwaldt: Yeah, yeah, yeah. I don't want to have to open my browser and log in potentially.
+
+182
+00:31:21,895 --> 00:31:27,795
+Nathan Bedford: Because how much harder does it seem in your brain to write an email versus a text message where they're both opening an app, typing in words, hitting send. Right.
+
+183
+00:31:27,795 --> 00:31:51,705
+Jake Herwaldt: But I can tell you, if I had to tell my parents which flow to do, I would tell them to text. I would say, just text it. Don't worry about logging in, because you're gonna forget your login. It just depends on the person. Yeah, no, that would be fine. I think we need to do work. I think we need to clean up this. We need to do work. We will come back to you early next week, hopefully with.
+
+184
+00:31:51,965 --> 00:31:56,225
+Nathan Bedford: And when should we start meeting with Mark? We can reach out to him and see, but Friday, we can get to him on Friday.
+
+185
+00:31:56,325 --> 00:32:04,079
+Jake Herwaldt: Well, yes, we could meet with Mark on Friday. Or we could wait until. early next week when we actually have a flow of walking through.
+
+186
+00:32:05,439 --> 00:32:09,519
+Steve Muniak: You guys set the cadence on me with Mark when the time is right.
+
+187
+00:32:09,659 --> 00:32:11,359
+Jake Herwaldt: What do you think is best though? You know that.
+
+188
+00:32:11,439 --> 00:32:13,019
+Steve Muniak: I don't have an opinion.
+
+189
+00:32:13,179 --> 00:32:23,139
+Nathan Bedford: I just wanted to get it out there. I think we'll have multiple meetings. My thought is if we just wanted to make sure before we do next week's investigation on tech stack. Sure. I want to make sure he's like, oh yeah, there's no restrictions or here are the restrictions.
+
+190
+00:32:23,179 --> 00:32:25,859
+Jake Herwaldt: Do you think you need a day though to map that out. 
+
+191
+00:32:25,999 --> 00:32:40,389
+Nathan Bedford: I think. Tech stack. Yeah. I think I just want to make sure that we're not going to miss him.
+
+192
+00:32:40,509 --> 00:32:44,909
+Jake Herwaldt: Is Friday realistic with the audit with Mark? I don't know. Okay.
+
+193
+00:32:45,669 --> 00:32:50,809
+Nathan Bedford: I saw him by his desk today. He was green on the lights. We talked a little bit. Oh, cool. Do they have lights. 
+
+194
+00:32:51,609 --> 00:33:15,431
+Steve Muniak: They're really cool. Yeah. Or if your team's, I want to get one from home. Andy, do you have pictures on all this? There's a, I do office sharing. Okay. Office space sharing with a woman, and one, she flirts with me in the break room all the time, and she has a habit of barking in my office, all bellicose about something she just read that I have to then verify fact.
+
+195
+00:33:15,831 --> 00:33:19,581
+Nathan Bedford: Oh, man. So you need a light to let her know it's time to leave me alone.
+
+196
+00:33:19,821 --> 00:33:23,031
+Steve Muniak: Yep. Yeah. I need that for my girl.
+
+197
+00:33:23,391 --> 00:33:43,031
+Nathan Bedford: I know, I know. My kids have learned how to open the lock in my office door. Oh, the lock? Yeah. Oh, my girls have too. It's like a bedroom lock, so it's not that hard to do. It's cute when you're not in the meeting. Exactly. All right. How far away are the grandkids for you, Steve? How far away are your grandkids?
+

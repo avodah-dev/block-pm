@@ -1,0 +1,51 @@
+{
+  "personas": [
+    {
+      "id": "P01",
+      "name": "Buyer",
+      "title": "Procurement Buyer / Purchasing Agent",
+      "workflows": ["W01", "W02"],
+      "primary_goals": [
+        "Source parts efficiently",
+        "Compare vendor quotes",
+        "Manage purchase orders"
+      ],
+      "file": "P01-buyer.json"
+    },
+    {
+      "id": "P02",
+      "name": "Vendor",
+      "title": "Vendor Sales Representative",
+      "workflows": ["W03", "W05"],
+      "primary_goals": [
+        "Respond quickly to opportunities",
+        "Submit competitive quotes",
+        "Win more business"
+      ],
+      "file": "P02-vendor.json"
+    },
+    {
+      "id": "P03",
+      "name": "Integrated Vendor",
+      "title": "Vendor with Buyer Capabilities",
+      "workflows": ["W06", "W07"],
+      "primary_goals": [
+        "Fulfill orders through network sourcing",
+        "Bridge traditional and marketplace channels",
+        "Manage dual-role operations"
+      ],
+      "unique_capabilities": [
+        "Vendor-to-buyer role switching",
+        "Network orchestration",
+        "Drop-ship management",
+        "Markup optimization"
+      ],
+      "systems": ["Salesforce", "Sourcing Window"],
+      "file": "P03-integrated-vendor.json"
+    }
+  ],
+  "metadata": {
+    "total_personas": 3,
+    "last_updated": "2025-09-25"
+  }
+}

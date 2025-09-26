@@ -1,0 +1,616 @@
+1
+00:00:00,000 --> 00:00:05,360
+Vikki Dipple: And that's, it's mainly because Salesforce, the app, is success.
+
+2
+00:00:05,700 --> 00:00:08,760
+Jordan Clark: Yeah, it's the limitations they have from the field.
+
+3
+00:00:09,670 --> 00:00:28,010
+Speaker 3: I mean, I'm not pushing that we recreate the internal process. I'm just saying, if one of the pain points of the internal process is the UX isn't great, obviously I think we can fix that while keeping things internal. That's the whole point of the conversation. I'm curious. We're not trying to actually add more work on this. We're just saying, if this is a problem, we can make it better. If you guys are happy with it, I think we'll just update the data behind it.
+
+4
+00:00:29,020 --> 00:00:59,980
+Vikki Dipple: Well, there is a part that we have built currently in Salesforce that when our shipping team adds tracking through their Salesforce page, it automatically updates a copy of Sourcing Window, Sourcing Window Pro, for whichever. So we're actually getting a copy of the Sourcing Window page inside of our purchase order page in Salesforce. So what it looks like...
+
+5
+00:01:00,052 --> 00:01:18,762
+Vikki Dipple: in ours is a little clip of what we're displaying in sourcing window. The views, so it's almost like a little snapshot. I think they call it just like a different panel.
+
+6
+00:01:57,961 --> 00:01:58,401
+Speaker 4: And.
+
+7
+00:02:01,173 --> 00:02:10,434
+Andrew Bailey: Are you saying that because I'm always hungry? Yes. I feel like people might notice how much I eat.
+
+8
+00:02:12,374 --> 00:02:16,733
+Speaker 4: Well, you know, it was all fruits and veggies, that's it. So, drink that.
+
+9
+00:02:19,774 --> 00:02:40,784
+Speaker 3: Oh, you missed it. You gotta go all back to macarons. Or I'm just gonna put it into three. What's your specialty. 
+
+10
+00:02:42,524 --> 00:03:07,356
+Speaker 4: Yeah, sandwiches. Oh, it's all families. Like, I catered my daughter's wedding shower yesterday. Eight pounds of chili. Three macarons and cheese by request. So I cooked a challenge. I set up a free yesterday when I saw my mom in the hospital. I did it 80 or 90.
+
+11
+00:03:09,356 --> 00:03:25,196
+Vikki Dipple: You're hired. Oh, wait. All right. So what I was talking about is this is in Salesforce. This is internal view of a position. So this is the object.
+
+12
+00:03:27,456 --> 00:03:28,756
+Speaker 4: Who would be looking at. 
+
+13
+00:03:30,006 --> 00:04:14,990
+Vikki Dipple: Right now, this would be the internal vendor side. So this is a request that came from sourcing windows. So Karen Harris was our buyer. She logs into sourcing window, puts in her request in Suno Pro. It creates this requisition. The internal seller imaging would see who it is, grab it, and then here we see what she requested.
+
+14
+00:04:15,470 --> 00:04:47,290
+Vikki Dipple: Up here is the rec item, so if they have multiple rec items, it would show on the list view here. And then they can check inventory, start pricing inventory. Here would show if we had it in stock, what type it was, the serial number, its position, the details. So this would be like, oh, this is a DOM 2012, this much usage, how many it was spent pricing.
+
+15
+00:04:47,530 --> 00:05:06,022
+Vikki Dipple: And if we had this, that would be there. Down here is where it shows the SRCs that are connected to this Sourcing Window Pro request. So, you can see here, this is the list of all the vendors' requests.
+
+16
+00:05:07,692 --> 00:05:09,652
+Andrew Bailey: So, you're the only company, right. 
+
+17
+00:05:10,732 --> 00:05:14,712
+Vikki Dipple: This is it. So, we receive one of these SRCs.
+
+18
+00:05:15,292 --> 00:05:18,491
+Speaker 4: Premium vendors may sell that data, hasn't it. 
+
+19
+00:05:24,452 --> 00:05:58,882
+Vikki Dipple: And then we have differentiators of true and false here, showing... Sorry, not this one over here. This is the indicator that tells the buyer who they can buy from. So, if it's false, that means blocking this vendor, not the original requester. If it's true, that means the vendor and the customer are in the window.
+
+20
+00:06:00,393 --> 00:06:01,693
+Speaker 4: What does that mean, practically. 
+
+21
+00:06:02,343 --> 00:06:06,683
+Vikki Dipple: So, if Sarah Daly were looking at this request, it would only show...
+
+22
+00:06:06,683 --> 00:06:11,554
+Speaker 4: So, plus Block, and then Block has eight plus people. 
+
+23
+00:06:11,833 --> 00:06:12,034
+Vikki Dipple: Yes.
+
+24
+00:06:12,614 --> 00:06:26,114
+Speaker 4: So, if Block wants to quote this, is Block... Oh, okay, Block is being quoted, but asked to quote. And we don't have an instance. Block doesn't have an instance. Right. So, we could go talk to all those other ones above. We could talk to these people. Like, in that one, Penny and Mulkey.
+
+25
+00:06:26,653 --> 00:06:26,974
+Vikki Dipple: Yeah.
+
+26
+00:06:27,073 --> 00:06:29,933
+Speaker 4: So, does that mean Block reached out to those people when they're checking. 
+
+27
+00:06:30,153 --> 00:06:39,183
+Vikki Dipple: That's correct. So, all of these people responded, no stock. This one, they're an OEM distributor, so...
+
+28
+00:06:39,183 --> 00:06:43,424
+Andrew Bailey: And this is somebody, the parts team, this is their role is to go wheel and deal.
+
+29
+00:06:43,563 --> 00:07:13,155
+Vikki Dipple: Yeah. So, go find that part, source, it auto-sources and connects to all these other people that are not connected to this vendor, or this customer. And, when, because they did buy this... Common Spirit did buy it from, well, if they were to buy it, they would send through a P.O.
+
+30
+00:07:15,566 --> 00:07:33,695
+Vikki Dipple: Oh, I can't show it to you. They didn't buy it from GoOn. Well, we can see their P.O. So we get an SWP fulfillment, which shows the same thing that the customer ordered.
+
+31
+00:07:35,945 --> 00:07:38,985
+Speaker 4: So that's kind of like a view as customer. Yeah.
+
+32
+00:08:09,229 --> 00:08:52,209
+Vikki Dipple: so this one went out to a lot of vendors 20. we were not able to quote this one so i can tell here that simon med swp customer bought it from trust medical when they're coming to show you what i was talking about the window where we can see this is the same view like pixel for pixel.
+
+33
+00:08:52,209 --> 00:08:59,030
+Speaker 4: yeah exactly like that i could type in their tracking number oh and it would update yeah as if they did did you just open it as.
+
+34
+00:09:00,291 --> 00:09:03,472
+Vikki Dipple: Nope, I just opened it as just a regular record.
+
+35
+00:09:03,472 --> 00:09:34,122
+Speaker 4: Yeah, but it's just a different UI. Yeah. So, and, you know, just a little bit of how this works. Press Medical has three guys in the garage. It's gone, you know, he's sold a couple of companies. He's got a relationship with Simon Med, who's a very different, they're most likely undercutting pricing right now, you know, just with that support. Literally, Chad restarted his business that he sold twice, and he bought an MRI.
+
+36
+00:09:34,341 --> 00:09:39,541
+Speaker 4: He parted it out, and then he bought another one that he bought. It's not Henry, because the margin's from the...
+
+37
+00:09:42,091 --> 00:10:13,483
+Andrew Bailey: What are we doing in the building software, guys? No, I'm just saying, what if I buy an MRI for Evelyn? Her ticket. Yeah, 12-year-old, 10-year-old? She's ready for it. She's doing this for you. This is, I see, I think when I see how... simple that is, what's on the wall, that's, when I see how trying to build some really.
+
+38
+00:10:13,483 --> 00:10:29,804
+Andrew Bailey: funky to allow those things to all participate in there, and then knowing that Salesforce doesn't give you the same tools, I can see why it gets confusing.
+
+39
+00:10:30,784 --> 00:10:42,144
+Speaker 4: There's the amount of keystrokes, so much of the quotes, but we're learning about this.
+
+40
+00:10:42,924 --> 00:11:05,466
+Andrew Bailey: internal buyer and vendor, simply to keep in mind, and to what we saw, I just keep that in mind, why. Is there something we can, like, who's the person that we talk to about the platform. 
+
+41
+00:11:08,486 --> 00:11:16,396
+Speaker 4: That's, again, that's a little bit driven by the, right now, the platform.
+
+42
+00:11:20,036 --> 00:11:23,916
+Vikki Dipple: Yeah, we have to do password resetting, onboarding.
+
+43
+00:11:24,736 --> 00:11:33,836
+Speaker 4: But it's so coupled with Salesforce. It's all within Salesforce now. So we can't even talk about that until we talk about what that's trying to bring out of Salesforce.
+
+44
+00:11:33,836 --> 00:11:38,256
+Andrew Bailey: Is there something we need to do to be more prepared for that? It's such a business strategy decision.
+
+45
+00:11:40,066 --> 00:11:44,366
+Speaker 4: But there's a follow-up to this. Vendor and customer ad.
+
+46
+00:11:47,866 --> 00:11:56,586
+Vikki Dipple: Yeah, like, it's something that we lost when we went to this version of Salesforce 360.
+
+47
+00:11:56,726 --> 00:11:58,326
+Speaker 4: I mean, it's fired, basically.
+
+48
+00:11:58,586 --> 00:12:17,300
+Vikki Dipple: Yeah, there's nowhere for. them to have like profile settings. They don't have access to, oh, I need to update my phone number or my email or my name was spelled wrong. I can update that profile information. None of that's available. Or even if someone gets fired, someone gets fired, they have.
+
+49
+00:12:17,300 --> 00:12:22,280
+Speaker 4: to email you to be like, hey, so and so just joined the team. Yeah, we had somebody pass.
+
+50
+00:12:22,280 --> 00:12:33,490
+Vikki Dipple: away and we're still emailing them. Which in part was intentional too because.
+
+51
+00:12:33,490 --> 00:12:57,540
+Jordan Clark: well, obviously there's a limitation to the tool, but then having Vicky, you or Sam do the onboarding ensured that they got like proper training and utilization. So when they were onboarding a new member, it was like, well, hey, come to us so we can help you go through the onboarding process and learn the system. Whereas if they could create their own users, it could be off the races in a totally wrong direction potentially. Yeah. 
+
+52
+00:12:57,540 --> 00:12:58,720
+Vikki Dipple: because it's not user friendly.
+
+53
+00:13:00,872 --> 00:13:36,402
+Speaker 4: So let's fast forward to where it's a little bit, let's just even say mildly more. Then what you do is when a new person gets on, they get almost, once they get, if they add a new person to their, once that person logs in, they get like a unique first time. Tutorial. Where it's like guided through, hey, welcome, click here, okay, now click here. And then it's like, here, we're going to actually make you make your first order. Yep. Or here's your favorite person, which is kind of, I would say it's part of that plus.
+
+54
+00:13:36,842 --> 00:13:59,032
+Speaker 4: Yes. It's like, here's a fake order you need to reply to, or here's a fake, you know, some type of, yeah, yeah. And then for two, especially if the mobile is truly a high, a very intuitive UI, then we need to put workflow in, which is where an FSC has a part request.
+
+55
+00:14:11,744 --> 00:14:44,944
+Speaker 4: If we pull to your, and correct me if I'm kind of wrong, but external buyer, external vendor, or phase one focus, if we pull out FSE as its own person and not subs of those, pull them out as separate, we can make essentially a custom workflow for those people that's a mobile-friendly version, that all it does is basically feed into the other internal process, to basically as a workaround, to just be like, let me get a mobile way to submit.
+
+56
+00:14:44,944 --> 00:14:59,934
+Speaker 4: an order, and then all it does is kick off Salesforce to do what it does for its internal buyer. Think about that. Internally, we need to validate that this was there for our FSE to be able to say, I.
+
+57
+00:15:14,646 --> 00:15:31,466
+Jordan Clark: I think it's a great idea to separate it out, because you could use that FSE workflow for internal process and then also like you had said, like centralized purchasing, like Croffle or someone, where they have a lot of information coming in from the field into that grouping and then distribute from there.
+
+58
+00:15:33,416 --> 00:15:58,266
+Vikki Dipple: It'd be really cool if we, I don't know if we could do that in this scope, but have a way to, if you need a part, do it this way, no matter what department you're in, because it'll take care of that for you.
+
+59
+00:15:58,366 --> 00:16:27,680
+Speaker 4: It just auto kicks off. I feel like that's a really easy way to get around stuff, is if you want to keep Salesforce and keep the automation that's within Salesforce, just create a thing that kicks off those. And then eventually, we can replace it if that's . I just hate the idea that you guys are being like, okay, we want to add a new automation in Salesforce.
+
+60
+00:16:29,450 --> 00:16:56,940
+Speaker 4: Or like, I want to add a button that does a thing, it's like, oh, we can add the button, the automation. Yeah. So tomorrow, we've got the same plus of Erica, we've got Paul, whoever else can, and then To dive deep into that question. Yeah, that question. Then I've got, I put everybody on notice. Thank you.
+
+61
+00:17:00,032 --> 00:17:39,772
+Speaker 4: and then Wednesday morning conversation I know we I think we do need to solidify this this yeah I think we feel pretty good about vendor get like only halfway through I think I was more I was scared at the now I kind of possible option but these are the people more yeah well just we're.
+
+62
+00:17:39,772 --> 00:18:13,404
+Speaker 4: adding one in terms of oh okay would it be a waste of that person's time to talk about external wire um let's start off with and then they drop off oh okay yeah maybe after we come back to them and then. Yeah, that'll be Erica here tomorrow.
+
+63
+00:18:15,644 --> 00:18:16,184
+Speaker 4: Okay.
+
+64
+00:18:38,064 --> 00:18:43,394
+Jordan Clark: Yeah, so we should have both of those voices in the room with Erica and Allie. Cool.
+
+65
+00:18:43,394 --> 00:18:47,554
+Speaker 4: So did you get that, Andy, we're going to start with the buyer? Yeah.
+
+66
+00:18:47,974 --> 00:18:54,574
+Speaker 3: Is that the same team often, where it's like, we're trying to sort the part, we don't have it, now we're going to go buy it? So the same team is doing that. 
+
+67
+00:18:57,564 --> 00:19:05,536
+Jordan Clark: Yes, depending on the outcome, regardless. Regarding if it is an external parts sale transaction or a service consumption transaction? Yeah.
+
+68
+00:19:08,056 --> 00:19:13,786
+Vikki Dipple: I know we only have 20 minutes, but this is selecting I want to choose a vendor.
+
+69
+00:19:14,926 --> 00:19:15,446
+Speaker 4: Oh, okay.
+
+70
+00:19:15,646 --> 00:19:23,486
+Vikki Dipple: So this would show them the apples to the apples if there was other options. They would select it. This one's blocking.
+
+71
+00:19:24,246 --> 00:19:35,886
+Speaker 3: Yep. Okay. So this might be, you might have up to 20 of these at some point, right? You might have, I mean, and it's rare, but you might have 20 vendors you're looking at responses from. Yeah. And so we might have to scroll a little bit. Yep. We need to scroll down.
+
+72
+00:19:35,886 --> 00:19:44,326
+Speaker 4: And if you, let's just say I want, I'm not, I don't want to select. I want to message block and see if they can negotiate on price or something. Yeah. How do I do that. 
+
+73
+00:19:44,526 --> 00:19:45,326
+Vikki Dipple: I'd still select it.
+
+74
+00:19:45,326 --> 00:19:45,726
+Speaker 3: Oh, you'd still select.
+
+75
+00:19:45,886 --> 00:19:47,126
+Vikki Dipple: And then the chat box is on.
+
+76
+00:19:48,796 --> 00:20:05,950
+Speaker 3: Would it be valuable to have, like, hey, I know what, I know what's most interesting, what's most important to me right now is price, quality is, pick one of the three, press the button, have things highlighted. I feel like I've asked this before, and I just want to make sure we're not, like, holding hands to experts and what they're doing.
+
+77
+00:20:06,150 --> 00:20:07,530
+Speaker 4: Yeah, these are experts.
+
+78
+00:20:07,790 --> 00:20:11,650
+Speaker 3: Okay, so they just want the data, and, like, don't guide me, basically. They do this all day long.
+
+79
+00:20:11,830 --> 00:20:14,970
+Jordan Clark: I was going to ask them, well, what is our sorting function currently. 
+
+80
+00:20:15,930 --> 00:20:18,290
+Speaker 4: Blanks first. Our pricing's on the bottom. Blanks first, yeah.
+
+81
+00:20:18,290 --> 00:20:18,890
+Speaker 3: That's what I was curious, yeah.
+
+82
+00:20:19,530 --> 00:20:23,670
+Speaker 4: But, like, at a minimum, you should be able to click pricing, and pricing should sort. Exactly.
+
+83
+00:20:23,770 --> 00:20:29,030
+Speaker 3: Maybe a little bit less guided than I was saying, but a little bit, like, just sort by the thing. Yeah, still have some, yeah, some filter function.
+
+84
+00:20:30,650 --> 00:20:44,170
+Vikki Dipple: Yeah, I don't actually know how this works. It may have been. It may have been by KLD entered connection. It used to be more understandable.
+
+85
+00:20:45,400 --> 00:20:48,220
+Jordan Clark: It's alphabetical by status condition, but then not.
+
+86
+00:20:49,340 --> 00:20:55,080
+Speaker 3: Is that cart, on the upper left, is that cart tab so that you could select multiple? I see it's got two places. Okay.
+
+87
+00:20:55,140 --> 00:21:14,732
+Vikki Dipple: Yeah, so this is every single request. We'll have a cart on whether it's completed. Open would mean that it's not been processed yet. If you have multiple items here, you can drop it down, select it, and then check out.
+
+88
+00:21:16,492 --> 00:21:26,742
+Speaker 3: Check out per carton, or might you check out, like, does it happen, and it is future versus current state? Is this for current state. 
+
+89
+00:21:26,942 --> 00:21:29,692
+Vikki Dipple: It's actually a really, really good trade.
+
+90
+00:21:30,072 --> 00:21:35,032
+Speaker 3: It's awful, it's terrible. This is definitely part of the plus.
+
+91
+00:21:35,032 --> 00:21:52,242
+Vikki Dipple: They have a great way to improve this. Yeah, they select it. What you've got out here is pretty well defined. You review everything. You decide whether you want to buy exchange or outright, add to cart.
+
+92
+00:21:54,782 --> 00:22:06,163
+Jordan Clark: That could tie really well into the returns function as well. As you can see, it's really messy in here, like...
+
+93
+00:22:06,163 --> 00:22:10,123
+Speaker 3: Yeah, is it extra bad because of a laptop, like, on a smaller screen, or is this typically...
+
+94
+00:22:10,123 --> 00:22:15,024
+Vikki Dipple: It may also, but just because of the pop-out window, it compresses everything.
+
+95
+00:22:15,063 --> 00:22:31,573
+Speaker 3: A lot of white space, unused. Half the screen is unused right now. And then, if, is it typical that a specific request, you have, let's say, five parts, the same vendor might handle two or three of those parts, is that typical, or is that...
+
+96
+00:22:32,474 --> 00:23:01,855
+Vikki Dipple: So, a lot of times, bill request parts not get any options, and they might request three and only have two options to buy. So, the system as is right now makes them cancel that third quantity, because it's an unbilled quantity, which is extremely crazy. We have to adjust that for them almost every time, because they don't... know how to do it, and I don't blame them.
+
+97
+00:23:02,815 --> 00:23:10,955
+Speaker 3: Yep. So I can see, yeah, just help check out the flow. It's helpful to understand what's the problem we're trying to solve. We just kind of sort of didn't ignore the current state .
+
+98
+00:23:14,665 --> 00:23:47,235
+Vikki Dipple: So everybody will have a PO number, even if it's template. We do require them to upload a PO unless they select information. If they do this, it's really simple. They just upload the PO, add their PO number, and then they're done. They could add more e-mails that they wanted, purchase notes, but if they do this, they can add more of like a shipping.
+
+99
+00:23:50,245 --> 00:24:07,929
+Vikki Dipple: They could add a shipping number, which some customers will give us their shipping number to bill, or they'll just say bill us. And then, If it's block imaging, we have to add a new REC item, because they didn't originally request shipping, so.
+
+100
+00:24:08,109 --> 00:24:16,109
+Speaker 4: This question, could we evaluate the PO? I was just gonna say that, absolutely.
+
+101
+00:24:16,569 --> 00:24:28,199
+Speaker 3: Close the PO. Close the PO. Right. AI does that. So long notes. Yeah, exactly. Almost everything has to be pre-filled when you do. Just do a validation. Yep, very easy.
+
+102
+00:24:29,589 --> 00:24:41,989
+Vikki Dipple: And then they do have, this is really helpful if they're in a rush, maybe for whatever reason, they can't get their PO to upload, whether through user error or a bad file.
+
+103
+00:24:43,489 --> 00:24:46,769
+Speaker 4: Or like I can see on mobile, like you're not gonna PO.
+
+104
+00:24:46,769 --> 00:24:49,789
+Vikki Dipple: Oh, this is not even, you cannot attend the day.
+
+105
+00:24:50,009 --> 00:24:58,769
+Speaker 3: This is mobile intolerance. Resistance. On the mobile, you still have to get ahold of the PO and all that.
+
+106
+00:25:03,971 --> 00:25:10,111
+Vikki Dipple: Most of the time our buyers have laptops, but even like Jake was saying, in constraints.
+
+107
+00:25:10,111 --> 00:25:22,151
+Speaker 3: of this pop-up, like look how much usable data you have, a lot of improvement, I'm curious to see what you would think about how much should be modal versus a screen, and you can go back and forth easily, you don't really need to have a modal.
+
+108
+00:25:23,821 --> 00:25:28,021
+Speaker 4: And then once they click submit my PO, I think we'll, this is checkout.
+
+109
+00:25:37,821 --> 00:26:06,863
+Vikki Dipple: Yeah, there's sometimes we'll do that, especially if they're on the phone saying, I can't get to my email right now, but I've got it there, I'll send it later today. And our team, Block Imaging, is really good about following up on that. Yeah, because they could just even say, and then upload a picture of their cat.
+
+110
+00:26:09,433 --> 00:26:19,733
+Speaker 3: That's what I was curious about, validating the PO, to see if it's even a PO or not. I'm curious, it would be helpful, it would be interesting to know how much time is wasted with incomplete data during the PO process.
+
+111
+00:26:19,993 --> 00:26:21,093
+Vikki Dipple: There's a lot of duplication.
+
+112
+00:26:22,813 --> 00:26:37,073
+Speaker 4: There's a version of the fact that you're trying to arrange for an anaphone that's spied out. So, you know the CFO has given you $100,000.
+
+113
+00:26:38,643 --> 00:26:43,923
+Vikki Dipple: Yeah, ship it, we'll get the hard copy document stuff figured out later, but this needs to get out.
+
+114
+00:26:44,043 --> 00:26:44,203
+Speaker 4: Okay.
+
+115
+00:26:45,243 --> 00:26:59,983
+Speaker 3: I'm curious with that, then, if you had an implicit follow-up task, would it be helpful to have that follow-up task be part of the portal? Or like the vendor, whoever it was that said, it's a real PO, but we need to give you a real PO.
+
+116
+00:27:00,515 --> 00:27:01,395
+Vikki Dipple: That's a great idea.
+
+117
+00:27:01,655 --> 00:27:09,895
+Speaker 3: It's nice to do it through the system. Right now, is it follow-up? Will it be coming through email? Or is it still having the system somewhere after the fact. 
+
+118
+00:27:10,115 --> 00:27:14,655
+Vikki Dipple: Most of the time, I would say 99% it's PO uploaded.
+
+119
+00:27:15,115 --> 00:27:19,535
+Speaker 3: Good. So at least they're doing the right process. So they can forget it. Yeah. And this makes it easier for sellers. Yeah, yeah, yeah.
+
+120
+00:27:20,155 --> 00:27:34,765
+Andrew Bailey: When we were partially the way through external buyer, thinking about, uh-oh, we're way behind. And then when we realized this, are not fully decided.
+
+121
+00:27:36,245 --> 00:27:38,545
+Vikki Dipple: Yep, there are higher priority.
+
+122
+00:27:39,185 --> 00:27:39,545
+Andrew Bailey: Yeah.
+
+123
+00:28:18,959 --> 00:28:32,749
+Vikki Dipple: We don't know how to do it, and so there's a big block there because we don't know how to get over that. We don't have the expertise. We don't know the questions we need to ask.
+
+124
+00:28:33,619 --> 00:29:05,811
+Andrew Bailey: We're almost, I wish she was here. We are, I don't know, I think we're always this way. I don't want to speak for that. We're never, I always say, we're not an always and never thing, but in general, we usually think of best practices, who owns the data, and there's always, there's this fake cost. People talk about the cost of change. There's a cost of things staying the same, you're just used to it.
+
+125
+00:29:06,551 --> 00:29:37,291
+Andrew Bailey: You're just used to paint. And in software, one of my favorite, actually the company unfortunately doesn't, one of my favorite philosophies was this, basically every two years they rebuild their system, rather than try to maintain an old system, because they're kind of hypothesis. You're going to say they didn't have the business anymore? So they failed? They sold. Once you get to a big company, they're like, whatever. But the reason they got to the point of being sold by the big company,
+
+126
+00:29:37,391 --> 00:30:04,263
+Andrew Bailey: or being bought by the big company, is because they were one of those top of the tier things. And it's because every two years, rather than investing all that money in old technology, they had a very extensible Lego-level thing where they were like, let's take this piece out and replace it with modern technology. Technology moved so fast, it allowed them to always be on top of things. Definitely. to a multi-billion dollar company. There they were. They won.
+
+127
+00:30:04,463 --> 00:30:05,043
+Vikki Dipple: It worked out.
+
+128
+00:30:05,503 --> 00:30:32,773
+Andrew Bailey: Yeah, our tendency is to, that's why you hear us say in the product world, the goal is market. In the product world, the goal is make. In the product world, you have to define a persona. So I don't care if you make it, there's no such thing as an internal buyer. What that is is an integrated user or a premium plus user. Right. So that you don't create something that doesn't make sense. Yay. Oh, nice.
+
+129
+00:30:36,453 --> 00:30:40,013
+Speaker 4: Yeah, I need to read it. I'm interested.
+
+130
+00:30:40,593 --> 00:31:12,745
+Andrew Bailey: It's a very, very good book. It's super good. I think before, people used to ask me what my favorite leadership book was, and I used to say, just read about someone who did something you're passionate about. Learn from them. Don't read a leadership book. They're often too one-sided. They're often seeing their thing. If they did your dissertation, I would recommend it, because I think it is more kind of holistically around the mentality,
+
+131
+00:31:13,005 --> 00:31:18,335
+Andrew Bailey: the posture of leadership rather than as a person.
+
+132
+00:31:18,415 --> 00:31:40,435
+Vikki Dipple: Well, a lot of times people that, like to answer your first question, people that I looked up to don't write books. They do things. So I wouldn't be able to read their book because I am pregnant. All right, guys, what do we need to wrap up. 
+
+133
+00:31:40,595 --> 00:32:11,589
+Speaker 4: I think we'll all say tomorrow we're going to start with internal buyer, transition back to internal buyer, break it up with lunch, talking about what potential phase two, phase three can look like. And then what I'm hoping is by the end of this week. a very good a very good phase one which is this wall and then hopefully have enough to find this.
+
+134
+00:32:14,119 --> 00:32:58,089
+Speaker 4: again that kind of way into defining phase two and phase three i think i was hoping to have more of phase two and phase three defined by the end of this week but it feels like that's probably we need yeah we need to all on um which is not of this week it's not we need to get some dollar we need to get some some dollars just at this point you guys are 75 when i need to talk about.
+
+135
+00:32:58,519 --> 00:33:32,161
+Andrew Bailey: risks, I don't know if you guys have a different thought, but the idea of not knowing who... The reason why I started with parts wasn't just because users and it got us to the part. Everything is a relationship. And when I'm thinking about the data structure, I'm like, all right, I'm part of this. And this is how do you get messaging that moves, that exists in this part of the conversation, stays in this.
+
+136
+00:33:32,161 --> 00:33:53,071
+Andrew Bailey: Well, it's because they're connected as part of the relationship. And so the master materials to this, it would be like what the limitations are. I would say that I don't think you guys said, oh, we must do it this way. It's more like, well, whatever you do, we also need to...
+
+137
+00:33:55,341 --> 00:34:32,563
+Speaker 4: Yeah, that's true. That's something I would say I think we need to get defined by. What do you feel like, who is it, Paul, again, the materialists? Yes, and just thinking this, Paul, for tomorrow, it's going to be, there's a very practical, there's a very practical, where is, where is, the second, the second part, how do we, how do we experience, is that, what platform has that done?
+
+138
+00:34:32,723 --> 00:35:00,013
+Speaker 4: And the material thing is very similar. Also, customers, we share those customers regardless. We share those vendors. We share the material regardless. We won't have a customer in SWFP that's.
+
+139
+00:35:00,765 --> 00:35:12,515
+Andrew Bailey: I just, I mean, I don't know if you're saying the same, it's just I can't, you know, not be. I'm not saying it isn't or shouldn't be.
+
+140
+00:35:12,595 --> 00:35:39,605
+Speaker 4: I'm just... But it's almost saying, if I hear you, it's within the system, but then Salesforce needs to have that. It can't not. Right. But that's still the question of is that data living in Salesforce that we're pulling it from or is that separate? But for it to be separate from Block, it has to be from Salesforce, which originally was like the fundamental thought, but now it's feeling like that fundamental thought could not be yet.
+
+141
+00:35:39,605 --> 00:35:57,845
+Andrew Bailey: And I guess if it's, if it is a Block product, I just need to come up with a Block product. Yeah. Versus a product super premium. Yeah.
+
+142
+00:35:59,999 --> 00:36:01,039
+Vikki Dipple: I think originally...
+
+143
+00:36:01,039 --> 00:36:05,579
+Andrew Bailey: I'm not saying even the technical solution will be different, but the frame of the print...
+
+144
+00:36:05,579 --> 00:36:10,239
+Speaker 4: I mean, what you name everything, right? Whether it's block end and product end.
+
+145
+00:36:10,559 --> 00:36:24,459
+Andrew Bailey: Right, either way, like, what the end result is, it's like, well, we can probably build something that allows the community... But then if we're thinking about it, it's like, well, this is what a super user would do. Okay, well, they get a custom...
+
+146
+00:36:26,889 --> 00:36:58,129
+Vikki Dipple: And that's the other thing, too, because we want to be able to make money off of this so that it makes sense for other people to use it, get the rewards from it, and, like, block doesn't lose out. We didn't just edge ourselves out. We still get to collect the subscription fees of this incredible product that is so good. We made it for ourselves, but now we're selling it to you because it helps our processes so much.
+
+147
+00:36:59,049 --> 00:37:19,551
+Vikki Dipple: That's... That's how we started introducing sourcing window for our vendors to use and one of the customers at a trade show was like how do you guys source your parts and we told them all we actually built this cool internal tool our vendors that's.
+
+148
+00:37:19,551 --> 00:37:25,051
+Speaker 4: what this feels like it's an automated tool that you guys just exactly what it.
+
+149
+00:37:25,051 --> 00:37:43,911
+Speaker 3: is the history of the green history of it even with chat talking about yeah that's true it was interesting to see it progress so I helped me realize oh the other question here you're giving away your secrets do you what's the value in block still having some special admin privileges not like well yeah the.
+
+150
+00:37:43,911 --> 00:37:59,411
+Speaker 4: automated tier right here you don't have to go I feel like you're not I got a lot it's yeah okay all right guys well done right can we just leave our mess yeah.
+
+151
+00:37:59,411 --> 00:38:19,373
+Andrew Bailey: yeah, This is our space. I just wanted it to feel like we were coming into it. How much does it pain the rest of the week that you're devoted to this. 
+
+152
+00:38:21,893 --> 00:38:29,153
+Vikki Dipple: Um, well, not too much. Because the first couple of days of my week are...
+
+153
+00:38:30,983 --> 00:38:38,553
+Speaker 4: You know, the question becomes, do you just want to make the API calls in on every field, or do you want to...
+
+154
+00:38:38,553 --> 00:38:44,843
+Speaker 3: It changes the complexity of the process, but... I agree.
+

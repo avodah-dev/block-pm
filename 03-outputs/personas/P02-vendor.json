@@ -1,0 +1,62 @@
+{
+  "persona_id": "P02",
+  "name": "Vendor",
+  "full_title": "Vendor Sales Representative",
+  "role": "Responds to RFQs and provides quotes for parts and materials",
+
+  "goals": [
+    "Respond quickly to quote opportunities",
+    "Win more business through competitive pricing",
+    "Maintain good relationships with buyers",
+    "Track and manage multiple quote requests",
+    "Maximize sales opportunities"
+  ],
+
+  "pain_points": [
+    "Missing opportunities due to late notifications",
+    "Unclear specifications in requests",
+    "Competition visibility",
+    "Manual quote submission process",
+    "Tracking quote status and outcomes"
+  ],
+
+  "typical_tasks": [
+    "Review incoming RFQs",
+    "Submit competitive quotes",
+    "Update inventory availability",
+    "Communicate with buyers",
+    "Track won/lost opportunities",
+    "Manage pricing and conditions"
+  ],
+
+  "system_access": {
+    "permission_level": "Vendor User",
+    "modules": [
+      "Open Requests",
+      "Quote Submission",
+      "Order Management",
+      "Dashboard",
+      "Messaging"
+    ],
+    "frequency": "Daily"
+  },
+
+  "success_metrics": [
+    "Quote response time",
+    "Win rate",
+    "Quote accuracy",
+    "Customer satisfaction"
+  ],
+
+  "workflows": [
+    "W03-vendor-submit-quote"
+  ],
+
+  "interactions_with": [],
+
+  "metadata": {
+    "created_date": "2025-09-24",
+    "status": "active",
+    "department": "Sales"
+  }
+}

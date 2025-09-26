@@ -1,0 +1,221 @@
+{
+  "id": "W09",
+  "name": "Integrated Vendor Fulfillment Pass-Through",
+  "type": "user_workflow",
+  "persona": "P03-integrated-vendor",
+  "trigger": "Won bid for parts not in inventory",
+  "goal": "Orchestrate fulfillment between original buyer and third-party vendor",
+  "complexity": "high",
+  "broker_role": true,
+  "reuses_workflows": [
+    "W02",
+    "W05"
+  ],
+  "steps": [
+    {
+      "id": "W09-S01",
+      "name": "Receive Won Notification",
+      "type": "reuse",
+      "references": "W05-S01",
+      "actor": "Integrated Vendor",
+      "channels": [
+        "email",
+        "dashboard"
+      ],
+      "key_context": "part_not_in_inventory",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W09-S02",
+      "name": "Confirm to Original Buyer",
+      "type": "reuse",
+      "references": "W05-S03",
+      "actor": "Integrated Vendor",
+      "purpose": [
+        "acknowledge_receipt",
+        "set_expectations",
+        "buy_orchestration_time"
+      ],
+      "automated": "email_to_buyer",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W09-S03",
+      "name": "Access Sourcing Request",
+      "type": "action",
+      "actor": "Integrated Vendor as Buyer",
+      "reuses": "W02-review-interface",
+      "actions": [
+        "locate_previous_quote",
+        "verify_pricing",
+        "prepare_purchase"
+      ],
+      "critical_link": "original_buyer_order_id",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W09-S04",
+      "name": "Purchase from Vendor",
+      "type": "action",
+      "actor": "Integrated Vendor as Buyer",
+      "reuses": "W02-purchase-execution",
+      "critical_modifications": {
+        "shipping_address": "original_buyer_location",
+        "special_instructions": "drop_ship_to_customer",
+        "branding": "exclude_integrated_vendor_materials"
+      },
+      "requirements_addressed": []
+    },
+    {
+      "id": "W09-S05",
+      "name": "Vendor Processes Order",
+      "type": "reuse",
+      "references": "W05-vendor-fulfillment",
+      "actor": "Third-Party Vendor",
+      "standard_process": true,
+      "vendor_awareness": "unaware_of_brokering",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W09-S06",
+      "name": "Receive Vendor Confirmation",
+      "type": "passthrough",
+      "actor": "Integrated Vendor",
+      "direction": "receiving",
+      "information_captured": [
+        "order_confirmation",
+        "tracking_numbers",
+        "serial_numbers",
+        "rma_numbers",
+        "estimated_delivery"
+      ],
+      "system_support": "auto_capture_formatting",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W09-S07",
+      "name": "Forward to Original Buyer",
+      "type": "passthrough",
+      "actor": "Integrated Vendor",
+      "direction": "forwarding",
+      "information_forwarded": [
+        "all_tracking_info",
+        "serial_rma_numbers",
+        "delivery_estimates"
+      ],
+      "appearance": "direct_from_integrated_vendor",
+      "system_support": "automated_forwarding",
+      "requirements_addressed": []
+    },
+    {
+      "id": "W09-S08",
+      "name": "Monitor Delivery",
+      "type": "surveillance",
+      "actor": "System with Integrated Vendor",
+      "activities": [
+        "track_shipment",
+        "forward_updates",
+        "manage_issues",
+        "confirm_delivery"
+      ],
+      "end_condition": "successful_delivery",
+      "requirements_addressed": []
+    }
+  ],
+  "information_flows": {
+    "buyer_to_vendor": {
+      "shipping_address": "exact_location",
+      "delivery_requirements": "special_instructions",
+      "contact_information": "delivery_contact"
+    },
+    "vendor_to_buyer": {
+      "tracking_numbers": "all_carriers",
+      "serial_numbers": "product_identifiers",
+      "rma_numbers": "return_authorization",
+      "delivery_confirmation": "proof_of_delivery"
+    },
+    "internal_maintenance": {
+      "order_linking": "buyer_order_to_vendor_purchase",
+      "markup_tracking": "profit_margin",
+      "audit_trail": "complete_transaction_history"
+    }
+  },
+  "system_support_features": {
+    "automated_linking": {
+      "connect_orders": "buyer_to_vendor_purchase",
+      "parent_child": "maintain_relationships",
+      "information_flow": "track_all_transfers"
+    },
+    "information_forwarding": {
+      "auto_forward": "tracking_updates",
+      "format_data": "serial_rma_formatting",
+      "translate_updates": "vendor_to_buyer_notifications"
+    },
+    "monitoring_alerts": {
+      "shipment_tracking": "real_time_progress",
+      "exception_handling": "issue_detection",
+      "delivery_confirmation": "completion_verification",
+      "escalation": "problem_resolution"
+    }
+  },
+  "risk_ownership": {
+    "integrated_vendor_responsible": [
+      "delivery_failures",
+      "wrong_shipments",
+      "quality_issues",
+      "timeline_delays",
+      "communication_gaps"
+    ],
+    "mitigation": [
+      "immediate_confirmations",
+      "proactive_communication",
+      "clear_vendor_instructions",
+      "continuous_monitoring",
+      "escalation_protocols"
+    ]
+  },
+  "architecture_layers": {
+    "product": [
+      "order_linking_mechanisms",
+      "passthrough_engine",
+      "forwarding_rules",
+      "monitoring_dashboards"
+    ],
+    "business_logic": [
+      "custom_forwarding_rules",
+      "client_formatting",
+      "risk_alerts",
+      "performance_analytics"
+    ],
+    "business_system": [
+      "financial_settlement",
+      "margin_tracking",
+      "vendor_metrics"
+    ]
+  },
+  "requirements_coverage": {
+    "addressed": [],
+    "notes": "This workflow describes Block's internal fulfillment orchestration when acting as a broker. It leverages buyer/vendor workflows but represents Block's proprietary pass-through process."
+  },
+  "success_metrics": [
+    "forwarding_speed_under_1_minute",
+    "delivery_success_99_percent",
+    "buyer_transparency_100_percent",
+    "zero_branding_leaks",
+    "complete_audit_coverage"
+  ],
+  "edge_cases": [
+    {
+      "scenario": "vendor_cannot_fulfill",
+      "response": "find_alternative_source"
+    },
+    {
+      "scenario": "shipping_delays",
+      "response": "proactive_communication"
+    },
+    {
+      "scenario": "wrong_address",
+      "response": "rapid_correction"
+    }
+  ]
+}

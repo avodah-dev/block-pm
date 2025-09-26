@@ -1,0 +1,65 @@
+{
+  "persona_id": "P01",
+  "name": "Buyer",
+  "full_title": "Procurement Buyer / Purchasing Agent",
+  "role": "Responsible for sourcing parts and materials from vendors",
+
+  "goals": [
+    "Find the best price/quality combination for needed parts",
+    "Ensure timely delivery of parts",
+    "Maintain vendor relationships",
+    "Stay within budget constraints",
+    "Meet internal customer needs"
+  ],
+
+  "pain_points": [
+    "Difficulty comparing multiple vendor quotes",
+    "Lack of visibility into vendor capabilities",
+    "Manual tracking of requests and quotes",
+    "No consolidated view of spending",
+    "Unclear vendor response times"
+  ],
+
+  "typical_tasks": [
+    "Create parts requests",
+    "Review vendor quotes",
+    "Select winning vendors",
+    "Track order status",
+    "Manage purchase orders",
+    "Communicate with vendors"
+  ],
+
+  "system_access": {
+    "permission_level": "User",
+    "modules": [
+      "Request Management",
+      "Quote Review",
+      "Vendor Selection",
+      "Purchase Orders",
+      "Dashboard",
+      "Reporting"
+    ],
+    "frequency": "Daily"
+  },
+
+  "success_metrics": [
+    "Time to fulfill requests",
+    "Cost savings achieved",
+    "Vendor response rate",
+    "On-time delivery rate",
+    "Budget adherence"
+  ],
+
+  "workflows": [
+    "W01-buyer-parts-request",
+    "W02-review-select-vendor"
+  ],
+
+  "interactions_with": [],
+
+  "metadata": {
+    "created_date": "2025-09-24",
+    "status": "active",
+    "department": "Procurement"
+  }
+}

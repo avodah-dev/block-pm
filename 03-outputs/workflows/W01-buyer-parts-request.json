@@ -1,0 +1,164 @@
+{
+  "workflow_id": "W01",
+  "name": "Buyer Parts Request",
+  "persona": "P01-buyer",
+  "goal": "Request parts/materials from qualified vendors",
+  "trigger": "Buyer needs a part",
+
+  "steps": [
+    {
+      "step_id": "W01-S01",
+      "name": "Initiate Request",
+      "description": "Buyer decides to create a new parts request",
+      "actions": ["Click 'Select Create' button"],
+      "ui_elements": ["Select Create button"],
+      "next_steps": ["W01-S02"],
+      "requirements_addressed": [],
+      "resources": []
+    },
+    {
+      "step_id": "W01-S02",
+      "name": "Search for Part",
+      "description": "Buyer searches for existing part in the system",
+      "actions": ["Enter search criteria", "View search results"],
+      "ui_elements": ["Part Search interface", "Search results list"],
+      "decision_point": true,
+      "branches": {
+        "part_found": "W01-S03",
+        "part_not_found": "W01-S02a"
+      },
+      "requirements_addressed": ["SWP-M-10"],
+      "resources": ["Parts/Material List database"]
+    },
+    {
+      "step_id": "W01-S02a",
+      "name": "Create New Part",
+      "description": "Create part entry when not found in system",
+      "actions": ["Enter part details", "Select modality", "Select manufacturer", "Add part number", "Add description", "Optional: system info"],
+      "ui_elements": ["Create Part form"],
+      "data_inputs": ["Modality", "Manufacturer", "Part number", "Description", "System (optional)"],
+      "next_steps": ["W01-S03"],
+      "requirements_addressed": ["SWP-M-12"],
+      "resources": ["Parts/Material List database"]
+    },
+    {
+      "step_id": "W01-S03",
+      "name": "Select Part",
+      "description": "Buyer selects the part they want to request",
+      "actions": ["Click on part from list", "Confirm selection"],
+      "ui_elements": ["Part selection interface"],
+      "next_steps": ["W01-S04"],
+      "requirements_addressed": [],
+      "resources": []
+    },
+    {
+      "step_id": "W01-S04",
+      "name": "Finalize Request Details",
+      "description": "Buyer enters quantity and additional information",
+      "actions": ["Update quantities", "Add optional note", "Add optional customer reference number"],
+      "ui_elements": ["Request finalization form"],
+      "data_inputs": ["Quantity (required)", "Note (optional)", "Customer reference number (optional)"],
+      "next_steps": ["W01-S05"],
+      "requirements_addressed": ["SWP-M-11", "SWP-M-13", "SWP-M-14"],
+      "resources": []
+    },
+    {
+      "step_id": "W01-S05",
+      "name": "Submit Request",
+      "description": "Buyer submits the completed request",
+      "actions": ["Click Submit Request button"],
+      "ui_elements": ["Submit Request button"],
+      "validations": ["Required fields completed", "Quantity > 0"],
+      "next_steps": ["W01-S06"],
+      "requirements_addressed": ["SWP-M-15"],
+      "resources": []
+    },
+    {
+      "step_id": "W01-S06",
+      "name": "Validate Vendor Capabilities",
+      "description": "System checks user's vendor list against part requirements",
+      "actions": ["System retrieves user's vendor list", "System matches vendor capabilities"],
+      "system_process": true,
+      "next_steps": ["W01-S07"],
+      "requirements_addressed": ["SWP-M-15", "SW-M-1", "SW-M-2"],
+      "resources": ["Vendor Capability database", "User vendor list"]
+    },
+    {
+      "step_id": "W01-S07",
+      "name": "Check Modality & Manufacturer",
+      "description": "System validates vendor compatibility with part specifications",
+      "actions": ["System checks modality match", "System checks manufacturer authorization"],
+      "system_process": true,
+      "next_steps": ["W01-S08"],
+      "requirements_addressed": ["SW-M-3", "SW-M-4"],
+      "resources": ["Vendor Capability database"]
+    },
+    {
+      "step_id": "W01-S08",
+      "name": "Send Vendor Notifications",
+      "description": "System emails qualified vendors about the opportunity",
+      "actions": ["Generate vendor opportunity records", "Send email notifications to qualified vendors"],
+      "system_process": true,
+      "parallel_execution": true,
+      "next_steps": ["W01-S09"],
+      "requirements_addressed": ["SWP-M-16", "SW-M-39"],
+      "resources": ["Email system", "Vendor Opportunity records"]
+    },
+    {
+      "step_id": "W01-S09",
+      "name": "Complete Workflow",
+      "description": "Request successfully submitted and vendors notified",
+      "actions": ["Display confirmation to buyer", "Provide request tracking number"],
+      "ui_elements": ["Confirmation message", "Tracking information"],
+      "end_state": true,
+      "requirements_addressed": [],
+      "resources": []
+    }
+  ],
+
+  "resources": {
+    "databases": [
+      {
+        "name": "Parts/Material List",
+        "usage": "Source for part search and creation",
+        "steps_used": ["W01-S02", "W01-S02a"]
+      },
+      {
+        "name": "Vendor Capability",
+        "usage": "Vendor matching and qualification",
+        "steps_used": ["W01-S06", "W01-S07"]
+      }
+    ],
+    "systems": [
+      {
+        "name": "Email System",
+        "usage": "Vendor notifications",
+        "steps_used": ["W01-S08"]
+      },
+      {
+        "name": "Vendor Opportunity",
+        "usage": "Track vendor opportunities",
+        "steps_used": ["W01-S08"]
+      }
+    ]
+  },
+
+  "requirements_coverage": {
+    "directly_addressed": [
+      "SWP-M-10", "SWP-M-11", "SWP-M-12", "SWP-M-13", "SWP-M-14", "SWP-M-15", "SWP-M-16",
+      "SW-M-1", "SW-M-2", "SW-M-3", "SW-M-4", "SW-M-39"
+    ],
+    "partially_addressed": [],
+    "gaps": [],
+    "notes": "Requirements mapped to actual CAD-001 and CAD-002 content after CSV data cleanup"
+  },
+
+  "metadata": {
+    "created_date": "2025-09-24",
+    "version": "1.0",
+    "status": "draft",
+    "complexity": "medium",
+    "estimated_duration": "5-10 minutes",
+    "business_value": "Core procurement functionality enabling buyers to request parts from qualified vendors"
+  }
+}
